@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Green Duo
-description: it' green.
+name: Blastator
+description: A cheap blast turret that uses copper as ammo. Optionally uses lead to deal double the damage to enemies.
 health: 600
 size: 1
 recoil: 0.5
@@ -29,6 +29,7 @@ ammoTypes: {
     height: 9
     lifetime: 45
     ammoMultiplier: 2
+    status: blasted
   }
 }
 
