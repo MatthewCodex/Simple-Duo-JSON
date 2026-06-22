@@ -1,11 +1,11 @@
 type: ItemTurret
-name: Basic Blast Turret
-description: A cheap blast turret that uses copper as ammo.
+name: Basic Normal Turret
+description: A cheap turret that uses copper as ammo.
 health: 600
 size: 1
 recoil: 0.5
 shootY: 3
-reload: 15
+reload: 10
 range: 150
 shootCone: 15
 ammoUseEffect: casing1
@@ -24,13 +24,11 @@ consumes: {
 ammoTypes: {
   copper: {
     damage: 30
-    speed: 3
-    width: 7
-    height: 9
+    speed: 4
+    width: 4
+    height: 4
     lifetime: 45
     ammoMultiplier: 2
-    status: blasted
-    statusDuration: 60
   }
 }
 
@@ -38,7 +36,7 @@ shoot: {
   type: ShootAlternate
   shots: 1
   spread: 3
-  shotDelay: 8
+  shotDelay: 10
 }
  
 requirements: [
