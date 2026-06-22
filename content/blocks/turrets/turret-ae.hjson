@@ -6,7 +6,7 @@ size: 5
 recoil: 0.5
 shootY: 3
 reload: 2
-range: 210
+range: 270
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 1
