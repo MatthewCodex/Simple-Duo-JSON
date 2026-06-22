@@ -1,16 +1,16 @@
 type: ItemTurret
 name: Advanced Normal Turret
-description: An upgraded Normal Tur.
+description: An upgraded Normal Turret that shoots and reloads faster. Uses Copper or Lead as ammo.\Note: Lead bullets deal more damage.
 health: 900
-size: 1
+size: 2
 recoil: 0.5
 shootY: 3
-reload: 10
-range: 150
+reload: 8
+range: 180
 shootCone: 15
 ammoUseEffect: casing1
-inaccuracy: 5
-rotateSpeed: 10
+inaccuracy: 4
+rotateSpeed: 15
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
@@ -23,12 +23,20 @@ consumes: {
 
 ammoTypes: {
   copper: {
-    damage: 30
-    speed: 4
-    width: 4
-    height: 4
-    lifetime: 45
-    ammoMultiplier: 2
+    damage: 45
+    speed: 6
+    width: 6
+    height: 6
+    lifetime: 60
+    ammoMultiplier: 4
+  }
+  lead: {
+    damage: 60
+    speed: 6
+    width: 6
+    height: 6
+    lifetime: 60
+    ammoMultiplier: 4
   }
 }
 
@@ -36,11 +44,12 @@ shoot: {
   type: ShootAlternate
   shots: 1
   spread: 3
-  shotDelay: 10
+  shotDelay: 8
 }
  
 requirements: [
-copper/20
+copper/100
+lead/20
 ]
 category: turret
 research: duo
