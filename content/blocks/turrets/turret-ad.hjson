@@ -56,9 +56,10 @@ shoot: {
 }
  
 requirements: [
-copper/200
-lead/100
-graphite/20  
+copper/500
+lead/300
+graphite/150
+metaglass/50
 ]
 category: turret
 research: duo
