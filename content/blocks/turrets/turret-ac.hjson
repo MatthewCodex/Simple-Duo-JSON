@@ -1,0 +1,57 @@
+type: ItemTurret
+name: Professional Normal Turret
+description: A professional-grade Normal Turret. Uses Lead or Graphite as ammo.\Note: Graphite bullets deal more damage.
+health: 900
+size: 3
+recoil: 0.5
+shootY: 3
+reload: 6
+range: 210
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 3
+rotateSpeed: 20
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  lead: {
+    damage: 60
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 75
+    ammoMultiplier: 6
+  }
+  graphite: {
+    damage: 75
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 75
+    ammoMultiplier: 6
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 6
+}
+ 
+requirements: [
+copper/200
+lead/100
+graphite/20  
+]
+category: turret
+research: duo
+ 
