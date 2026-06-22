@@ -1,26 +1,26 @@
 First letter means weapon type, second letter means tier type.
 
 Weapon Types
-  A - Normal/Machine Gun
-  B - Shotgun
-  C - Minigun
-  D - Flamethrower
-  E - Explosive/Cannon
-  F - Sprayer
-  G - Homing
-  H - Freeze
-  I - Blasted
-  J - Pierce
-  K - Fragment
-  L - Electric
-  M - Melter
-  N - Sapper
-  O - Tar Gun
-  P - Corrosive
+  A - Normal/Machine Gun  
+  B - Shotgun  
+  C - Minigun  
+  D - Flamethrower  
+  E - Explosive/Cannon   
+  F - Sprayer  
+  G - Homing  
+  H - Freeze  
+  I - Blasted  
+  J - Pierce  
+  K - Fragment  
+  L - Electric  
+  M - Melter  
+  N - Sapper  
+  O - Tar Gun  
+  P - Corrosive  
 
 Tier Types
-  A - Basic
-  B - Advanced
-  C - Professional
-  D - Elite
-  E - Extreme
+  A - Basic  
+  B - Advanced  
+  C - Professional  
+  D - Elite  
+  E - Extreme  
