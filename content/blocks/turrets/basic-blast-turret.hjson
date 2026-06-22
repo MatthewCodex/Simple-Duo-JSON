@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Blastator
-description: A cheap blast turret that uses copper as ammo. Optionally uses lead to deal double the damage to enemies.
+name: Basic Blast Turret
+description: A cheap blast turret that uses copper as ammo.
 health: 600
 size: 1
 recoil: 0.5
@@ -9,7 +9,7 @@ reload: 15
 range: 150
 shootCone: 15
 ammoUseEffect: casing1
-inaccuracy: 1.5
+inaccuracy: 5
 rotateSpeed: 10
 targetGround: true
 targetAir: true
@@ -23,19 +23,20 @@ consumes: {
 
 ammoTypes: {
   copper: {
-    damage: 21
+    damage: 30
     speed: 3
     width: 7
     height: 9
     lifetime: 45
     ammoMultiplier: 2
     status: blasted
+    statusDuration: 60
   }
 }
 
 shoot: {
   type: ShootAlternate
-  shots: 2
+  shots: 1
   spread: 3
   shotDelay: 8
 }
