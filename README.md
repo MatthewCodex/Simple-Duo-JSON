@@ -1,6 +1,6 @@
 First letter means weapon type, second letter means tier type.
 
-Weapon Types
+Weapon Types\
   A - Normal/Machine Gun\
   B - Shotgun\
   C - Minigun\
@@ -18,9 +18,9 @@ Weapon Types
   O - Tar Gun\
   P - Corrosive\
 
-Tier Types
-  A - Basic  
-  B - Advanced  
-  C - Professional  
-  D - Elite  
-  E - Extreme  
+Tier Types\
+  A - Basic\
+  B - Advanced\
+  C - Professional\
+  D - Elite\
+  E - Extreme\
