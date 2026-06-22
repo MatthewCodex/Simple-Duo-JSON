@@ -1,9 +1,9 @@
 {
-"name": "Kokimada",
-"displayName": "Simple JSON Turrets",
-"subtitle": "idk.",
-"author": "Kokimada",
-"description": "JSON Template for turrets in mindustry.",
+"name": "M. Codex",
+"displayName": "Ultimate Military Mod",
+"subtitle": "Currently WIP",
+"author": "M. Codex",
+"description": "Adds a gigantic variety of turrets and units.",
 "version": "0.1",
 "minGameVersion": "148"
  }
