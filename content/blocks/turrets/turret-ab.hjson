@@ -1,7 +1,7 @@
 type: ItemTurret
-name: Basic Normal Turret
-description: A cheap turret that uses copper as ammo.
-health: 600
+name: Advanced Normal Turret
+description: An upgraded Normal Tur.
+health: 900
 size: 1
 recoil: 0.5
 shootY: 3
