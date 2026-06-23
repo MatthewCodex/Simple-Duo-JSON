@@ -1,0 +1,9 @@
+name: pyroslag
+type: liquid
+color: ff4000
+temperature: 1
+viscosity: 0.8
+heatCapacity: 0.8
+effect: burning
+colorFrom: ff4000
+colorTo: ff4000
