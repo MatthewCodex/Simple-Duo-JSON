@@ -1,0 +1,37 @@
+type: LiquidTurret
+name: Basic Flamethrower Turret
+description: A better Flamethrower Turret. Requires heavy oil.
+health: 1200
+size: 2
+range: 75
+reload: 3
+liquidCapacity: 40
+  
+targetAir: true
+targetGround: true
+  
+hasLiquids: true
+  
+research: salvo
+category: turret
+  
+requirements: [
+copper/250
+metaglass/135
+lead/70
+graphite/20
+]
+
+ammoTypes: {
+    oil: {
+      type: LiquidBulletType
+      liquid: heavy-oil
+      damage: 18
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 40
+      status: burning
+      statusDuration: 240
+    }
+  }
