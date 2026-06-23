@@ -1,11 +1,11 @@
 type: ItemTurret
-name: Test Spread Turret
-description: A cheap turret that uses copper as ammo.
-health: 600
+name: Basic Shotgun Turret
+description: This turret fires multiple bullets per shot, but the shoot and reload times are twice longer than a Basic Normal Turret. Uses Copper as ammo.
+health: 900
 size: 1
 recoil: 0.5
 shootY: 3
-reload: 10
+reload: 20
 range: 150
 shootCone: 15
 ammoUseEffect: casing1
@@ -14,6 +14,7 @@ rotateSpeed: 10
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
+shootSound: shotgun
 
 consumes: {
   coolant: {
@@ -23,11 +24,11 @@ consumes: {
 
 ammoTypes: {
   copper: {
-    damage: 30
+    damage: 60
     speed: 4
     width: 4
     height: 4
-    lifetime: 45
+    lifetime: 60
     ammoMultiplier: 2
   }
 }
@@ -36,11 +37,12 @@ shoot: {
   type: ShootSpread
   shots: 3
   spread: 10
-  shotDelay: 10
+  shotDelay: 20
 }
  
 requirements: [
-copper/20
+copper/150
+lead/50
 ]
 category: turret
 research: duo
