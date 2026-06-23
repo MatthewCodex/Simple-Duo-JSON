@@ -6,11 +6,11 @@ size: 2
 recoil: 0.5
 shootY: 3
 reload: 16
-range: 150
+range: 180
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 4
-rotateSpeed: 10
+rotateSpeed: 20
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
