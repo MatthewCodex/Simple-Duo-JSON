@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Test Spray Turret
+name: Test Spread Turret
 description: A cheap turret that uses copper as ammo.
 health: 600
 size: 1
@@ -33,7 +33,7 @@ ammoTypes: {
 }
 
 shoot: {
-  type: ShootAlternate
+  type: ShootSpread
   shots: 3
   spread: 10
   shotDelay: 10
