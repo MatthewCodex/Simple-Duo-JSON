@@ -1,0 +1,24 @@
+type: LiquidTurret
+name: Basic Flamethrower Turret
+description: Burns enemies. Requires oil.
+health: 600
+size: 1
+range: 50
+reload: 3
+liquidCapacity: 40
+  
+targetAir: true
+targetGround: true
+  
+hasLiquids: true
+  
+research: "salvo"
+category: "defense"
+  
+requirements: [
+copper/50
+metaglass/45
+lead/30
+]
+
+  
