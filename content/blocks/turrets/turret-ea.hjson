@@ -25,15 +25,16 @@ ammoTypes: {
   lead: {
     damage: 60
     speed: 4
-    width: 4
-    height: 4
+    width: 8
+    height: 8
     lifetime: 45
     ammoMultiplier: 2
     splashDamage: 90
     splashDamageRadius: 40
-    shootEffect: shootArtillery
+    shootEffect: shootBig
     hitEffect: flakExplosion
     despawnEffect: flakExplosion
+    shootSound: shootArtillery
     hitSound: blockExplode3
     despawnSound: blockExplode3
   }
