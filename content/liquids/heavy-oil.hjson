@@ -1,9 +1,9 @@
 name: heavy-oil
 type: liquid
-color: 2c2c27
+color: 6f3198
 temperature: 0.6
 viscosity: 0.9
 heatCapacity: 0.5
 effect: tarred
-colorFrom: 46463c
-colorTo: 1b1b18
+colorFrom: 6f3198
+colorTo: 6f3198
