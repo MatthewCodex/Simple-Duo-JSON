@@ -23,7 +23,7 @@ graphite/20
 ]
 
 ammoTypes: {
-    oil: {
+    heavy-oil: {
       type: LiquidBulletType
       liquid: heavy-oil
       damage: 18
