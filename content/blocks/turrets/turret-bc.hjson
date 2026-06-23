@@ -28,8 +28,16 @@ ammoTypes: {
     speed: 8
     width: 8
     height: 8
-    lifetime: 60
-    ammoMultiplier: 4
+    lifetime: 75
+    ammoMultiplier: 6
+  }
+  metaglass: {
+    damage: 180
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 75
+    ammoMultiplier: 6
   }
 }
 
