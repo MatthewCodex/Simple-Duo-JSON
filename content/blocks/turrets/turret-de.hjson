@@ -1,8 +1,8 @@
 type: LiquidTurret
 name: Extreme Flamethrower Turret
 description: CAST YOUR ENEMIES TO THE PITS OF FIRE AND WATCH THEM BURN! EXTREME FLAMETHROWER TURRETS ARE NO LAUGHING MATTER TO THEM! Requires pyroslag and must be connected to power.
-health: 1800
-size: 4
+health: 3000
+size: 5
 range: 125
 reload: 3
 liquidCapacity: 320
