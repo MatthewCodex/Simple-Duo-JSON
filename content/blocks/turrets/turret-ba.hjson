@@ -14,7 +14,7 @@ rotateSpeed: 10
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
-shootSound: shootBig
+shootSound: shootAfflict
 smokeEffect: shootSmallSmoke
 shootEffect: shootSmall
 
