@@ -1,0 +1,37 @@
+type: GenericCrafter
+  name: Pyroslag Mixer
+  description: Converts Oil and Pyratite into Pyroslag, which is needed for the Elite Flamethrower Turret.
+  size: 2
+  health: 300
+  itemCapacity: 200
+  liquidCapacity: 200
+  hasLiquids: true
+  hasItems: true
+  craftTime: 120
+  consumes: {
+    power: 1.5
+    items: [
+      pyratite/5
+    ]
+    liquids: [
+      oil/5
+    ]
+  }
+  outputLiquid: {
+    liquid: pyroslag
+    amount: 5
+  }
+  category: crafting
+  research: {
+    parent: core-shard
+    requirements: [
+      copper/50
+    ]
+  }
+  requirements: [
+    copper/1000
+    lead/500
+    metaglass/350
+    silicon/350
+    pyratite/50
+  ]
