@@ -24,7 +24,7 @@ titanium/100
 ]
 
 ammoTypes: {
-    oil: {
+    slag: {
       type: LiquidBulletType
       liquid: slag
       damage: 27
