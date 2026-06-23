@@ -1,0 +1,60 @@
+type: ItemTurret
+name: Elite Shotgun Turret
+description: Stronger shotgun, more damage. Uses Metaglass or Titanium as ammo.
+health: 1500
+size: 4
+recoil: 0.5
+shootY: 3
+reload: 8
+range: 210
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 3
+rotateSpeed: 30
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+shootSound: shotgun
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  metaglass: {
+    damage: 180
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 60
+    ammoMultiplier: 8
+  }
+  titanium: {
+    damage: 240
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 60
+    ammoMultiplier: 8
+  }
+}
+
+shoot: {
+  type: ShootSpread
+  shots: 8
+  spread: 40
+  shotDelay: 8
+}
+ 
+requirements: [
+copper/1000
+lead/750
+graphite/400  
+metaglass/150  
+titanium/50  
+]
+category: turret
+research: duo
+ 
