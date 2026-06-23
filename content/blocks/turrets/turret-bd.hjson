@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Elite Shotgun Turret
-description: Stronger shotgun, more damage. Uses Metaglass or Titanium as ammo.
-health: 1500
+description: Shred those enemies hard with this powerful Shotgun Turret. Uses Metaglass or Titanium as ammo.
+health: 1800
 size: 4
 recoil: 0.5
 shootY: 3
