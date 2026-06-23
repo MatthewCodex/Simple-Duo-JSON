@@ -12,8 +12,8 @@ targetGround: true
   
 hasLiquids: true
   
-research: "salvo"
-category: "defense"
+research: salvo
+category: turret
   
 requirements: [
 copper/50
@@ -21,4 +21,16 @@ metaglass/45
 lead/30
 ]
 
-  
+ammoTypes: {
+    oil: {
+      type: LiquidBulletType
+      liquid: oil
+      damage: 15
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 40
+      status: melting
+      statusDuration: 120
+    }
+  }
