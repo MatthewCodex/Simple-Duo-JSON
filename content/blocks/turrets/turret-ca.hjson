@@ -32,7 +32,7 @@ ammoTypes: {
     ammoMultiplier: 4
   }
   lead: {
-    damage: 15
+    damage: 30
     speed: 8
     width: 8
     height: 8
