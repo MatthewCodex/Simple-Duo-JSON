@@ -5,7 +5,7 @@ Weapon Types\
   B - Shotgun\
   C - Minigun\
   D - Flamethrower\
-  E - Explosive/Cannon\ 
+  E - Explosive/Cannon\  
   F - Sprayer\
   G - Homing\
   H - Freeze\
