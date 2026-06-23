@@ -14,7 +14,7 @@ rotateSpeed: 40
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
-shootSound: shotgun
+shootSound: shootAfflict
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
 
@@ -46,8 +46,8 @@ ammoTypes: {
 shoot: {
   type: ShootSpread
   shots: 8
-  spread: 40
-  shotDelay: 8
+  spread: 15
+  shotDelay: 0
 }
  
 requirements: [
