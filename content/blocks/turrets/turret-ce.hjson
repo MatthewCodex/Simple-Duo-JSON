@@ -1,0 +1,57 @@
+type: ItemTurret
+name: Basic Minigun Turret
+description: A rapid-fire turret that uses copper or lead as ammo.
+health: 600
+size: 1
+recoil: 0.5
+shootY: 3
+reload: 5
+range: 200
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 15
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+shootSound: shootScatter
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  copper: {
+    damage: 15
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 45
+    ammoMultiplier: 4
+  }
+  lead: {
+    damage: 15
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 45
+    ammoMultiplier: 4
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 5
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/300
+lead/100  
+]
+category: turret
+research: duo
+ 
