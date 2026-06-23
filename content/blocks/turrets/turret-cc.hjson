@@ -1,0 +1,59 @@
+type: ItemTurret
+name: Professional Minigun Turret
+description: A modernized version of the Advanced Minigun Turret. Uses Graphite or Silicon as ammo.
+health: 600
+size: 1
+recoil: 0.5
+shootY: 3
+reload: 3
+range: 300
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 4
+rotateSpeed: 30
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+shootSound: shootScatter
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  graphite: {
+    damage: 60
+    speed: 15
+    width: 10
+    height: 10
+    lifetime: 45
+    ammoMultiplier: 12
+  }
+  silicon: {
+    damage: 75
+    speed: 15
+    width: 10
+    height: 10
+    lifetime: 45
+    ammoMultiplier: 12
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/950
+lead/500
+graphite/200
+silicon/50  
+]
+category: turret
+research: duo
+ 
