@@ -17,9 +17,7 @@ requirements: [
 
 consumes: {
   power: 5.0
-  liquid: [
-    oil/0.1
-    ]
+  liquid: oil/0.1
 }
 
 outputLiquid: heavy-oil/0.1
