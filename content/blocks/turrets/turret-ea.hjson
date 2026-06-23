@@ -1,0 +1,55 @@
+type: ItemTurret
+name: Basic Cannon Turret
+description: Shoots explosive shells that cause splash damage to enemies. Uses Lead as ammo.
+health: 600
+size: 1
+recoil: 0.5
+shootY: 3
+reload: 40
+range: 150
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  lead: {
+    damage: 60
+    speed: 4
+    width: 4
+    height: 4
+    lifetime: 45
+    ammoMultiplier: 2
+    splashDamage: 90
+    splashDamageRadius: 40
+    shootEffect: shootBig
+    hitEffect: flakExplosion
+    despawnEffect: flakExplosion
+    despawnSound: blockExplode3
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/700
+lead/500
+graphite/150
+]
+category: turret
+research: duo
+ 
