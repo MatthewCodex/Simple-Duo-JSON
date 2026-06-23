@@ -1,0 +1,61 @@
+type: ItemTurret
+name: Extreme Minigun Turret
+description: Almost uninterrupted firepower! Uses Titanium or Plastanium as ammo.
+health: 3000
+size: 5
+recoil: 0.5
+shootY: 3
+reload: 1
+range: 450
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 1
+rotateSpeed: 90
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+shootSound: shootScatter
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  titanium: {
+    damage: 90
+    speed: 20
+    width: 12
+    height: 12
+    lifetime: 45
+    ammoMultiplier: 16
+  }
+  plastanium: {
+    damage: 100
+    speed: 20
+    width: 12
+    height: 12
+    lifetime: 45
+    ammoMultiplier: 16
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 1
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/2000
+lead/1500
+graphite/1000
+silicon/450
+titanium/250  
+plastanium/100  
+]
+category: turret
+research: duo
+ 
