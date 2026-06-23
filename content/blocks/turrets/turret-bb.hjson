@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Advanced Shotgun Turret
+description: An improvised version of the Basic Shotgun Turret. Uses Graphite as ammo.
+health: 1200
+size: 2
+recoil: 0.5
+shootY: 3
+reload: 16
+range: 150
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 4
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+shootSound: shotgun
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  graphite: {
+    damage: 120
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 60
+    ammoMultiplier: 4
+  }
+}
+
+shoot: {
+  type: ShootSpread
+  shots: 5
+  spread: 20
+  shotDelay: 16
+}
+ 
+requirements: [
+copper/450
+lead/150
+graphite/20  
+]
+category: turret
+research: duo
+ 
