@@ -31,9 +31,10 @@ ammoTypes: {
     ammoMultiplier: 2
     splashDamage: 90
     splashDamageRadius: 40
-    shootEffect: shootBig
+    shootEffect: shootArtillery
     hitEffect: flakExplosion
     despawnEffect: flakExplosion
+    hitSound: blockExplode3
     despawnSound: blockExplode3
   }
 }
