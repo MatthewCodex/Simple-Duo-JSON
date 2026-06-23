@@ -3,7 +3,7 @@ name: Elite Flamethrower Turret
 description: A modernized version of the Professional Flamethrower Turret. Requires pyroslag.
 health: 1800
 size: 4
-range: 100
+range: 125
 reload: 3
 liquidCapacity: 320
   
