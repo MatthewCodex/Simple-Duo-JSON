@@ -1,0 +1,58 @@
+type: ItemTurret
+name: Advanced Minigun Turret
+description: Shoots faster than a Basic Minigun Turret and uses lead or graphite as ammo.
+health: 600
+size: 1
+recoil: 0.5
+shootY: 3
+reload: 4
+range: 250
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 4
+rotateSpeed: 30
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+shootSound: shootScatter
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  lead: {
+    damage: 30
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 45
+    ammoMultiplier: 8
+  }
+  graphite: {
+    damage: 45
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 45
+    ammoMultiplier: 8
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 4
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/600
+lead/400
+graphite/100
+]
+category: turret
+research: duo
+ 
