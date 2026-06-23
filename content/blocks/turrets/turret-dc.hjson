@@ -1,0 +1,38 @@
+type: LiquidTurret
+name: Professional Flamethrower Turret
+description: A fiery successor to the Advanced Flamethrower Turret. Requires slag.
+health: 1800
+size: 3
+range: 100
+reload: 3
+liquidCapacity: 160
+  
+targetAir: true
+targetGround: true
+  
+hasLiquids: true
+  
+research: salvo
+category: turret
+  
+requirements: [
+copper/1000
+metaglass/700
+lead/450
+graphite/200
+titanium/100  
+]
+
+ammoTypes: {
+    oil: {
+      type: LiquidBulletType
+      liquid: slag
+      damage: 27
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 40
+      status: burning
+      statusDuration: 360
+    }
+  }
