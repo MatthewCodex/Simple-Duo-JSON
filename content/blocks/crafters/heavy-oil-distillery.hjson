@@ -22,5 +22,5 @@ consumes: {
 
 outputLiquid: heavy-oil/0.1
 
-category: liquid
+category: crafting
 research: cryofluid-mixer
