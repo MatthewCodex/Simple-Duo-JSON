@@ -30,7 +30,8 @@ ammoTypes: {
       drag: 0.01
       knockback: 1
       lifetime: 40
-      status: melting
+      status: burning
       statusDuration: 120
+      color: ffa500
     }
   }
