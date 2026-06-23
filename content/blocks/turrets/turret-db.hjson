@@ -1,11 +1,11 @@
 type: LiquidTurret
-name: Basic Flamethrower Turret
+name: Advanced Flamethrower Turret
 description: A better Flamethrower Turret. Requires heavy oil.
 health: 1200
 size: 2
 range: 75
 reload: 3
-liquidCapacity: 40
+liquidCapacity: 80
   
 targetAir: true
 targetGround: true
