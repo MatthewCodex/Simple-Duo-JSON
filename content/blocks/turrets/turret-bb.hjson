@@ -14,7 +14,7 @@ rotateSpeed: 20
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
-shootSound: shotgun
+shootSound: shootBig
 smokeEffect: shootSmallSmoke
 shootEffect: shootSmall
 
@@ -38,8 +38,8 @@ ammoTypes: {
 shoot: {
   type: ShootSpread
   shots: 5
-  spread: 20
-  shotDelay: 16
+  spread: 12
+  shotDelay: 0
 }
  
 requirements: [
