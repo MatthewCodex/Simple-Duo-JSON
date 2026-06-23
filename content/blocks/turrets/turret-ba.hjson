@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Basic Shotgun Turret
-description: This turret fires multiple bullets per shot, but the shoot and reload times are twice longer than a Basic Normal Turret. Uses Copper as ammo.
+description: This turret fires multiple bullets per shot, but the reload times are twice longer than a Basic Normal Turret. Uses Copper as ammo.
 health: 900
 size: 1
 recoil: 0.5
@@ -37,9 +37,9 @@ ammoTypes: {
 
 shoot: {
   type: ShootSpread
-  shots: 1
+  shots: 3
   spread: 10
-  shotDelay: 20
+  shotDelay: 0
 }
  
 requirements: [
