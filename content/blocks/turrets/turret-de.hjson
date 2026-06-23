@@ -1,0 +1,45 @@
+type: LiquidTurret
+name: Extreme Flamethrower Turret
+description: CAST YOUR ENEMIES TO THE PITS OF FIRE AND WATCH THEM BURN! EXTREME FLAMETHROWER TURRETS ARE NO LAUGHING MATTER TO THEM! Requires pyroslag and must be connected to power.
+health: 1800
+size: 4
+range: 125
+reload: 3
+liquidCapacity: 320
+hasPower: true  
+
+consumes: {
+		power: 0.15
+}
+  
+targetAir: true
+targetGround: true
+  
+hasLiquids: true
+  
+research: salvo
+category: turret
+  
+requirements: [
+copper/4000
+metaglass/2000
+lead/1750
+graphite/1500
+titanium/750
+silicon/500
+pyratite/450  
+]
+
+ammoTypes: {
+    pyroslag: {
+      type: LiquidBulletType
+      liquid: pyroslag
+      damage: 54
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 60
+      status: burning
+      statusDuration: 600
+    }
+  }
