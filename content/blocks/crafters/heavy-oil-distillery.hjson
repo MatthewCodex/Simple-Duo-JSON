@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Heavy Oil Distillery
+description: Turns Oil into Heavy Oil, which can be used for the Advanced Flamethrower Turret.
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+itemCapacity: 20
+liquidCapacity: 60
+
+requirements: [
+  copper/250
+  lead/100
+  titanium/20
+]
+
+consumes: {
+  power: 5.0
+  liquid: [
+    oil/0.1
+    ]
+}
+
+outputLiquid: heavy-oil/0.1
+
+category: liquid
+research: cryofluid-mixer
