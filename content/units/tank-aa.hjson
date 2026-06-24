@@ -1,4 +1,4 @@
-type: TankUnitType
+type: tank
 name: tank-aa
 localizedName: Basic Normal Tank
 description: A cheap tank that uses a machine gun
