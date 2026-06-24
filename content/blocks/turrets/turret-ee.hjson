@@ -22,7 +22,7 @@ consumes: {
 }
 
 ammoTypes: {
-  plastanium: {
+  thorium: {
     damage: 360
     speed: 12
     width: 12
