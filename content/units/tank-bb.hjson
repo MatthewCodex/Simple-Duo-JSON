@@ -1,6 +1,6 @@
 type: tank
 name: tank-bb
-localizedName: Basic Shotgun Tank
+localizedName: Advanced Shotgun Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
 health: 300
