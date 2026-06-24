@@ -24,7 +24,7 @@ consumes: {
 }
 
 ammoTypes: {
-  graphite: {
+  metaglass: {
     damage: 9
     speed: 10
     width: 10
