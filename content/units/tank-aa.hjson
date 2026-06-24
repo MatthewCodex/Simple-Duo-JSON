@@ -34,9 +34,13 @@ weapons: [
       name: "tank-aa-weapon"
       localizedName: "Basic Normal Tank Weapon"
       length: 8
-      reload: 45
+      reload: 10
       alternate: true
       inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
       bullet: {
         type: BasicBulletType
         speed: 4
