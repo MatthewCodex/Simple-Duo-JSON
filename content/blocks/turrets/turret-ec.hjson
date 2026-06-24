@@ -22,7 +22,7 @@ consumes: {
 }
 
 ammoTypes: {
-  silicon: {
+  titanium: {
     damage: 180
     speed: 8
     width: 8
