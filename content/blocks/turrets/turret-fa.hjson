@@ -9,7 +9,7 @@ reload: 5
 range: 150
 shootCone: 15
 ammoUseEffect: casing1
-inaccuracy: 5
+inaccuracy: 0
 rotateSpeed: 10
 targetGround: true
 targetAir: true
@@ -37,7 +37,7 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 5
-  spread: 10
+  spread: 12
   shotDelay: 0
   barrelOffset: 0
 
