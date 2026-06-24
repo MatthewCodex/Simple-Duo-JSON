@@ -43,3 +43,8 @@ ammoTypes: {
       statusDuration: 600
     }
   }
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
