@@ -1,0 +1,59 @@
+type: ItemTurret
+name: Professional Cannon Turret
+description: A bigger Cannon Turret that is stronger than the Advanced Cannon Turret. Uses Titanium as ammo.
+health: 1800
+size: 3
+recoil: 0.5
+shootY: 3
+reload: 30
+range: 200
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 30
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  silicon: {
+    damage: 180
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 60
+    ammoMultiplier: 4
+    splashDamage: 240
+    splashDamageRadius: 80
+    shootEffect: shootBig
+    hitEffect: flakExplosion
+    despawnEffect: flakExplosion
+    shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/2500
+lead/1750
+graphite/750
+silicon/500
+titanium/150  
+]
+category: turret
+research: duo
+ 
