@@ -1,0 +1,58 @@
+type: ItemTurret
+name: Advanced Cannon Turret
+description: Greater splash damage. Uses Silicon as ammo.
+health: 1200
+size: 2
+recoil: 0.5
+shootY: 3
+reload: 35
+range: 175
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 20
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  silicon: {
+    damage: 120
+    speed: 4
+    width: 8
+    height: 8
+    lifetime: 45
+    ammoMultiplier: 2
+    splashDamage: 180
+    splashDamageRadius: 60
+    shootEffect: shootBig
+    hitEffect: flakExplosion
+    despawnEffect: flakExplosion
+    shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/1500
+lead/1000
+graphite/350
+silicon/100  
+]
+category: turret
+research: duo
+ 
