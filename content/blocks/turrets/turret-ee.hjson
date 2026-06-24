@@ -6,7 +6,7 @@ size: 5
 recoil: 0.5
 shootY: 3
 reload: 20
-range: 225
+range: 250
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 5
@@ -23,14 +23,14 @@ consumes: {
 
 ammoTypes: {
   plastanium: {
-    damage: 240
+    damage: 360
     speed: 12
     width: 12
     height: 12
     lifetime: 60
-    ammoMultiplier: 4
-    splashDamage: 360
-    splashDamageRadius: 120
+    ammoMultiplier: 6
+    splashDamage: 480
+    splashDamageRadius: 180
     shootEffect: shootBig
     hitEffect: flakExplosion
     despawnEffect: flakExplosion
@@ -50,10 +50,11 @@ shoot: {
 requirements: [
 copper/3500
 lead/3000
-graphite/1750
-silicon/1000
-titanium/450
-plastanium/100  
+graphite/2550
+silicon/1500
+titanium/950
+plastanium/500  
+thorium/200
 ]
 category: turret
 research: duo
