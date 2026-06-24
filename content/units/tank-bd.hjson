@@ -1,0 +1,60 @@
+type: tank
+name: tank-bd
+localizedName: Elite Shotgun Tank
+description: Shoots multiple bullets dealing spread damage to enemies.
+
+health: 600
+armor: 4
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-bd"
+      localizedName: "Elite Shotgun Tank Weapon"
+      length: 8
+      reload: 14
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootAfflict
+
+      shoot: {
+      type: ShootSpread
+      shots: 6
+      spread: 16
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        speed: 12
+        damage: 60
+        width: 6
+        height: 6
+      }
+    }
+  ]
