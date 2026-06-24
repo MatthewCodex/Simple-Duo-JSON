@@ -2,11 +2,11 @@ type: ItemTurret
 name: Elite Cannon Turret
 description: Bigger explosive shells. Uses Plastanium as ammo.
 health: 2400
-size: 3
+size: 4
 recoil: 0.5
 shootY: 3
 reload: 25
-range: 200
+range: 225
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 5
