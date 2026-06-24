@@ -56,3 +56,7 @@ silicon/100
 category: turret
 research: duo
  
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
