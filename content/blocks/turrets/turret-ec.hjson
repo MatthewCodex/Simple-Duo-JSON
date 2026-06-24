@@ -57,3 +57,7 @@ titanium/150
 category: turret
 research: duo
  
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
