@@ -32,7 +32,7 @@ treadFrames: 4
 weapons: [
     {
       name: "turret-ad"
-      localizedName: "Advanced Normal Tank Weapon"
+      localizedName: "Elite Normal Tank Weapon"
       length: 8
       reload: 7
       alternate: true
