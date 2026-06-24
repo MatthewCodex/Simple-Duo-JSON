@@ -1,0 +1,50 @@
+type: tank
+name: tank-da
+localizedName: Basic Flamethrower Tank
+description: Burns enemies.
+
+health: 250
+armor: 1
+speed: 1.5
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: turret-da
+      localizedName: Basic Flamethrower Tank Weapon
+      reload: 10
+      shots: 1
+      alternate: true
+      bullet: {
+        type: LiquidBulletType
+        liquid: oil
+        damage: 15
+        speed: 4
+        drag: 0.01
+        status: burning
+        statusDuration: 120
+        }
+
+    }
+  ]
