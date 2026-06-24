@@ -31,7 +31,7 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-ac"
+      name: "turret-ae"
       localizedName: "Advanced Normal Tank Weapon"
       length: 8
       reload: 6
