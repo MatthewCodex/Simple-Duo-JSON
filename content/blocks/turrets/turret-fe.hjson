@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Elite Spray Turret
 description: BULLET STORM! Uses Plastanium as ammo.
-health: 1800
+health: 2400
 size: 5
 recoil: 0.5
 shootY: 3
