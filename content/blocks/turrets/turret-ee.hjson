@@ -1,12 +1,12 @@
 type: ItemTurret
 name: Elite Cannon Turret
 description: Bigger explosive shells. Uses Thorium as ammo.
-health: 2400
+health: 3600
 size: 5
 recoil: 0.5
 shootY: 3
-reload: 25
-range: 200
+reload: 20
+range: 225
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 5
