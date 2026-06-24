@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Elite Spray Turret
 description: A better spray turret to kill swarms of enemies. Uses Metaglass as ammo.
-health: 2100
+health: 1800
 size: 4
 recoil: 0.5
 shootY: 3
