@@ -1,0 +1,60 @@
+type: tank
+name: tank-bb
+localizedName: Basic Shotgun Tank
+description: Shoots multiple bullets dealing spread damage to enemies.
+
+health: 300
+armor: 2
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-bb"
+      localizedName: "Advanced Shotgun Tank Weapon"
+      length: 8
+      reload: 18
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootAfflict
+
+      shoot: {
+      type: ShootSpread
+      shots: 4
+      spread: 12
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        speed: 12
+        damage: 30
+        width: 6
+        height: 6
+      }
+    }
+  ]
