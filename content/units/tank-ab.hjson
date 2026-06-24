@@ -1,7 +1,7 @@
 type: tank
 name: tank-ab
 localizedName: Advanced Normal Tank
-description: A better tank with a better machine gun
+description: A better tank with a better machine gun.
 
 health: 200
 armor: 2
