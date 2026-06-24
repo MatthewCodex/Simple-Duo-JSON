@@ -1,0 +1,51 @@
+type: TankUnitType
+name: tank-aa
+localizedName: Basic Normal Tank
+description: A cheap tank that uses a machine gun
+
+health: 100
+armor: 1
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+constructor: crawledUnit  
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "tank-aa-gun"
+      localizedName: "Basic Normal Tank Weapon"
+      length: 8
+      reload: 45
+      alternate: true
+      inaccuracy: 2
+      bullet: {
+        type: BasicBulletType
+        speed: 3
+        damage: 25
+        width: 11
+        height: 11
+        splashDamage: 15
+        splashDamageRadius: 16
+      }
+    }
+  ]
