@@ -1,7 +1,7 @@
 type: tank
-name: tank-aa
+name: tank-ad
 localizedName: Elite Normal Tank
-description: Stronger than its professional counterpart
+description: Stronger than its professional counterpart.
 
 health: 400
 armor: 4
