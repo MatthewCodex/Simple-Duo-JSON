@@ -32,7 +32,7 @@ treadFrames: 4
 weapons: [
     {
       name: "turret-ba"
-      localizedName: "Advanced Normal Tank Weapon"
+      localizedName: "Basic Shotgun Tank Weapon"
       length: 8
       reload: 20
       alternate: true
