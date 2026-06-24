@@ -59,3 +59,7 @@ thorium/200
 category: turret
 research: duo
  
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
