@@ -1,0 +1,52 @@
+type: tank
+name: tank-aa
+localizedName: Basic Normal Tank
+description: A cheap tank that uses a machine gun
+
+health: 300
+armor: 1
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-ac"
+      localizedName: "Advanced Normal Tank Weapon"
+      length: 8
+      reload: 8
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
+      bullet: {
+        type: BasicBulletType
+        speed: 8
+        damage: 60
+        width: 8
+        height: 8
+      }
+    }
+  ]
