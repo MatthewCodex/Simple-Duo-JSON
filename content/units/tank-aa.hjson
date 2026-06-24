@@ -12,7 +12,6 @@ rotateSpeed: 5
 
 hitsize: 14
 targetAir: false
-constructor: crawledUnit  
 
 treadFrames: 4
   treadRects: [
