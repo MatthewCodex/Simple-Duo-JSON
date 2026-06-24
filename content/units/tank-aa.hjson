@@ -31,7 +31,7 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "tank-aa-weapon"
+      name: "turret-aa"
       localizedName: "Basic Normal Tank Weapon"
       length: 8
       reload: 10
