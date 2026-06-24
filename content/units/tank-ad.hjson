@@ -1,0 +1,52 @@
+type: tank
+name: tank-aa
+localizedName: Elite Normal Tank
+description: Stronger than its professional counterpart
+
+health: 400
+armor: 4
+speed: 1.15
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-ac"
+      localizedName: "Advanced Normal Tank Weapon"
+      length: 8
+      reload: 7
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
+      bullet: {
+        type: BasicBulletType
+        speed: 10
+        damage: 75
+        width: 10
+        height: 10
+      }
+    }
+  ]
