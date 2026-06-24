@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Elite Cannon Turret
-description: Bigger explosive shells. Uses Thorium as ammo.
+name: Extreme Cannon Turret
+description: If you think the Elite Cannon Turret was not enough, then how about this one? Uses Thorium as ammo.
 health: 3600
 size: 5
 recoil: 0.5
