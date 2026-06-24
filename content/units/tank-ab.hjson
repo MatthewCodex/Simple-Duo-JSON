@@ -1,11 +1,11 @@
 type: tank
-name: tank-aa
-localizedName: Basic Normal Tank
-description: A cheap tank that uses a machine gun
+name: tank-ab
+localizedName: Advanced Normal Tank
+description: A better tank with a better machine gun
 
-health: 100
-armor: 1
-speed: 1
+health: 200
+armor: 2
+speed: 1.05
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
