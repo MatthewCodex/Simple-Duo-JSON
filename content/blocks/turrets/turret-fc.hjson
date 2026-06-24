@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Advanced Spray Turret
+name: Professional Spray Turret
 description: More bullets per volley. Uses Graphite as ammo.
 health: 1500
 size: 3
