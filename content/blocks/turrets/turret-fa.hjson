@@ -35,11 +35,10 @@ ammoTypes: {
 }
 
 shoot: {
-  type: ShootAlternate
+  type: ShootPattern
   shots: 5
   spread: 12
   shotDelay: 0
-  barrelOffset: 0
 
 }
  
