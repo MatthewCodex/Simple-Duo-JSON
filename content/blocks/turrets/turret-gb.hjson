@@ -1,11 +1,11 @@
 type: ItemTurret
-name: Basic Homing Turret
-description: Fires an explosive shell capable of homing in at enemies. Uses Lead as ammo.
+name: Advanced Homing Turret
+description: Fires an explosive shell capable of homing in at enemies. Uses Silicon as ammo.
 health: 600
-size: 1
+size: 2
 recoil: 0.5
 shootY: 3
-reload: 180
+reload: 170
 range: 150
 shootCone: 15
 ammoUseEffect: casing1
@@ -22,16 +22,16 @@ consumes: {
 }
 
 ammoTypes: {
-  lead: {
+  silicon: {
     speed: 4
-    damage: 125
-    splashDamage: 250
-    splashDamageRadius: 50
+    damage: 150
+    splashDamage: 300
+    splashDamageRadius: 60
     lifetime: 100
-    homingPower: 0.1
-    homingRange: 200
-    width: 5
-    height: 5
+    homingPower: 0.2
+    homingRange: 225
+    width: 6
+    height: 6
     shootEffect: shootBig
     smokeEffect: shootSmokeSquare
     hitEffect: blastExplosion
@@ -52,9 +52,10 @@ shoot: {
 }
  
 requirements: [
-copper/700
-lead/500
-graphite/150
+copper/1750
+lead/1000
+graphite/750
+silicon/200
 ]
 category: turret
 research: duo
