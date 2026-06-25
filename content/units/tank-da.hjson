@@ -33,7 +33,7 @@ weapons: [
     {
       name: turret-da
       localizedName: Basic Flamethrower Tank Weapon
-      reload: 10
+      reload: 1
       shots: 1
       alternate: true
       bullet: {
