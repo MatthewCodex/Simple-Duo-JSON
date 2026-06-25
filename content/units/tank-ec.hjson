@@ -1,0 +1,62 @@
+type: tank
+name: tank-ec
+localizedName: Professional Cannon Tank
+description: Shoots Explosive Shells at enemies.
+
+health: 900
+armor: 3
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-ec"
+      localizedName: "Professional Cannon Tank Weapon"
+      length: 8
+      
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 120
+        speed: 4
+        width: 8
+        height: 8
+        splashDamage: 150
+        splashDamageRadius: 80
+        hitEffect: flakExplosion
+        despawnEffect: flakExplosion
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+      }
+    }
+  ]
