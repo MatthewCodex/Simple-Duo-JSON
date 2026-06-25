@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Advanced Homing Turret
+name: Professional Homing Turret
 description: Fires an explosive shell capable of homing in at enemies. Uses Titanium as ammo.
 health: 1800
 size: 3
