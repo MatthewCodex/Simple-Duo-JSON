@@ -39,6 +39,8 @@ weapons: [
       x: 0
       y: 0
 
+      reload: 60
+
       shootEffect: shootBig
       
       shootSound: shootArtillery
