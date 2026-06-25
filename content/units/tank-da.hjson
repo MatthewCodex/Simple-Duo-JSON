@@ -30,25 +30,31 @@ treadFrames: 4
   ]
 
 weapons: [
-    {
+    { 
       name: turret-da
       localizedName: Basic Flamethrower Tank Weapon
-      reload: 1
+      reload: 3
       shots: 1
+      shootSound: shootFlame
       alternate: true
       mirror: false
-      shootSound: loopSpray
+      x: 0
+      y: 0
       bullet: {
-        type: LiquidBulletType
-      liquid: oil
-      damage: 15
-      speed: 4
-      drag: 0.01
-      knockback: 1
-      lifetime: 40
-      status: burning
-      statusDuration: 120
-        }
+        type: BulletType
+        damage: 15
+        speed: 4
+        knockback: 1
+        lifetime: 40
+        drawSize: 40
+        status: burning
+        statusDuration: 120
+        shootEffect: shootSmallFlame
+        hitEffect: hitFlameSmall
+        despawnEffect: none
+        pierce: true
+        collidesAir: false
+      }
 
     }
   ]
