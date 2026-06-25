@@ -1,10 +1,15 @@
 type: ItemTurret
 name: "Basic Homing Turret"
 description: "Fires slow, high-damage guided missiles at enemy units. Requires Lead and must be connected to power."
-size: 3
+size: 1
 health: 800
 reload: 120
 range: 200
+
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 10
 
 hasPower: true  
 
@@ -18,7 +23,6 @@ metaglass/200
 lead/150
 ]
 
-ammoUse: 3
 targetAir: true
 targetGround: true
 ammo: {
@@ -31,13 +35,14 @@ ammo: {
     lifetime: 100
     homingPower: 0.1
     homingRange: 200
-    width: 12
-    height: 18
+    width: 5
+    height: 5
     shootEffect: shootBig
     smokeEffect: shootSmokeSquare
     hitEffect: blastExplosion
     backColor: scarlet
     frontColor: white
+	ammoMultiplier: 3
   }
 }
 category: turret
