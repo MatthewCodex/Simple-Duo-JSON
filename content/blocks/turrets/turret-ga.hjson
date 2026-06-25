@@ -23,6 +23,8 @@ metaglass/200
 lead/150
 ]
 
+researchCostMultiplier: 0.5
+
 targetAir: true
 targetGround: true
 ammo: {
@@ -40,6 +42,9 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootSmokeSquare
     hitEffect: blastExplosion
+	shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
     backColor: scarlet
     frontColor: white
 	ammoMultiplier: 3
