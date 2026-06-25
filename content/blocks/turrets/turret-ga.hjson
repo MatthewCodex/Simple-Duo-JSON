@@ -5,6 +5,14 @@ size: 3
 health: 800
 reload: 120
 range: 400
+
+hasPower: true  
+
+consumes: {
+		power: 0.15
+}
+  
+
 shootEffect: shootBig
 smokeEffect: shootSmokeBig
 ammoUse: 3
