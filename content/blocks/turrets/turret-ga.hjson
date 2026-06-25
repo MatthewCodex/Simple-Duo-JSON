@@ -1,0 +1,33 @@
+type: ItemTurret
+name: "Missile Launcher"
+description: "Fires slow, high-damage guided missiles at enemy units. Requires Lead and must be connected to power."
+size: 3
+health: 800
+reload: 120
+range: 400
+shootEffect: shootBig
+smokeEffect: shootSmokeBig
+ammoUse: 3
+targetAir: true
+targetGround: true
+ammo: {
+  lead: {
+    type: MissileBulletType
+    speed: 4
+    damage: 125
+    splashDamage: 250
+    splashDamageRadius: 40
+    lifetime: 100
+    homingPower: 0.1
+    homingRange: 200
+    width: 12
+    height: 18
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: blastExplosion
+    backColor: scarlet
+    frontColor: white
+  }
+}
+category: turret
+research: salvo
