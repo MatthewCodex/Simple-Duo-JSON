@@ -36,6 +36,8 @@ weapons: [
       reload: 1
       shots: 1
       alternate: true
+      mirror: false
+      shootSound: loopSpray
       bullet: {
         type: LiquidBulletType
       liquid: oil
