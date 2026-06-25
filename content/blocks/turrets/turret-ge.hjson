@@ -22,7 +22,7 @@ consumes: {
 }
 
 ammoTypes: {
-  blastCompound: {
+  blast-compound: {
     speed: 4
     damage: 250
     splashDamage: 500
