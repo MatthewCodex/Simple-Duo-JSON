@@ -5,7 +5,7 @@ health: 600
 size: 1
 recoil: 0.5
 shootY: 3
-reload: 40
+reload: 180
 range: 150
 shootCone: 15
 ammoUseEffect: casing1
