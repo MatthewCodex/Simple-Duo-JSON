@@ -42,7 +42,7 @@ weapons: [
       y: 0
       bullet: {
         type: BulletType
-        damage: 30
+        damage: 40
         speed: 4
         knockback: 1
         lifetime: 100
