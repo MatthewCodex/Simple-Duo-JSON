@@ -1,6 +1,6 @@
 type: tank
-name: tank-ea
-localizedName: Basic Homing Tank
+name: tank-ge
+localizedName: Extreme Homing Tank
 description: Shoots Explosive Shells at enemies.
 
 health: 1500
@@ -31,8 +31,8 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-ga"
-      localizedName: "Basic Homing Tank Weapon"
+      name: "turret-ge"
+      localizedName: "Extreme Homing Tank Weapon"
       length: 8
 
       mirror: false
