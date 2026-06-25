@@ -22,7 +22,7 @@ consumes: {
 }
 
 ammoTypes: {
-  silicon: {
+  titanium: {
     speed: 4
     damage: 175
     splashDamage: 350
