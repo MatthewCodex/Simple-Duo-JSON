@@ -18,8 +18,6 @@ metaglass/200
 lead/150
 ]
 
-shootEffect: shootBig
-smokeEffect: shootSmokeBig
 ammoUse: 3
 targetAir: true
 targetGround: true
