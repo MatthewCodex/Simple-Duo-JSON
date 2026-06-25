@@ -1,0 +1,69 @@
+type: ItemTurret
+name: Extreme Homing Turret
+description: Fires an explosive shell capable of homing in at enemies. Uses Blast compound as ammo.
+health: 3000
+size: 5
+recoil: 0.5
+shootY: 3
+reload: 140
+range: 250
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  blastCompound: {
+    speed: 4
+    damage: 250
+    splashDamage: 500
+    splashDamageRadius: 100
+    lifetime: 100
+    homingPower: 0.4
+    homingRange: 300
+    width: 10
+    height: 10
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: blastExplosion
+    shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+	frontColor: ffffff
+	backColor: ff0000
+	ammoMultiplier: 3
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/3750
+lead/3000
+graphite/2000
+silicon/1200
+metaglass/950
+plastanium/500
+blastCompound/100
+]
+category: turret
+research: duo
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
