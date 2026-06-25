@@ -38,12 +38,14 @@ weapons: [
       alternate: true
       bullet: {
         type: LiquidBulletType
-        liquid: oil
-        damage: 15
-        speed: 4
-        drag: 0.01
-        status: burning
-        statusDuration: 120
+      liquid: oil
+      damage: 15
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 40
+      status: burning
+      statusDuration: 120
         }
 
     }
