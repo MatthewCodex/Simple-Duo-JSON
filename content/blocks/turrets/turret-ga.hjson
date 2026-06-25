@@ -36,8 +36,9 @@ ammoTypes: {
     shootEffect: shootBig
     smokeEffect: shootSmokeSquare
     hitEffect: blastExplosion
-    backColor: scarlet
-    frontColor: white
+    shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
 	ammoMultiplier: 3
   }
 }
