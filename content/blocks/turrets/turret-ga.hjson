@@ -23,7 +23,6 @@ consumes: {
 
 ammoTypes: {
   lead: {
-    type: MissileBulletType
     speed: 4
     damage: 125
     splashDamage: 250
@@ -39,6 +38,8 @@ ammoTypes: {
     shootSound: shootArtillery
     hitSound: blockExplode3
     despawnSound: blockExplode3
+	frontColor: ffffff
+	backColor: ff0000
 	ammoMultiplier: 3
   }
 }
