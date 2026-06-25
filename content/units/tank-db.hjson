@@ -1,0 +1,60 @@
+type: tank
+name: tank-db
+localizedName: Advanced Flamethrower Tank
+description: Burns enemies.
+
+health: 500
+armor: 2
+speed: 1.5
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    { 
+      name: turret-db
+      localizedName: Advanced Flamethrower Tank Weapon
+      reload: 3
+      shots: 1
+      shootSound: shootFlame
+      alternate: true
+      mirror: false
+      x: 0
+      y: 0
+      bullet: {
+        type: BulletType
+        damage: 20
+        speed: 4
+        knockback: 1
+        lifetime: 60
+        drawSize: 40
+        status: burning
+        statusDuration: 150
+        shootEffect: shootSmallFlame
+        hitEffect: hitFlameSmall
+        despawnEffect: none
+        pierce: true
+        collidesAir: false
+      }
+
+    }
+  ]
