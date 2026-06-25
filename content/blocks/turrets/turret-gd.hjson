@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Elite Homing Turret
 description: Fires an explosive shell capable of homing in at enemies. Uses Plastanium as ammo.
-health: 1800
+health: 2400
 size: 4
 recoil: 0.5
 shootY: 3
@@ -22,7 +22,7 @@ consumes: {
 }
 
 ammoTypes: {
-  silicon: {
+  plastanium: {
     speed: 4
     damage: 200
     splashDamage: 400
