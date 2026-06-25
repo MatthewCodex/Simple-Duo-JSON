@@ -37,6 +37,8 @@ weapons: [
       
       shootEffect: shootBig
 
+      reload: 20
+
       mirror: false
       x: 0
       y: 0
