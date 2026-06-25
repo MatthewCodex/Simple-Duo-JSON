@@ -1,9 +1,9 @@
 type: tank
-name: tank-ed
-localizedName: Elite Cannon Tank
+name: tank-ee
+localizedName: Extreme Cannon Tank
 description: Shoots Explosive Shells at enemies.
 
-health: 1200
+health: 1500
 armor: 4
 speed: 1
 accel: 0.1
@@ -31,8 +31,8 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-ed"
-      localizedName: "Elite Cannon Tank Weapon"
+      name: "turret-ee"
+      localizedName: "Extreme Cannon Tank Weapon"
       length: 8
       
       shootEffect: shootBig
@@ -47,12 +47,12 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        damage: 150
+        damage: 180
         speed: 4
         width: 8
         height: 8
-        splashDamage: 180
-        splashDamageRadius: 100
+        splashDamage: 210
+        splashDamageRadius: 120
         hitEffect: flakExplosion
         despawnEffect: flakExplosion
         hitSound: blockExplode3
