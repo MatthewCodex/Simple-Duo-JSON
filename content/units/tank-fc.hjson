@@ -1,6 +1,6 @@
 type: tank
 name: tank-fc
-localizedName: Basic Sprayer Tank
+localizedName: Professional Sprayer Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
 health: 900
@@ -32,7 +32,7 @@ treadFrames: 4
 weapons: [
     {
       name: "turret-fc"
-      localizedName: "Basic Sprayer Tank Weapon"
+      localizedName: "Professional Sprayer Tank Weapon"
       length: 8
       reload: 5
       alternate: true
