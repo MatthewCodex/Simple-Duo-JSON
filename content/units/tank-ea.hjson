@@ -33,14 +33,16 @@ weapons: [
     {
       name: "turret-ea"
       localizedName: "Basic Cannon Tank Weapon"
-      length: 8
-      reload: 60
-      alternate: true
-      inaccuracy: 5
-      mirror: false
-      x: 0
-      y: 0
-      shootSound: shootAfflict
+      
+      
+      splashDamage: 90
+      splashDamageRadius: 40
+      shootEffect: shootBig
+      hitEffect: flakExplosion
+      despawnEffect: flakExplosion
+      shootSound: shootArtillery
+      hitSound: blockExplode3
+      despawnSound: blockExplode3
 
       shoot: {
       type: ShootSpread
@@ -51,10 +53,10 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        speed: 12
-        damage: 15
-        width: 6
-        height: 6
+        damage: 60
+        speed: 4
+        width: 8
+        height: 8
       }
     }
   ]
