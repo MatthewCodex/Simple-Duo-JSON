@@ -1,6 +1,6 @@
 type: tank
 name: tank-fe
-localizedName: Basic Sprayer Tank
+localizedName: Extreme Sprayer Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
 health: 1500
@@ -32,7 +32,7 @@ treadFrames: 4
 weapons: [
     {
       name: "turret-fe"
-      localizedName: "Basic Sprayer Tank Weapon"
+      localizedName: "Extreme Sprayer Tank Weapon"
       length: 8
       reload: 5
       alternate: true
