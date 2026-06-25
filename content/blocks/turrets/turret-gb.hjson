@@ -1,0 +1,65 @@
+type: ItemTurret
+name: Basic Homing Turret
+description: Fires an explosive shell capable of homing in at enemies. Uses Lead as ammo.
+health: 600
+size: 1
+recoil: 0.5
+shootY: 3
+reload: 180
+range: 150
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  lead: {
+    speed: 4
+    damage: 125
+    splashDamage: 250
+    splashDamageRadius: 50
+    lifetime: 100
+    homingPower: 0.1
+    homingRange: 200
+    width: 5
+    height: 5
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: blastExplosion
+    shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+	frontColor: ffffff
+	backColor: ff0000
+	ammoMultiplier: 3
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/700
+lead/500
+graphite/150
+]
+category: turret
+research: duo
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
