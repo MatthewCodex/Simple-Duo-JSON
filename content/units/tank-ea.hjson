@@ -39,7 +39,7 @@ weapons: [
       x: 0
       y: 0
 
-      reload: 60
+      reload: 40
 
       shootEffect: shootBig
       
