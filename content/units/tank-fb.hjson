@@ -1,0 +1,60 @@
+type: tank
+name: tank-fb
+localizedName: Basic Sprayer Tank
+description: Shoots multiple bullets dealing spread damage to enemies.
+
+health: 600
+armor: 2
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-fb"
+      localizedName: "Basic Sprayer Tank Weapon"
+      length: 8
+      reload: 5
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootSalvo
+
+      shoot: {
+      type: ShootSpread
+      shots: 6
+      spread: 11
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        speed: 12
+        damage: 6
+        width: 4
+        height: 4
+      }
+    }
+  ]
