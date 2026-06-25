@@ -38,7 +38,7 @@ weapons: [
       mirror: false
       x: 0
       y: 0
-
+	  reload: 170
       shootEffect: shootBig
       
       shootSound: shootArtillery
