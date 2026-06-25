@@ -36,7 +36,11 @@ weapons: [
       length: 8
       
       shootEffect: shootBig
-      
+
+      mirror: false
+      x: 0
+      y: 0
+
       shootSound: shootArtillery
 
       shoot: {
