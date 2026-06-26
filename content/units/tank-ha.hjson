@@ -37,6 +37,8 @@ weapons: [
     reload: 10
     shootCone: 15
     mirror: false
+      x: 0
+      y: 0
     continuous: true
     shootSound: beam
     bullet: {
