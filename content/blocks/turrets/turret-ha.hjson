@@ -1,41 +1,32 @@
-type: PowerTurret
-name: Cryo Laser
-description: Fires a continuous localized freezing beam at ground and air targets. Consumes a large amount of power.
-hasPower: true
-size: 1
+type: TractorBeamTurret
+name: "Freeze Laser"
+description: "Fires a continuous freezing beam that slows down enemy units."
 health: 800
+size: 1
 range: 50
-reload: 10
-category: turret
-
-# Configure power requirements
+shootEffect: freezing
+recoil: 0
+hasPower: true
 consumes: {
   power: 1
 }
 
-# Define the laser properties
-shootType: {
-  type: ContinuousLaserBulletType
-  damage: 4
-  length: 75
-  width: 4
-  
-  # Visual colors of the laser beam (Ice blue themes)
-  colors: [a4c2f4, c9daf8, fffffff]
-  
-  # Apply the freezing debuff
-  status: freezing
-  statusDuration: 180
-  
-  # Optional cosmetic effects
-  hitEffect: hitMeltdown
-  smokeEffect: none
-}
+force: 0
+scaledForce: 0
+
+damage: 4
+
+laserWidth: 0.5
+laserColor: 00ffff
+
+status: frozen
+statusDuration: 120
 
 requirements: [
-  copper/150
-  lead/120
-  silicon/80
-  titanium/50
+  copper/300
+  lead/150
+  silicon/50
+  
 ]
-research: arc
+category: turret
+research: meltdown
