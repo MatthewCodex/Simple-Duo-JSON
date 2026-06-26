@@ -1,6 +1,38 @@
+type: tank
+name: tank-ga
+localizedName: Basic Freeze Tank
+description: Freezes enemies.
+
+health: 300
+armor: 1
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitsize: 14
+targetAir: false
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
 weapons: [
   {
-    name: freeze-laser-weapon
+    name: turret-ha
+    localizedName: Basic Freeze Tank Weapon
     length: 20
     reload: 10
     shootCone: 15
@@ -18,3 +50,4 @@ weapons: [
     }
   }
 ]
+
