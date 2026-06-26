@@ -1,5 +1,5 @@
 type: tank
-name: tank-ga
+name: tank-ha
 localizedName: Basic Freeze Tank
 description: Freezes enemies.
 
@@ -40,7 +40,7 @@ weapons: [
       x: 0
       y: 0
     continuous: true
-    shootSound: beam
+    shootSound: shootDuo
     bullet: {
       type: ContinuousLaserBulletType
       damage: 4
