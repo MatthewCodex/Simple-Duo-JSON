@@ -39,3 +39,8 @@ requirements: [
   titanium/50
 ]
 research: arc
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
