@@ -1,6 +1,6 @@
 type: TractorBeamTurret
-name: "Freeze Laser"
-description: "Fires a continuous freezing beam that slows down enemy units."
+name: "Basic Freeze Turret"
+description: "Uses a laser that freezes enemies."
 health: 800
 size: 1
 range: 50
@@ -30,3 +30,8 @@ requirements: [
 ]
 category: turret
 research: meltdown
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
