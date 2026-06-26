@@ -1,6 +1,6 @@
 type: PowerTurret
-name: Cryo Laser
-description: Fires a continuous localized freezing beam at ground and air targets. Consumes a large amount of power.
+name: Basic Freeze Turret
+description: Freezes enemies.
 hasPower: true
 size: 1
 health: 800
