@@ -10,7 +10,7 @@ accel: 0.1
 drag: 0.05
 rotateSpeed: 5
 
-hitSize: 8
+hitSize: 40
 targetAir: false
 
 treadFrames: 4
