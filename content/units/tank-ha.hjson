@@ -33,7 +33,7 @@ weapons: [
   {
     name: turret-ha
     localizedName: Basic Freeze Tank Weapon
-    length: 20
+    length: 75
     reload: 10
     shootCone: 15
     mirror: false
