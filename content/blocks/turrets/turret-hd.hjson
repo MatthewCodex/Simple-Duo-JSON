@@ -1,0 +1,54 @@
+type: PowerTurret
+name: Elite Freeze Turret
+description: Freezes enemies.
+hasPower: true
+size: 4
+health: 3200
+range: 125
+reload: 10
+category: turret
+
+# Configure power requirements
+consumes: {
+  power: 2.5
+  liquid:
+  {
+    liquid: cryofluid
+    amount: 0.5
+  }
+}
+
+# Define the laser properties
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 16
+  length: 120
+  width: 4
+  
+  # Visual colors of the laser beam (Ice blue themes)
+  colors: [00ffff, 80ffff, ffffff]
+  
+  # Apply the freezing debuff
+  status: freezing
+  statusDuration: 300
+  
+  # Optional cosmetic effects
+  hitEffect: freezing
+  smokeEffect: none
+}
+
+requirements: [
+  copper/2740
+  lead/1840
+  silicon/1000
+  titanium/750
+  metaglass/590
+  graphite/360
+  plastanium/50
+]
+research: arc
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
