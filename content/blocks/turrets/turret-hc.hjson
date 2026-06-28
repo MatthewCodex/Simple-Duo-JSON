@@ -1,0 +1,48 @@
+type: PowerTurret
+name: Professional Freeze Turret
+description: Freezes enemies.
+hasPower: true
+size: 3
+health: 2400
+range: 100
+reload: 10
+category: turret
+
+# Configure power requirements
+consumes: {
+  power: 2
+}
+
+# Define the laser properties
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 12
+  length: 105
+  width: 4
+  
+  # Visual colors of the laser beam (Ice blue themes)
+  colors: [00ffff, 80ffff, ffffff]
+  
+  # Apply the freezing debuff
+  status: freezing
+  statusDuration: 240
+  
+  # Optional cosmetic effects
+  hitEffect: freezing
+  smokeEffect: none
+}
+
+requirements: [
+  copper/1280
+  lead/880
+  silicon/430
+  titanium/200
+  metaglass/140
+  graphite/70
+]
+research: arc
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
