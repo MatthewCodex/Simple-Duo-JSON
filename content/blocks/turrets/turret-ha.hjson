@@ -28,7 +28,7 @@ shootType: {
   statusDuration: 120
   
   # Optional cosmetic effects
-  hitEffect: freezing
+  hitEffect: none
   smokeEffect: none
 }
 
