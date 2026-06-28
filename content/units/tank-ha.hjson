@@ -33,7 +33,7 @@ weapons: [
   {
     name: turret-ha
     localizedName: Basic Freeze Tank Weapon
-    length: 75
+    length: 20
     reload: 10
     shootCone: 15
     mirror: false
@@ -44,7 +44,7 @@ weapons: [
     bullet: {
       type: ContinuousLaserBulletType
       damage: 4
-      length: 100
+      length: 75
       width: 4
       colors: [00ffff, 80ffff, ffffff]
       status: freezing
