@@ -1,0 +1,54 @@
+type: tank
+name: tank-he
+localizedName: Extreme Freeze Tank
+description: Freezes enemies.
+
+health: 1500
+armor: 5
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitSize: 24
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+  {
+    name: turret-he
+    localizedName: Extreme Freeze Tank Weapon
+    length: 20
+    reload: 10
+    shootCone: 15
+    mirror: false
+      x: 0
+      y: 0
+    continuous: true
+    shootSound: shootDuo
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 20
+      length: 135
+      width: 4
+      colors: [00ffff, 80ffff, ffffff]
+      status: freezing
+      statusDuration: 360
+    }
+  }
+]
