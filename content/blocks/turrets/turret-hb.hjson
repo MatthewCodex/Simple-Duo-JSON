@@ -1,0 +1,47 @@
+type: PowerTurret
+name: Advanced Freeze Turret
+description: Freezes enemies.
+hasPower: true
+size: 2
+health: 1600
+range: 75
+reload: 10
+category: turret
+
+# Configure power requirements
+consumes: {
+  power: 1.5
+}
+
+# Define the laser properties
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 8
+  length: 90
+  width: 4
+  
+  # Visual colors of the laser beam (Ice blue themes)
+  colors: [00ffff, 80ffff, ffffff]
+  
+  # Apply the freezing debuff
+  status: freezing
+  statusDuration: 180
+  
+  # Optional cosmetic effects
+  hitEffect: freezing
+  smokeEffect: none
+}
+
+requirements: [
+  copper/550
+  lead/470
+  silicon/280
+  titanium/130
+  metaglass/40
+]
+research: arc
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
