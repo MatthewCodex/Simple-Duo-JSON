@@ -44,7 +44,7 @@ weapons: [
     bullet: {
       type: ContinuousLaserBulletType
       damage: 8
-      length: 100
+      length: 90
       width: 4
       colors: [00ffff, 80ffff, ffffff]
       status: freezing
