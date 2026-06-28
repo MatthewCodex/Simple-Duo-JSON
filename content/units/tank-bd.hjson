@@ -11,7 +11,7 @@ drag: 0.05
 rotateSpeed: 10
 
 hitSize: 40
-targetAir: false
+targetAir: true
 
 treadFrames: 4
   treadRects: [
