@@ -1,12 +1,12 @@
 {
-	type: "material"
-	name: "Iron Ingot"
-	description: "Produced from raw iron by using an iron furnace. Can be converted into iron plates using an iron press."
+	type: material
+	name: Iron Ingot
+	description: Produced from raw iron by using an iron furnace. Can be converted into iron plates using an iron press.
 	cost: 1.1
 	flammability: 0.0
 	radioactivity: 0.0
 	explosiveness: 0.0
 	charge: 0.0
-	color: "ffffff"
+	color: ffffff
 	research: scrap
 }
