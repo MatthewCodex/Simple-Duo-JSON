@@ -1,0 +1,68 @@
+type: ItemTurret
+name: Elite Blast Turret
+description: Fires an explosive shell capable of homing in at enemies. Uses Plastanium as ammo.
+health: 3200
+size: 4
+recoil: 0.5
+shootY: 3
+reload: 30
+range: 125
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 20
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  plastanium: {
+    speed: 4
+    damage: 40
+    
+    lifetime: 100
+    homingPower: 0.4
+    homingRange: 275
+    width: 8
+    height: 8
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: blastExplosion
+    shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+	frontColor: ffffff
+	backColor: ff0000
+	ammoMultiplier: 3
+  status: blasted
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/3000
+lead/2500
+graphite/1750
+silicon/800
+metaglass/500
+plastanium/200
+]
+category: turret
+research: duo
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
