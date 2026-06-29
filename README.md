@@ -15,8 +15,8 @@ Weapon Types\
   L - Electric\
   M - Melter\
   N - Sapper\
-  O - Tar Gun\
-  P - Corrosive\
+  O - Plasma\  
+  P - Heavy\  
 
 Tier Types\
   A - Basic\
