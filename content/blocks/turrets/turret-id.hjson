@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Elite Blast Turret
-description: Fires an explosive shell capable of homing in at enemies. Uses Plastanium as ammo.
+description: Functions the same way as a homing turret, except it blasts enemies. Uses Plastanium as ammo.
 health: 3200
 size: 4
 recoil: 0.5
