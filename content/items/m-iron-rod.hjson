@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Iron Plate
+	description: Produced from iron plates by using an iron cutter.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
