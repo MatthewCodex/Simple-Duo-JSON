@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: My Power Crafter
+description: Consumes power and items to produce new items.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+consumes: {
+  power: 1.0
+  items: [
+    copper/1
+  ]
+}
+outputItems: [
+  m-iron/1
+]
+requirements: [
+  copper/60
+  lead/40
+  scrap/20
+]
+category: crafting
+research: scrap
