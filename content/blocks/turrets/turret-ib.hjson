@@ -24,7 +24,7 @@ consumes: {
 ammoTypes: {
   silicon: {
     speed: 4
-    damage: 15
+    damage: 30
     lifetime: 100
     homingPower: 0.2
     homingRange: 225
