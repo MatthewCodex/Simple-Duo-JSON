@@ -23,13 +23,23 @@ consumes: {
 
 ammoTypes: {
   plastanium: {
-    type: ContinuousLaserBulletType
+  type: ContinuousLaserBulletType
 
-    damage: 40
-    length: 180
-    lifetime: 100
     
     
+  damage: 100
+  length: 150
+  width: 4
+  
+  # Visual colors of the laser beam (Ice blue themes)
+  colors: [008080, 00bfbf, 00ffff]
+
+  pierce: true
+  pierceCap: 5  
+  
+  # Optional cosmetic effects
+  hitEffect: none
+  smokeEffect: none
 	
   }
 }
