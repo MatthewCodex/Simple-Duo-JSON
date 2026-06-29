@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Advanced Homing Turret
+name: Advanced Blast Turret
 description: Functions the same way as a homing turret, except it blasts enemies. Uses Silicon as ammo.
 health: 1600
 size: 2
