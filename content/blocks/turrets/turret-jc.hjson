@@ -1,0 +1,45 @@
+type: PowerTurret
+name: Professional Pierce Turret
+description: Shoots piercing projectiles.
+hasPower: true
+size: 3
+health: 2400
+range: 150
+reload: 40
+category: turret
+
+# Configure power requirements
+consumes: {
+  power: 3
+}
+
+# Define the laser properties
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 100
+  length: 150
+  width: 4
+  
+  # Visual colors of the laser beam (Ice blue themes)
+  colors: [008080, 00bfbf, 00ffff]
+
+  pierce: true
+  pierceCap: 5  
+  
+  # Optional cosmetic effects
+  hitEffect: none
+  smokeEffect: none
+}
+
+requirements: [
+  copper/150
+  lead/120
+  silicon/80
+  titanium/50
+]
+research: arc
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
