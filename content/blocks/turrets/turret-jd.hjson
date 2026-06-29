@@ -45,12 +45,12 @@ ammoTypes: {
 
  
 requirements: [
-copper/3000
-lead/2500
-graphite/1750
-silicon/800
-metaglass/500
-plastanium/200
+copper/2500
+lead/2140
+silicon/1750
+titanium/1000
+metaglass/690
+plastanium/250
 ]
 category: turret
 research: duo
