@@ -23,7 +23,7 @@ ammoTypes: {
 
     
     
-  damage: 100
+  damage: 125
   length: 175
   width: 4
   
