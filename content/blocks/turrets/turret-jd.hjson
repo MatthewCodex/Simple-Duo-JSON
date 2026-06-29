@@ -1,4 +1,4 @@
-type: ContinuousTurret
+type: ItemTurret
 name: Elite Pierce Turret
 description: Functions the same way as a homing turret, except it blasts enemies. Uses Plastanium as ammo.
 health: 3200
@@ -7,8 +7,6 @@ recoil: 0.5
 shootY: 3
 reload: 30
 range: 175
-ammoPerShot: 1
-consumeAmmoOnce: false
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
