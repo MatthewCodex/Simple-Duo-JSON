@@ -1,0 +1,45 @@
+type: PowerTurret
+name: Advanced Pierce Turret
+description: Shoots piercing projectiles.
+hasPower: true
+size: 2
+health: 1600
+range: 125
+reload: 50
+category: turret
+
+# Configure power requirements
+consumes: {
+  power: 2
+}
+
+# Define the laser properties
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 75
+  length: 125
+  width: 4
+  
+  # Visual colors of the laser beam (Ice blue themes)
+  colors: [008080, 00bfbf, 00ffff]
+
+  pierce: true
+  pierceCap: 4  
+  
+  # Optional cosmetic effects
+  hitEffect: none
+  smokeEffect: none
+}
+
+requirements: [
+  copper/150
+  lead/120
+  silicon/80
+  titanium/50
+]
+research: arc
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
