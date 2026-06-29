@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Professional Homing Turret
+name: Professional Blast Turret
 description: Functions the same way as a homing turret, except it blasts enemies. Uses Titanium as ammo.
 health: 2400
 size: 3
