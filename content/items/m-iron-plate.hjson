@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Iron Plate
+	description: Produced from iron ingots by using an iron press. Can be converted into iron rods using an iron cutter.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
