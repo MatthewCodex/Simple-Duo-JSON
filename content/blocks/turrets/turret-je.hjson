@@ -1,0 +1,62 @@
+type: ItemTurret
+name: Extreme Pierce Turret
+description: Shoots piercing projectiles. Uses Thorium as ammo.
+health: 4000
+size: 5
+recoil: 0.5
+shootY: 3
+reload: 20
+range: 200
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+hasPower: true
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+  power: 5
+}
+
+ammoTypes: {
+  thorium: {
+  type: ContinuousLaserBulletType
+
+    
+    
+  damage: 150
+  length: 200
+  width: 4
+  
+  # Visual colors of the laser beam (Ice blue themes)
+  colors: [008080, 00bfbf, 00ffff]
+
+  pierce: true
+  pierceCap: 5  
+  
+  # Optional cosmetic effects
+  hitEffect: none
+  smokeEffect: none
+	
+  }
+}
+
+
+ 
+requirements: [
+copper/3000
+lead/2500
+graphite/1750
+silicon/800
+metaglass/500
+plastanium/200
+thorium/50
+]
+category: turret
+research: duo
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
