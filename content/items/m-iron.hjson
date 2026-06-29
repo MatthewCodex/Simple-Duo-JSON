@@ -1,7 +1,7 @@
 {
 	type: "material",
 	name: "Raw Iron",
-	description: "Think of scrap, but better",
+	description: "Produced by iron drills. Can be converted into iron ingots using an iron furnace, or converted into steel ingots using a steel refinery.",
 	cost: 1.1,
 	flammability: 0.0,
 	radioactivity: 0.0,
