@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Elite Pierce Turret
-description: Functions the same way as a homing turret, except it blasts enemies. Uses Plastanium as ammo.
+description: Shoots piercing projectiles. Uses Plastanium as ammo.
 health: 3200
 size: 4
 recoil: 0.5
@@ -10,11 +10,13 @@ range: 175
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
+hasPower: true
 
 consumes: {
   coolant: {
     amount: 0.1
   }
+  power: 4
 }
 
 ammoTypes: {
