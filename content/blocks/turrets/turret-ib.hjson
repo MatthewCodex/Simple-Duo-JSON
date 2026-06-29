@@ -1,0 +1,65 @@
+type: ItemTurret
+name: Advanced Homing Turret
+description: Functions the same way as a Uses Silicon as ammo.
+health: 1600
+size: 2
+recoil: 0.5
+shootY: 3
+reload: 50
+range: 75
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  silicon: {
+    speed: 4
+    damage: 15
+    lifetime: 100
+    homingPower: 0.2
+    homingRange: 225
+    width: 6
+    height: 6
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: blastExplosion
+    shootSound: shootArtillery
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+    status: blasted
+	frontColor: ffffff
+	backColor: ff0000
+	ammoMultiplier: 3
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/1750
+lead/1000
+graphite/750
+silicon/200
+]
+category: turret
+research: duo
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
