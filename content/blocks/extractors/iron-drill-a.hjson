@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: T1 Iron Drill
 description: Produces raw iron.
-size: 2
+size: 1
 hasPower: true
 hasItems: true
 itemCapacity: 20
