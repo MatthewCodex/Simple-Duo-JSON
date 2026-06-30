@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: My Power Crafter
-description: Consumes power and items to produce new items.
+name: T1 Iron Drill
+description: Produces raw iron.
 size: 2
 hasPower: true
 hasItems: true
