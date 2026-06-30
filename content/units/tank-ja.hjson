@@ -1,0 +1,54 @@
+type: tank
+name: tank-ja
+localizedName: Basic Pierce Tank
+description: Freezes enemies.
+
+health: 300
+armor: 1
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitSize: 16
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+  {
+    name: turret-ja
+    localizedName: Basic Pierce Tank Weapon
+    length: 20
+    reload: 60
+    shootCone: 15
+    mirror: false
+      x: 0
+      y: 0
+    continuous: true
+    shootSound: shootDuo
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 4
+      length: 75
+      width: 4
+      colors: [00ffff, 80ffff, ffffff]
+      status: freezing
+      statusDuration: 120
+    }
+  }
+]
