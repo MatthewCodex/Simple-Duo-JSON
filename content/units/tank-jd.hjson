@@ -1,0 +1,61 @@
+type: tank
+name: tank-jd
+localizedName: Elite pierce Tank
+description: Freezes enemies.
+
+health: 1200
+armor: 4
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitSize: 40
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+  {
+    name: turret-jd
+    localizedName: Elite Pierce Tank Weapon
+    length: 20
+    reload: 10
+    shootCone: 15
+    mirror: false
+      x: 0
+      y: 0
+    continuous: true
+    shootSound: shootDuo
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 125
+      length: 175
+      width: 4
+  
+      # Visual colors of the laser beam (Ice blue themes)
+      colors: [008080, 00bfbf, 00ffff]
+
+      pierce: true
+      pierceCap: 5  
+  
+      # Optional cosmetic effects
+      hitEffect: none
+      smokeEffect: none
+    }
+  }
+]
