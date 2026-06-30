@@ -43,12 +43,19 @@ weapons: [
     shootSound: shootDuo
     bullet: {
       type: ContinuousLaserBulletType
-      damage: 4
-      length: 75
+      damage: 50
+      length: 100
       width: 4
-      colors: [00ffff, 80ffff, ffffff]
-      status: freezing
-      statusDuration: 120
+  
+      # Visual colors of the laser beam (Ice blue themes)
+      colors: [008080, 00bfbf, 00ffff]
+
+      pierce: true
+      pierceCap: 3  
+  
+      # Optional cosmetic effects
+      hitEffect: none
+      smokeEffect: none
     }
   }
 ]
