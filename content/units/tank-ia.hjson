@@ -31,8 +31,8 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-ga"
-      localizedName: "Basic Homing Tank Weapon"
+      name: "turret-ia"
+      localizedName: "Basic Blast Tank Weapon"
       length: 8
 
       mirror: false
