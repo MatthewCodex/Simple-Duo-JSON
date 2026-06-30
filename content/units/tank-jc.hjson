@@ -1,6 +1,6 @@
 type: tank
 name: tank-jc
-localizedName: Professional Freeze Tank
+localizedName: Professional Pierce Tank
 description: Freezes enemies.
 
 health: 900
@@ -32,7 +32,7 @@ treadFrames: 4
 weapons: [
   {
     name: turret-jc
-    localizedName: Professional Freeze Tank Weapon
+    localizedName: Professional Pierce Tank Weapon
     length: 20
     reload: 10
     shootCone: 15
@@ -43,12 +43,19 @@ weapons: [
     shootSound: shootDuo
     bullet: {
       type: ContinuousLaserBulletType
-      damage: 12
-      length: 105
+      damage: 100
+      length: 150
       width: 4
-      colors: [00ffff, 80ffff, ffffff]
-      status: freezing
-      statusDuration: 240
+  
+      # Visual colors of the laser beam (Ice blue themes)
+      colors: [008080, 00bfbf, 00ffff]
+
+      pierce: true
+      pierceCap: 5  
+  
+      # Optional cosmetic effects
+      hitEffect: none
+      smokeEffect: none
     }
   }
 ]
