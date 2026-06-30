@@ -52,7 +52,15 @@ weapons: [
       bullet: {
         type: BasicBulletType
 
-        shootEffect: shootBig
+        speed: 4
+        damage: 40 
+        lifetime: 100
+        homingPower: 0.4
+        homingRange: 275
+        width: 8
+        height: 8
+
+		shootEffect: shootBig
         smokeEffect: shootSmokeSquare
         hitEffect: blastExplosion
         shootSound: shootArtillery
@@ -61,15 +69,6 @@ weapons: [
         status: blasted
         frontColor: ffffff
         backColor: ff0000
-
-        speed: 4
-        damage: 40 
-        lifetime: 100
-        homingPower: 0.4
-        homingRange: 275
-        width: 8
-        height: 8
-          
       }
     }
   ]
