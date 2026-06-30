@@ -1,0 +1,75 @@
+type: tank
+name: tank-id
+localizedName: Elite Blast Tank
+description: Shoots Explosive Shells at enemies.
+
+health: 1200
+armor: 4
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitSize: 40
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-id"
+      localizedName: "Elite Blast Tank Weapon"
+      length: 8
+
+      mirror: false
+      x: 0
+      y: 0
+	  reload: 150
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+        status: blasted
+        frontColor: ffffff
+        backColor: ff0000
+
+        speed: 4
+        damage: 40 
+        lifetime: 100
+        homingPower: 0.4
+        homingRange: 275
+        width: 8
+        height: 8
+          
+      }
+    }
+  ]
