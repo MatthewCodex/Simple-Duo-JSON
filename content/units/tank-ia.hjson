@@ -1,0 +1,74 @@
+type: tank
+name: tank-ia
+localizedName: Basic Blast Tank
+description: Shoots Explosive Shells at enemies.
+
+health: 300
+armor: 1
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+
+hitSize: 16
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-ga"
+      localizedName: "Basic Homing Tank Weapon"
+      length: 8
+
+      mirror: false
+      x: 0
+      y: 0
+	  reload: 180
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+
+        speed: 4
+        damage: 25
+        lifetime: 100
+        homingPower: 0.1
+        homingRange: 200
+        width: 4
+        height: 4
+          
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+        status: blasted
+        frontColor: ffffff
+        backColor: ff0000
+      }
+    }
+  ]
