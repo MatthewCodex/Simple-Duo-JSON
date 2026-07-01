@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: T3 Iron Drill
+description: Produces raw iron.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 30
+consumes: {
+  power: 3.0
+}
+outputItems: [
+  m-iron/1
+]
+requirements: [
+  copper/490
+  lead/230
+  scrap/100
+  m-iron/75
+  m-iron-ingot/30
+  m-iron-plate/10
+]
+category: production
+research: scrap
