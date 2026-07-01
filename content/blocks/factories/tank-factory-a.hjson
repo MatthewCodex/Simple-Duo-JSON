@@ -1,0 +1,34 @@
+type: UnitFactory
+name: T1 Tank Factory
+description: Produces Basic Normal Tanks, and Basic Shotgun Tanks.
+size: 2
+health: 600
+solid: true
+requirements: [
+  copper/50
+  silicon/35
+]
+category: units
+research: ground-factory
+plans: [
+  {
+    unit: tank-aa
+    time: 300
+    requirements: [
+      silicon/10
+      lead/15
+    ]
+  }
+  {
+    unit: tank-ba
+    time: 450
+    requirements: [
+      silicon/20
+      titanium/10
+    ]
+  }
+]
+consumes: {
+  power: 1.0
+  
+}
