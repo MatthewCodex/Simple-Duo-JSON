@@ -1,7 +1,7 @@
 type: UnitFactory
 name: T1 Tank Factory
 description: Produces Basic Normal Tanks, and Basic Shotgun Tanks.
-size: 2
+size: 3
 health: 600
 solid: true
 requirements: [
