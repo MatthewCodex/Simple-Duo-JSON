@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Steel Rod
+	description: Produced from Steel Plates by using a Steel Roller.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
