@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: T5 Iron Drill
+description: Produces raw iron.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 10
+consumes: {
+  power: 5.0
+}
+outputItems: [
+  m-iron/1
+]
+requirements: [
+  copper/4000
+  lead/3250
+  graphite/2765
+  silicon/2550
+  scrap/2000
+  metaglass/1975
+  titanium/1500
+  plastanium/1425
+  m-iron/900
+  m-iron-ingot/775
+  m-iron-plate/600
+  m-iron-rod/570
+  m-steel-ingot/300
+]
+category: production
+research: scrap
