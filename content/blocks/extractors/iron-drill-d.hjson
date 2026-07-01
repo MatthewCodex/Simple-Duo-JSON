@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: T4 Iron Drill
+description: Produces raw iron.
+size: 4
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 20
+consumes: {
+  power: 4.0
+}
+outputItems: [
+  m-iron/1
+]
+requirements: [
+  copper/2000
+  lead/1950
+  graphite/1875
+  silicon/1725
+  scrap/1500
+  metaglass/1425
+  m-iron/750
+  m-iron-ingot/675
+  m-iron-plate/450
+  m-iron-rod/100
+]
+category: production
+research: scrap
