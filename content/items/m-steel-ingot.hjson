@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Steel Ingot
+	description: Produced by Steel Refineries. Can be converted into Steel Plates using a Steel Press.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
