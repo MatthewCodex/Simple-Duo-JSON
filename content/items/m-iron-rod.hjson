@@ -1,6 +1,6 @@
 {
 	type: material
-	name: Iron Plate
+	name: Iron Rod
 	description: Produced from iron plates by using an iron roller.
 	cost: 1.1
 	flammability: 0.0
