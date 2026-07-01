@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Steel Plate
+	description: Produced from Steel Ingots by using a Steel Press. Can be converted into Steel Rods using a Steel Roller.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
