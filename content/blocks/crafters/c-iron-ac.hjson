@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: T3 Iron Furnace
+description: Turns raw iron into iron ingots.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 60
+craftTime: 40
+consumes: {
+  power: 2.0
+  items: [
+    m-iron/1
+  ]
+}
+outputItems: [
+  m-iron-ingot/1
+]
+requirements: [
+  copper/1000
+  lead/700
+  scrap/450
+  silicon/350
+  m-iron/100
+  m-iron-ingot/50
+  m-copper-ingot/50
+  
+]
+category: crafting
+research: scrap
