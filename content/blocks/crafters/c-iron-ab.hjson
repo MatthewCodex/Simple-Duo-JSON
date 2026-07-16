@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: T2 Iron Furnace
+description: Turns raw iron into iron ingots.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 50
+consumes: {
+  power: 1.5
+  items: [
+    m-iron/1
+  ]
+}
+outputItems: [
+  m-iron-ingot/1
+]
+requirements: [
+  copper/500
+  lead/300
+  scrap/150
+  m-iron/50
+  m-iron-ingot/25
+  
+]
+category: crafting
+research: scrap
