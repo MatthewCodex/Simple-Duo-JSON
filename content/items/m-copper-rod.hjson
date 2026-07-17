@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Copper Rod
+	description: Produced from copper plates by using a copper roller.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
