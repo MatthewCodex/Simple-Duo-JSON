@@ -13,11 +13,11 @@ outputItems: [
   m-iron/1
 ]
 requirements: [
-  copper/260
-  lead/100
-  scrap/50
-  m-iron/25
-  m-iron-ingot/5
+  copper/500
+  lead/400
+  scrap/300
+  m-iron/200
+  m-iron-ingot/100
 ]
 category: production
 research: scrap
