@@ -16,10 +16,10 @@ outputItems: [
   m-iron-ingot/1
 ]
 requirements: [
-  copper/200
-  lead/100
-  scrap/50
-  m-iron/25
+  copper/400
+  lead/300
+  scrap/200
+  m-iron/100
   
 ]
 category: crafting
