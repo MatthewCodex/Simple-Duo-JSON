@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Tin Ingot
+	description: Produced from raw tin by using a tin furnace. Can be converted into tin plates using a tin press.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
