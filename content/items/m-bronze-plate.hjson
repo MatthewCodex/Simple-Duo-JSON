@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Bronze Plate
+	description: Produced from Bronze Ingots by using a Bronze Press. Can be converted into Bronze Rods using a Bronze Roller.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
