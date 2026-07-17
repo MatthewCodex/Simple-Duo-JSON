@@ -13,19 +13,16 @@ outputItems: [
   m-iron/1
 ]
 requirements: [
-  copper/4000
-  lead/3250
-  graphite/2765
-  silicon/2550
-  scrap/2000
-  metaglass/1975
-  titanium/1500
-  plastanium/1425
-  m-iron/900
-  m-iron-ingot/775
-  m-iron-plate/600
-  m-iron-rod/570
-  m-steel-ingot/300
+  copper/1000
+  lead/900
+  graphite/800
+  silicon/700
+  scrap/600
+  m-iron/500
+  m-iron-ingot/400
+  m-iron-plate/300
+  m-iron-rod/200
+  m-steel-ingot/100
 ]
 category: production
 research: scrap
