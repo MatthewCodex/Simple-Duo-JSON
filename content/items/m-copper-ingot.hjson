@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Copper Ingot
+	description: Produced from raw copper by using a copper furnace. Can be converted into copper plates using a copper press.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
