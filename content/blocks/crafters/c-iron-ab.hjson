@@ -5,7 +5,7 @@ size: 2
 hasPower: true
 hasItems: true
 itemCapacity: 40
-craftTime: 50
+craftTime: 45
 consumes: {
   power: 1.5
   items: [
@@ -16,12 +16,12 @@ outputItems: [
   m-iron-ingot/1
 ]
 requirements: [
-  copper/500
-  lead/300
-  scrap/150
-  m-iron/50
-  m-iron-ingot/25
-  
+  copper/600
+  lead/500
+  scrap/400
+  m-iron/300
+  m-iron-ingot/200
+  m-iron-plate/100
 ]
 category: crafting
 research: scrap
