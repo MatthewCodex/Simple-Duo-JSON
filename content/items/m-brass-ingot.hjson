@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Brass Ingot
+	description: Produced by Brass Refineries. Can be converted into Brass Plates using a Brass Press.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: scrap
+}
