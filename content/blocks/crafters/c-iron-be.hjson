@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: T5 Iron Press
+description: Turns iron ingots into iron plates.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 100
+craftTime: 10
+consumes: {
+  power: 1.0
+  items: [
+    m-iron-ingot/1
+  ]
+}
+outputItems: [
+  m-iron-plate/1
+]
+requirements: [
+  copper/1400
+  lead/1300
+  graphite/1200
+  scrap/1100
+  silicon/1000
+  titanium/900
+  m-iron/800
+  m-iron-ingot/700
+  m-iron-plate/600
+  m-iron-rod/500
+  m-steel-ingot/400
+  m-steel-plate/300
+  m-copper-ingot/200
+  m-copper-plate/100
+  
+]
+category: crafting
+research: scrap
