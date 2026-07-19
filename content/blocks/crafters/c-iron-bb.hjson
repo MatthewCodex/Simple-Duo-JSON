@@ -7,7 +7,7 @@ hasItems: true
 itemCapacity: 40
 craftTime: 45
 consumes: {
-  power: 1.0
+  power: 1.5
   items: [
     m-iron-ingot/1
   ]
