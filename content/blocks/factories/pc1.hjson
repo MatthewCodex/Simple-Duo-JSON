@@ -5,3 +5,8 @@ size: 3
 payloadLimit: 6
 category: units
 research: payload-conveyor
+
+requirements: [
+  copper/200
+  silicon/100
+]
