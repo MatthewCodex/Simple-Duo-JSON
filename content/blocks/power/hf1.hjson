@@ -9,7 +9,11 @@ research: oxidation-chamber
 heatRequirement: 10
 craftTime: 60
 
-
+requirements: [
+  copper/300
+  lead/200
+  scrap/100
+]
 
 outputLiquid: arkycite/0.2
 
