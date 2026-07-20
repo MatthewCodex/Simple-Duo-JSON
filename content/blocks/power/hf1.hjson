@@ -1,33 +1,43 @@
 type: HeatCrafter
-name: T1 Heat To Arkycite Converter
-description: Turns heat into arkycite.
-size: 1
-hasPower: true
+name: "Thermal Liquefier"
+description: "Converts ambient heat and scrap into melted slag."
+size: 2
+health: 320
+category: crafting
+research: oxidation-chamber
+
+// Heat requirement in heat units
+heatRequirement: 10
+// Multiplier determining how much heat speeds up or slows down the craft time
+craftTime: 60
+
+// Inputs required
+consumes:
+{
+  items:
+  {
+    items: [ scrap/1 ]
+  }
+}
+
+// Liquid produced (amount is per second)
+outputLiquid: slag/0.2
+
+// Visual tweaks
+hasPower: false
 hasLiquids: true
-
-drawer: {
-		type: DrawMulti
-		drawers: [
-			{
-				type: DrawHeatInput
-				suffix: -heat
-			},
-		]
-	}
-
-consumes: {
-		power: 1.0
-	}
-
-outputLiquid: {
-		liquid: arkycite
-		amount: 1
-	}
-
-category: power
-heatRequirement: 20
-maxEfficiency: 2
-outputFacing: true
-rotate: false
-research: steam-generator
-craftTime: 1
+craftEffect: smelt
+drawer:
+[
+  {
+    type: DrawRegion
+    suffix: "-bottom"
+  }
+  {
+    type: DrawLiquidOutputs
+  }
+  {
+    type: DrawRegion
+    suffix: "-top"
+  }
+]
