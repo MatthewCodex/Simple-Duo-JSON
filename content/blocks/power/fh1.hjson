@@ -8,8 +8,16 @@ liquidCapacity: 20
 hasLiquids: true
 hasItems: false
 
-heatOutput: 48
+heatOutput: 10
 
 warmupSpeed: 0.7
 itemDuration: 1
 
+drawer: {
+  type: DrawHeatOutput
+}
+
+
+
+category: power
+rotate: true
