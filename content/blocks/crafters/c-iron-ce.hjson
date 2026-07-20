@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: T5 Iron Roller
+description: Turns iron plates into iron rods.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 100
+craftTime: 10
+consumes: {
+  power: 3.0
+  items: [
+    m-iron-plate/1
+  ]
+}
+outputItems: [
+  m-iron-rod/1
+]
+requirements: [
+  copper/1600
+  lead/1500
+  graphite/1400
+  scrap/1300
+  metaglass/1200
+  silicon/1100
+  m-iron/1000
+  m-iron-ingot/900
+  m-iron-plate/800
+  m-iron-rod/700
+  m-copper-ingot/600
+  m-copper-plate/500
+  m-steel-ingot/400
+  m-steel-plate/300
+  m-bronze-ingot/200
+  m-bronze-plate/100
+  
+]
+category: crafting
+research: scrap
