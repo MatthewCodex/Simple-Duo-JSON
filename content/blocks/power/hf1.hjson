@@ -28,4 +28,6 @@ category: power
 heatRequirement: 20
 maxEfficiency: 2
 outputFacing: true
-rotate: true
+rotate: false
+research: steam-generator
+craftTime: 1
