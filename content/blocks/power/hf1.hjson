@@ -24,6 +24,7 @@ outputLiquid: {
 		amount: 1
 	}
 
+category: power
 heatRequirement: 20
 maxEfficiency: 2
 outputFacing: true
