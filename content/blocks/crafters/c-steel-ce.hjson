@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: T5 Steel Roller
+description: Turns steel plates into steel rods.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 100
+craftTime: 15
+consumes: {
+  power: 4.0
+  items: [
+    m-steel-plate/1
+  ]
+}
+outputItems: [
+  m-steel-rod/1
+]
+requirements: [
+  copper/1600
+  lead/1500
+  scrap/1400
+  m-iron/1300
+  m-iron-ingot/1200
+  m-iron-plate/1100
+  m-steel-ingot/1000
+  m-steel-plate/900
+  m-steel-rod/800
+  m-tin-ingot/700
+  m-tin-plate/600
+  m-tin-rod/500
+  m-brass-ingot/400
+  m-brass-plate/300
+  m-bronze-ingot/200
+  m-bronze-plate/100
+  
+]
+category: crafting
+research: scrap
