@@ -1,8 +1,8 @@
 type: HeatCrafter
 name: T1 Heat To Arkycite Converter
 description: Converts heat into arkycite.
-size: 2
-health: 320
+size: 1
+health: 300
 category: crafting
 research: oxidation-chamber
 
