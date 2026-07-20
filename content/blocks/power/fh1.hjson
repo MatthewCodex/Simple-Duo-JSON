@@ -1,5 +1,5 @@
 type: HeaterGenerator
-health: 350
+health: 300
 name: T1 Arkycite To Heat Converter
 description: Turns arkycite into heat.
 
