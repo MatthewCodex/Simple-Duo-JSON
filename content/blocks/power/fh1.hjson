@@ -3,14 +3,14 @@ health: 350
 name: T1 Arkycite To Heat Converter
 description: Turns arkycite into heat.
 
-size: 2
+size: 1
 liquidCapacity: 20
 hasLiquids: true
 hasItems: false
 
 heatOutput: 10
 
-warmupSpeed: 0.7
+warmupSpeed: 0.5
 itemDuration: 1
 
 drawer: {
