@@ -7,7 +7,7 @@ hasItems: true
 itemCapacity: 60
 craftTime: 45
 consumes: {
-  power: 3.5
+  power: 3.0
   items: [
     m-steel-plate/1
   ]
