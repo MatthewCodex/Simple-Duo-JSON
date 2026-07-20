@@ -19,11 +19,4 @@ outputLiquid: arkycite/1
 
 hasPower: false
 hasLiquids: true
-drawer:
-[
-  {
-    type: DrawHeatInput
-    suffix: "-heat"
-  }
-  
-]
+
