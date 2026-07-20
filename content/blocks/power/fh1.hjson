@@ -1,0 +1,29 @@
+type: HeaterGenerator
+  name: liquid-heat-converter
+  localizedName: Liquid Heater
+  description: Converts liquid fuel into directional heat used to power factories and turrets.
+  size: 2
+  health: 250
+  hasLiquids: true
+  hasItems: false
+  outputsPower: false
+  drawRegion: true
+  category: power
+  research: thermal-generator
+  
+  heatOutput: 10.0
+  warmupRate: 0.15
+
+  consumes: {
+    liquid: {
+      liquid: arkycite
+      amount: 1
+    }
+  }
+
+  # Requirements to build the block
+  requirements: [
+    copper/300
+    lead/200
+    silicon/100
+  ]
