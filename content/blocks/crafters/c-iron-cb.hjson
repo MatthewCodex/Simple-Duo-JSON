@@ -4,10 +4,10 @@ description: Turns iron plates into iron rods.
 size: 2
 hasPower: true
 hasItems: true
-itemCapacity: 20
-craftTime: 60
+itemCapacity: 40
+craftTime: 45
 consumes: {
-  power: 1.0
+  power: 1.5
   items: [
     m-iron-plate/1
   ]
