@@ -5,8 +5,10 @@ size: 3
 health: 600
 solid: true
 requirements: [
-  copper/50
-  silicon/35
+  copper/400
+  silicon/300
+  m-iron-plate/200
+  m-iron-rod/100
 ]
 category: units
 research: ground-factory
