@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: T2 Steel Roller
+description: Turns steel plates into steel rods.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 60
+consumes: {
+  power: 3.0
+  items: [
+    m-steel-plate/1
+  ]
+}
+outputItems: [
+  m-steel-rod/1
+]
+requirements: [
+  copper/1000
+  lead/900
+  scrap/800
+  m-iron/700
+  m-iron-ingot/600
+  m-iron-plate/500
+  m-steel-ingot/400
+  m-steel-plate/300
+  m-steel-rod/200
+  m-tin-ingot/100
+  
+]
+category: crafting
+research: scrap
