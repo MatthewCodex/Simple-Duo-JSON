@@ -1,43 +1,26 @@
 type: HeatCrafter
-name: "Thermal Liquefier"
-description: "Converts ambient heat and scrap into melted slag."
+name: Thermal Liquefier
+description: Converts ambient heat and scrap into melted slag.
 size: 2
 health: 320
 category: crafting
 research: oxidation-chamber
 
-// Heat requirement in heat units
 heatRequirement: 10
-// Multiplier determining how much heat speeds up or slows down the craft time
 craftTime: 60
 
-// Inputs required
-consumes:
-{
-  items:
-  {
-    items: [ scrap/1 ]
-  }
-}
 
-// Liquid produced (amount is per second)
-outputLiquid: slag/0.2
 
-// Visual tweaks
+outputLiquid: arkycite/0.2
+
 hasPower: false
 hasLiquids: true
 craftEffect: smelt
 drawer:
 [
   {
-    type: DrawRegion
-    suffix: "-bottom"
+    type: DrawHeatInput
+    suffix: "-heat"
   }
-  {
-    type: DrawLiquidOutputs
-  }
-  {
-    type: DrawRegion
-    suffix: "-top"
-  }
+  
 ]
