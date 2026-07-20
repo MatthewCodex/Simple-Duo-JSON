@@ -1,13 +1,13 @@
 type: HeatCrafter
-name: Thermal Liquefier
-description: Converts ambient heat and scrap into melted slag.
+name: T1 Heat To Arkycite Converter
+description: Converts heat into arkycite.
 size: 2
 health: 320
 category: crafting
 research: oxidation-chamber
 
 heatRequirement: 10
-craftTime: 60
+craftTime: 1
 
 requirements: [
   copper/300
@@ -15,7 +15,7 @@ requirements: [
   scrap/100
 ]
 
-outputLiquid: arkycite/0.2
+outputLiquid: arkycite/1
 
 hasPower: false
 hasLiquids: true
