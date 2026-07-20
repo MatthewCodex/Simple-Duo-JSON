@@ -1,0 +1,7 @@
+name: T1 Payload Conveyor
+description: Carries larger payloads at faster speeds.
+type: PayloadConveyor
+size: 3
+payloadLimit: 6
+category: units
+research: payload-conveyor
