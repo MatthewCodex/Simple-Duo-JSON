@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: T2 Steel Refinery
+description: Turns raw iron and coal into steel ingots.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 60
+consumes: {
+  power: 2.5
+  items: [
+    m-iron/1
+    coal/1
+  ]
+}
+outputItems: [
+  m-steel-ingot/1
+]
+requirements: [
+  copper/800
+  lead/700
+  graphite/600
+  scrap/500
+  m-iron/400
+  m-iron-ingot/300
+  m-iron-plate/200
+  m-iron-rod/100
+  
+]
+category: crafting
+research: scrap
