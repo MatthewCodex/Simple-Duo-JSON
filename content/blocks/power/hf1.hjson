@@ -15,7 +15,6 @@ outputLiquid: arkycite/0.2
 
 hasPower: false
 hasLiquids: true
-craftEffect: smelt
 drawer:
 [
   {
