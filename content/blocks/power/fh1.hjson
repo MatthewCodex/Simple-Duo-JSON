@@ -17,6 +17,15 @@ drawer: {
   type: DrawHeatOutput
 }
 
+category: crafting
+research: oxidation-chamber
+
+requirements: [
+  copper/300
+  lead/200
+  scrap/100
+]
+
 
 
 category: power
