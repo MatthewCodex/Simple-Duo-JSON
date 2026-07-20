@@ -17,6 +17,12 @@ drawer: {
   type: DrawHeatOutput
 }
 
+consumes: {
+liquids: [
+      arkycite/1
+    ]
+}
+
 category: crafting
 research: oxidation-chamber
 
