@@ -15,6 +15,7 @@ requirements: [
   scrap/100
 ]
 
+liquidCapacity: 20
 outputLiquid: arkycite/1
 
 hasPower: false
