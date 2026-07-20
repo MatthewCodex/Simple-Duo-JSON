@@ -1,4 +1,30 @@
-heatRequirement: 48
+type: HeatCrafter
+name: T1 Iron Furnace
+description: Turns raw iron into iron ingots.
+size: 1
+hasPower: true
+hasLiquids: true
+
+drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawHeatInput
+				suffix: -heat
+			},
+		]
+	}
+
+consumes: {
+		power: 1.0,
+	}
+
+outputLiquid: {
+		liquid: arkycite
+		amount: 1
+	}
+
+heatRequirement: 20
 maxEfficiency: 2
 outputFacing: true
 rotate: true
