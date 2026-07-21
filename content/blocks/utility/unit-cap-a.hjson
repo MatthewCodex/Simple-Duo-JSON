@@ -4,7 +4,6 @@
   description: Increases maximum active unit capacity for all unit types.
   health: 500
   size: 1
-  solid: true
 
   drawTeamOverlay: true
   teamRegion: unit-cap-a-team
