@@ -6,8 +6,8 @@
   size: 1
   solid: true
 
-  teamRegion: true
-  hasColor: true
+  drawTeamOverlay: true
+  teamRegion: unit-cap-a-team
   
   category: units
   research: core-foundation
