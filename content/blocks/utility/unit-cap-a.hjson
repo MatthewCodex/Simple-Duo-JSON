@@ -5,8 +5,7 @@
   health: 500
   size: 1
 
-  drawTeamOverlay: true
-  teamRegion: unit-cap-a-team
+  teamRegion: true
   
   category: units
   research: core-foundation
