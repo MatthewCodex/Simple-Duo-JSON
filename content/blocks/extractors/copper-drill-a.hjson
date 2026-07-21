@@ -10,7 +10,7 @@ consumes: {
   power: 1.0
 }
 outputItems: [
-  m-copper/1
+  copper/1
 ]
 requirements: [
   copper/300
