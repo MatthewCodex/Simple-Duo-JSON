@@ -1,0 +1,18 @@
+{
+  type: Block
+  name: T1 Unit Capacity Block
+  description: Increases maximum active unit capacity for all unit types.
+  health: 500
+  size: 1
+  solid: true
+  
+  category: units
+  research: core-foundation
+  requirements: [
+    copper/500
+    lead/400
+    silicon/300
+  ]
+  
+  unitCapModifier: 10
+}
