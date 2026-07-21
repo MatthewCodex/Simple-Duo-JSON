@@ -14,7 +14,15 @@ warmupSpeed: 0.5
 itemDuration: 1
 
 drawer: {
-  type: DrawHeatOutput
+  type: DrawMulti,
+	drawers: [
+    {
+			"type": "DrawDefault"
+		},
+		{
+			"type": "DrawHeatOutput"
+		},
+  ]
 }
 
 consumes: {
@@ -23,7 +31,7 @@ liquids: [
     ]
 }
 
-category: crafting
+category: power
 research: oxidation-chamber
 
 requirements: [
