@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: T1 Copper Drill
+description: Produces raw copper.
+size: 1
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+consumes: {
+  power: 1.0
+}
+outputItems: [
+  m-copper/1
+]
+requirements: [
+  copper/300
+  lead/200
+  scrap/100
+]
+category: production
+research: scrap
