@@ -1,10 +1,13 @@
-{
+
   type: Block
   name: T1 Unit Capacity Block
   description: Increases maximum active unit capacity for all unit types.
   health: 500
   size: 1
   solid: true
+
+  teamColor: true
+  hasColor: true
   
   category: units
   research: core-foundation
@@ -15,4 +18,4 @@
   ]
   
   unitCapModifier: 10
-}
+
