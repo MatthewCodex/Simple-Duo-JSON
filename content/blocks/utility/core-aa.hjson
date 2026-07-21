@@ -1,0 +1,18 @@
+type: CoreBlock
+name: core-aa
+localizedName: T1 Alpha Core
+size: 1
+health: 1000
+itemCapacity: 2000
+unitCapModifier: 4
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: alpha
+
+requirements: [
+    copper/1000
+    lead/1000
+  ]
+
+category: effect
+research: core-shard
