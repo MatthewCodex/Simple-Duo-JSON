@@ -1,5 +1,5 @@
 
-  type: StorageBlock
+  type: Wall
   name: T1 Unit Capacity Block
   description: Increases maximum active unit capacity for all unit types.
   health: 500
@@ -15,5 +15,5 @@
     silicon/300
   ]
   
-  unitCapModifier: 10
+  unitCapModifier: 8
 
