@@ -1,13 +1,13 @@
 
-  type: UnitBlock
+  type: StorageBlock
   name: T1 Unit Capacity Block
   description: Increases maximum active unit capacity for all unit types.
   health: 500
   size: 1
 
-  teamRegion: true
-  
-  category: units
+  drawTeamOverlay: true
+
+  category: effect
   research: core-foundation
   requirements: [
     copper/500
