@@ -34,4 +34,4 @@ upgrades: [
   ]
 ]
 category: units
-research: multiplicative-reconstructor
+research: additive-reconstructor
