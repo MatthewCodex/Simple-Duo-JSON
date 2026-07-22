@@ -13,7 +13,7 @@ outputItems: [
   copper/1
 ]
 requirements: [
-  copper/20
+  copper/200
   
 ]
 category: production
