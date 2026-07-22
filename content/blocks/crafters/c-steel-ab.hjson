@@ -17,15 +17,8 @@ outputItems: [
   m-steel-ingot/1
 ]
 requirements: [
-  copper/800
-  lead/700
-  graphite/600
-  scrap/500
-  m-iron/400
   m-iron-ingot/300
-  m-iron-plate/200
-  m-iron-rod/100
-  
+
 ]
 category: crafting
-research: scrap
+research: c-steel-aa
