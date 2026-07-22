@@ -12,7 +12,7 @@ targetGround: true
   
 hasLiquids: true
   
-research: salvo
+research: turret-da
 category: turret
   
 requirements: [
