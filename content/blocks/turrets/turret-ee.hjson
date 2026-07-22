@@ -57,7 +57,7 @@ plastanium/500
 thorium/200
 ]
 category: turret
-research: duo
+research: turret-ed
  
 drawer: {
   type: DrawTurret
