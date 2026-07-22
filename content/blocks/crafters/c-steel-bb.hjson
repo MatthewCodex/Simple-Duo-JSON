@@ -16,17 +16,8 @@ outputItems: [
   m-steel-plate/1
 ]
 requirements: [
-  copper/1000
-  lead/900
-  scrap/800
-  silicon/700
-  m-iron/600
-  m-iron-ingot/500
-  m-iron-plate/400
-  m-steel-ingot/300
-  m-copper-ingot/200
-  m-tin-ingot/100
+  m-steel-plate/400
   
 ]
 category: crafting
-research: scrap
+research: c-steel-ab
