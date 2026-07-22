@@ -7,14 +7,13 @@ hasItems: true
 itemCapacity: 20
 craftTime: 30
 consumes: {
-  power: 3.0
+  power: 1.0
 }
 outputItems: [
   lead/1
 ]
 requirements: [
-  copper/30
-  lead/15
+  lead/300
   
 ]
 category: production
