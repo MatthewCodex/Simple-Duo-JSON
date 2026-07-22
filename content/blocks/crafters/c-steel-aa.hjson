@@ -17,7 +17,7 @@ outputItems: [
   m-steel-ingot/1
 ]
 requirements: [
-  m-iron/200
+  m-iron-ingot/200
   
 ]
 category: crafting
