@@ -4,7 +4,7 @@ type: PayloadConveyor
 size: 3
 payloadLimit: 6
 category: units
-research: silicon-smelter
+research: ground-factory
 
 requirements: [
   copper/200
