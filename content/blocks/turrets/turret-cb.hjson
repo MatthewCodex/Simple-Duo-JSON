@@ -54,7 +54,7 @@ lead/400
 graphite/100
 ]
 category: turret
-research: duo
+research: turret-ca
  
 drawer: {
   type: DrawTurret
