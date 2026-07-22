@@ -17,21 +17,15 @@ outputItems: [
   m-steel-ingot/1
 ]
 requirements: [
-  copper/1400
-  lead/1300
-  graphite/1200
-  scrap/1100
-  silicon/1000
-  m-iron/900
-  m-iron-ingot/800
-  m-iron-plate/700
-  m-iron-rod/600
-  m-copper-ingot/500
+  copper/400
+  lead/400
+  graphite/400
+  scrap/400
+  silicon/400
+  m-iron/400
+  m-iron-ingot/400
   m-steel-ingot/400
-  m-steel-plate/300
-  m-steel-rod/200
-  m-bronze-ingot/100
   
 ]
 category: crafting
-research: scrap
+research: c-iron-ae
