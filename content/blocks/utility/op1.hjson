@@ -1,0 +1,14 @@
+type: OverdriveProjector
+health: 1000
+size: 1
+speedBoost: 2.0
+speedBoostPhase: 1.0
+range: 200
+phaseRangeBoost: 50
+
+requirements: [
+  copper/50
+]
+  
+category: effect
+research: core-shard
