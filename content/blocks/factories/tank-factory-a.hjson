@@ -7,8 +7,9 @@ solid: true
 requirements: [
   copper/400
   silicon/300
-  m-iron-plate/200
-  m-iron-rod/100
+  lead/200
+  m-iron-ingot/100
+  
 ]
 category: units
 research: ground-factory
