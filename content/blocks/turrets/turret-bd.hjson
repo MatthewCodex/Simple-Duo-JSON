@@ -58,7 +58,7 @@ metaglass/150
 titanium/50  
 ]
 category: turret
-research: duo
+research: turret-bc
  
 drawer: {
   type: DrawTurret
