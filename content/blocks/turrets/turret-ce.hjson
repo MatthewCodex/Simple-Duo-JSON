@@ -57,7 +57,7 @@ titanium/250
 plastanium/100  
 ]
 category: turret
-research: duo
+research: turret-cd
  
 drawer: {
   type: DrawTurret
