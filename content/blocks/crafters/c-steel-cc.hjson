@@ -16,8 +16,8 @@ outputItems: [
   m-steel-rod/1
 ]
 requirements: [
-  m-iron-plate/400
-  m-steel-ingot/400
+  m-iron-rod/400
+  m-steel-rod/400
 
 ]
 category: crafting
