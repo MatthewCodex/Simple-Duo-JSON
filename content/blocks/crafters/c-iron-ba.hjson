@@ -16,13 +16,8 @@ outputItems: [
   m-iron-plate/1
 ]
 requirements: [
-  copper/600
-  lead/500
-  scrap/400
-  silicon/300
-  m-iron/200
   m-iron-ingot/100
   
 ]
 category: crafting
-research: core-shard
+research: c-iron-aa
