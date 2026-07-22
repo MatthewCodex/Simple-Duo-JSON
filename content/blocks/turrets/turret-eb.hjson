@@ -54,7 +54,7 @@ graphite/350
 silicon/100  
 ]
 category: turret
-research: duo
+research: turret-ea
  
 drawer: {
   type: DrawTurret
