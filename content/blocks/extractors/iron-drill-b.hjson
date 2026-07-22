@@ -13,11 +13,8 @@ outputItems: [
   m-iron/1
 ]
 requirements: [
-  copper/500
-  lead/400
-  scrap/300
   m-iron/200
-  m-iron-ingot/100
+
 ]
 category: production
 research: iron-drill-a
