@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: Scrapper
+description: Turns copper into scrap.
+size: 1
+hasPower: false
+hasItems: true
+itemCapacity: 100
+craftTime: 10
+consumes: {
+  
+  items: [
+    copper/1
+  ]
+}
+outputItems: [
+  m-iron-ingot/1
+]
+requirements: [
+  copper/200
+  
+]
+category: crafting
+research: core-shard
