@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: T5 Coal Drill
+description: Produces coal.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 10
+consumes: {
+  power: 3.0
+}
+outputItems: [
+  coal/1
+]
+requirements: [
+  scrap/900
+  
+]
+category: production
+research: coal-drill-d
