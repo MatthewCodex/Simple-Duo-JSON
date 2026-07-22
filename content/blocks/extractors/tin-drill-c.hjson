@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: T3 Tin Drill
+description: Produces raw tin.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 30
+consumes: {
+  power: 3.0
+}
+outputItems: [
+  m-tin/1
+]
+requirements: [
+  copper/700
+  lead/600
+  scrap/500
+  silicon/400
+  m-iron/300
+  m-iron-ingot/200
+  m-iron-plate/100
+]
+category: production
+research: scrap
