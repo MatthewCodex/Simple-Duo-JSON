@@ -12,7 +12,7 @@ targetGround: true
   
 hasLiquids: true
   
-research: oil
+research: scorch
 category: turret
   
 requirements: [
