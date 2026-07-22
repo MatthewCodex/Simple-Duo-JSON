@@ -56,7 +56,7 @@ titanium/450
 plastanium/100  
 ]
 category: turret
-research: duo
+research: turret-ec
  
 drawer: {
   type: DrawTurret
