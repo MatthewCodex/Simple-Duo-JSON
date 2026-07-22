@@ -43,7 +43,7 @@ requirements: [
 copper/20
 ]
 category: turret
-research: duo
+research: core-shard
  
 drawer: {
   type: DrawTurret
