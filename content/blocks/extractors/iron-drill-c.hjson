@@ -7,19 +7,13 @@ hasItems: true
 itemCapacity: 20
 craftTime: 30
 consumes: {
-  power: 3.0
+  power: 1.0
 }
 outputItems: [
   m-iron/1
 ]
 requirements: [
-  copper/700
-  lead/600
-  scrap/500
-  silicon/400
-  m-iron/300
-  m-iron-ingot/200
-  m-iron-plate/100
+  m-iron-ingot/300
 ]
 category: production
-research: core-shard
+research: iron-drill-b
