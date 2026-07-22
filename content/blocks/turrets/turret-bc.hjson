@@ -57,7 +57,7 @@ graphite/200
 metaglass/50  
 ]
 category: turret
-research: duo
+research: turret-bb
  
 drawer: {
   type: DrawTurret
