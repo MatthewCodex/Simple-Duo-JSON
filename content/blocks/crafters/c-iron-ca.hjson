@@ -16,15 +16,8 @@ outputItems: [
   m-iron-rod/1
 ]
 requirements: [
-  copper/800
-  lead/700
-  graphite/600
-  scrap/500
-  silicon/400
-  m-iron/300
-  m-iron-ingot/200
   m-iron-plate/100
   
 ]
 category: crafting
-research: core-shard
+research: c-iron-ba
