@@ -11,9 +11,8 @@ outputItems: [
   copper/1
 ]
 requirements: [
-  copper/300
-  lead/200
-  scrap/100
+  copper/10
+  
 ]
 category: production
 research: core-shard
