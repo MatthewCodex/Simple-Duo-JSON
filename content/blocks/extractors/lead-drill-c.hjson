@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: T3 Lead Drill
+description: Produces raw lead.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 30
+consumes: {
+  power: 3.0
+}
+outputItems: [
+  lead/1
+]
+requirements: [
+  copper/30
+  lead/15
+  
+]
+category: production
+research: copper-drill-c
