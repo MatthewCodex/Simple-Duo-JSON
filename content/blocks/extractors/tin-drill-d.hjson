@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: T4 Tin Drill
+description: Produces raw tin.
+size: 4
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 20
+consumes: {
+  power: 4.0
+}
+outputItems: [
+  m-tin/1
+]
+requirements: [
+  copper/900
+  lead/800
+  graphite/700
+  silicon/600
+  scrap/500
+  m-iron/400
+  m-iron-ingot/300
+  m-iron-plate/200
+  m-iron-rod/100
+]
+category: production
+research: scrap
