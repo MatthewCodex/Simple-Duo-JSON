@@ -13,7 +13,7 @@ consumes: {
   ]
 }
 outputItems: [
-  m-iron-ingot/1
+  scrap/4
 ]
 requirements: [
   copper/200
