@@ -8,7 +8,7 @@ itemCapacity: 500
 category: effect
 research: core-shard
 requirements: [
-  copper/300
+  copper/200
   lead/200
 ]
 squareSprite: false
