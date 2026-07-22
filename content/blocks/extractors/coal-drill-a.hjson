@@ -11,7 +11,7 @@ outputItems: [
   coal/1
 ]
 requirements: [
-  copper/100
+  scrap/100
   
 ]
 category: production
