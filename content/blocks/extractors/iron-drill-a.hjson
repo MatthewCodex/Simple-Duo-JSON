@@ -11,8 +11,6 @@ outputItems: [
   m-iron/1
 ]
 requirements: [
-  copper/300
-  lead/200
   scrap/100
 ]
 category: production
