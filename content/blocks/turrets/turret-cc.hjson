@@ -55,7 +55,7 @@ graphite/200
 silicon/50  
 ]
 category: turret
-research: duo
+research: turret-cb
  
 drawer: {
   type: DrawTurret
