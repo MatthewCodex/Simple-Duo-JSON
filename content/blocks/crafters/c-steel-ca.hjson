@@ -16,15 +16,8 @@ outputItems: [
   m-steel-rod/1
 ]
 requirements: [
-  copper/800
-  lead/700
-  scrap/600
-  m-iron/500
-  m-iron-ingot/400
-  m-iron-plate/300
-  m-steel-ingot/200
-  m-steel-plate/100
+  m-iron-rod/200
   
 ]
 category: crafting
-research: scrap
+research: c-steel-ba
