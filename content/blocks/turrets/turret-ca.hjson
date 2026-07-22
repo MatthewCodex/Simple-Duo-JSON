@@ -53,7 +53,7 @@ copper/300
 lead/100  
 ]
 category: turret
-research: duo
+research: scatter
  
 drawer: {
   type: DrawTurret
