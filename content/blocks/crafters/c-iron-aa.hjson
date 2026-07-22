@@ -16,11 +16,8 @@ outputItems: [
   m-iron-ingot/1
 ]
 requirements: [
-  copper/400
-  lead/300
-  scrap/200
   m-iron/100
   
 ]
 category: crafting
-research: core-shard
+research: iron-drill-a
