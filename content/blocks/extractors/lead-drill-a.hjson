@@ -11,9 +11,7 @@ outputItems: [
   lead/1
 ]
 requirements: [
-  copper/300
-  lead/200
-  scrap/100
+  lead/100
 ]
 category: production
 research: copper-drill-a
