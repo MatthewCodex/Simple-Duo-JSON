@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: T2 Tin Drill
+description: Produces raw tin.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 45
+consumes: {
+  power: 2.0
+}
+outputItems: [
+  m-tin/1
+]
+requirements: [
+  copper/500
+  lead/400
+  scrap/300
+  m-iron/200
+  m-iron-ingot/100
+]
+category: production
+research: scrap
