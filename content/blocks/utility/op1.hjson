@@ -1,4 +1,5 @@
 type: OverdriveProjector
+name: T1 Overdrive Projector
 health: 1000
 size: 1
 speedBoost: 2.0
