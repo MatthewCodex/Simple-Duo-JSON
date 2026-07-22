@@ -1,0 +1,41 @@
+type: Reconstructor
+name: "T2 Reconstructor 1"
+description: "Upgrades Advanced Normal Tanks and Advanced Shotgun Tanks to Professional ones."
+size: 7
+health: 2400
+itemCapacity: 240
+constructTime: 240
+# Upgrades require power and resources to operate
+requirements: [
+  copper/800
+  lead/700
+  silicon/600
+  titanium/500
+  m-iron-ingot/400
+  m-iron-plate/300
+  m-copper-ingot/200
+  m-copper-plate/100
+]
+consumes: {
+  power: 6.0
+  items: {
+    items: [
+      silicon/100
+      titanium/50
+      m-iron-ingot/50
+    ]
+  }
+}
+# Define what tier binds to what tier
+upgrades: [
+  [
+    tank-ab
+    tank-ac
+  ]
+  [
+    tank-bb
+    tank-bc
+  ]
+]
+category: units
+research: multiplicative-reconstructor
