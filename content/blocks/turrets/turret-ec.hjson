@@ -55,7 +55,7 @@ silicon/500
 titanium/150  
 ]
 category: turret
-research: duo
+research: turret-eb
  
 drawer: {
   type: DrawTurret
