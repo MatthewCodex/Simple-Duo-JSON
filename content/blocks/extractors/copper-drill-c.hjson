@@ -13,13 +13,8 @@ outputItems: [
   copper/1
 ]
 requirements: [
-  copper/700
-  lead/600
-  scrap/500
-  silicon/400
-  m-iron/300
-  m-iron-ingot/200
-  m-iron-plate/100
+  copper/30
+  
 ]
 category: production
 research: copper-drill-b
