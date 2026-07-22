@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: T5 Lead Drill
+description: Produces raw lead.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 10
+consumes: {
+  power: 3.0
+}
+outputItems: [
+  lead/1
+]
+requirements: [
+  lead/900
+  
+]
+category: production
+research: copper-drill-e
