@@ -52,7 +52,7 @@ copper/100
 lead/20
 ]
 category: turret
-research: duo
+research: turret-aa
  
 drawer: {
   type: DrawTurret
