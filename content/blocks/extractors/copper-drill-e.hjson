@@ -13,16 +13,8 @@ outputItems: [
   copper/1
 ]
 requirements: [
-  copper/1000
-  lead/900
-  graphite/800
-  silicon/700
-  scrap/600
-  m-iron/500
-  m-iron-ingot/400
-  m-iron-plate/300
-  m-iron-rod/200
-  m-steel-ingot/100
+  copper/30
+  
 ]
 category: production
-research: core-shard
+research: copper-drill-d
