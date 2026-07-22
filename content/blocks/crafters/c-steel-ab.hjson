@@ -17,8 +17,8 @@ outputItems: [
   m-steel-ingot/1
 ]
 requirements: [
-  m-iron-ingot/300
+  m-iron-ingot/400
 
 ]
 category: crafting
-research: c-steel-aa
+research: c-iron-ab
