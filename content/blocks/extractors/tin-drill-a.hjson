@@ -11,9 +11,8 @@ outputItems: [
   m-tin/1
 ]
 requirements: [
-  copper/300
-  lead/200
-  scrap/100
+  copper/50
+  lead/50
 ]
 category: production
-research: core-shard
+research: iron-drill-a
