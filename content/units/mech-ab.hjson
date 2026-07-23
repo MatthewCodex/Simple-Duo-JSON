@@ -9,7 +9,8 @@ rotateSpeed: 4.75
 legCount: 4
 legSpeed: 2
 stepShake: 0
-legBaseOffset: 0
+legBaseOffset: 4
+legLength: 4
 
 research: mech-aa
 
