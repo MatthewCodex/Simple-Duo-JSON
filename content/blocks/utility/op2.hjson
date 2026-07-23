@@ -1,0 +1,15 @@
+type: OverdriveProjector
+name: T2 Overdrive Projector
+health: 1500
+size: 1
+speedBoost: 3.0
+speedBoostPhase: 1.0
+range: 300
+phaseRangeBoost: 50
+
+requirements: [
+  copper/100
+]
+  
+category: effect
+research: op1
