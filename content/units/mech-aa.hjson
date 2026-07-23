@@ -7,10 +7,18 @@ armor: 1
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
-legSpeed: 2
-stepShake: 0
-legBaseOffset: 8
-legLength: 2
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 9
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
 
 
 
