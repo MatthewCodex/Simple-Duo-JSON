@@ -50,7 +50,7 @@ graphite/200
 silicon/50
 ]
 category: turret
-research: duo
+research: turret-fb
  
 drawer: {
   type: DrawTurret
