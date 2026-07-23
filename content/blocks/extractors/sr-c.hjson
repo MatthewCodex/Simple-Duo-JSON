@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: T3 Sand Repository
+description: Produces sand.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 30
+consumes: {
+  power: 1.0
+}
+outputItems: [
+  sand/2
+]
+requirements: [
+  scrap/300
+  
+]
+category: production
+research: sr-b
