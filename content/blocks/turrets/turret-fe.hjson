@@ -53,7 +53,7 @@ plastanium/500
 titanium/450  
 ]
 category: turret
-research: duo
+research: turret-fd
  
 drawer: {
   type: DrawTurret
