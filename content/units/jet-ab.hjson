@@ -1,0 +1,40 @@
+type: flying
+name: jet-ab
+localizedName: Advanced Normal Jet
+
+health: 200
+armor: 2
+speed: 20
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 16
+engineSize: 8
+canAttack: true
+hitSize: 16
+targetAir: true
+
+
+
+weapons: [
+    {
+      name: "turret-ab"
+      localizedName: "Advanced Normal Jet Weapon"
+      length: 8
+      reload: 10
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
+      bullet: {
+        type: BasicBulletType
+        speed: 4
+        damage: 30
+        width: 4
+        height: 4
+      }
+    }
+  ]
