@@ -1,7 +1,32 @@
 type: mech
+name: Basic Normal Mech
 flying: false
 hitSize: 16
 health: 150
 armor: 1
 speed: 1
 rotateSpeed: 4.75
+
+research: ground-factory
+
+weapons: [
+    {
+      name: "turret-aa"
+      localizedName: "Basic Normal Mech Weapon"
+      length: 8
+      reload: 10
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
+      bullet: {
+        type: BasicBulletType
+        speed: 4
+        damage: 30
+        width: 4
+        height: 4
+      }
+    }
+  ]
