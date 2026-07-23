@@ -22,7 +22,7 @@ weapons: [
       name: "turret-ab"
       localizedName: "Advanced Normal Jet Weapon"
       length: 8
-      reload: 10
+      reload: 9
       alternate: true
       inaccuracy: 2
       mirror: false
@@ -31,10 +31,10 @@ weapons: [
       shootSound: shootDuo
       bullet: {
         type: BasicBulletType
-        speed: 4
-        damage: 30
-        width: 4
-        height: 4
+        speed: 6
+        damage: 45
+        width: 6
+        height: 6
       }
     }
   ]
