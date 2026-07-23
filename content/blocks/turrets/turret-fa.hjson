@@ -48,7 +48,7 @@ lead/150
 metaglass/50
 ]
 category: turret
-research: duo
+research: salvo
  
 drawer: {
   type: DrawTurret
