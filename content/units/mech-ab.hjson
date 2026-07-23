@@ -1,0 +1,32 @@
+type: mech
+name: Advanced Normal Mech
+flying: false
+hitSize: 24
+health: 300
+armor: 2
+speed: 1
+rotateSpeed: 4.75
+
+research: mech-aa
+
+weapons: [
+    {
+      name: "turret-ab"
+      localizedName: "Advanced Normal Mech Weapon"
+      length: 8
+      reload: 10
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
+      bullet: {
+        type: BasicBulletType
+        speed: 4
+        damage: 30
+        width: 4
+        height: 4
+      }
+    }
+  ]
