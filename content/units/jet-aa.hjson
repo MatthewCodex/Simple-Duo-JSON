@@ -9,7 +9,7 @@ accel: 0.1
 drag: 0.05
 rotateSpeed: 5
 flying: true
-engineOffset: 16
+engineOffset: 4
 engineSize: 3
 canAttack: true
 hitSize: 16
