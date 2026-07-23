@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: T1 Titanium Drill
+description: Produces titanium.
+size: 1
+hasPower: false
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+
+outputItems: [
+  titanium/1
+]
+requirements: [
+  titanium/100
+  
+]
+category: production
+research: laser-drill
