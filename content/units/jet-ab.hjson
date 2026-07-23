@@ -12,7 +12,7 @@ flying: true
 engineOffset: 16
 engineSize: 8
 canAttack: true
-hitSize: 16
+hitSize: 24
 targetAir: true
 
 
