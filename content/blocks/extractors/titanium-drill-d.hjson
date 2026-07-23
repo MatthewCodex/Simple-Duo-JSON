@@ -13,7 +13,7 @@ outputItems: [
   titanium/1
 ]
 requirements: [
-  scrap/450
+  titanium/450
   
 ]
 category: production
