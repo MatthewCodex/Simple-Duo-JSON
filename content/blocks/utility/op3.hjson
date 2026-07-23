@@ -1,0 +1,16 @@
+type: OverdriveProjector
+name: T3 Overdrive Projector
+health: 2000
+size: 1
+speedBoost: 4.0
+speedBoostPhase: 1.0
+range: 400
+phaseRangeBoost: 50
+
+requirements: [
+  copper/100
+  lead/100
+]
+  
+category: effect
+research: op2
