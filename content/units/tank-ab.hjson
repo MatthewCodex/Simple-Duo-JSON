@@ -9,7 +9,7 @@ speed: 1.05
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
-
+research: tank-reconstructor-a
 hitSize: 24
 targetAir: true
 
