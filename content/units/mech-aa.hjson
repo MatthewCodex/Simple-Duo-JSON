@@ -1,0 +1,7 @@
+type: mech
+flying: false
+hitSize: 16
+health: 150
+armor: 1
+speed: 1
+rotateSpeed: 4.75
