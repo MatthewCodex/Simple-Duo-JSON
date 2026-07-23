@@ -4,7 +4,7 @@ localizedName: Advanced Normal Jet
 
 health: 200
 armor: 2
-speed: 20
+speed: 8
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
