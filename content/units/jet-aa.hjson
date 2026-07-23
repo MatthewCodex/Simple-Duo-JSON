@@ -4,7 +4,7 @@ localizedName: Basic Normal Jet
 
 health: 100
 armor: 1
-speed: 20
+speed: 10
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
@@ -15,7 +15,7 @@ canAttack: true
 hitSize: 16
 targetAir: true
 
-
+research: air-factory
 
 weapons: [
     {
