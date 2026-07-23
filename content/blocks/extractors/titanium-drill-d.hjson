@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: T4 Titanium Drill
+description: Produces titanium.
+size: 4
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 20
+consumes: {
+  power: 2.0
+}
+outputItems: [
+  titanium/1
+]
+requirements: [
+  scrap/450
+  
+]
+category: production
+research: titanium-drill-c
