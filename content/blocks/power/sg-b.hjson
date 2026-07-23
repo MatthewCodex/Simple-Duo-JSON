@@ -1,0 +1,14 @@
+type: SolarGenerator
+name: T2 Solar Generator
+description: Produces energy from the sun. More effective at daytime.
+size: 1
+powerProduction: 2.0
+
+requirements: [
+silicon/50
+copper/50
+]
+
+category: power
+research: sg-a
+conductivePower: true
