@@ -1,14 +1,14 @@
 type: legs
 name: Advanced Normal Mech
 flying: false
-hitSize: 24
+hitSize: 32
 health: 300
 armor: 2
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 12
-legBaseOffset: 12
+legBaseOffset: 24
 legLength: 1
 legSpeed: 0.25
 stepShake: 0
