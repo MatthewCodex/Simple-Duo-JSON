@@ -1,0 +1,40 @@
+type: flying
+name: jet-aa
+localizedName: Basic Normal Jet
+
+health: 100
+armor: 1
+speed: 10
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+flying: true
+engineOffset: 16
+engineSize: 3
+canAttack: true
+hitSize: 16
+targetAir: true
+
+
+
+weapons: [
+    {
+      name: "turret-aa"
+      localizedName: "Basic Normal Jet Weapon"
+      length: 8
+      reload: 10
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
+      bullet: {
+        type: BasicBulletType
+        speed: 4
+        damage: 30
+        width: 4
+        height: 4
+      }
+    }
+  ]
