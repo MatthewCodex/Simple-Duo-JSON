@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: T1 Sand Repository
+description: Produces sand.
+size: 1
+hasPower: false
+hasItems: true
+itemCapacity: 40
+craftTime: 60
+
+outputItems: [
+  sand/2
+]
+requirements: [
+  scrap/100
+  
+]
+category: production
+research: pneumatic-drill
