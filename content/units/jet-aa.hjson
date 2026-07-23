@@ -4,13 +4,13 @@ localizedName: Basic Normal Jet
 
 health: 100
 armor: 1
-speed: 10
+speed: 20
 accel: 0.1
 drag: 0.05
-rotateSpeed: 5
+rotateSpeed: 10
 flying: true
-engineOffset: 4
-engineSize: 3
+engineOffset: 8
+engineSize: 4
 canAttack: true
 hitSize: 16
 targetAir: true
