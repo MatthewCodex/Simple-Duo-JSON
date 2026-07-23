@@ -9,7 +9,7 @@ rotateSpeed: 4.75
 legCount: 4
 legExtension: 12
 legBaseOffset: 12
-legLength: 12
+legLength: 1
 legSpeed: 0.25
 stepShake: 0
 
@@ -18,7 +18,7 @@ research: mech-aa
 weapons: [
     {
       name: "turret-ab"
-      localizedName: "Advanced Normal Jet Weapon"
+      localizedName: "Advanced Normal Mech Weapon"
       length: 8
       reload: 9
       alternate: true
