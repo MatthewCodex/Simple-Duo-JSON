@@ -4,11 +4,13 @@ flying: false
 hitSize: 24
 health: 300
 armor: 2
-speed: 1
+speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legSpeed: 2
 stepShake: 0
+legBaseOffset: 4
+legLength: 1
 
 research: mech-aa
 
