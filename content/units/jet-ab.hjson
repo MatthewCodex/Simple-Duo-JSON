@@ -15,7 +15,7 @@ canAttack: true
 hitSize: 24
 targetAir: true
 
-
+research: jet-aa
 
 weapons: [
     {
