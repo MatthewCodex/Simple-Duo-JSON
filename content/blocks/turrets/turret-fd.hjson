@@ -51,7 +51,7 @@ silicon/450
 plastanium/150  
 ]
 category: turret
-research: duo
+research: turret-fc
  
 drawer: {
   type: DrawTurret
