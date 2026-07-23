@@ -1,0 +1,19 @@
+type: StorageBlock
+name: T2 Vault
+description: Stores items.
+hasItems: true
+size: 1
+health: 2000
+itemCapacity: 2000
+category: effect
+research: vault-b
+requirements: [
+  copper/200
+  lead/200
+  graphite/200
+  scrap/200
+  titanium/200
+  m-iron/200
+  
+]
+squareSprite: false
