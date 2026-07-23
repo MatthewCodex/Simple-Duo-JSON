@@ -7,8 +7,8 @@ armor: 1
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
-legExtension: 3
-legBaseOffset: 6
+legExtension: 4
+legBaseOffset: 4
 legSpeed: 0.25
 stepShake: 0
 
