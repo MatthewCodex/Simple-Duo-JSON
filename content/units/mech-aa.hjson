@@ -1,4 +1,4 @@
-type: mech
+type: legs
 name: Basic Normal Mech
 flying: false
 hitSize: 16
@@ -6,6 +6,8 @@ health: 150
 armor: 1
 speed: 1
 rotateSpeed: 4.75
+legCount: 4
+
 
 research: ground-factory
 
