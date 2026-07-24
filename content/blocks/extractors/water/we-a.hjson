@@ -1,0 +1,45 @@
+type: SolidPump
+name: Rotary Water Extractor
+description: Extracts groundwater using a heavy rotating turbine.
+size: 2
+health: 360
+hasPower: true
+category: production
+
+// Liquid production settings
+result: water
+pumpAmount: 0.5
+
+// Requirements to build
+requirements: [
+  copper/60
+  lead/30
+  graphite/20
+]
+
+// Power consumption
+consumes: {
+  power: 1
+}
+
+// Visuals and Rotation
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRotator
+      suffix: -rotator
+      // Speed of rotation. Higher is faster. Negative values reverse direction.
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+
+research: mechanical-pump
