@@ -2,17 +2,17 @@ type: legs
 name: Extreme Normal Mech
 flying: false
 hitSize: 32
-health: 450
-armor: 3
+health: 750
+armor: 5
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: 3
+legBaseOffset: 6
 legSpeed: 0.25
 stepShake: 0
 
-research: mech-ab
+research: mech-ad
 
 weapons: [
     {

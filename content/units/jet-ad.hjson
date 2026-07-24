@@ -1,10 +1,10 @@
 type: flying
-name: jet-ab
-localizedName: Advanced Normal Jet
+name: jet-ad
+localizedName: Elite Normal Jet
 
-health: 200
-armor: 2
-speed: 4
+health: 400
+armor: 4
+speed: 2
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
@@ -15,14 +15,14 @@ canAttack: true
 hitSize: 24
 targetAir: true
 
-research: jet-aa
+research: jet-ac
 
 weapons: [
     {
-      name: "turret-ab"
-      localizedName: "Advanced Normal Jet Weapon"
+      name: "turret-ad"
+      localizedName: "Elite Normal Jet Weapon"
       length: 8
-      reload: 9
+      reload: 7
       alternate: true
       inaccuracy: 2
       mirror: false
@@ -31,10 +31,10 @@ weapons: [
       shootSound: shootDuo
       bullet: {
         type: BasicBulletType
-        speed: 6
-        damage: 45
-        width: 6
-        height: 6
+        speed: 10
+        damage: 75
+        width: 10
+        height: 10
       }
     }
   ]

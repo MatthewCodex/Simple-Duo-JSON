@@ -2,17 +2,17 @@ type: legs
 name: Elite Normal Mech
 flying: false
 hitSize: 32
-health: 450
-armor: 3
+health: 600
+armor: 4
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: 2
+legBaseOffset: 4
 legSpeed: 0.25
 stepShake: 0
 
-research: mech-ab
+research: mech-ac
 
 weapons: [
     {

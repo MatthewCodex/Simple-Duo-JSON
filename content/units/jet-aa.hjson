@@ -4,7 +4,7 @@ localizedName: Basic Normal Jet
 
 health: 100
 armor: 1
-speed: 10
+speed: 5
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
