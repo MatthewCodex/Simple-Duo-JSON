@@ -32,7 +32,8 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawLight
+      type: DrawFlame
+      flameColor: ffef99ff
     }
   ]
 }
