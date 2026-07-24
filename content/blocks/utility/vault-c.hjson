@@ -1,5 +1,5 @@
 type: StorageBlock
-name: T2 Vault
+name: T3 Vault
 description: Stores items.
 hasItems: true
 size: 1

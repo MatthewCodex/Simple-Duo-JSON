@@ -21,3 +21,4 @@ requirements: [
 ]
 category: crafting
 research: iron-drill-c
+conductivePower: true

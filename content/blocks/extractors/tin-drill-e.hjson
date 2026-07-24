@@ -20,3 +20,4 @@ requirements: [
 ]
 category: production
 research: iron-drill-e
+conductivePower: true

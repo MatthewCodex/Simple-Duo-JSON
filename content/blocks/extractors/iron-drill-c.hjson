@@ -17,3 +17,4 @@ requirements: [
 ]
 category: production
 research: iron-drill-b
+conductivePower: true

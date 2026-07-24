@@ -18,3 +18,4 @@ requirements: [
 ]
 category: production
 research: titanium-drill-d
+conductivePower: true

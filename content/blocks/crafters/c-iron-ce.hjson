@@ -21,3 +21,4 @@ requirements: [
 ]
 category: crafting
 research: c-iron-be
+conductivePower: true

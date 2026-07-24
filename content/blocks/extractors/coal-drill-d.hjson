@@ -18,3 +18,4 @@ requirements: [
 ]
 category: production
 research: coal-drill-c
+conductivePower: true

@@ -18,3 +18,4 @@ requirements: [
 ]
 category: production
 research: sr-d
+conductivePower: true
