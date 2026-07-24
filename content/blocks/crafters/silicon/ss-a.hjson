@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Luminous Smelter
+name: T1 Silicon Smelter
 description: Crafts items and glows when active.
 size: 2
 hasItems: true
@@ -11,12 +11,12 @@ lightRadius: 60
 
 consumes: {
   items: [
-    copper/2
-    lead/1
+    coal/1
+    sand/1
   ]
 }
 
-outputItem: silicon/1
+outputItem: silicon/2
 
 # This section controls the visual glow during crafting
 drawer: {
@@ -34,3 +34,5 @@ drawer: {
     }
   ]
 }
+
+research: silicon-smelter
