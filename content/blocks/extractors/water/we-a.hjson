@@ -5,16 +5,18 @@ size: 2
 health: 360
 hasPower: true
 category: production
+liquidCapacity: 200
+hasLiquids: true
 
 // Liquid production settings
 result: water
-pumpAmount: 0.5
+pumpAmount: 0.25
 
 // Requirements to build
 requirements: [
-  copper/60
-  lead/30
-  graphite/20
+  copper/25
+  lead/25
+  metaglass/50
 ]
 
 // Power consumption

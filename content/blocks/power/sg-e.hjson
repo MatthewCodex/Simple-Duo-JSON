@@ -1,0 +1,14 @@
+type: SolarGenerator
+name: T4 Solar Generator
+description: Produces energy from the sun. More effective at daytime.
+size: 1
+powerProduction: 5.0
+
+requirements: [
+silicon/200
+copper/200
+]
+
+category: power
+research: sg-d
+conductivePower: true
