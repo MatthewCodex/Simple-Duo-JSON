@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Luminous Smelter
+description: Crafts items and glows when active.
+size: 2
+hasItems: true
+craftTime: 60
+
+# Base light settings for the block
+emitLight: true
+lightRadius: 60
+
+consumes: {
+  items: [
+    copper/2
+    lead/1
+  ]
+}
+
+outputItem: silicon/1
+
+# This section controls the visual glow during crafting
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawWarmupLight
+      # Color format: Alpha, Red, Green, Blue (hex or decimal)
+      color: ffa500ff
+      # How fast the light fades in and out (0.1 is standard)
+      warmupSpeed: 0.1
+    }
+  ]
+}
