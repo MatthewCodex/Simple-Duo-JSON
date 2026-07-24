@@ -1,14 +1,14 @@
 type: SolarGenerator
-name: T1 Solar Generator
+name: T3 Solar Generator
 description: Produces energy from the sun. More effective at daytime.
 size: 1
-powerProduction: 1.0
+powerProduction: 3.0
 
 requirements: [
-silicon/25
-copper/25
+silicon/75
+copper/75
 ]
 
 category: power
-research: silicon
+research: sg-b
 conductivePower: true
