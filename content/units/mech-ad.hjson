@@ -1,5 +1,5 @@
 type: legs
-name: Professional Normal Mech
+name: Elite Normal Mech
 flying: false
 hitSize: 32
 health: 450
@@ -8,7 +8,7 @@ speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: 3
+legBaseOffset: 4
 legSpeed: 0.25
 stepShake: 0
 
@@ -16,10 +16,10 @@ research: mech-ab
 
 weapons: [
     {
-      name: "turret-ac"
-      localizedName: "Professional Normal Mech Weapon"
+      name: "turret-ad"
+      localizedName: "Elite Normal Mech Weapon"
       length: 8
-      reload: 8
+      reload: 7
       alternate: true
       inaccuracy: 2
       mirror: false
@@ -28,10 +28,10 @@ weapons: [
       shootSound: shootDuo
       bullet: {
         type: BasicBulletType
-        speed: 8
-        damage: 60
-        width: 8
-        height: 8
+        speed: 10
+        damage: 75
+        width: 10
+        height: 10
       }
     }
   ]
