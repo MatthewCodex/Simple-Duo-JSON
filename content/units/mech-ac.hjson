@@ -1,0 +1,37 @@
+type: legs
+name: Professional Normal Mech
+flying: false
+hitSize: 32
+health: 450
+armor: 3
+speed: 2
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: 8
+legSpeed: 0.25
+stepShake: 0
+
+research: mech-ab
+
+weapons: [
+    {
+      name: "turret-ac"
+      localizedName: "Professional Normal Mech Weapon"
+      length: 8
+      reload: 8
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      x: 0
+      y: 0
+      shootSound: shootDuo
+      bullet: {
+        type: BasicBulletType
+        speed: 8
+        damage: 60
+        width: 8
+        height: 8
+      }
+    }
+  ]
