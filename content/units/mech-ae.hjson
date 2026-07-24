@@ -1,5 +1,5 @@
 type: legs
-name: Elite Normal Mech
+name: Extreme Normal Mech
 flying: false
 hitSize: 32
 health: 450
@@ -8,7 +8,7 @@ speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: 12
+legBaseOffset: 0
 legSpeed: 0.25
 stepShake: 0
 
@@ -16,10 +16,10 @@ research: mech-ab
 
 weapons: [
     {
-      name: "turret-ad"
-      localizedName: "Elite Normal Mech Weapon"
+      name: "turret-ae"
+      localizedName: "Extreme Normal Mech Weapon"
       length: 8
-      reload: 7
+      reload: 6
       alternate: true
       inaccuracy: 2
       mirror: false
@@ -28,10 +28,10 @@ weapons: [
       shootSound: shootDuo
       bullet: {
         type: BasicBulletType
-        speed: 10
-        damage: 75
-        width: 10
-        height: 10
+        speed: 12
+        damage: 90
+        width: 12
+        height: 12
       }
     }
   ]

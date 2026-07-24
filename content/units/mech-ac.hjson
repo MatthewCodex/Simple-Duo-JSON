@@ -8,7 +8,7 @@ speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: 6
+legBaseOffset: 0
 legSpeed: 0.25
 stepShake: 0
 
