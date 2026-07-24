@@ -32,11 +32,7 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawWarmupLight
-      # Color format: Alpha, Red, Green, Blue (hex or decimal)
-      color: ffa500ff
-      # How fast the light fades in and out (0.1 is standard)
-      warmupSpeed: 0.1
+      type: DrawLight
     }
   ]
 }
