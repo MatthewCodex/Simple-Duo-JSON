@@ -144,5 +144,7 @@ launchCandidates: []
 itemWhitelist: [
   copper, lead, beryllium, graphite, titanium,
 ]
+allowInvasions: true 
 
+generator: SerpuloPlanetGenerator
 startSector: 0

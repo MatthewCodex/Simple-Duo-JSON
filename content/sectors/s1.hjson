@@ -1,38 +1,13 @@
-# content/sectors/mysector.hjson
-name: s1
-displayName: Whispering Ridges
-description: A procedurally generated base sector with high enemy threat.
+name: sector-frontline
+planet: my-custom-planet
+sector: 24  // The assigned hex position on the planet grid
 
-# Map this sector directly to your planet and tile ID
-planet: planet-nakayoshi
-sector: 15
-
-# Difficulty and base rules configuration
-difficulty: 6
-alwaysUnlocked: true
-captureWave: 30
-
-# Override starting parameters for procedural layouts
-addStartingItems: true
-allowLaunchSchematics: true
-
-# Procedural wave configuration rules
+# Crucial configuration for procedural enemy base maps:
+captureWave: 0  // Setting this to 0 removes wave survival requirements
 rules: {
-  attackMode: false
-  winWave: 30
-  enemyCoreBuildRadius: 150
-  
-  # Base wave compositions for procedural defense
-  spawns: [
-    {
-      type: dagger
-      wave: 1
-      amount: 2
-    }
-    {
-      type: crawler
-      wave: 5
-      amount: 4
-    }
-  ]
+  attackMode: true // Forces the map into Attack Mode instead of Survival
+  enemyCoreBuildRadius: 150 // Distance buffering around the enemy base
 }
+
+# The visual and procedural threat parameters
+difficulty: 6
