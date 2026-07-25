@@ -149,28 +149,23 @@ generator: SerpuloPlanetGenerator
 startSector: 0
 allowLaunchLoadout: true
 sectors: [
-  {
-    name: "impact-zone"
-    localizedName: "Impact Zone"
-    sector: 1
-    
-    # Procedural generation rules for the terrain
-    generator: {
-      type: "PlanetGridSector"
-      seed: 4
+    {
+      name: "landing-site"
+      localizedName: "Landing Site"
+      sector: 0
+      pos: 0.2
+      difficulty: 1
+      captureWave: 10
+      allowLaunchLoadout: true
+      research: "core-shard"
     }
-    
-    # Enemy base configurations
-    captureWave: 10
-    threat: 0.8
-    allowLaunchTo: true
-    allowLaunchLoadout: true
-    
-    # This flags the sector as an active enemy base
-    baseFilter: {
-      type: "SectorFilter"
-      # Forces an enemy core to generate
-      requireEnemyBase: true
+    {
+      name: "red-bastion"
+      localizedName: "Red Bastion"
+      sector: 1
+      pos: 0.4
+      difficulty: 3
+      // Requires capturing the previous sector first
+      unlocks: "landing-site"
     }
-  }
-]
+  ]
