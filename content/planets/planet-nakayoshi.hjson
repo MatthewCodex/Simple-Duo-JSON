@@ -129,7 +129,7 @@ icon: planet
 # Default core block for launch loadouts.
 defaultCore: core-shard
 # The parent of the planet.
-parent: sun
+parent: serpulo
 # The parent of the whole solar system the planet is in. Affects lighting.
 solarSystem: sun
 # Possible planets that could be landed on from this planet.
@@ -148,7 +148,6 @@ allowItems: true
 generator: SerpuloPlanetGenerator
 startSector: 0
 allowLaunchLoadout: true
-techTree: serpulo
 generateEnemyBase: true
 
 attackSectors: [1,2,3]
