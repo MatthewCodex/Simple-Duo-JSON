@@ -17,6 +17,7 @@ drag: 0.05
 flying: true
 mineWall: true
 mineFloor: true
+range: 100
 
 # Mechanics (Mining and Building)
 mineTier: 2

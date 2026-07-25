@@ -7,11 +7,11 @@ itemCapacity: 2000
 unitCapModifier: 4
 allowSpawn: true
 incinerateNonBuildable: true
-unitType: alpha
+unitType: t1-alpha
 
 requirements: [
-    copper/1000
-    lead/1000
+    copper/250
+    lead/250
   ]
 
 category: effect
