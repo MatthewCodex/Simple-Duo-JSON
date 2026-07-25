@@ -33,12 +33,12 @@ shootType: {
 }
 
 requirements: [
-  copper/150
-  lead/120
-  silicon/80
-  titanium/50
+  copper/100
+  lead/100
+  silicon/100
+  titanium/100
 ]
-research: arc
+research: wave
 
 drawer: {
   type: DrawTurret

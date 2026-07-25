@@ -48,13 +48,13 @@ shoot: {
 }
  
 requirements: [
-copper/3500
-lead/3000
-graphite/2550
-silicon/1500
-titanium/950
-plastanium/500  
-thorium/200
+copper/50
+lead/50
+graphite/50
+silicon/50
+titanium/50
+plastanium/50  
+thorium/50
 ]
 category: turret
 research: turret-ed

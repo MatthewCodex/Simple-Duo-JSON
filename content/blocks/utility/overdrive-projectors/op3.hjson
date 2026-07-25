@@ -4,7 +4,7 @@ health: 2000
 size: 1
 speedBoost: 4.0
 speedBoostPhase: 1.0
-range: 400
+range: 150
 phaseRangeBoost: 50
 
 requirements: [

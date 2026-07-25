@@ -1,19 +1,19 @@
 type: StorageBlock
-name: T3 Vault
+name: T4 Vault
 description: Stores items.
 
 hasItems: true
 size: 1
-health: 2000
-itemCapacity: 2000
+health: 4000
+itemCapacity: 4000
 
 category: effect
-research: vault-b
+research: vault-c
 
 drawTeamOverlay: true
 
 requirements: [
-  copper/300
-  lead/300
+  copper/450
+  lead/450
 ]
 squareSprite: false

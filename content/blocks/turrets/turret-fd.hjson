@@ -43,12 +43,12 @@ shoot: {
 }
  
 requirements: [
-copper/2000
-lead/1500
-metaglass/800
-graphite/600
-silicon/450
-plastanium/150  
+copper/100
+lead/100
+metaglass/100
+graphite/100
+silicon/100
+plastanium/100  
 ]
 category: turret
 research: turret-fc

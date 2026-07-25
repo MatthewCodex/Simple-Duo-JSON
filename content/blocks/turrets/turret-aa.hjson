@@ -40,7 +40,7 @@ shoot: {
 }
  
 requirements: [
-copper/20
+copper/50
 ]
 category: turret
 research: core-shard

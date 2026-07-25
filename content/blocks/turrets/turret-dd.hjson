@@ -16,12 +16,12 @@ research: turret-dc
 category: turret
   
 requirements: [
-copper/2000
-metaglass/1000
-lead/750
-graphite/500
-titanium/350
-silicon/100  
+copper/50
+metaglass/50
+lead/50
+graphite/50
+titanium/50
+silicon/50  
 ]
 
 ammoTypes: {

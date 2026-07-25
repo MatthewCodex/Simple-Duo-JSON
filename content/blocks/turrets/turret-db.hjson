@@ -16,10 +16,10 @@ research: turret-da
 category: turret
   
 requirements: [
-copper/250
-metaglass/135
-lead/70
-graphite/20
+copper/50
+metaglass/50
+lead/50
+graphite/50
 ]
 
 ammoTypes: {

@@ -16,11 +16,11 @@ research: turret-db
 category: turret
   
 requirements: [
-copper/1000
-metaglass/700
-lead/450
-graphite/200
-titanium/100  
+copper/50
+metaglass/50
+lead/50
+graphite/50
+titanium/50  
 ]
 
 ammoTypes: {

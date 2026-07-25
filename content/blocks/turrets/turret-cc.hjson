@@ -49,9 +49,9 @@ shoot: {
 }
  
 requirements: [
-copper/950
-lead/500
-graphite/200
+copper/50
+lead/50
+graphite/50
 silicon/50  
 ]
 category: turret

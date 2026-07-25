@@ -38,15 +38,15 @@ shootType: {
 }
 
 requirements: [
-  copper/2740
-  lead/1840
-  silicon/1000
-  titanium/750
-  metaglass/590
-  graphite/360
-  plastanium/50
+  copper/100
+  lead/100
+  silicon/100
+  titanium/100
+  metaglass/100
+  graphite/100
+  plastanium/100
 ]
-research: arc
+research: turret-hc
 
 drawer: {
   type: DrawTurret

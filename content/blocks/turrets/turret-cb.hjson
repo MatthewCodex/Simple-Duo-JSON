@@ -49,9 +49,9 @@ shoot: {
 }
  
 requirements: [
-copper/600
-lead/400
-graphite/100
+copper/50
+lead/50
+graphite/50
 ]
 category: turret
 research: turret-ca

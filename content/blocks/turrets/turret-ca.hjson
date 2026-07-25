@@ -49,8 +49,8 @@ shoot: {
 }
  
 requirements: [
-copper/300
-lead/100  
+copper/50
+lead/50  
 ]
 category: turret
 research: scatter

@@ -43,9 +43,9 @@ shoot: {
 }
  
 requirements: [
-copper/250
-lead/150
-metaglass/50
+copper/100
+lead/100
+metaglass/100
 ]
 category: turret
 research: salvo

@@ -48,8 +48,8 @@ shoot: {
 }
  
 requirements: [
-copper/100
-lead/20
+copper/50
+lead/50
 ]
 category: turret
 research: turret-aa

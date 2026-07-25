@@ -17,8 +17,8 @@ category: turret
   
 requirements: [
 copper/50
-metaglass/45
-lead/30
+metaglass/50
+lead/50
 ]
 
 ammoTypes: {

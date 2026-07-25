@@ -1,0 +1,46 @@
+type: UnitFactory
+name: T5 Tank Factory
+description: Produces Basic-level Tanks.
+size: 3
+health: 600
+solid: true
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  metaglass/100
+  titanium/100
+  m-iron/100
+  m-iron-ingot/100
+]
+category: units
+research: tank-factory-d
+plans: [
+  {
+    unit: tank-ga
+    time: 300
+    requirements: [
+      copper/40
+      lead/40
+      graphite/40
+      silicon/40
+      m-iron/40
+    ]
+  }
+  {
+    unit: tank-ha
+    time: 450
+    requirements: [
+      copper/40
+      lead/40
+      graphite/40
+      silicon/40
+      m-iron-ingot/40
+    ]
+  }
+]
+consumes: {
+  power: 1.0
+  
+}

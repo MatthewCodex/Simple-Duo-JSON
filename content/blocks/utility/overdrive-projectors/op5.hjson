@@ -1,0 +1,17 @@
+type: OverdriveProjector
+name: T5 Overdrive Projector
+health: 3000
+size: 1
+speedBoost: 6.0
+speedBoostPhase: 1.0
+range: 250
+phaseRangeBoost: 50
+
+requirements: [
+  copper/200
+  lead/200
+  silicon/200
+]
+  
+category: effect
+research: op4

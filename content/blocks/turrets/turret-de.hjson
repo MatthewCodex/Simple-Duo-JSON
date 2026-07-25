@@ -21,13 +21,13 @@ research: turret-dd
 category: turret
   
 requirements: [
-copper/4000
-metaglass/2000
-lead/1750
-graphite/1500
-titanium/750
-silicon/500
-pyratite/450  
+copper/50
+metaglass/50
+lead/50
+graphite/50
+titanium/50
+silicon/50
+pyratite/50  
 ]
 
 ammoTypes: {

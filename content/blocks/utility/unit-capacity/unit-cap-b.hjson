@@ -1,19 +1,19 @@
 
   type: Wall
-  name: T1 Unit Capacity Block
+  name: T2 Unit Capacity Block
   description: Increases maximum active unit capacity for all unit types.
-  health: 500
+  health: 1000
   size: 1
 
   drawTeamOverlay: true
 
   category: effect
-  research: core-foundation
+  research: unit-cap-a
   requirements: [
-    copper/100
-    lead/100
-    silicon/100
+    copper/500
+    lead/400
+    silicon/300
   ]
   
-  unitCapModifier: 8
+  unitCapModifier: 12
 

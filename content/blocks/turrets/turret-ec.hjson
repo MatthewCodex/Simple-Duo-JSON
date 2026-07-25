@@ -48,11 +48,11 @@ shoot: {
 }
  
 requirements: [
-copper/2500
-lead/1750
-graphite/750
-silicon/500
-titanium/150  
+copper/50
+lead/50
+graphite/50
+silicon/50
+titanium/50  
 ]
 category: turret
 research: turret-eb

@@ -51,11 +51,11 @@ shoot: {
 }
  
 requirements: [
-copper/1500
-lead/950
-graphite/700  
-metaglass/450  
-titanium/250  
+copper/50
+lead/50
+graphite/50  
+metaglass/50  
+titanium/50  
 ]
 category: turret
 research: turret-bd

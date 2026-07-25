@@ -56,9 +56,9 @@ shoot: {
 }
  
 requirements: [
-lead/500
-graphite/300
-metaglass/150
+lead/50
+graphite/50
+metaglass/50
 titanium/50  
 ]
 category: turret

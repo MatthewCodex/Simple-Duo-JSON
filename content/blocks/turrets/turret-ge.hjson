@@ -52,16 +52,16 @@ shoot: {
 }
  
 requirements: [
-copper/3750
-lead/3000
-graphite/2000
-silicon/1200
-metaglass/950
-plastanium/500
+copper/100
+lead/100
+graphite/100
+silicon/100
+metaglass/100
+plastanium/100
 blast-compound/100
 ]
 category: turret
-research: duo
+research: turret-gd
  
 drawer: {
   type: DrawTurret

@@ -49,10 +49,10 @@ shoot: {
 }
  
 requirements: [
-copper/1250
-lead/800
-graphite/500
-silicon/250  
+copper/50
+lead/50
+graphite/50
+silicon/50  
 ]
 category: turret
 research: turret-cc
