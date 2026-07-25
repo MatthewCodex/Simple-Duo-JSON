@@ -1,5 +1,5 @@
 name: sector-frontline
-planet: my-custom-planet
+planet: planet-nakayoshi
 sector: 24  // The assigned hex position on the planet grid
 
 # Crucial configuration for procedural enemy base maps:
