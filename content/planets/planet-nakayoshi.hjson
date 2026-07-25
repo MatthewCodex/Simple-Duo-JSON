@@ -145,6 +145,6 @@ itemWhitelist: [
   copper, lead, beryllium, graphite, titanium,
 ]
 allowInvasions: true 
-
+allowSectorInvasion: true
 generator: SerpuloPlanetGenerator
 startSector: 0
