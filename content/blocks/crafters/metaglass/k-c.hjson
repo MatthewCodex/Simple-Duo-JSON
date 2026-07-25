@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: T3 Silicon Smelter
-description: Turns sand and coal into silicon. Glows when active.
+name: T3 Kiln
+description: Turns sand and lead into metaglass. Glows when active.
 size: 2
 hasItems: true
 craftTime: 30
@@ -17,12 +17,12 @@ consumes: {
 }
 
 requirements: [
-silicon/100
-copper/100
-lead/100
+metaglass/75
+copper/75
+lead/75
 ]
 
-outputItem: silicon/4
+outputItem: metaglass/4
 
 # This section controls the visual glow during crafting
 drawer: {
@@ -39,4 +39,4 @@ drawer: {
 }
 
 category: crafting
-research: ss-b
+research: kiln

@@ -1,9 +1,9 @@
 type: GenericCrafter
-name: T3 Silicon Smelter
+name: T5 Silicon Smelter
 description: Turns sand and coal into silicon. Glows when active.
 size: 2
 hasItems: true
-craftTime: 30
+craftTime: 10
 
 # Base light settings for the block
 emitLight: true
@@ -17,12 +17,12 @@ consumes: {
 }
 
 requirements: [
-silicon/100
-copper/100
-lead/100
+silicon/400
+copper/400
+lead/400
 ]
 
-outputItem: silicon/4
+outputItem: silicon/6
 
 # This section controls the visual glow during crafting
 drawer: {
@@ -39,4 +39,4 @@ drawer: {
 }
 
 category: crafting
-research: ss-b
+research: ss-d
