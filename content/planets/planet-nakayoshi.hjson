@@ -116,7 +116,7 @@ prebuildBase: true
 clearSectorOnLose: true
 coreDestroyClear: true
 onlyDepositCore: true
-defaultCore: 11k-01-core-apex
+defaultCore: core-shard
 enemyBuildSpeedMultiplier: 0.2
 enemyCoreSpawnReplace: false
 updateLighting: false
