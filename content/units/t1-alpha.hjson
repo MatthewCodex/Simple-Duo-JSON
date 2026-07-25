@@ -1,0 +1,50 @@
+type: flying
+name: Delta
+description: A custom core flying unit that builds and mines efficiently.
+lowAltitude: true
+
+# Core Unit settings
+isCounted: false
+controller: BuilderAI
+coreUnitDock: true
+
+# Base Attributes
+health: 220
+armor: 1
+speed: 4.5
+accel: 0.08
+drag: 0.04
+flying: true
+mineWall: true
+mineFloor: true
+
+# Mechanics (Mining and Building)
+mineTier: 2
+mineSpeed: 6.5
+buildSpeed: 1.2
+itemCapacity: 40
+
+# Visuals
+engineSize: 2.2
+engineOffset: 5.5
+hitSize: 9
+
+# Weapons configuration
+weapons: [
+  {
+    name: t1-alpha-weapon
+    x: 2.75
+    y: 1
+    reload: 20
+    alternate: true
+    ejectEffect: none
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 10
+      speed: 5
+      lifetime: 50
+      frontColor: ffffff
+      backColor: 22b14c
+    }
+  }
+]
