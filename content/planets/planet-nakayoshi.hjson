@@ -15,7 +15,7 @@ mesh: {
   # Second color to be used.
   color2: 22262b
   # Mesh radius.
-  radius: 0.8
+  radius: 1.2
   # A noise property.
   octaves: 3
   # A noise property.
@@ -88,11 +88,11 @@ generator: {
 alwaysUnlocked: true
 # This determines the size of the sector grid.
 # Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
-sectorSize: 1
+sectorSize: 0.8
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 12
 # Radius of this planet's sphere.
-radius: 5
+radius: 1.2
 # Minimum camera zoom.
 minZoom: 0.5
 # Whether to draw the orbit.
@@ -147,29 +147,30 @@ allowSectorInvasion: true
 allowItems: true
 generator: SerpuloPlanetGenerator
 startSector: 0
-#sectors: [
-#  {
-#    name: "impact-zone"
-#    localizedName: "Impact Zone"
-#    sector: 1
-#    
-#    # Procedural generation rules for the terrain
-#    generator: {
-#      type: "PlanetGridSector"
-#      seed: 4
-#    }
-#    
-#    # Enemy base configurations
-#    captureWave: 0
-#    threat: 0.8
-#    allowLaunchTo: true
-#    allowLaunchLoadout: true
-#    
-#    # This flags the sector as an active enemy base
-#    baseFilter: {
-#      type: "SectorFilter"
-#      # Forces an enemy core to generate
-#      requireEnemyBase: true
-#    }
-#  }
-#]
+allowLaunchLoadout: true
+sectors: [
+  {
+    name: "impact-zone"
+    localizedName: "Impact Zone"
+    sector: 1
+    
+    # Procedural generation rules for the terrain
+    generator: {
+      type: "PlanetGridSector"
+      seed: 4
+    }
+    
+    # Enemy base configurations
+    captureWave: 0
+    threat: 0.8
+    allowLaunchTo: true
+    allowLaunchLoadout: true
+    
+    # This flags the sector as an active enemy base
+    baseFilter: {
+      type: "SectorFilter"
+      # Forces an enemy core to generate
+      requireEnemyBase: true
+    }
+  }
+]
