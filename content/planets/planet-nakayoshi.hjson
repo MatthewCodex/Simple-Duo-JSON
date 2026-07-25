@@ -83,122 +83,42 @@ generator: {
   berylChance: 0
   ferricChance: 0
 }
+allowCampaignRules: true
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLegacyLaunchPads: false
+allowSectorInvasion: false
+allowSelfSectorLaunch: false
+allowWaveSimulation: false
 
-# Make sure this planet is always accessible anytime.
-alwaysUnlocked: true
-# This determines the size of the sector grid.
-# Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
-sectorSize: 2
-# Spacing between a parent (this) and satellites.
-orbitSpacing: 12
-# Radius of this planet's sphere.
-radius: 5
-# Minimum camera zoom.
-minZoom: 0.5
-# Whether to draw the orbit.
-drawOrbit: true
-# Atmosphere offset.
-atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-# Whether this can be landed on.
-accessible: true
-# Toggle day-night cycle.
-updateLighting: false
-# A number used for sector generation. If == -1, planet ID is picked instead.
-sectorSeed: 529
-# Whether this planet is blooming.
+iconColor: 98c1f5
+landCloudColor: e2effc60
+hasAtmosphere: true
 bloom: false
-# This is self-explanatory...
-visible: true
-# Also self-explanatory...
-atmosphereColor: aaaaaaaa
-# The color of the planet's icon displayed in top-left dialog.
-iconColor: 29302b
-# Another self-explanatory field...
-hasAtmosphere: false
-# Whether simulate waves when off-planet.
-allowWaveSimulation: true
-# Whether allow to land on procedurally generated sectors at all. False = only presets are available.
-allowLaunchToNumbered: true
-# Whether sectors are reset when a player loses them.
-clearSectorOnLose: true
-# Whether waves are re-created when a sector is lost.
-allowWaves: true
-# Icon's name displayed in top-left dialog.
-icon: planet
-# Default core block for launch loadouts.
-defaultCore: core-shard
-# The parent of the planet.
-parent: serpulo
-# The parent of the whole solar system the planet is in. Affects lighting.
-solarSystem: sun
-# Possible planets that could be landed on from this planet.
-# In the current version, only 1 entry is applicable if you decide to use modded accelerators.
-# Probably useless since the Interplanetary Accelerator is hidden and not working.
-launchCandidates: []
-# Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
-#hiddenItems: [
-#  graphite, plastanium, phase-fabric
-#]
-# Only items available in this planet. Recommended over hiddenItems.
-itemWhitelist: [
-  # --- Serpulo Items ---
-  "copper", "lead", "metaglass", "graphite", "titanium", "thorium", "silicon", "plastanium", "phase-fabric", "surge-alloy", "scrap",
-  # --- Erekir Items ---
-  "beryllium", "tungsten", "oxide", "carbide", "fissile-matter", "dormant-cyst",
 
-  "m-iron", "m-iron-ingot", "m-iron-plate", "m-iron-rod", "m-steel-ingot", "m-steel-plate", "m-steel-rod", "m-tin", "m-zinc",
-]
-blockWhitelist: [
-  core-shard, core-foundation, core-nucleus, 
-  core-bastion, core-citadel, core-acropolis, 
-  conveyor, titanium-conveyor, armored-conveyor, plastanium-conveyor,
-  item-router, junction, 
-  overflow-gate, underflow-gate,
-  bridge-conveyor, phase-bridge-conveyor,
+fog: true
+showSpawns: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
 
-
-
-  silicon-smelter, silicon-crucible, kiln, graphite-press, plastanium-compressor, multi-press, phase-weaver, surge-smelter, pyratite-mixer, blast-mixer, cryofluid-mixer,
-  melter, separator, disassembler, spore-press, pulverizer, incinerator, coal-centrifuge,
-
-  silicon-arc-furnace, electrolyzer, oxidation-chamber, atmospheric-concentrator, electric-heater, slag-heater, phase-heater, heat-redirector, small-heat-redirector, heat-router, slag-incinerator,
-  carbide-crucible, slag-centrifuge, surge-crucible, cyanogen-synthesizer, phase-synthesizer, heat-reactor,
-
-  copper-wall, copper-wall-large, titanium-wall, titanium-wall-large, plastanium-wall, plastanium-wall-large, thorium-wall, thorium-wall-large, door, door-large,
-  phase-wall, phase-wall-large, surge-wall, surge-wall-large,
-
-  scrap-wall, scrap-wall-large, scrap-wall-huge, scrap-wall-gigantic,
-
-  beryllium-wall, beryllium-wall-large, tungsten-wall, tungsten-wall-large, blast-door, reinforced-surge-wall, reinforced-surge-wall-large, carbide-wall, carbide-wall-large,
-  shielded-wall,
-
-  mender, mend-projector, overdrive-projector, overdrive-dome, force-projector, shock-mine, radar, build-tower, regen-projector, shockwave-tower, shield-projector, large-shield-projector, 
-
-  conveyor, titanium-conveyor, armored-conveyor, plastanium-conveyor, 
-
-  junction, bridge-conveyor, phase-conveyor, sorter, inverted-sorter, router, distributor, overflow-gate, underflow-gate, unloader, mass-driver, 
-  duct, armored-duct, duct-router, overflow-duct, underflow-duct, duct-bridge, duct-unloader, surge-conveyor, surge-router, unit-cargo-loader, unit-cargo-unload-point, 
-
-  mechanical-pump, rotary-pump, impulse-pump, conduit, pulse-conduit, plated-conduit, liquid-router, liquid-container, liquid-tank, liquid-junction, bridge-conduit, phase-conduit, 
-  reinforced-pump, reinforced-conduit, reinforced-liquid-junction, reinforced-bridge-conduit, reinforced-liquid-router, reinforced-liquid-container, reinforced-liquid-tank, 
-
-  power-node, power-node-large, surge-tower, diode, battery, battery-large, combustion-generator, thermal-generator, steam-generator, differential-generator, rtg-generator, solar-panel, solar-panel-large, thorium-reactor, impact-reactor, 
-  beam-node, beam-tower, beam-link, turbine-condenser, chemical-combustion-chamber, pyrolysis-generator, flux-reactor, neoplasia-reactor, 
-
-  mechanical-drill, pneumatic-drill, laser-drill, blast-drill, 
-
-
-
-  c-iron-aa, c-iron-ab, c-iron-ac, c-iron-ad, c-iron-ae, c-iron-ba, c-iron-bb, c-iron-bc, c-iron-bd, c-iron-be, c-iron-ca, c-iron-cb, c-iron-cc, c-iron-cd, c-iron-ce,
-  c-steel-aa, c-steel-ab, c-steel-ac, c-steel-ad, c-steel-ae, c-steel-ba, c-steel-bb, c-steel-bc, c-steel-bd, c-steel-be, c-steel-ca, c-steel-cb, c-steel-cc, c-steel-cd, c-steel-ce,  
-
-]
-allowInvasions: true 
-allowSectorInvasion: true
-allowItems: true
-generator: SerpuloPlanetGenerator
 startSector: 0
-allowLaunchLoadout: true
-generateEnemyBase: true
-attackSectors: [1,2,3]
+sectorSize: 3
+parent: sun
+solarSystem: sun
+tidalLock: true
+orbitRadius: 80
+orbitTime: 3000
+orbitSpacing: 1
+radius: 1.2
+
+prebuildBase: true
+clearSectorOnLose: true
+coreDestroyClear: true
+onlyDepositCore: true
+defaultCore: 11k-01-core-apex
+enemyBuildSpeedMultiplier: 0.2
+enemyCoreSpawnReplace: false
+updateLighting: false
+
+launchCandidates: []
