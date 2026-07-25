@@ -148,24 +148,4 @@ allowItems: true
 generator: SerpuloPlanetGenerator
 startSector: 0
 allowLaunchLoadout: true
-sectors: [
-    {
-      name: "landing-site"
-      localizedName: "Landing Site"
-      sector: 0
-      pos: 0.2
-      difficulty: 1
-      captureWave: 10
-      allowLaunchLoadout: true
-      research: "core-shard"
-    }
-    {
-      name: "red-bastion"
-      localizedName: "Red Bastion"
-      sector: 1
-      pos: 0.4
-      difficulty: 3
-      // Requires capturing the previous sector first
-      unlocks: "landing-site"
-    }
-  ]
+attackSectors: [1]
