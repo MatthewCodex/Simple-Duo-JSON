@@ -149,7 +149,51 @@ itemWhitelist: [
 
   "m-iron", "m-iron-ingot", "m-iron-plate", "m-iron-rod", "m-steel-ingot", "m-steel-plate", "m-steel-rod", "m-tin", "m-zinc",
 ]
-blockWhitelist: []
+blockWhitelist: [
+  core-shard, core-foundation, core-nucleus, 
+  core-bastion, core-citadel, core-acropolis, 
+  conveyor, titanium-conveyor, armored-conveyor, plastanium-conveyor,
+  item-router, junction, 
+  overflow-gate, underflow-gate,
+  bridge-conveyor, phase-bridge-conveyor,
+
+
+
+  silicon-smelter, silicon-crucible, kiln, graphite-press, plastanium-compressor, multi-press, phase-weaver, surge-smelter, pyratite-mixer, blast-mixer, cryofluid-mixer,
+  melter, separator, disassembler, spore-press, pulverizer, incinerator, coal-centrifuge,
+
+  silicon-arc-furnace, electrolyzer, oxidation-chamber, atmospheric-concentrator, electric-heater, slag-heater, phase-heater, heat-redirector, small-heat-redirector, heat-router, slag-incinerator,
+  carbide-crucible, slag-centrifuge, surge-crucible, cyanogen-synthesizer, phase-synthesizer, heat-reactor,
+
+  copper-wall, copper-wall-large, titanium-wall, titanium-wall-large, plastanium-wall, plastanium-wall-large, thorium-wall, thorium-wall-large, door, door-large,
+  phase-wall, phase-wall-large, surge-wall, surge-wall-large,
+
+  scrap-wall, scrap-wall-large, scrap-wall-huge, scrap-wall-gigantic,
+
+  beryllium-wall, beryllium-wall-large, tungsten-wall, tungsten-wall-large, blast-door, reinforced-surge-wall, reinforced-surge-wall-large, carbide-wall, carbide-wall-large,
+  shielded-wall,
+
+  mender, mend-projector, overdrive-projector, overdrive-dome, force-projector, shock-mine, radar, build-tower, regen-projector, shockwave-tower, shield-projector, large-shield-projector, 
+
+  conveyor, titanium-conveyor, armored-conveyor, plastanium-conveyor, 
+
+  junction, bridge-conveyor, phase-conveyor, sorter, inverted-sorter, router, distributor, overflow-gate, underflow-gate, unloader, mass-driver, 
+  duct, armored-duct, duct-router, overflow-duct, underflow-duct, duct-bridge, duct-unloader, surge-conveyor, surge-router, unit-cargo-loader, unit-cargo-unload-point, 
+
+  mechanical-pump, rotary-pump, impulse-pump, conduit, pulse-conduit, plated-conduit, liquid-router, liquid-container, liquid-tank, liquid-junction, bridge-conduit, phase-conduit, 
+  reinforced-pump, reinforced-conduit, reinforced-liquid-junction, reinforced-bridge-conduit, reinforced-liquid-router, reinforced-liquid-container, reinforced-liquid-tank, 
+
+  power-node, power-node-large, surge-tower, diode, battery, battery-large, combustion-generator, thermal-generator, steam-generator, differential-generator, rtg-generator, solar-panel, solar-panel-large, thorium-reactor, impact-reactor, 
+  beam-node, beam-tower, beam-link, turbine-condenser, chemical-combustion-chamber, pyrolysis-generator, flux-reactor, neoplasia-reactor, 
+
+  mechanical-drill, pneumatic-drill, laser-drill, blast-drill, 
+
+
+
+  c-iron-aa, c-iron-ab, c-iron-ac, c-iron-ad, c-iron-ae, c-iron-ba, c-iron-bb, c-iron-bc, c-iron-bd, c-iron-be, c-iron-ca, c-iron-cb, c-iron-cc, c-iron-cd, c-iron-ce,
+  c-steel-aa, c-steel-ab, c-steel-ac, c-steel-ad, c-steel-ae, c-steel-ba, c-steel-bb, c-steel-bc, c-steel-bd, c-steel-be, c-steel-ca, c-steel-cb, c-steel-cc, c-steel-cd, c-steel-ce,  
+
+]
 allowInvasions: true 
 allowSectorInvasion: true
 allowItems: true
