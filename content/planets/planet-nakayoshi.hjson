@@ -144,3 +144,5 @@ launchCandidates: []
 itemWhitelist: [
   copper, lead, beryllium, graphite, titanium,
 ]
+
+startSector: 0
