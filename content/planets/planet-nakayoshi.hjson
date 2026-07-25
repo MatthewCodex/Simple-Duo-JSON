@@ -141,10 +141,9 @@ launchCandidates: []
 #  graphite, plastanium, phase-fabric
 #]
 # Only items available in this planet. Recommended over hiddenItems.
-itemWhitelist: [
-  copper, lead, beryllium, graphite, titanium,
-]
+itemWhitelist: []
 allowInvasions: true 
 allowSectorInvasion: true
+allowItems: true
 generator: SerpuloPlanetGenerator
 startSector: 0
