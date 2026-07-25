@@ -1,0 +1,41 @@
+type: Reconstructor
+name: "T3 Reconstructor 1"
+description: "Upgrades Professional Normal Tanks and Professional Shotgun Tanks to Elite ones."
+size: 11
+health: 4800
+itemCapacity: 480
+constructTime: 480
+# Upgrades require power and resources to operate
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  metaglass/100
+  titanium/100
+  m-iron/100
+  m-iron-ingot/100
+]
+consumes: {
+  power: 3.0
+  items: {
+    items: [
+      silicon/50
+      titanium/50
+      
+    ]
+  }
+}
+# Define what tier binds to what tier
+upgrades: [
+  [
+    tank-ad
+    tank-ae
+  ]
+  [
+    tank-bd
+    tank-be
+  ]
+]
+category: units
+research: tetrative-reconstructor

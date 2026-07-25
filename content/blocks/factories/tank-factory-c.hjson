@@ -1,5 +1,5 @@
 type: UnitFactory
-name: T1 Tank Factory
+name: T3 Tank Factory
 description: Produces Basic-level Tanks.
 size: 3
 health: 600
@@ -9,25 +9,29 @@ requirements: [
   silicon/100
   lead/100
   graphite/100
-  
+  metaglass/100
+  titanium/100
 ]
 category: units
-research: ground-factory
+research: tank-factory-b
 plans: [
   {
-    unit: tank-aa
+    unit: tank-ea
     time: 300
     requirements: [
-      copper/10
-      lead/10
+      copper/30
+      lead/30
+      silicon/30
     ]
   }
   {
-    unit: tank-ba
+    unit: tank-fa
     time: 450
     requirements: [
-      copper/10
-      graphite/10
+      copper/30
+      lead/30
+      graphite/30
+      silicon/30
     ]
   }
 ]
