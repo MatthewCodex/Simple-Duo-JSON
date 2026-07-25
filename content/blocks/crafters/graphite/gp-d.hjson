@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: T4 Graphite Press
+description: Compresses coal into graphite.
+size: 2
+hasItems: true
+craftTime: 20.0
+updateEffect: pulverize
+craftEffect: smeltsmoke
+
+consumes: {
+  items: [
+    coal/1
+  ]
+}
+
+outputItem: graphite/5
+
+requirements: [
+  copper/200
+  lead/200
+]
+
+category: crafting
+research: gp-c
