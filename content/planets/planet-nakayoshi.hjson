@@ -15,7 +15,7 @@ mesh: {
   # Second color to be used.
   color2: 22262b
   # Mesh radius.
-  radius: 1.2
+  radius: 1
   # A noise property.
   octaves: 3
   # A noise property.
@@ -88,11 +88,11 @@ generator: {
 alwaysUnlocked: true
 # This determines the size of the sector grid.
 # Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
-sectorSize: 0.8
+sectorSize: 1
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 12
 # Radius of this planet's sphere.
-radius: 1.2
+radius: 1
 # Minimum camera zoom.
 minZoom: 0.5
 # Whether to draw the orbit.
@@ -148,5 +148,6 @@ allowItems: true
 generator: SerpuloPlanetGenerator
 startSector: 0
 allowLaunchLoadout: true
+generateEnemyBase: true
 
-attackSectors: [1]
+attackSectors: [1,2,3]
