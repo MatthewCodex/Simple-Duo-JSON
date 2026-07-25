@@ -161,7 +161,7 @@ sectors: [
     }
     
     # Enemy base configurations
-    captureWave: 0
+    captureWave: 10
     threat: 0.8
     allowLaunchTo: true
     allowLaunchLoadout: true
