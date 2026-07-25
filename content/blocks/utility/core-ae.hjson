@@ -1,0 +1,18 @@
+type: CoreBlock
+name: core-ae
+localizedName: T5 Alpha Core
+size: 1
+health: 5000
+itemCapacity: 10000
+unitCapModifier: 12
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t5-alpha
+
+requirements: [
+    copper/2000
+    lead/2000
+  ]
+
+category: effect
+research: core-ad

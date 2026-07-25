@@ -1,0 +1,18 @@
+type: CoreBlock
+name: core-ad
+localizedName: T4 Alpha Core
+size: 1
+health: 4000
+itemCapacity: 8000
+unitCapModifier: 10
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t4-alpha
+
+requirements: [
+    copper/1000
+    lead/1000
+  ]
+
+category: effect
+research: core-ac

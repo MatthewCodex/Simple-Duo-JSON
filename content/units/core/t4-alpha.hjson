@@ -1,0 +1,51 @@
+type: flying
+name: T1 Alpha
+description: A core flying unit that builds and mines efficiently.
+lowAltitude: true
+
+# Core Unit settings
+isCounted: false
+controller: BuilderAI
+coreUnitDock: true
+
+# Base Attributes
+health: 750
+armor: 4
+speed: 6.5
+accel: 0.05
+drag: 0.05
+flying: true
+mineWall: true
+mineFloor: true
+range: 250
+
+# Mechanics (Mining and Building)
+mineTier: 4
+mineSpeed: 25
+buildSpeed: 8
+itemCapacity: 400
+
+# Visuals
+engineSize: 2
+engineOffset: 6
+hitSize: 8
+
+# Weapons configuration
+weapons: [
+  {
+    name: t4-alpha-weapon
+    x: 2.75
+    y: 1
+    reload: 10
+    alternate: true
+    ejectEffect: none
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 40
+      speed: 6.5
+      lifetime: 50
+      frontColor: ffffff
+      backColor: ff7e00
+    }
+  }
+]

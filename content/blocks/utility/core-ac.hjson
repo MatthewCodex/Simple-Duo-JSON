@@ -1,0 +1,18 @@
+type: CoreBlock
+name: core-ac
+localizedName: T3 Alpha Core
+size: 1
+health: 3000
+itemCapacity: 6000
+unitCapModifier: 8
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t3-alpha
+
+requirements: [
+    copper/750
+    lead/750
+  ]
+
+category: effect
+research: core-ab

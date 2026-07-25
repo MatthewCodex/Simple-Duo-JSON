@@ -1,0 +1,51 @@
+type: flying
+name: T2 Alpha
+description: A core flying unit that builds and mines efficiently.
+lowAltitude: true
+
+# Core Unit settings
+isCounted: false
+controller: BuilderAI
+coreUnitDock: true
+
+# Base Attributes
+health: 450
+armor: 2
+speed: 5.5
+accel: 0.05
+drag: 0.05
+flying: true
+mineWall: true
+mineFloor: true
+range: 150
+
+# Mechanics (Mining and Building)
+mineTier: 2
+mineSpeed: 15
+buildSpeed: 4
+itemCapacity: 200
+
+# Visuals
+engineSize: 2
+engineOffset: 6
+hitSize: 8
+
+# Weapons configuration
+weapons: [
+  {
+    name: t2-alpha-weapon
+    x: 2.75
+    y: 1
+    reload: 14
+    alternate: true
+    ejectEffect: none
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 20
+      speed: 5.5
+      lifetime: 50
+      frontColor: ffffff
+      backColor: a8e61d
+    }
+  }
+]

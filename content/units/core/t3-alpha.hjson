@@ -1,0 +1,51 @@
+type: flying
+name: T3 Alpha
+description: A core flying unit that builds and mines efficiently.
+lowAltitude: true
+
+# Core Unit settings
+isCounted: false
+controller: BuilderAI
+coreUnitDock: true
+
+# Base Attributes
+health: 600
+armor: 3
+speed: 6
+accel: 0.05
+drag: 0.05
+flying: true
+mineWall: true
+mineFloor: true
+range: 200
+
+# Mechanics (Mining and Building)
+mineTier: 3
+mineSpeed: 20
+buildSpeed: 6
+itemCapacity: 300
+
+# Visuals
+engineSize: 2
+engineOffset: 6
+hitSize: 8
+
+# Weapons configuration
+weapons: [
+  {
+    name: t3-alpha-weapon
+    x: 2.75
+    y: 1
+    reload: 12
+    alternate: true
+    ejectEffect: none
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 30
+      speed: 6
+      lifetime: 50
+      frontColor: ffffff
+      backColor: ffc20e
+    }
+  }
+]

@@ -9,21 +9,21 @@ controller: BuilderAI
 coreUnitDock: true
 
 # Base Attributes
-health: 220
-armor: 1
-speed: 5
+health: 900
+armor: 5
+speed: 7
 accel: 0.05
 drag: 0.05
 flying: true
 mineWall: true
 mineFloor: true
-range: 100
+range: 300
 
 # Mechanics (Mining and Building)
-mineTier: 2
-mineSpeed: 10
-buildSpeed: 2
-itemCapacity: 100
+mineTier: 5
+mineSpeed: 30
+buildSpeed: 10
+itemCapacity: 500
 
 # Visuals
 engineSize: 2
@@ -33,19 +33,19 @@ hitSize: 8
 # Weapons configuration
 weapons: [
   {
-    name: t1-alpha-weapon
+    name: t5-alpha-weapon
     x: 2.75
     y: 1
-    reload: 20
+    reload: 8
     alternate: true
     ejectEffect: none
     bullet: {
       type: LaserBoltBulletType
-      damage: 10
-      speed: 5
+      damage: 50
+      speed: 7
       lifetime: 50
       frontColor: ffffff
-      backColor: 22b14c
+      backColor: ed1c24
     }
   }
 ]
