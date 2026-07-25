@@ -150,29 +150,29 @@ techTree: serpulo
 generator: SerpuloPlanetGenerator
 startSector: 0
 hiddenItems: []
-sectors: [
-  {
-    name: "impact-zone"
-    localizedName: "Impact Zone"
-    sector: 1
-    
-    # Procedural generation rules for the terrain
-    generator: {
-      type: "PlanetGridSector"
-      seed: 42
-    }
-    
-    # Enemy base configurations
-    captureWave: 30
-    threat: 0.8
-    allowLaunchTo: true
-    allowLaunchLoadout: true
-    
-    # This flags the sector as an active enemy base
-    baseFilter: {
-      type: "SectorFilter"
-      # Forces an enemy core to generate
-      requireEnemyBase: true
-    }
-  }
-]
+#sectors: [
+#  {
+#    name: "impact-zone"
+#    localizedName: "Impact Zone"
+#    sector: 1
+#    
+#    # Procedural generation rules for the terrain
+#    generator: {
+#      type: "PlanetGridSector"
+#      seed: 4
+#    }
+#    
+#    # Enemy base configurations
+#    captureWave: 0
+#    threat: 0.8
+#    allowLaunchTo: true
+#    allowLaunchLoadout: true
+#    
+#    # This flags the sector as an active enemy base
+#    baseFilter: {
+#      type: "SectorFilter"
+#      # Forces an enemy core to generate
+#      requireEnemyBase: true
+#    }
+#  }
+#]
