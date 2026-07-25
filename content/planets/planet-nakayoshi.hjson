@@ -75,11 +75,11 @@ generator: {
   radMax: 600
 
   # This one is ABSOLUTELY pointless, lmao.
-  stoneChance: 0.5
+  stoneChance: 0
 
   # Terrain generation chances, in order: ice > carbon > beryl > ferric.
   iceChance: 0.5
-  carbonChance: 0.5
+  carbonChance: 1
   berylChance: 0
   ferricChance: 0
 }
