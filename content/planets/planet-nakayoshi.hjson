@@ -148,4 +148,5 @@ allowItems: true
 generator: SerpuloPlanetGenerator
 startSector: 0
 allowLaunchLoadout: true
+
 attackSectors: [1]
