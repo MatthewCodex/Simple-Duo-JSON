@@ -145,11 +145,8 @@ itemWhitelist: []
 allowInvasions: true 
 allowSectorInvasion: true
 allowItems: true
-allowLaunchLoadout: true
-techTree: serpulo
 generator: SerpuloPlanetGenerator
 startSector: 0
-hiddenItems: []
 #sectors: [
 #  {
 #    name: "impact-zone"
