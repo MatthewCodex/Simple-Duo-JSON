@@ -149,5 +149,5 @@ generator: SerpuloPlanetGenerator
 startSector: 0
 allowLaunchLoadout: true
 generateEnemyBase: true
-
+techTree: SerpuloTechTree
 attackSectors: [1,2,3]
