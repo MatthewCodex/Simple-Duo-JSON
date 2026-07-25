@@ -75,11 +75,11 @@ generator: {
   radMax: 600
 
   # This one is ABSOLUTELY pointless, lmao.
-  stoneChance: 0
+  stoneChance: 0.5
 
   # Terrain generation chances, in order: ice > carbon > beryl > ferric.
   iceChance: 0.5
-  carbonChance: 1
+  carbonChance: 0.5
   berylChance: 0
   ferricChance: 0
 }
@@ -92,7 +92,7 @@ sectorSize: 1
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 12
 # Radius of this planet's sphere.
-radius: 1
+radius: 5
 # Minimum camera zoom.
 minZoom: 0.5
 # Whether to draw the orbit.
@@ -145,5 +145,8 @@ itemWhitelist: []
 allowInvasions: true 
 allowSectorInvasion: true
 allowItems: true
+allowLaunchLoadout: true
+
 generator: SerpuloPlanetGenerator
 startSector: 0
+hiddenItems: []
