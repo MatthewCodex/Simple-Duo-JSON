@@ -1,5 +1,5 @@
 # The planet's display name. If you want to support multiple languages, use bundles instead!
-localizedName: Jason 2.0
+localizedName: Planet Nakayoshi
 
 # The mesh of the planet. At least MultiMesh is supported, so you can put multiple
 # NoiseMesh'es to your planet!
@@ -127,11 +127,11 @@ allowWaves: true
 # Icon's name displayed in top-left dialog.
 icon: planet
 # Default core block for launch loadouts.
-defaultCore: core-nucleus
+defaultCore: core-shard
 # The parent of the planet.
-parent: 1-0-themelight
+parent: star-nakayoshi
 # The parent of the whole solar system the planet is in. Affects lighting.
-solarSystem: 1-0-themelight
+solarSystem: star-nakayoshi
 # Possible planets that could be landed on from this planet.
 # In the current version, only 1 entry is applicable if you decide to use modded accelerators.
 # Probably useless since the Interplanetary Accelerator is hidden and not working.
