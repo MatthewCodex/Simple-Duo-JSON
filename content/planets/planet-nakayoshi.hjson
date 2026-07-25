@@ -141,7 +141,14 @@ launchCandidates: []
 #  graphite, plastanium, phase-fabric
 #]
 # Only items available in this planet. Recommended over hiddenItems.
-itemWhitelist: []
+itemWhitelist: [
+  # --- Serpulo Items ---
+  "copper", "lead", "metaglass", "graphite", "titanium", "thorium", "silicon", "plastanium", "phase-fabric", "surge-alloy", "scrap",
+  # --- Erekir Items ---
+  "beryllium", "tungsten", "oxide", "carbide", "fissile-matter", "dormant-cyst",
+
+  "m-iron", "m-iron-ingot", "m-iron-plate", "m-iron-rod", "m-steel-ingot", "m-steel-plate", "m-steel-rod", "m-tin", "m-zinc",
+]
 blockWhitelist: []
 allowInvasions: true 
 allowSectorInvasion: true
