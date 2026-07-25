@@ -1,6 +1,6 @@
 type: flying
-name: Delta
-description: A custom core flying unit that builds and mines efficiently.
+name: T1 Alpha
+description: A core flying unit that builds and mines efficiently.
 lowAltitude: true
 
 # Core Unit settings
@@ -11,23 +11,23 @@ coreUnitDock: true
 # Base Attributes
 health: 220
 armor: 1
-speed: 4.5
-accel: 0.08
-drag: 0.04
+speed: 5
+accel: 0.05
+drag: 0.05
 flying: true
 mineWall: true
 mineFloor: true
 
 # Mechanics (Mining and Building)
 mineTier: 2
-mineSpeed: 6.5
-buildSpeed: 1.2
-itemCapacity: 40
+mineSpeed: 10
+buildSpeed: 2
+itemCapacity: 100
 
 # Visuals
-engineSize: 2.2
-engineOffset: 5.5
-hitSize: 9
+engineSize: 2
+engineOffset: 6
+hitSize: 8
 
 # Weapons configuration
 weapons: [
