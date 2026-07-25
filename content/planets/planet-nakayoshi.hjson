@@ -92,7 +92,7 @@ sectorSize: 0.5
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 12
 # Radius of this planet's sphere.
-radius: 1
+radius: 0.5
 # Minimum camera zoom.
 minZoom: 0.5
 # Whether to draw the orbit.
