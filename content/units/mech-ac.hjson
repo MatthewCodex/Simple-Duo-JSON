@@ -23,6 +23,8 @@ weapons: [
       alternate: true
       inaccuracy: 2
       mirror: false
+            rotate: true
+
       x: 0
       y: 0
       shootSound: shootDuo

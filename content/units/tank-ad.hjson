@@ -9,7 +9,6 @@ speed: 1.15
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
-omniMovement: false
 
 research: t4r
 
@@ -41,6 +40,7 @@ weapons: [
       alternate: true
       inaccuracy: 2
       mirror: false
+      rotate: true
       x: 0
       y: 0
       shootSound: shootDuo
