@@ -1,0 +1,19 @@
+
+  // Sets the class type to a power battery storage block
+  type: Battery
+  name: T1 Battery
+  
+  health: 200
+  size: 1
+  hasPower: true
+  consumes: {
+    // How much power the battery can store total
+    powerCapacity: 500
+  }
+  requirements: [
+    copper/50
+    lead/20
+  ]
+  category: power
+  research: battery
+
