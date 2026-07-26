@@ -35,3 +35,5 @@ upgrades: [
 ]
 category: units
 research: additive-reconstructor
+
+shownPlanets: [serpulo , erekir , rospuleball]

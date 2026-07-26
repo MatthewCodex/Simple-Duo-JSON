@@ -35,3 +35,5 @@ consumes: {
   power: 1.0
   
 }
+
+shownPlanets: [serpulo , erekir , rospuleball]

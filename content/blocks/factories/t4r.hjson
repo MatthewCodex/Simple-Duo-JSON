@@ -38,3 +38,5 @@ upgrades: [
 ]
 category: units
 research: exponential-reconstructor
+
+shownPlanets: [serpulo , erekir , rospuleball]

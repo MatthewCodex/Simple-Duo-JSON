@@ -36,3 +36,5 @@ upgrades: [
 ]
 category: units
 research: multiplicative-reconstructor
+
+shownPlanets: [serpulo , erekir , rospuleball]

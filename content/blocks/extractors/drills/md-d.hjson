@@ -17,3 +17,5 @@ requirements: [
   copper/100
   graphite/100
 ]
+
+shownPlanets: [serpulo , erekir , rospuleball]

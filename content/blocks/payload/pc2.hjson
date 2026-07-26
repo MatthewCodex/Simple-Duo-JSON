@@ -1,14 +1,14 @@
-name: T1 Payload Conveyor
+name: T2 Payload Conveyor
 description: Carries payloads.
 type: PayloadConveyor
-size: 3
-payloadLimit: 6
+size: 5
+payloadLimit: 9
 category: units
-research: ground-factory
+research: pc1
 
 requirements: [
-  copper/200
-  silicon/100
+  copper/300
+  silicon/150
 ]
 
 shownPlanets: [serpulo , erekir , rospuleball]

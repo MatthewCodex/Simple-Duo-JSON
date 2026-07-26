@@ -22,3 +22,5 @@ requirements: [
 category: crafting
 research: iron-drill-b
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

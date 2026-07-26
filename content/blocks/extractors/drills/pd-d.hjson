@@ -18,3 +18,5 @@ requirements: [
   graphite/200
   lead/200
 ]
+
+shownPlanets: [serpulo , erekir , rospuleball]

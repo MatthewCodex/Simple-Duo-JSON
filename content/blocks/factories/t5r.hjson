@@ -39,3 +39,5 @@ upgrades: [
 ]
 category: units
 research: tetrative-reconstructor
+
+shownPlanets: [serpulo , erekir , rospuleball]

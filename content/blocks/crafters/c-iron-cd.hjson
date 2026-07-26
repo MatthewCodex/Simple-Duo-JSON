@@ -22,3 +22,5 @@ requirements: [
 category: crafting
 research: c-iron-bd
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
