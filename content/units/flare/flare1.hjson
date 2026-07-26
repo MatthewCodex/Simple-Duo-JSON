@@ -17,7 +17,6 @@ weapons: [
     y: 1
     minShootVelocity: 2
     shootCone: 10
-    reload: 80
     shots: 3
     shotDelay: 3
     mirror: false
