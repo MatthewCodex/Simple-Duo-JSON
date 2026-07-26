@@ -24,6 +24,7 @@ weapons: [
 
     
     bullet: {
+      name: blank
       type: BasicBulletType
       damage: 6
       speed: 3
