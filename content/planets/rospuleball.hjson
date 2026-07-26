@@ -1,6 +1,6 @@
 generator: "PlanetGenerator",
     parent: "serpulo",
-	radius: 1.2,
+	radius: 1,
 	minZoom: 0.6,
     orbitRadius: 10,
 	orbitSpacing: 15,
@@ -58,7 +58,7 @@ generator: "PlanetGenerator",
       planet: your-planet-name
       seed: 5621
       divisions: 4
-      radius: 1.48
+      radius: 1
       color1: 1d2c4d
       color2: 243a61
       // Octaves, quality, and scale control the noise patterns
@@ -73,7 +73,7 @@ generator: "PlanetGenerator",
       planet: your-planet-name
       seed: 1204
       divisions: 5
-      radius: 1.5
+      radius: 1
       color1: e5c890
       color2: d1b170
       octaves: 4
@@ -87,7 +87,7 @@ generator: "PlanetGenerator",
       planet: your-planet-name
       seed: 8743
       divisions: 6
-      radius: 1.53
+      radius: 1
       color1: 5a8a58
       color2: 3f663d
       octaves: 5
@@ -101,7 +101,7 @@ generator: "PlanetGenerator",
       planet: your-planet-name
       seed: 9941
       divisions: 6
-      radius: 1.57
+      radius: 1
       color1: 808080
       color2: b3b3b3
       octaves: 6
