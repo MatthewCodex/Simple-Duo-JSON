@@ -3,7 +3,7 @@ name: T1 Pneumatic Drill
 description: A drill that uses a rotating head to mine resources. Faster than a mechanical drill.
 size: 2
 health: 1500
-tier: 5
+tier: 6
 drillTime: 40
 
 // Rotation and Visuals
