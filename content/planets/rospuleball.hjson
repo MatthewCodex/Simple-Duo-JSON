@@ -1,6 +1,6 @@
 generator: "PlanetGenerator",
     parent: "serpulo",
-	radius: 1,
+	radius: 2,
 	minZoom: 0.6,
     orbitRadius: 10,
 	orbitSpacing: 15,
