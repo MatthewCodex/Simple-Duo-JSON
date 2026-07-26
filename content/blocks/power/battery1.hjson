@@ -6,10 +6,8 @@
   health: 200
   size: 1
   hasPower: true
-  consumes: {
-    // How much power the battery can store total
-    powerCapacity: 500
-  }
+  powerCapacity: 500
+  
   requirements: [
     copper/50
     lead/20
