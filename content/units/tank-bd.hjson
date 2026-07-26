@@ -9,6 +9,7 @@ speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
+omniMovement: false
 
 hitSize: 40
 targetAir: true

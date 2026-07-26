@@ -13,17 +13,17 @@
   weapons: [
     {
       name: "custom-flare-weapon"
-      reload: 17
+      reload: 12
       x: 0
       y: 0
       shootSound: "shoot"
       bullet: {
         type: "BasicBulletType"
-        damage: 11
-        speed: 4
-        lifetime: 45
-        width: 7
-        height: 9
+        damage: 6
+        speed: 3
+        lifetime: 60
+        width: 6
+        height: 6
       }
     }
   ]

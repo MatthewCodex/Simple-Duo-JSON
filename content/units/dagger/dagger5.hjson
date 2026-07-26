@@ -1,0 +1,28 @@
+name: T5 Dagger
+type: mech
+speed: 1.5
+hitSize: 8
+health: 350
+stepSoundVolume: 0.4
+canAttack: true
+
+weapons: [
+  {
+    name: dagger5-weapon
+    reload: 8
+    x: 4
+    y: 2
+    top: false
+    
+    bullet: {
+      type: BasicBulletType
+      damage: 10
+      speed: 7
+      lifetime: 60
+      frontColor: ffffff
+      backColor: ed1c24
+      width: 6
+      height: 6
+    }
+  }
+]

@@ -9,6 +9,7 @@ speed: 1.05
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
+omniMovement: false
 
 research: t2r
 
