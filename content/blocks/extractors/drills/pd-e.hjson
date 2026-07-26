@@ -12,7 +12,7 @@ drawRim: true
 
 // Requirements and Categories
 category: production
-research: pd-c
+research: pd-d
 requirements: [
   copper/200
   graphite/200
