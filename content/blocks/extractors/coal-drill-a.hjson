@@ -16,3 +16,5 @@ requirements: [
 ]
 category: production
 research: coal
+
+shownPlanets: [serpulo , erekir , rospuleball]

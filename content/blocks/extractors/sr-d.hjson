@@ -19,3 +19,5 @@ requirements: [
 category: production
 research: sr-c
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

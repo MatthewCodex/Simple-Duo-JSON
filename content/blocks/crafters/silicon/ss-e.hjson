@@ -40,3 +40,5 @@ drawer: {
 
 category: crafting
 research: ss-d
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -40,3 +40,5 @@ drawer: {
 
 category: crafting
 research: silicon-smelter
+
+shownPlanets: [serpulo , erekir , rospuleball]

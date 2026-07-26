@@ -15,3 +15,5 @@ requirements: [
 ]
 category: production
 research: copper-drill-b
+
+shownPlanets: [serpulo , erekir , rospuleball]

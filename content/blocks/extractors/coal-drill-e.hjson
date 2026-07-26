@@ -19,3 +19,5 @@ requirements: [
 category: production
 research: coal-drill-d
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -16,3 +16,5 @@ requirements: [
 ]
 category: production
 research: titanium-drill-a
+
+shownPlanets: [serpulo , erekir , rospuleball]
