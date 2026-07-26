@@ -13,3 +13,5 @@ requirements: [
   
 category: effect
 research: op1
+
+shownPlanets: [serpulo , erekir , rospuleball]

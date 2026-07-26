@@ -1,0 +1,18 @@
+type: Pump
+name: T1 Mechanical Pump
+description: Sucks up liquids from the ground and outputs them.
+size: 1
+health: 150
+category: liquid
+
+// The speed at which it pumps liquids (per frame)
+pumpAmount: 0.1
+
+// Requirements to build the block
+requirements: [
+  copper/15
+  lead/15
+]
+
+// Research requirements
+research: mechanical-pump

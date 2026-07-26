@@ -13,3 +13,5 @@ requirements: [
   
 category: effect
 research: core-shard
+
+shownPlanets: [serpulo , erekir , rospuleball]
