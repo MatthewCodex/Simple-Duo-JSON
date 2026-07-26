@@ -1,19 +1,19 @@
 type: Drill
-name: T1 Mechanical Drill
+name: T3 Mechanical Drill
 description: A drill that uses a rotating head to mine resources.
 size: 2
-health: 240
-tier: 1
-drillTime: 300
+health: 480
+tier: 3
+drillTime: 180
 
 // Rotation and Visuals
-rotateSpeed: 2
+rotateSpeed: 4
 drawRim: true
 
 // Requirements and Categories
 category: production
 research: mechanical-drill
 requirements: [
-  copper/10
-  graphite/10
+  copper/50
+  graphite/50
 ]
