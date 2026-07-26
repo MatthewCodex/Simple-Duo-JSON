@@ -6,8 +6,8 @@
   health: 200
   size: 1
   hasPower: true
-  powerCapacity: 500
-  
+  consumes: { powerBuffered: 500 }
+
   requirements: [
     copper/50
     lead/20
