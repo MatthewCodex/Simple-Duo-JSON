@@ -1,4 +1,5 @@
 generator: "PlanetGenerator",
+name: "Nakayoshi World"
     parent: "serpulo",
 	radius: 2,
 	minZoom: 0.6,
