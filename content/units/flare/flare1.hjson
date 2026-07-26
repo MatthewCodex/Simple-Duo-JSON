@@ -11,7 +11,7 @@ drag: 0.04
 
 weapons: [
   {
-    
+    name: blank
     reload: 12
     x: 0
     y: 1
@@ -24,7 +24,7 @@ weapons: [
 
     
     bullet: {
-      name: blank
+      
       type: BasicBulletType
       damage: 6
       speed: 3
