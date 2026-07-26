@@ -1,0 +1,20 @@
+type: Drill
+name: T1 Pneumatic Drill
+description: A drill that uses a rotating head to mine resources. Faster than a mechanical drill.
+size: 2
+health: 600
+tier: 3
+drillTime: 160
+
+// Rotation and Visuals
+rotateSpeed: 3.5
+drawRim: true
+
+// Requirements and Categories
+category: production
+research: pd-a
+requirements: [
+  copper/50
+  graphite/50
+  lead/50
+]

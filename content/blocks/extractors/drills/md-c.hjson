@@ -4,7 +4,7 @@ description: A drill that uses a rotating head to mine resources.
 size: 2
 health: 480
 tier: 3
-drillTime: 180
+drillTime: 150
 
 // Rotation and Visuals
 rotateSpeed: 4
