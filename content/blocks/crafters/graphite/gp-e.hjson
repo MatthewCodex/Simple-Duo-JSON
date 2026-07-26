@@ -22,3 +22,5 @@ requirements: [
 
 category: crafting
 research: gp-d
+
+shownPlanets: [serpulo , erekir , rospuleball]

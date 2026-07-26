@@ -22,3 +22,5 @@ requirements: [
 
 category: crafting
 research: coal
+
+shownPlanets: [serpulo , erekir , rospuleball]

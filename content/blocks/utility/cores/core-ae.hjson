@@ -16,3 +16,5 @@ requirements: [
 
 category: effect
 research: core-ad
+
+shownPlanets: [serpulo , erekir , rospuleball]

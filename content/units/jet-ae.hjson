@@ -40,3 +40,5 @@ weapons: [
       }
     }
   ]
+
+shownPlanets: [serpulo , erekir , rospuleball]
