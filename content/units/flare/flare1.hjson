@@ -3,7 +3,7 @@ name: T1 Flare
 flying: true
 speed: 2.5
 hitSize: 9
-health: 100
+health: 150
 omniMovement: false
 engineOffset: 5.75
 accel: 0.08
