@@ -11,7 +11,7 @@ lightRadius: 60
 
 consumes: {
   items: [
-    coal/1
+    lead/1
     sand/1
   ]
 }
