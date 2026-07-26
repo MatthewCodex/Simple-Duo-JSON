@@ -1,17 +1,17 @@
 
   // Sets the class type to a power battery storage block
   type: Battery
-  name: T1 Battery
+  name: T3 Battery
   
-  health: 200
+  health: 400
   size: 1
   hasPower: true
-  consumes: { powerBuffered: 500 }
+  consumes: { powerBuffered: 2000 }
 
   requirements: [
-    copper/10
-    lead/10
+    copper/50
+    lead/50
   ]
   category: power
-  research: battery
+  research: battery2
 
