@@ -52,17 +52,19 @@ shoot: {
 }
  
 requirements: [
-copper/3000
-lead/2500
-graphite/1750
-silicon/800
-metaglass/500
-plastanium/200
+copper/100
+lead/100
+graphite/100
+silicon/100
+metaglass/100
+plastanium/100
 ]
 category: turret
-research: duo
+research: turret-ic
  
 drawer: {
   type: DrawTurret
   basePrefix: "turret-"
 }
+
+shownPlanets: [serpulo , erekir , rospuleball]

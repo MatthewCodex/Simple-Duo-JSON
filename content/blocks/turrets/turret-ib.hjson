@@ -51,15 +51,17 @@ shoot: {
 }
  
 requirements: [
-copper/1750
-lead/1000
-graphite/750
-silicon/200
+copper/100
+lead/100
+graphite/100
+silicon/100
 ]
 category: turret
-research: duo
+research: turret-ia
  
 drawer: {
   type: DrawTurret
   basePrefix: "turret-"
 }
+
+shownPlanets: [serpulo , erekir , rospuleball]

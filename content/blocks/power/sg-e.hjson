@@ -12,3 +12,5 @@ copper/200
 category: power
 research: sg-d
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

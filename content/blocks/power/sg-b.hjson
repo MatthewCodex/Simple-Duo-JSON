@@ -12,3 +12,5 @@ copper/50
 category: power
 research: sg-a
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

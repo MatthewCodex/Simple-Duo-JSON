@@ -45,17 +45,19 @@ ammoTypes: {
 
  
 requirements: [
-copper/2500
-lead/2140
-silicon/1750
-titanium/1000
-metaglass/690
-plastanium/250
+copper/100
+lead/100
+silicon/100
+titanium/100
+metaglass/100
+plastanium/100
 ]
 category: turret
-research: duo
+research: turret-jc
  
 drawer: {
   type: DrawTurret
   basePrefix: "turret-"
 }
+
+shownPlanets: [serpulo , erekir , rospuleball]

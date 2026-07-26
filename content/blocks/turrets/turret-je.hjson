@@ -54,9 +54,11 @@ plastanium/200
 thorium/50
 ]
 category: turret
-research: duo
+research: turret-jd
  
 drawer: {
   type: DrawTurret
   basePrefix: "turret-"
 }
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -12,3 +12,5 @@ copper/25
 category: power
 research: silicon
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

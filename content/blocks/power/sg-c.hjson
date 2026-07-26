@@ -12,3 +12,5 @@ copper/75
 category: power
 research: sg-b
 conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

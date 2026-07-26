@@ -32,15 +32,17 @@ shootType: {
 }
 
 requirements: [
-  copper/750
-  lead/600
-  silicon/430
-  titanium/200
-  metaglass/50
+  copper/100
+  lead/100
+  silicon/100
+  titanium/100
+  metaglass/100
 ]
-research: arc
+research: turret-ja
 
 drawer: {
   type: DrawTurret
   basePrefix: "turret-"
 }
+
+shownPlanets: [serpulo , erekir , rospuleball]
