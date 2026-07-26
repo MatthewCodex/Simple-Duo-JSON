@@ -1,0 +1,14 @@
+{
+  type: PowerNode
+  name: T2 Power Node
+  description: Transmits power.
+  size: 1
+  laserRange: 7
+  maxNodes: 6
+  health: 200
+  requirements: [
+    copper/10
+  ]
+  category: power
+  research: n1
+}

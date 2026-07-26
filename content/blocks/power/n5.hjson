@@ -1,0 +1,14 @@
+{
+  type: PowerNode
+  name: T3 Power Node
+  description: Transmits power.
+  size: 1
+  laserRange: 10
+  maxNodes: 12
+  health: 500
+  requirements: [
+    copper/100
+  ]
+  category: power
+  research: n4
+}
