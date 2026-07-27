@@ -6,6 +6,7 @@ health: 300
 range: 150
 reload: 10
 recoil: 3 // Global recoil distance
+researchCostMultiplier: 0.5
 
 // Crucial: Tells the turret to alternate which barrel fires first/second
 shoot: {
