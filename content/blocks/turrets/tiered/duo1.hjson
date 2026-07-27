@@ -8,6 +8,10 @@ reload: 10
 recoil: 3 // Global recoil distance
 researchCostMultiplier: 0.5
 
+requirements: [
+copper/50
+]
+
 // Crucial: Tells the turret to alternate which barrel fires first/second
 shoot: {
   type: ShootAlternate
