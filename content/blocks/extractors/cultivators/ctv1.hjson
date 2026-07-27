@@ -38,14 +38,6 @@
   // Set to true if it needs to be placed on a specific block or liquid
   // requirestilesheet: false
 
-  drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    }
-    
-  ]
-}
+  
 
 }
