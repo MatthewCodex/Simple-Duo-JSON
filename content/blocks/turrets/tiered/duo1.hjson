@@ -57,3 +57,4 @@ drawer: {
 
 category: turret
 research: core-shard
+shownPlanets: [serpulo , rospuleball]

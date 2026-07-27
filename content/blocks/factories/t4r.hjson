@@ -1,6 +1,6 @@
 type: Reconstructor
-name: "T3 Reconstructor 1"
-description: "Upgrades Professional Normal Tanks and Professional Shotgun Tanks to Elite ones."
+name: "Reconstructor 3"
+description: "Upgrades Professional tanks to Elite ones."
 size: 9
 health: 3600
 itemCapacity: 360
@@ -34,6 +34,22 @@ upgrades: [
   [
     tank-bc
     tank-bd
+  ]
+  [
+    tank-cc
+    tank-cd
+  ]
+  [
+    tank-dc
+    tank-dd
+  ]
+  [
+    tank-ec
+    tank-ed
+  ]
+  [
+    tank-fc
+    tank-fd
   ]
 ]
 category: units

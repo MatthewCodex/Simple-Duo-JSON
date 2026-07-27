@@ -1,6 +1,6 @@
 type: Reconstructor
 name: "Reconstructor 2"
-description: "Upgrades Advanced Units to Professional Units."
+description: "Upgrades Advanced tanks to Professional ones."
 size: 7
 health: 2400
 itemCapacity: 240
@@ -32,6 +32,22 @@ upgrades: [
   [
     tank-bb
     tank-bc
+  ]
+  [
+    tank-cb
+    tank-cc
+  ]
+  [
+    tank-db
+    tank-dc
+  ]
+  [
+    tank-eb
+    tank-ec
+  ]
+  [
+    tank-fb
+    tank-fc
   ]
 ]
 category: units

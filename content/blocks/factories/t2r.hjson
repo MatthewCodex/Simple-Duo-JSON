@@ -1,6 +1,6 @@
 type: Reconstructor
 name: "Reconstructor 1"
-description: "Upgrades Basic Units to Advanced Units."
+description: "Upgrades Basic tanks to Advanced ones."
 size: 5
 health: 1200
 itemCapacity: 120
@@ -31,6 +31,22 @@ upgrades: [
   [
     tank-ba
     tank-bb
+  ]
+  [
+    tank-ca
+    tank-cb
+  ]
+  [
+    tank-da
+    tank-db
+  ]
+  [
+    tank-ea
+    tank-eb
+  ]
+  [
+    tank-fa
+    tank-fb
   ]
 ]
 category: units
