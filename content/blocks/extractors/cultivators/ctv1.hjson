@@ -38,6 +38,33 @@
   // Set to true if it needs to be placed on a specific block or liquid
   // requirestilesheet: false
 
-  
+  drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+
+    {
+      type: DrawLiquidTile
+      // Specify your custom sprite suffix here (include the leading hyphen)
+      suffix: "-middle"
+    }
+
+    {
+      type: DrawDefault
+    }
+
+    {
+      type: DrawCultivator
+    }
+    
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
+  ]
+}
 
 }
