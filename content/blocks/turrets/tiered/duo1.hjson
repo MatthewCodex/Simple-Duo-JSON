@@ -32,29 +32,21 @@ drawer: {
   type: DrawTurret
   
   parts: [
-    {
+   {
     type: RegionPart
     suffix: -l
-    under: true
-    // This barrel recoils on the first shot of the 2-shot cycle
-    progress: {
-      type: recoil
-      index: 0
-    }
-    // How far back the barrel moves (in pixels)
-    moveY: -3
+    progress: recoil
+    recoilIndex: 0     // Links to the first shot (left)
+    moveY: -3          // How far back the barrel moves when firing
+    under: true        // Renders underneath the main turret base
   }
   {
     type: RegionPart
     suffix: -r
-    under: true
-    // This barrel recoils on the second shot of the 2-shot cycle
-    progress: {
-      type: recoil
-      index: 1
-    }
-    // How far back the barrel moves (in pixels)
-    moveY: -3
+    progress: recoil
+    recoilIndex: 1     // Links to the second shot (right)
+    moveY: -3          // How far back the barrel moves when firing
+    under: true        // Renders underneath the main turret base
   }
   ]
 }
