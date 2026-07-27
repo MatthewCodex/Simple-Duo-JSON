@@ -1,0 +1,42 @@
+type: NuclearReactor
+name: T2 Thorium Reactor
+description: A highly unstable reactor that detonates violently if it overheats or loses coolant.
+size: 3
+health: 1800
+
+// Item and Liquid Inputs
+hasItems: true
+hasLiquids: true
+itemCapacity: 50
+liquidCapacity: 50
+
+// Power Generation
+powerProduction: 30
+
+// Heating Mechanics
+heating: 0.02
+coolantPower: 0.5
+
+// Explosion Properties
+explosionRadius: 40
+explosionDamage: 8000
+
+consumes: {
+  items: [
+    thorium/1
+  ]
+  liquid: {
+    liquid: cryofluid
+    amount: 0.25
+  }
+}
+
+requirements: [
+  lead/50
+  silicon/50
+  thorium/50
+  phase-fabric/50
+]
+
+category: power
+research: tr-b
