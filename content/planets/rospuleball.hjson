@@ -29,6 +29,9 @@ name: "Nakayoshi World"
 	prebuildBase: true,
 	allowCampaignRules: false,
 	autoAssignPlanet: true,
+    presets: {
+        level1:0
+    }
     hiddenItems: [
         "beryllium",
         "oxide",
