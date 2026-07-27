@@ -1,0 +1,55 @@
+type: ItemTurret
+name: T1 Duo
+description: Fires alternating left and right barrels with visual recoil.
+size: 1
+health: 300
+range: 150
+reload: 10
+recoil: 3 // Global recoil distance
+
+// Crucial: Tells the turret to alternate which barrel fires first/second
+shoot: {
+  type: ShootAlternate
+  barrels: 2
+  spread: 6 // Total width spacing between the two barrels
+}
+
+ammoTypes: {
+  copper: {
+    speed: 4
+    damage: 12
+    width: 7
+    height: 9
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  base: drawBlock // Draws the standard shadow and team top base
+  
+  parts: [
+    {
+      type: DrawBarrel
+      suffix: -l
+      // Moves the left barrel sprite 3 pixels to the left of the center
+      x: 0
+      y: 0
+      
+      // Links this visual barrel to the first shoot shot (Shot 0)
+      recoilIndex: 0 
+    }
+    {
+      type: DrawBarrel
+      suffix: -r
+      // Moves the right barrel sprite 3 pixels to the right of the center
+      x: 0
+      y: 0
+      
+      // Links this visual barrel to the second shoot shot (Shot 1)
+      recoilIndex: 1 
+    }
+  ]
+}
+
+category: turret
+research: duo
