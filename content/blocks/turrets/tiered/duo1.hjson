@@ -33,25 +33,29 @@ drawer: {
   
   parts: [
     {
-      type: DrawBarrel
-      suffix: -l
-      // Moves the left barrel sprite 3 pixels to the left of the center
-      x: 0
-      y: 0
-      
-      // Links this visual barrel to the first shoot shot (Shot 0)
-      recoilIndex: 0 
+    type: RegionPart
+    name: duo1-l
+    under: true
+    // This barrel recoils on the first shot of the 2-shot cycle
+    progress: {
+      type: recoil
+      index: 0
     }
-    {
-      type: DrawBarrel
-      suffix: -r
-      // Moves the right barrel sprite 3 pixels to the right of the center
-      x: 0
-      y: 0
-      
-      // Links this visual barrel to the second shoot shot (Shot 1)
-      recoilIndex: 1 
+    // How far back the barrel moves (in pixels)
+    moveY: -3
+  }
+  {
+    type: RegionPart
+    name: duo1-r
+    under: true
+    // This barrel recoils on the second shot of the 2-shot cycle
+    progress: {
+      type: recoil
+      index: 1
     }
+    // How far back the barrel moves (in pixels)
+    moveY: -3
+  }
   ]
 }
 
