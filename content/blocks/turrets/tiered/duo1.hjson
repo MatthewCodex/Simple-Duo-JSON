@@ -34,7 +34,7 @@ drawer: {
   parts: [
     {
     type: RegionPart
-    name: duo1-l
+    suffix: -l
     under: true
     // This barrel recoils on the first shot of the 2-shot cycle
     progress: {
@@ -46,7 +46,7 @@ drawer: {
   }
   {
     type: RegionPart
-    name: duo1-r
+    suffix: -r
     under: true
     // This barrel recoils on the second shot of the 2-shot cycle
     progress: {
