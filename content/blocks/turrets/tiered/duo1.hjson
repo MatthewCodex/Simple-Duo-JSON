@@ -7,7 +7,7 @@ range: 150
 reload: 10
 recoil: 0 // Global recoil distance
 researchCostMultiplier: 0.5
-
+recoils: 2
 requirements: [
 copper/50
 ]
