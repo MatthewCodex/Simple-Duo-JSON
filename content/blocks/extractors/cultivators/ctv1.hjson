@@ -50,6 +50,7 @@
       type: DrawLiquidTile
       // Specify your custom sprite suffix here (include the leading hyphen)
       suffix: "-middle"
+      drawLiquid: water
     }
 
     {
