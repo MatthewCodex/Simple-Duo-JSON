@@ -2,11 +2,11 @@ type: Pump
 name: T4 Mechanical Pump
 description: Sucks up liquids from the ground and outputs them.
 size: 1
-health: 350
+health: 250
 category: liquid
 
 // The speed at which it pumps liquids (per frame)
-pumpAmount: 0.25
+pumpAmount: 0.4
 
 // Requirements to build the block
 requirements: [

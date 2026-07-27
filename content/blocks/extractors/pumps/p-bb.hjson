@@ -1,0 +1,26 @@
+type: Pump
+name: T2 Rotary Pump
+description: Sucks up liquids from the ground and outputs them. Faster than a mechanical pump, but requires power.
+size: 2
+health: 400
+category: liquid
+
+hasPower: true
+consumes: {
+  power: 1.25
+}
+
+// The speed at which it pumps liquids (per frame)
+pumpAmount: 0.7
+
+// Requirements to build the block
+requirements: [
+  copper/70
+  lead/70
+  metaglass/70
+]
+
+// Research requirements
+research: p-ba
+
+shownPlanets: [serpulo , erekir , rospuleball]

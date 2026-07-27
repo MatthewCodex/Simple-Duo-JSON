@@ -9,6 +9,7 @@ speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
+omniMovement: false
 
 hitSize: 16
 targetAir: true
@@ -38,6 +39,7 @@ weapons: [
       alternate: true
       inaccuracy: 5
       mirror: false
+      rotate: true
       x: 0
       y: 0
       shootSound: shootSalvo

@@ -1,0 +1,26 @@
+type: Pump
+name: T5 Rotary Pump
+description: Sucks up liquids from the ground and outputs them. Faster than a mechanical pump, but requires power.
+size: 2
+health: 550
+category: liquid
+
+hasPower: true
+consumes: {
+  power: 2.0
+}
+
+// The speed at which it pumps liquids (per frame)
+pumpAmount: 1.0
+
+// Requirements to build the block
+requirements: [
+  copper/100
+  lead/100
+  metaglass/100
+]
+
+// Research requirements
+research: p-bd
+
+shownPlanets: [serpulo , erekir , rospuleball]

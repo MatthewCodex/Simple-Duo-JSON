@@ -1,0 +1,26 @@
+type: Pump
+name: T1 Rotary Pump
+description: Sucks up liquids from the ground and outputs them. Faster than a mechanical pump, but requires power.
+size: 2
+health: 350
+category: liquid
+
+hasPower: true
+consumes: {
+  power: 1.0
+}
+
+// The speed at which it pumps liquids (per frame)
+pumpAmount: 0.6
+
+// Requirements to build the block
+requirements: [
+  copper/60
+  lead/60
+  metaglass/60
+]
+
+// Research requirements
+research: rotary-pump
+
+shownPlanets: [serpulo , erekir , rospuleball]

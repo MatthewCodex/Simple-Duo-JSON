@@ -2,7 +2,7 @@ type: Pump
 name: T1 Mechanical Pump
 description: Sucks up liquids from the ground and outputs them.
 size: 1
-health: 200
+health: 100
 category: liquid
 
 // The speed at which it pumps liquids (per frame)

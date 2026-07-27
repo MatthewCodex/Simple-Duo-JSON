@@ -2,11 +2,11 @@ type: Pump
 name: T2 Mechanical Pump
 description: Sucks up liquids from the ground and outputs them.
 size: 1
-health: 250
+health: 150
 category: liquid
 
 // The speed at which it pumps liquids (per frame)
-pumpAmount: 0.15
+pumpAmount: 0.2
 
 // Requirements to build the block
 requirements: [

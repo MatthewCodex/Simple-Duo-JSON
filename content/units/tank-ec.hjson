@@ -9,6 +9,7 @@ speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
+omniMovement: false
 
 hitSize: 32
 targetAir: true
@@ -35,6 +36,7 @@ weapons: [
       localizedName: "Professional Cannon Tank Weapon"
       length: 8
       reload: 30
+      rotate: true
       mirror: false
       x: 0
       y: 0
