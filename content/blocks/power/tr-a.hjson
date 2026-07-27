@@ -7,11 +7,11 @@ health: 1200
 // Item and Liquid Inputs
 hasItems: true
 hasLiquids: true
-itemCapacity: 30
+itemCapacity: 50
 liquidCapacity: 50
 
 // Power Generation
-powerProduction: 18.33
+powerProduction: 20
 
 // Heating Mechanics
 heating: 0.02
@@ -32,10 +32,10 @@ consumes: {
 }
 
 requirements: [
-  lead/300
-  silicon/200
-  thorium/150
-  phase-fabric/50
+  lead/10
+  silicon/10
+  thorium/10
+  phase-fabric/10
 ]
 
 category: power

@@ -1,0 +1,25 @@
+type: ConsumeGenerator
+name: "T3 Combustion Generator"
+description: Burns flammable items to produce power.
+size: 1
+health: 400
+category: power
+research: combustion-generator
+
+# Power Generation Settings
+powerProduction: 3
+
+# Fuel Consumption Settings
+itemDuration: 180.0
+consumes: {
+  itemFlammable: {}
+}
+
+# Visuals and Effects
+requirements: [
+  copper/25
+  lead/25
+  graphite/25
+]
+ambientSound: generatespark
+ambientSoundVolume: 0.2
