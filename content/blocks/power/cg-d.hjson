@@ -4,7 +4,7 @@ description: Burns flammable items to produce power.
 size: 1
 health: 500
 category: power
-research: combustion-generator
+research: cg-c
 
 # Power Generation Settings
 powerProduction: 4
