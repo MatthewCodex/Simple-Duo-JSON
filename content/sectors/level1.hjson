@@ -3,3 +3,4 @@ name: "pre build base"
 sector: 0
 difficulty: 1
 alwaysUnlocked: true
+planet: rospuleball
