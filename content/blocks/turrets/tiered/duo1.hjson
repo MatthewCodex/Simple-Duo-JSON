@@ -53,3 +53,4 @@ drawer: {
 
 category: turret
 research: duo
+shownPlanets: [serpulo, rospuleball]
