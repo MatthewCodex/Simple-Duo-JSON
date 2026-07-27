@@ -25,7 +25,6 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  base: drawBlock // Draws the standard shadow and team top base
   
   parts: [
     {
