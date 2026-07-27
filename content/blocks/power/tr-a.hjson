@@ -1,44 +1,42 @@
-type: GenericCrafter
-name: "T1 Thorium Reactor"
-description: "Generates massive power but explodes violently if thorium levels exceed safe storage limits."
+type: NuclearReactor
+name: T1 Thorium Reactor
+description: A highly unstable reactor that detonates violently if it overheats or loses coolant.
 size: 3
 health: 1200
-category: power
 
-// Item capacities and requirements
-itemCapacity: 30
+// Item and Liquid Inputs
 hasItems: true
-liquidCapacity: 0
-hasLiquids: false
+hasLiquids: true
+itemCapacity: 30
+liquidCapacity: 50
 
-// Power generation settings
-hasPower: true
-outputsPower: true
+// Power Generation
+powerProduction: 18.33
+
+// Heating Mechanics
+heating: 0.02
+coolantPower: 0.5
+
+// Explosion Properties
+explosionRadius: 40
+explosionDamage: 8000
+
 consumes: {
-  items: {
-    items: [
-      thorium/1
-    ]
+  items: [
+    thorium/1
+  ]
+  liquid: {
+    liquid: cryofluid
+    amount: 0.25
   }
 }
-powerProduction: 15.0 // Generates 900 power/sec at 60fps
-
-// The Core Mechanic: Explodes when destroyed or overloaded
-// Thorium has a base explosiveness of 1.2
-// Setting itemCapacity to 30 means up to 30 thorium can detonate at once
-baseExplosiveness: 5.0
-explosionRadius: 40
-explosionDamage: 1800
-
-// Visuals and timing
-craftTime: 20.0
-ambientSound: pulse
-ambientSoundVolume: 0.08
 
 requirements: [
-  lead/50
-  silicon/50
-  thorium/50
-  surge-alloy/50
+  lead/300
+  silicon/200
+  thorium/150
+  phase-fabric/50
 ]
+
+category: power
 research: thorium-reactor
