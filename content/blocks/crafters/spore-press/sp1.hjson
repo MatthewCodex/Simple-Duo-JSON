@@ -1,12 +1,14 @@
 type: GenericCrafter
 name: "T1 Spore Press"
 description: "Squeezes spore pods using heavy mechanical pistons to extract oil."
-size: 3
+size: 2
 health: 240
 craftTime: 20
 hasPower: true
 hasItems: true
 hasLiquids: true
+
+liquidCapacity: 50
 
 // Consume Spore Pods and Power
 consumes: {
