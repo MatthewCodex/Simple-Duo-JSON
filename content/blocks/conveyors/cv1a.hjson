@@ -1,0 +1,11 @@
+type: Conveyor
+name: "T1 Conveyor"
+description: "Moves items."
+category: distribution
+health: 50
+speed: 0.1
+displayedSpeed: 16.5
+requirements: [
+    copper/1
+]
+research: core-shard

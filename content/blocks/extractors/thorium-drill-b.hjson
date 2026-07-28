@@ -8,7 +8,7 @@ itemCapacity: 20
 craftTime: 45
 
 outputItems: [
-  titanium/1
+  thorium/1
 ]
 requirements: [
   titanium/100
