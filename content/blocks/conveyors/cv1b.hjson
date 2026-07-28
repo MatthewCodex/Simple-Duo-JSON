@@ -1,0 +1,10 @@
+type: ArmoredConveyor
+name: "T1 Armored Conveyor"
+description: "Moves items. Does not accept outputs from the sides. Has more health."
+category: distribution
+health: 100
+speed: 0.2
+requirements: [
+    titanium/1
+]
+research: core-shard

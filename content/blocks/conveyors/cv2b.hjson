@@ -1,0 +1,10 @@
+type: ArmoredConveyor
+name: "T2 Armored Conveyor"
+description: "Moves items. Does not accept outputs from the sides. Has more health."
+category: distribution
+health: 200
+speed: 0.4
+requirements: [
+    titanium/2
+]
+research: cv1b

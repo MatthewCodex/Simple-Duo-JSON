@@ -1,10 +1,10 @@
 type: Conveyor
-name: "T1 Conveyor"
+name: "T2 Conveyor"
 description: "Moves items."
 category: distribution
-health: 50
-speed: 0.2
+health: 100
+speed: 0.4
 requirements: [
-    copper/1
+    lead/1
 ]
-research: core-shard
+research: cv1a
