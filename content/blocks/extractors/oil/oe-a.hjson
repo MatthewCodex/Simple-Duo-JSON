@@ -1,0 +1,51 @@
+type: SolidPump
+name: T1 Rotary Oil Extractor
+description: Extracts oil. Requires power.
+size: 3
+health: 400
+hasPower: true
+category: production
+liquidCapacity: 50
+hasLiquids: true
+
+// Liquid production settings
+result: oil
+pumpAmount: 0.5
+
+// Requirements to build
+requirements: [
+  titanium/25
+  lead/25
+  metaglass/25
+]
+
+// Power consumption
+consumes: {
+  power: 2.0
+}
+
+// Visuals and Rotation
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRotator
+      suffix: -rotator
+      // Speed of rotation. Higher is faster. Negative values reverse direction.
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+
+research: plastanium-compressor
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
