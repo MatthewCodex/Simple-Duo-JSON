@@ -2,7 +2,7 @@ type: GenericCrafter
 name: T1 Plastanium Compressor
 description: Converts Oil and Titanium into Plastanium.
 size: 2
-health: 300
+health: 400
 
 itemCapacity: 50
 liquidCapacity: 50
@@ -10,10 +10,10 @@ liquidCapacity: 50
 hasLiquids: true
 hasItems: true
 
-craftTime: 60
+craftTime: 50
 
 consumes: {
-  power: 1.5
+  power: 1.75
   items: [
   titanium/1
   ]
@@ -23,19 +23,19 @@ consumes: {
 }
 
 outputItems: [
-  plastanium/2
+  plastanium/3
 ]
 
 requirements: [
-  silicon/10
-  lead/10
-  graphite/10
-  titanium/10 
+  silicon/25
+  lead/25
+  graphite/25
+  titanium/25 
 ]
 
 
 category: crafting
-research: spore-press
+research: pc-a
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

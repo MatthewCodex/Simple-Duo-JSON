@@ -1,25 +1,25 @@
 type: GenericCrafter
-name: "T1 Spore Press"
+name: "T5 Spore Press"
 description: "Squeezes spore pods using heavy mechanical pistons to extract oil."
 size: 2
-health: 240
-craftTime: 20
+health: 560
+craftTime: 12
 hasPower: true
 hasItems: true
 hasLiquids: true
 
-liquidCapacity: 50
+liquidCapacity: 250
 
 // Consume Spore Pods and Power
 consumes: {
-  power: 1.2
+  power: 2.0
   items: [
     spore-pod/1
   ]
 }
 
 // Output Oil
-outputLiquid: oil/16.0
+outputLiquid: oil/24.0
 
 // Piston Visual Setup
 drawer: {
@@ -48,9 +48,9 @@ drawer: {
 }
 
 requirements: [
-  copper/10
-  lead/10
-  silicon/10
+  copper/250
+  lead/250
+  silicon/250
 ]
 category: crafting
-research: spore-press
+research: sp4

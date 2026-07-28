@@ -1,0 +1,71 @@
+{
+  type: AttributeCrafter
+  name: T3 Cultivator
+  description: Cultivates tiny concentrations of atmospheric spores into valuable spore pods using water and power.
+  health: 400
+  size: 2
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+  itemCapacity: 20
+  liquidCapacity: 50
+  craftTime: 40
+  updateEffect: pulverizeRed
+  
+  // Attribute determines if it gets a boost from adjacent map tiles (like water vents)
+  attribute: spores
+  baseEfficiency: 1
+  boostScale: 0.4
+  
+  consumes: {
+    power: 2.0
+    liquids: [
+      water/0.2
+    ]
+  }
+  
+  requirements: [
+    copper/50
+    lead/50
+    silicon/50
+  ]
+  outputItems: [
+    spore-pod/4
+  ]
+  category: crafting
+  research: ctv2
+  
+  // Set to true if it needs to be placed on a specific block or liquid
+  // requirestilesheet: false
+
+  drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+
+    {
+      type: DrawLiquidTile
+      // Specify your custom sprite suffix here (include the leading hyphen)
+      suffix: "-middle"
+      drawLiquid: water
+    }
+
+    {
+      type: DrawDefault
+    }
+
+    {
+      type: DrawCultivator
+    }
+    
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
+  ]
+}
+
+}

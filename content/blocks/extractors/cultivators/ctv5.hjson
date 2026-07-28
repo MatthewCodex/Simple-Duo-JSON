@@ -1,0 +1,71 @@
+{
+  type: AttributeCrafter
+  name: T5 Cultivator
+  description: Cultivates tiny concentrations of atmospheric spores into valuable spore pods using water and power.
+  health: 600
+  size: 2
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+  itemCapacity: 20
+  liquidCapacity: 50
+  craftTime: 20
+  updateEffect: pulverizeRed
+  
+  // Attribute determines if it gets a boost from adjacent map tiles (like water vents)
+  attribute: spores
+  baseEfficiency: 1
+  boostScale: 0.6
+  
+  consumes: {
+    power: 3.0
+    liquids: [
+      water/0.2
+    ]
+  }
+  
+  requirements: [
+    copper/250
+    lead/250
+    silicon/250
+  ]
+  outputItems: [
+    spore-pod/6
+  ]
+  category: crafting
+  research: ctv4
+  
+  // Set to true if it needs to be placed on a specific block or liquid
+  // requirestilesheet: false
+
+  drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+
+    {
+      type: DrawLiquidTile
+      // Specify your custom sprite suffix here (include the leading hyphen)
+      suffix: "-middle"
+      drawLiquid: water
+    }
+
+    {
+      type: DrawDefault
+    }
+
+    {
+      type: DrawCultivator
+    }
+    
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
+  ]
+}
+
+}

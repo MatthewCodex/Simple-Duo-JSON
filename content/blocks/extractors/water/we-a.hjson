@@ -1,5 +1,5 @@
 type: SolidPump
-name: Rotary Water Extractor
+name: T1 Rotary Water Extractor
 description: Extracts groundwater using a heavy rotating turbine.
 size: 2
 health: 360
