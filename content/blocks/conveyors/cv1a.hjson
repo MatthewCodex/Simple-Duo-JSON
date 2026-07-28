@@ -4,7 +4,6 @@ description: "Moves items."
 category: distribution
 health: 50
 speed: 0.1
-displayedSpeed: 0
 requirements: [
     copper/1
 ]
