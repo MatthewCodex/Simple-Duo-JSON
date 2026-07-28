@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: T2 Pyratite Mixer
+description: Mixes coal, lead, and sand to create pyratite.
+size: 2
+hasItems: true
+hasPower: true
+craftTime: 50.0
+
+consumes: {
+  power: 1.0
+  items: [
+    coal/1
+    lead/1
+    sand/1
+  ]
+}
+
+outputItem: pyratite/3
+
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+
+category: crafting
+research: pm-a
