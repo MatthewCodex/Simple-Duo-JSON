@@ -25,3 +25,6 @@ requirements: [
 
 category: crafting
 research: pm-b
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

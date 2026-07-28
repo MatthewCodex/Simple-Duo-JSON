@@ -45,3 +45,7 @@ drawer: {
 }
 
 research: mechanical-pump
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

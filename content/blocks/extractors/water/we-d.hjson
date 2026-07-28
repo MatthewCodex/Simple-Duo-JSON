@@ -45,3 +45,7 @@ drawer: {
 }
 
 research: we-c
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -54,3 +54,6 @@ requirements: [
 ]
 category: crafting
 research: spore-press
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -23,4 +23,6 @@ requirements: [
 // Research requirements
 research: rotary-pump
 
+conductivePower: true
+
 shownPlanets: [serpulo , erekir , rospuleball]

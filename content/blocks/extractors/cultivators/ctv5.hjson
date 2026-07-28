@@ -68,4 +68,8 @@
   ]
 }
 
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
+
 }

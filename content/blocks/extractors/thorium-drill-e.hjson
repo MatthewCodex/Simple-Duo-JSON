@@ -1,25 +1,21 @@
 type: GenericCrafter
-name: T5 Tin Drill
-description: Produces raw tin.
-size: 5
-hasPower: true
+name: T2 Titanium Drill
+description: Produces thorium.
+size: 1
+hasPower: false
 hasItems: true
 itemCapacity: 20
 craftTime: 10
-consumes: {
-  power: 3.0
-}
+
 outputItems: [
-  m-tin/1
+  titanium/1
 ]
 requirements: [
-  m-iron-ingot/300
-  m-iron-plate/300
-  m-iron-rod/300
-  
+  titanium/450
+  plastanium/450
 ]
 category: production
-research: iron-drill-e
+research: thorium-drill-d
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

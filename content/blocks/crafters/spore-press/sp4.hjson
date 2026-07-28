@@ -54,3 +54,6 @@ requirements: [
 ]
 category: crafting
 research: sp3
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

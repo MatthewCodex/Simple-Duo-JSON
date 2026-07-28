@@ -23,4 +23,6 @@ requirements: [
 // Research requirements
 research: p-ba
 
+conductivePower: true
+
 shownPlanets: [serpulo , erekir , rospuleball]
