@@ -1,0 +1,42 @@
+
+type: GenericCrafter
+name: Custom Phase Weaver
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+itemCapacity: 20
+
+consumes: {
+  power: 1.5
+    items: [
+    thorium/1
+    sand/2
+  ]
+  
+}
+requirements: [
+  lead/25
+  thorium/25
+  copper/25
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawWeave
+      sinMag: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+outputItem: phase-fabric/2
+
+category: crafting
+research: plastanium-compressor
