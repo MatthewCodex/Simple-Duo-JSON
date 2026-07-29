@@ -37,7 +37,8 @@ drawer: {
   ]
 }
 outputItem: phase-fabric/3
-
+ambientSound: loopTech
+ambientSoundVolume: 0.05
 category: crafting
 research: phw-a
 
