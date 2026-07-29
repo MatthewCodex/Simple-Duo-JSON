@@ -1,0 +1,33 @@
+type: GenericCrafter
+  name: T5 Coal Centrifuge
+  description: Converts Oil into Coal.
+  size: 2
+
+  health: 500
+
+  itemCapacity: 200
+  liquidCapacity: 200
+
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+
+  craftTime: 30
+  consumes: {
+    power: 2.5
+    liquids: [
+      oil/1
+    ]
+  }
+  outputItems: [
+  coal/6
+]
+
+  category: crafting
+  research: cc4
+  requirements: [
+    copper/250
+    lead/250
+    silicon/250
+    titanium/250
+  ]

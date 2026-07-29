@@ -1,0 +1,33 @@
+type: GenericCrafter
+  name: T3 Mini Remoisturizer
+  description: Converts Coal into Oil.
+  size: 1
+
+  health: 400
+
+  itemCapacity: 200
+  liquidCapacity: 200
+
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+
+  craftTime: 30
+  consumes: {
+    power: 1.5
+    items: [
+      coal/4
+    ]
+  }
+  outputLiquids: [
+  oil/0.5
+]
+
+  category: crafting
+  research: mre2
+  requirements: [
+    copper/50
+    lead/50
+    silicon/50
+    titanium/50
+  ]

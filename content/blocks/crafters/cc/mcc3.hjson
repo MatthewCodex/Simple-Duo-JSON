@@ -1,0 +1,33 @@
+type: GenericCrafter
+  name: T3 Mini Coal Centrifuge
+  description: Converts Oil into Coal.
+  size: 1
+
+  health: 400
+
+  itemCapacity: 200
+  liquidCapacity: 200
+
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+
+  craftTime: 30
+  consumes: {
+    power: 1.5
+    liquids: [
+      oil/0.5
+    ]
+  }
+  outputItems: [
+  coal/4
+]
+
+  category: crafting
+  research: mcc2
+  requirements: [
+    copper/50
+    lead/50
+    silicon/50
+    titanium/50
+  ]

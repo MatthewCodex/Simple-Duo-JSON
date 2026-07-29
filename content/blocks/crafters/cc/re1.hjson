@@ -1,0 +1,33 @@
+type: GenericCrafter
+  name: T1 Remoisturizer
+  description: Converts Coal into Oil.
+  size: 2
+
+  health: 300
+
+  itemCapacity: 200
+  liquidCapacity: 200
+
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+
+  craftTime: 30
+  consumes: {
+    power: 0.5
+    items: [
+      coal/2
+    ]
+  }
+  outputLiquids: [
+  oil/1
+]
+
+  category: crafting
+  research: coal-centrifuge
+  requirements: [
+    copper/10
+    lead/10
+    silicon/10
+    titanium/10
+  ]

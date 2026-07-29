@@ -1,0 +1,33 @@
+type: GenericCrafter
+  name: T5 Remoisturizer
+  description: Converts Coal into Oil.
+  size: 2
+
+  health: 500
+
+  itemCapacity: 200
+  liquidCapacity: 200
+
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+
+  craftTime: 30
+  consumes: {
+    power: 2.5
+    items: [
+      coal/6
+    ]
+  }
+  outputLiquids: [
+  oil/1
+]
+
+  category: crafting
+  research: re4
+  requirements: [
+    copper/250
+    lead/250
+    silicon/250
+    titanium/250
+  ]
