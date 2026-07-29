@@ -1,117 +1,32 @@
-generator: "serpulo",
-name: "Nakayoshi World"
-    parent: "serpulo",
-	radius: 2,
-	minZoom: 0.6,
-    orbitRadius: 10,
-	orbitSpacing: 15,
-    hasAtmosphere: true,
-	bloom: true
-	visible: true,
-    updateLighting: false,
-    atmosphereRadIn: 0.05,
-    atmosphereRadOut: 0.3,
-	atmosphereColor: 9679e5ff,
-	iconColor: 7a80beff,
-    drawOrbit: true,
-    accessible: true,
-    alwaysUnlocked: true,
-    defaultCore: "core-shard",
-    startSector: 0,
-    sectorSize: 3,
-    clearSectorOnLose: true,
-	allowWaves: true,
-    allowSectorInvasion: true,
-	allowLaunchToNumbered: false,
-	allowLaunchLoadout: false,
-	clearSectorOnLose: true,
-	showRtsAIRule: false,
-	prebuildBase: true,
-	allowCampaignRules: false,
-	autoAssignPlanet: true,
-    presets: {
-        level1:0
-    }
-    attackSectors:[11,12,13]
-    hiddenItems: [
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide",
-        "fissile-matter",
-        "dormant-cyst"
-    ]
-	campaignRules:{
-	showSpawns: true,
-	}
-	cloudMesh: [{
-	type: HexSkyMesh
-	seed: 125
-	speed: 0.2
-	radius: 0.08
-	divisions: 4
-	color: 9980e08a
-	octaves: 2
-	persistence: 0.7
-	scl: 1
-	thresh: 0.4
-	}
-]
-	mesh: [
-	{
-      type: NoiseMesh
-      planet: your-planet-name
-      seed: 5621
-      divisions: 4
-      radius: 1
-      color1: 1d2c4d
-      color2: 243a61
-      // Octaves, quality, and scale control the noise patterns
-      octaves: 3
-      persistence: 0.5
-      scale: 0.8
-      mag: 0.5
-    }
-    // Layer 2: Shallow Water & Sand (Generates just above ocean level)
+{
+  // Basic identifiers
+  localizedName: "Nakayoshi World"
+  parent: "sun"
+  solarSystem: "sun"
+  
+  // Use Serpulo's built-in generator and base logic
+  generator: "serpulo"
+  
+  // Visual and gameplay properties
+  radius: 20
+  accessible: true
+  updateLighting: true
+  sectorSize: 2
+  camRadius: 0.7
+  atmosphereColor: "989aa4"
+  iconColor: "d06b53"
+  mesh: [
     {
-      type: NoiseMesh
-      planet: your-planet-name
-      seed: 1204
-      divisions: 5
-      radius: 1
-      color1: e5c890
-      color2: d1b170
+      type: "NoiseMesh"
+      planet: "rospuleball"
+      seed: 1234
       octaves: 4
-      persistence: 0.6
-      scale: 0.9
-      mag: 0.7
+      persistence: 1
+      scale: 1
+      mag: 1
+      color1: "37373f"
+      color2: "737585"
+      radius: 0.9
     }
-    // Layer 3: Main Landmass (e.g., Grass / Moss blocks)
-    {
-      type: NoiseMesh
-      planet: your-planet-name
-      seed: 8743
-      divisions: 6
-      radius: 1
-      color1: 5a8a58
-      color2: 3f663d
-      octaves: 5
-      persistence: 0.5
-      scale: 1.1
-      mag: 1.2
-    }
-    // Layer 4: Mountain Peaks (e.g., Stone / Snowy caps)
-    {
-      type: NoiseMesh
-      planet: your-planet-name
-      seed: 9941
-      divisions: 6
-      radius: 1
-      color1: 808080
-      color2: b3b3b3
-      octaves: 6
-      persistence: 0.4
-      scale: 1.3
-      mag: 2.1
-    }
-]
+  ]
+}
