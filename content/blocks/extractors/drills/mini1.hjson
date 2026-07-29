@@ -13,8 +13,8 @@ consumes: {
 
 // Rotation and Visuals
 rotateSpeed: 2
-drawRim: true
-
+drawRim: false
+drawTeamOverlay: true
 // Requirements and Categories
 category: production
 research: laser-drill
