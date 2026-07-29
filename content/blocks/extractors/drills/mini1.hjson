@@ -15,6 +15,7 @@ consumes: {
 rotateSpeed: 2
 drawRim: true
 drawTeamOverlay: true
+drawMineItem: false
 // Requirements and Categories
 category: production
 research: laser-drill
