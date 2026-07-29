@@ -32,7 +32,7 @@ name: "Nakayoshi World"
     presets: {
         level1:0
     }
-    attackSectors:[1,2,3]
+    attackSectors:[11,12,13]
     hiddenItems: [
         "beryllium",
         "oxide",
