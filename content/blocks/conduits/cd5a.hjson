@@ -1,0 +1,11 @@
+type: Conduit
+name: T5 Conduit
+description: Transports liquids.
+health: 250
+liquidCapacity: 100.0
+liquidPressure: 2.0   // Standard conduit is usually 1.0; pulse conduits are higher
+requirements: [
+  metaglass/2
+  titanium/2
+]
+category: liquid

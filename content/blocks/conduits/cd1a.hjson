@@ -1,0 +1,10 @@
+type: Conduit
+name: T1 Conduit
+description: Transports liquids.
+health: 50
+liquidCapacity: 20.0
+liquidPressure: 1   // Standard conduit is usually 1.0; pulse conduits are higher
+requirements: [
+  metaglass/1
+]
+category: liquid

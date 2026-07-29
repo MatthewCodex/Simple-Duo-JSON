@@ -1,0 +1,10 @@
+type: Conduit
+name: T4 Conduit
+description: Transports liquids.
+health: 200
+liquidCapacity: 80.0
+liquidPressure: 1.75   // Standard conduit is usually 1.0; pulse conduits are higher
+requirements: [
+  titanium/2
+]
+category: liquid
