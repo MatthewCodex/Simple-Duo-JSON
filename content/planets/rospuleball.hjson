@@ -1,4 +1,4 @@
-generator: "SerpuloPlanetGenerator",
+generator: "serpulo",
 name: "Nakayoshi World"
     parent: "serpulo",
 	radius: 2,
