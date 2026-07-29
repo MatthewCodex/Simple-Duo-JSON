@@ -1,0 +1,27 @@
+type: Drill
+name: T4 Mini Drill
+description: A smaller drill that uses a rotating head to mine resources. Requires power.
+size: 1
+health: 600
+tier: 3
+drillTime: 80
+hasPower: true
+
+consumes: {
+  power: 2.0
+}
+
+// Rotation and Visuals
+rotateSpeed: 5
+drawRim: true
+
+// Requirements and Categories
+category: production
+research: mini3
+requirements: [
+  titanium/100
+  plastanium/100
+]
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
