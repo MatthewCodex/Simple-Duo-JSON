@@ -14,7 +14,7 @@ consumes: {
 // Rotation and Visuals
 rotateSpeed: 6
 drawRim: true
-
+drawMineItem: false
 // Requirements and Categories
 category: production
 research: mini4

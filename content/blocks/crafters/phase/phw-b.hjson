@@ -1,14 +1,14 @@
 
 type: GenericCrafter
-name: T1 Phase Weaver
+name: T2 Phase Weaver
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 60
+craftTime: 45
 itemCapacity: 20
-health: 500
+health: 750
 consumes: {
-  power: 1.5
+  power: 2.0
     items: [
     thorium/1
     sand/2
@@ -16,9 +16,9 @@ consumes: {
   
 }
 requirements: [
-  lead/25
-  thorium/25
-  copper/25
+  lead/50
+  thorium/50
+  copper/50
 ]
 drawer: {
   type: DrawMulti
@@ -36,10 +36,10 @@ drawer: {
     }
   ]
 }
-outputItem: phase-fabric/2
+outputItem: phase-fabric/3
 
 category: crafting
-research: plastanium-compressor
+research: phw-a
 
 conductivePower: true
 

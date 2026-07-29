@@ -31,3 +31,8 @@ type: GenericCrafter
     silicon/100
     titanium/100
   ]
+
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
