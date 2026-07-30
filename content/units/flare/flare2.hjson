@@ -1,11 +1,11 @@
 {
   type: flying
-  name: "T1 Flare"
-  speed: 3.2
+  name: "T2 Flare"
+  speed: 3.4
   accel: 0.08
   drag: 0.04
   flying: true
-  health: 50
+  health: 100
   engineOffset: 5.5
   hitSize: 8
   isEnemy: true
@@ -19,11 +19,11 @@
       shootSound: "shoot"
       bullet: {
       type: LaserBoltBulletType
-      damage: 5
-      speed: 5
+      damage: 10
+      speed: 5.5
       lifetime: 50
       frontColor: ffffff
-      backColor: 22b14c
+      backColor: a8e61d
     }
     }
   ]

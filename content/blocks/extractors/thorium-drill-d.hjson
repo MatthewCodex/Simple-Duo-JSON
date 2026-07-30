@@ -1,12 +1,14 @@
 type: GenericCrafter
-name: T2 Titanium Drill
+name: T4 Thorium Drill
 description: Produces thorium.
 size: 4
-hasPower: false
+hasPower: true
 hasItems: true
 itemCapacity: 20
 craftTime: 20
-
+consumes: {
+  power: 2.0
+}
 outputItems: [
   thorium/1
 ]

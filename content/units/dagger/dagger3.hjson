@@ -2,7 +2,7 @@ name: T3 Dagger
 type: mech
 speed: 1
 hitSize: 8
-health: 250
+health: 150
 stepSoundVolume: 0.4
 canAttack: true
 

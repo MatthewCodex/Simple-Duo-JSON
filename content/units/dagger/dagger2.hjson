@@ -2,7 +2,7 @@ name: T2 Dagger
 type: mech
 speed: 0.75
 hitSize: 8
-health: 200
+health: 100
 stepSoundVolume: 0.4
 canAttack: true
 

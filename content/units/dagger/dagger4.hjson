@@ -2,7 +2,7 @@ name: T4 Dagger
 type: mech
 speed: 1.25
 hitSize: 8
-health: 300
+health: 200
 stepSoundVolume: 0.4
 canAttack: true
 
