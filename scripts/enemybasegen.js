@@ -3,7 +3,7 @@ let Team = Packages.mindustry.game.Team;
 let Tiles = Packages.mindustry.world.Tiles;
 
 // Listens for the map to finish loading completely
-Events.on(WorldLoadEvent, event => {
+Events.on(PlayEvent, event => {
     // Your code goes here
     Log.info("Map successfully loaded! Trying to place power nodes...");
     let cx = (Vars.world.width()/2);
