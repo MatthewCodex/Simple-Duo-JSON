@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: T2 Silicon Smelter
+description: Turns sand and coal into silicon. Glows when active.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 45
+
+# Base light settings for the block
+emitLight: true
+lightRadius: 60
+
+consumes: {
+  power: 3.0
+  items: [
+    copper/1
+    lead/1
+    titanium/1
+    silicon/1
+  ]
+}
+
+requirements: [
+silicon/50
+lead/50
+thorium/50
+]
+
+outputItem: surge-alloy/3
+
+# This section controls the visual glow during crafting
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      flameColor: ffef99ff
+    }
+  ]
+}
+
+category: crafting
+research: susm-a
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
