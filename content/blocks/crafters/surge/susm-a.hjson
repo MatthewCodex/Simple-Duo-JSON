@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: T1 Silicon Smelter
-description: Turns sand and coal into silicon. Glows when active.
+name: T1 Surge Smelter
+description: Turns copper, lead, titanium, and silicon into surge alloy. Requires power. Glows when active.
 size: 3
 hasPower: true
 hasItems: true
