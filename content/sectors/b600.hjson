@@ -1,14 +1,17 @@
-# content/sectors/my-custom-sector.hjson
-name: "Deep Invasion"
-planet: "rospuleball"
-sector: 0
+# Inside: content/sectors/my-procedural-sector.hjson
 
-# Enables automatic creation of an enemy attack base
+# 1. Provide the name and ID data
+name: "procedural-attack-zone"
+localizedName: "Procedural Attack Zone"
+planet: "rospuleball"
+sector: 82  # Must link to a real grid ID on your planet mesh
+
+# 2. Toggle the generators
 generateEnemyBase: true
 
-# Configures the threat rating of the generated base (1 to 10)
-difficulty: 0
+# 3. DO NOT include any field that points to an msav file!
+# CRITICAL: Delete any lines containing: "customMap", "mapName", or "fileName" if present.
 
-# Standard sector rules
+# 4. Give the game mathematical instructions for procedural logic
+difficulty: 7
 captureWave: 0
-localizedName: "Low"
