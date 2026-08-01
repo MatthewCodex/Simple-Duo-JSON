@@ -1,6 +1,6 @@
 # content/sectors/my-custom-sector.hjson
 name: "Deep Invasion"
-planet: "serpulo"
+planet: "rospuleball"
 sector: 0
 
 # Enables automatic creation of an enemy attack base
