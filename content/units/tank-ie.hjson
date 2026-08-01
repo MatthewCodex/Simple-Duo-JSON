@@ -72,7 +72,6 @@ weapons: [
         despawnSound: blockExplode3
 	      frontColor: ffffff
 	      backColor: ff0000
-	      ammoMultiplier: 3
         status: blasted
 
         

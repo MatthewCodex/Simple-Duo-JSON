@@ -73,7 +73,6 @@ weapons: [
         status: blasted
 	      frontColor: ffffff
 	      backColor: ff0000
-	      ammoMultiplier: 3 
       }
     }
   ]
