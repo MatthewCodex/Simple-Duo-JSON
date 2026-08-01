@@ -1,7 +1,7 @@
 type: tank
 name: tank-da
-localizedName: Basic Flamethrower Tank
-description: Burns enemies.
+localizedName: Basic Slag Tank
+description: Melts enemies.
 
 health: 250
 armor: 1
@@ -33,7 +33,7 @@ treadFrames: 4
 weapons: [
     { 
       name: turret-da
-      localizedName: Basic Flamethrower Tank Weapon
+      localizedName: Basic Slag Tank Weapon
       reload: 3
       shots: 1
       shootSound: shootFlame
@@ -43,19 +43,15 @@ weapons: [
       x: 0
       y: 0
       bullet: {
-        type: BulletType
+        type: LiquidBulletType
+        liquid: slag
         damage: 15
         speed: 4
+        drag: 0.01
         knockback: 1
         lifetime: 40
-        drawSize: 40
-        status: burning
+        status: melting
         statusDuration: 120
-        shootEffect: shootSmallFlame
-        hitEffect: hitFlameSmall
-        despawnEffect: none
-        pierce: true
-        collidesAir: false
       }
 
     }
