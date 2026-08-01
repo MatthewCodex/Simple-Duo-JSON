@@ -1,7 +1,7 @@
 type: tank
 name: tank-dd
-localizedName: Elite Flamethrower Tank
-description: Burns enemies.
+localizedName: Elite Slag Tank
+description: Melts enemies.
 
 health: 1000
 armor: 4
@@ -33,7 +33,7 @@ treadFrames: 4
 weapons: [
     { 
       name: turret-dd
-      localizedName: Elite Flamethrower Tank Weapon
+      localizedName: Elite Slag Tank Weapon
       reload: 3
       shots: 1
       shootSound: shootFlame
@@ -43,19 +43,15 @@ weapons: [
       x: 0
       y: 0
       bullet: {
-        type: BulletType
-        damage: 40
+        type: LiquidBulletType
+        liquid: slag
+        damage: 36
         speed: 4
+        drag: 0.01
         knockback: 1
-        lifetime: 100
-        drawSize: 40
+        lifetime: 40
         status: burning
-        statusDuration: 210
-        shootEffect: shootSmallFlame
-        hitEffect: hitFlameSmall
-        despawnEffect: none
-        pierce: true
-        collidesAir: false
+        statusDuration: 420
       }
 
     }

@@ -1,7 +1,7 @@
 type: tank
 name: tank-de
-localizedName: Extreme Flamethrower Tank
-description: Burns enemies.
+localizedName: Extreme Slag Tank
+description: Melts enemies.
 
 health: 1250
 armor: 5
@@ -33,7 +33,7 @@ treadFrames: 4
 weapons: [
     { 
       name: turret-de
-      localizedName: Extreme Flamethrower Tank Weapon
+      localizedName: Extreme Slag Tank Weapon
       reload: 3
       shots: 1
       shootSound: shootFlame
@@ -43,19 +43,15 @@ weapons: [
       x: 0
       y: 0
       bullet: {
-        type: BulletType
-        damage: 50
+        type: LiquidBulletType
+        liquid: slag
+        damage: 54
         speed: 4
+        drag: 0.01
         knockback: 1
-        lifetime: 120
-        drawSize: 40
+        lifetime: 60
         status: burning
-        statusDuration: 240
-        shootEffect: shootSmallFlame
-        hitEffect: hitFlameSmall
-        despawnEffect: none
-        pierce: true
-        collidesAir: false
+        statusDuration: 600
       }
 
     }

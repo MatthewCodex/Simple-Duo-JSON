@@ -14,7 +14,7 @@ consumes: {
   
 targetAir: true
 targetGround: true
-  
+shootSound: windHowl  
 hasLiquids: true
   
 research: turret-hd

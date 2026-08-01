@@ -14,7 +14,7 @@ consumes: {
   
 targetAir: true
 targetGround: true
-  
+shootSound: shootFlame  
 hasLiquids: true
   
 research: turret-dd

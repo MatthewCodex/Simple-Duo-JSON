@@ -1,6 +1,6 @@
 type: tank
 name: tank-he
-localizedName: Extreme Freeze Tank
+localizedName: Extreme Cryofluid Tank
 description: Freezes enemies.
 
 health: 1500
@@ -32,23 +32,25 @@ treadFrames: 4
 weapons: [
   {
     name: turret-he
-    localizedName: Extreme Freeze Tank Weapon
-    length: 20
-    reload: 10
-    shootCone: 15
+    localizedName: Extreme Cryofluid Tank Weapon
+    reload: 3
+    shots: 1
+    shootSound: windHowl
+    alternate: true
     mirror: false
-      x: 0
-      y: 0
-    continuous: true
-    shootSound: shootDuo
+    rotate: true
+    x: 0
+    y: 0
     bullet: {
-      type: ContinuousLaserBulletType
-      damage: 20
-      length: 135
-      width: 4
-      colors: [00ffff, 80ffff, ffffff]
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage: 54
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 60
       status: freezing
-      statusDuration: 360
+      statusDuration: 600
     }
   }
 ]

@@ -1,7 +1,7 @@
 type: tank
 name: tank-dc
-localizedName: Professional Flamethrower Tank
-description: Burns enemies.
+localizedName: Professional Slag Tank
+description: Melts enemies.
 
 health: 750
 armor: 3
@@ -33,7 +33,7 @@ treadFrames: 4
 weapons: [
     { 
       name: turret-dc
-      localizedName: Professional Flamethrower Tank Weapon
+      localizedName: Professional Slag Tank Weapon
       reload: 3
       shots: 1
       shootSound: shootFlame
@@ -43,19 +43,15 @@ weapons: [
       x: 0
       y: 0
       bullet: {
-        type: BulletType
-        damage: 25
+        type: LiquidBulletType
+        liquid: slag
+        damage: 27
         speed: 4
+        drag: 0.01
         knockback: 1
-        lifetime: 80
-        drawSize: 40
+        lifetime: 40
         status: burning
-        statusDuration: 180
-        shootEffect: shootSmallFlame
-        hitEffect: hitFlameSmall
-        despawnEffect: none
-        pierce: true
-        collidesAir: false
+        statusDuration: 360
       }
 
     }

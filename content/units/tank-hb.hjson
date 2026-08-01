@@ -1,6 +1,6 @@
 type: tank
 name: tank-hb
-localizedName: Advanced Freeze Tank
+localizedName: Advanced Cryofluid Tank
 description: Freezes enemies.
 
 health: 600
@@ -32,23 +32,25 @@ treadFrames: 4
 weapons: [
   {
     name: turret-hb
-    localizedName: Advanced Freeze Tank Weapon
-    length: 20
-    reload: 10
-    shootCone: 15
+    localizedName: Advanced Cryofluid Tank Weapon
+    reload: 3
+    shots: 1
+    shootSound: windHowl
+    alternate: true
     mirror: false
-      x: 0
-      y: 0
-    continuous: true
-    shootSound: shootDuo
+    rotate: true
+    x: 0
+    y: 0
     bullet: {
-      type: ContinuousLaserBulletType
-      damage: 8
-      length: 90
-      width: 4
-      colors: [00ffff, 80ffff, ffffff]
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage: 18
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 40
       status: freezing
-      statusDuration: 180
+      statusDuration: 240
     }
   }
 ]

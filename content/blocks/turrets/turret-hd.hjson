@@ -9,7 +9,7 @@ liquidCapacity: 320
   
 targetAir: true
 targetGround: true
-  
+shootSound: windHowl  
 hasLiquids: true
   
 research: turret-hc

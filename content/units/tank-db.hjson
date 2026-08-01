@@ -1,7 +1,7 @@
 type: tank
 name: tank-db
-localizedName: Advanced Flamethrower Tank
-description: Burns enemies.
+localizedName: Advanced Slag Tank
+description: Melts enemies.
 
 health: 500
 armor: 2
@@ -33,7 +33,7 @@ treadFrames: 4
 weapons: [
     { 
       name: turret-db
-      localizedName: Advanced Flamethrower Tank Weapon
+      localizedName: Advanced Slag Tank Weapon
       reload: 3
       shots: 1
       shootSound: shootFlame
@@ -43,19 +43,15 @@ weapons: [
       x: 0
       y: 0
       bullet: {
-        type: BulletType
-        damage: 20
+        type: LiquidBulletType
+        liquid: slag
+        damage: 18
         speed: 4
+        drag: 0.01
         knockback: 1
-        lifetime: 60
-        drawSize: 40
-        status: burning
-        statusDuration: 150
-        shootEffect: shootSmallFlame
-        hitEffect: hitFlameSmall
-        despawnEffect: none
-        pierce: true
-        collidesAir: false
+        lifetime: 40
+        status: melting
+        statusDuration: 240
       }
 
     }

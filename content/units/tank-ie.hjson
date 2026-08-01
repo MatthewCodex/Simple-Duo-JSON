@@ -51,24 +51,25 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-
         speed: 4
-        damage: 45  
+        damage: 50
+        splashDamage: 100
+        splashDamageRadius: 100
         lifetime: 100
         homingPower: 0.4
         homingRange: 300
         width: 8
         height: 8
-          
         shootEffect: shootBig
         smokeEffect: shootSmokeSquare
         hitEffect: blastExplosion
         shootSound: shootArtillery
         hitSound: blockExplode3
         despawnSound: blockExplode3
+	      frontColor: ffffff
+	      backColor: ff0000
+	      ammoMultiplier: 3
         status: blasted
-        frontColor: ffffff
-        backColor: ff0000
 
         
           

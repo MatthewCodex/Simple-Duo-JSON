@@ -1,6 +1,6 @@
 type: tank
 name: tank-ha
-localizedName: Basic Freeze Tank
+localizedName: Basic Cryofluid Tank
 description: Freezes enemies.
 
 health: 300
@@ -32,21 +32,23 @@ treadFrames: 4
 weapons: [
   {
     name: turret-ha
-    localizedName: Basic Freeze Tank Weapon
-    length: 20
-    reload: 10
-    shootCone: 15
+    localizedName: Basic Cryofluid Tank Weapon
+    reload: 3
+    shots: 1
+    shootSound: windHowl
+    alternate: true
     mirror: false
-      x: 0
-      y: 0
-    continuous: true
-    shootSound: shootDuo
+    rotate: true
+    x: 0
+    y: 0
     bullet: {
-      type: ContinuousLaserBulletType
-      damage: 4
-      length: 75
-      width: 4
-      colors: [00ffff, 80ffff, ffffff]
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage: 15
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 40
       status: freezing
       statusDuration: 120
     }
