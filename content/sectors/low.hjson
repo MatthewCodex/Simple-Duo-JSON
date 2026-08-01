@@ -1,0 +1,14 @@
+# content/sectors/my-custom-sector.hjson
+name: "Deep Invasion"
+planet: "serpulo"
+sector: 0
+
+# Enables automatic creation of an enemy attack base
+generateEnemyBase: true
+
+# Configures the threat rating of the generated base (1 to 10)
+difficulty: 0
+
+# Standard sector rules
+captureWave: 0
+localizedName: "Low"

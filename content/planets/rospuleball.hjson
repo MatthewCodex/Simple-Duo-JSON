@@ -12,7 +12,7 @@
   accessible: true
   updateLighting: true
   sectorSize: 4
-  startSector: 5
+  startSector: 0
   camRadius: 0.7
   atmosphereColor: "989aa4"
   iconColor: "d06b53"
