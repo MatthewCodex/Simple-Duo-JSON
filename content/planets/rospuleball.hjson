@@ -16,6 +16,7 @@
   camRadius: 0.7
   atmosphereColor: "989aa4"
   iconColor: "d06b53"
+  sectorSeed: -1
   mesh: [
     {
       type: "NoiseMesh"
