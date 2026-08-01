@@ -2,7 +2,7 @@
 
 # 1. Provide the name and ID data
 name: "procedural-attack-zone"
-localizedName: "Procedural Attack Zone"
+localizedName: "My Procedural Attack Zone"
 planet: "rospuleball"
 sector: 0  # Must link to a real grid ID on your planet mesh
 
