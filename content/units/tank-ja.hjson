@@ -1,7 +1,7 @@
 type: tank
 name: tank-ja
 localizedName: Basic Pierce Tank
-description: Freezes enemies.
+description: Shoot piercing projectiles at enemies.
 
 health: 300
 armor: 1

@@ -1,7 +1,7 @@
 type: tank
 name: tank-je
 localizedName: Extreme Pierce Tank
-description: Freezes enemies.
+description: Shoot piercing projectiles at enemies.
 
 health: 1500
 armor: 5
