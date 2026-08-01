@@ -26,6 +26,26 @@ ammoTypes: {
     damage: 16
     width: 7
     height: 7
+    ammoMultiplier: 2
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    hitColor: copperAmmoBack
+    backColor: copperAmmoBack
+    trailColor: copperAmmoBack
+    frontColor: copperAmmoFront
+  }
+  graphite: {
+    speed: 4
+    damage: 24
+    width: 7
+    height: 7
+    ammoMultiplier: 4
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    hitColor: graphiteAmmoBack
+    backColor: graphiteAmmoBack
+    trailColor: graphiteAmmoBack
+    frontColor: graphiteAmmoFront
   }
 }
 
