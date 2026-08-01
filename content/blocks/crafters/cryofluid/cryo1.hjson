@@ -63,8 +63,7 @@ drawer: {
 }
 
 # Visual effect played when the machine finishes an item cycle
-craftEffect: smelt
-
+lightLiquid: cryofluid
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]
