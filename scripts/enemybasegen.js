@@ -11,5 +11,6 @@ Events.on(BlockBuildEndEvent, event => {
         // --- YOUR CUSTOM CODE HERE ---
         Log.info("A " + event.tile.block() + "was placed at X: " + event.tile.x + ", Y: " + event.tile.y + "by:" + event.team);
         
+        
     }
 });

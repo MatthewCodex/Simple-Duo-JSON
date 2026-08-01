@@ -1,0 +1,11 @@
+type: ArmoredConduit
+name: T2 Armored Conduit
+description: Transports liquids. Does not accept outputs from the sides. Has more health.
+health: 200
+liquidCapacity: 40.0
+liquidPressure: 1.25   // Standard conduit is usually 1.0; pulse conduits are higher
+requirements: [
+  plastanium/1
+]
+category: liquid
+research: cd1a

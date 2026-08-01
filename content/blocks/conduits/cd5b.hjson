@@ -1,0 +1,12 @@
+type: ArmoredConduit
+name: T5 Armored Conduit
+description: Transports liquids.  Does not accept outputs from the sides. Has more health.
+health: 500
+liquidCapacity: 100.0
+liquidPressure: 2.0   // Standard conduit is usually 1.0; pulse conduits are higher
+requirements: [
+  metaglass/2
+  titanium/2
+]
+category: liquid
+research: cd4a

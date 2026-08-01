@@ -1,0 +1,11 @@
+type: ArmoredConduit
+name: T3 Armored Conduit
+description: Transports liquids. Does not accept outputs from the sides. Has more health.
+health: 300
+liquidCapacity: 60.0
+liquidPressure: 1.5   // Standard conduit is usually 1.0; pulse conduits are higher
+requirements: [
+  thorium/2
+]
+category: liquid
+research: cd2a
