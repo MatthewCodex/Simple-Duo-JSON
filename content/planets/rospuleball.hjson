@@ -5,8 +5,8 @@
   solarSystem: "sun"
   
   // Use Serpulo's built-in generator and base logic
-  generator: "serpulo"
-  
+  generator: SerpuloPlanetGenerator
+  attackSectors:[0,6,13,16,19,20,24,27,30,47,55,66,67,69,76,92,94,111,116,127,133,161,162,176,180,185,191,192,197,200,207,225,230,240,242,243,244,245,246,247,248,254,259,263,265]
   // Visual and gameplay properties
   radius: 20
   accessible: true
