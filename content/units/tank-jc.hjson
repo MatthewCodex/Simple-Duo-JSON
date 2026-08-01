@@ -9,6 +9,9 @@ speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
+omniMovement: false
+
+research: tank-jb
 
 hitSize: 32
 targetAir: true
@@ -37,6 +40,8 @@ weapons: [
     reload: 10
     shootCone: 15
     mirror: false
+        rotate: true
+
       x: 0
       y: 0
     continuous: true

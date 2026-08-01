@@ -11,6 +11,8 @@ drag: 0.05
 rotateSpeed: 10
 omniMovement: false
 
+research: tank-bc
+
 hitSize: 40
 targetAir: true
 

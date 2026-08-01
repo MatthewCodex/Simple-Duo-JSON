@@ -11,6 +11,8 @@ drag: 0.05
 rotateSpeed: 5
 omniMovement: false
 
+research: tank-dd
+
 hitSize: 48
 targetAir: true
 

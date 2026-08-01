@@ -9,6 +9,9 @@ speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
+omniMovement: false
+
+research: tank-gc
 
 hitSize: 40
 targetAir: true

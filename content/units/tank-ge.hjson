@@ -9,6 +9,9 @@ speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
+omniMovement: false
+
+research: tank-gd
 
 hitSize: 48
 targetAir: true
@@ -34,7 +37,7 @@ weapons: [
       name: "turret-ge"
       localizedName: "Extreme Homing Tank Weapon"
       length: 8
-
+      rotate: true
       mirror: false
       x: 0
       y: 0

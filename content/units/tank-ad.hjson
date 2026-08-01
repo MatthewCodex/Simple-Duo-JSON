@@ -11,7 +11,7 @@ drag: 0.05
 rotateSpeed: 5
 omniMovement: false
 
-research: t4r
+research: tank-ac
 
 hitSize: 40
 targetAir: true

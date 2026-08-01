@@ -9,6 +9,9 @@ speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
+omniMovement: false
+
+research: tank-ic
 
 hitSize: 40
 targetAir: true
@@ -34,6 +37,7 @@ weapons: [
       name: "turret-id"
       localizedName: "Elite Blast Tank Weapon"
       length: 8
+    rotate: true
 
       mirror: false
       x: 0
