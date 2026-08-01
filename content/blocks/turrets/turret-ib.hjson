@@ -25,6 +25,8 @@ ammoTypes: {
   silicon: {
     speed: 4
     damage: 30
+    splashDamage: 60
+    splashDamageRadius: 60
     lifetime: 100
     homingPower: 0.2
     homingRange: 225

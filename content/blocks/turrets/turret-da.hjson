@@ -1,6 +1,6 @@
 type: LiquidTurret
-name: Basic Flamethrower Turret
-description: Burns enemies. Requires oil.
+name: Basic Slag Turret
+description: Melts enemies using slag.
 health: 900
 size: 1
 range: 50
@@ -22,15 +22,15 @@ lead/50
 ]
 
 ammoTypes: {
-    oil: {
+    slag: {
       type: LiquidBulletType
-      liquid: oil
+      liquid: slag
       damage: 15
       speed: 4
       drag: 0.01
       knockback: 1
       lifetime: 40
-      status: burning
+      status: melting
       statusDuration: 120
     }
   }

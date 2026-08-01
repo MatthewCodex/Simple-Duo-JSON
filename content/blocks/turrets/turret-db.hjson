@@ -1,6 +1,6 @@
 type: LiquidTurret
-name: Advanced Flamethrower Turret
-description: A better Flamethrower Turret. Requires heavy oil.
+name: Advanced Slag Turret
+description: Melts enemies using slag.
 health: 1200
 size: 2
 range: 75
@@ -23,15 +23,15 @@ graphite/50
 ]
 
 ammoTypes: {
-    heavy-oil: {
+    slag: {
       type: LiquidBulletType
-      liquid: heavy-oil
+      liquid: slag
       damage: 18
       speed: 4
       drag: 0.01
       knockback: 1
       lifetime: 40
-      status: burning
+      status: melting
       statusDuration: 240
     }
   }

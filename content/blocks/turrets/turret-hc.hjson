@@ -1,46 +1,41 @@
-type: PowerTurret
-name: Professional Freeze Turret
-description: Freezes enemies.
-hasPower: true
+type: LiquidTurret
+name: Professional Cryofluid Turret
+description: Freezes enemies using cryofluid.
+health: 1800
 size: 3
-health: 2400
 range: 100
-reload: 10
-category: turret
-
-# Configure power requirements
-consumes: {
-  power: 2
-}
-
-# Define the laser properties
-shootType: {
-  type: ContinuousLaserBulletType
-  damage: 12
-  length: 105
-  width: 4
+reload: 3
+liquidCapacity: 160
   
-  # Visual colors of the laser beam (Ice blue themes)
-  colors: [00ffff, 80ffff, ffffff]
+targetAir: true
+targetGround: true
   
-  # Apply the freezing debuff
-  status: freezing
-  statusDuration: 240
+hasLiquids: true
   
-  # Optional cosmetic effects
-  hitEffect: none
-  smokeEffect: none
-}
-
-requirements: [
-  copper/100
-  lead/100
-  silicon/100
-  titanium/100
-  metaglass/100
-  graphite/100
-]
 research: turret-hb
+category: turret
+  
+requirements: [
+copper/50
+metaglass/50
+lead/50
+graphite/50
+titanium/50  
+]
+
+ammoTypes: {
+    cryofluid: {
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage: 27
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 40
+      status: freezing
+      statusDuration: 360
+    }
+  }
 
 drawer: {
   type: DrawTurret

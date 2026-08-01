@@ -1,6 +1,6 @@
 type: LiquidTurret
-name: Professional Flamethrower Turret
-description: A fiery successor to the Advanced Flamethrower Turret. Requires slag.
+name: Professional Slag Turret
+description: Melts enemies using slag.
 health: 1800
 size: 3
 range: 100

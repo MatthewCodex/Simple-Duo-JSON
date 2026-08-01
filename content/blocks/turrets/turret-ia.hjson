@@ -25,6 +25,8 @@ ammoTypes: {
   lead: {
     speed: 4
     damage: 25
+    splashDamage: 50
+    splashDamageRadius: 50
     lifetime: 100
     homingPower: 0.1
     homingRange: 200

@@ -24,8 +24,9 @@ consumes: {
 ammoTypes: {
   blast-compound: {
     speed: 4
-    damage: 45
-    
+    damage: 50
+    splashDamage: 100
+    splashDamageRadius: 100
     lifetime: 100
     homingPower: 0.4
     homingRange: 300

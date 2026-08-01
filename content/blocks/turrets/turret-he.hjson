@@ -1,53 +1,48 @@
-type: PowerTurret
-name: Extreme Freeze Turret
-description: Freezes enemies.
-hasPower: true
+type: LiquidTurret
+name: Extreme Cryofluid Turret
+description: Freezes enemies using cryofluid. Unlike its predecessor, it requires power.
+health: 3000
 size: 5
-health: 4000
-range: 150
-reload: 10
-category: turret
+range: 125
+reload: 3
+liquidCapacity: 320
+hasPower: true  
 
-# Configure power requirements
 consumes: {
-  power: 3
-  liquid:
-  {
-    liquid: cryofluid
-    amount: 1
-  }
+		power: 0.15
 }
-
-# Define the laser properties
-shootType: {
-  type: ContinuousLaserBulletType
-  damage: 20
-  length: 135
-  width: 4
   
-  # Visual colors of the laser beam (Ice blue themes)
-  colors: [00ffff, 80ffff, ffffff]
+targetAir: true
+targetGround: true
   
-  # Apply the freezing debuff
-  status: freezing
-  statusDuration: 360
+hasLiquids: true
   
-  # Optional cosmetic effects
-  hitEffect: none
-  smokeEffect: none
-}
-
-requirements: [
-  copper/100
-  lead/100
-  silicon/100
-  titanium/100
-  metaglass/100
-  graphite/100
-  plastanium/100
-  surge-alloy/100
-]
 research: turret-hd
+category: turret
+  
+requirements: [
+copper/50
+metaglass/50
+lead/50
+graphite/50
+titanium/50
+silicon/50
+pyratite/50  
+]
+
+ammoTypes: {
+    cryofluid: {
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage: 54
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 60
+      status: freezing
+      statusDuration: 600
+    }
+  }
 
 drawer: {
   type: DrawTurret
