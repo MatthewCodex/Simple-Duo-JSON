@@ -1,8 +1,8 @@
 {
   // Basic identifiers
   localizedName: "Nakayoshi World"
-  parent: "sun"
-  solarSystem: "sun"
+  parent: sun
+  solarSystem: sun
   
   // Use Serpulo's built-in generator and base logic
   generator: SerpuloPlanetGenerator
