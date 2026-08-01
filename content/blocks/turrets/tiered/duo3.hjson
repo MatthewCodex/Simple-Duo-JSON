@@ -1,16 +1,16 @@
 type: ItemTurret
-name: T1 Duo
+name: T3 Duo
 description: Fires alternating left and right barrels with visual recoil.
 size: 1
 health: 300
-range: 100
-reload: 10
+range: 150
+reload: 8
 recoil: 0.5 // Global recoil distance
 researchCostMultiplier: 0.5
 ammoUseEffect: casing1
 recoils: 2
 requirements: [
-copper/10
+copper/50
 ]
 
 // Crucial: Tells the turret to alternate which barrel fires first/second
@@ -23,29 +23,9 @@ shoot: {
 ammoTypes: {
   copper: {
     speed: 4
-    damage: 10
+    damage: 14
     width: 7
     height: 7
-    ammoMultiplier: 2
-    hitEffect: hitBulletColor
-    despawnEffect: hitBulletColor
-    hitColor: copperAmmoBack
-    backColor: copperAmmoBack
-    trailColor: copperAmmoBack
-    frontColor: copperAmmoFront
-  }
-  graphite: {
-    speed: 4
-    damage: 12
-    width: 7
-    height: 7
-    ammoMultiplier: 4
-    hitEffect: hitBulletColor
-    despawnEffect: hitBulletColor
-    hitColor: graphiteAmmoBack
-    backColor: graphiteAmmoBack
-    trailColor: graphiteAmmoBack
-    frontColor: graphiteAmmoFront
   }
 }
 
@@ -73,5 +53,5 @@ drawer: {
 }
 
 category: turret
-research: core-shard
+research: duo2
 shownPlanets: [serpulo , rospuleball]
