@@ -2,14 +2,14 @@
 type: GenericCrafter
 
 # Visual name and description in the UI
-name: T1 Cryofluid Mixer
+name: T4 Cryofluid Mixer
 description: Speeds up coolant production by mixing titanium and water.
 
 # Physical characteristics
 size: 2
-health: 200
+health: 500
 category: crafting
-research: pyratite-mixer
+research: cryo3
 
 # Base processing speed (in seconds per operation)
 craftTime: 30.0
@@ -20,7 +20,7 @@ liquidCapacity: 50.0
 
 # Define what the block requires to run
 consumes: {
-  power: 0.5
+  power: 1.5
   items: [
     titanium/1
   ]
@@ -30,13 +30,13 @@ consumes: {
 }
 
 # The single fluid output configuration
-outputLiquid: cryofluid/2
+outputLiquid: cryofluid/5
 
 # Build costs required to construct the block
 requirements: [
-  lead/10
-  silicon/10
-  titanium/10
+  lead/100
+  silicon/100
+  titanium/100
 ]
 
 drawer: {
