@@ -24,7 +24,9 @@ consumes: {
 ammoTypes: {
   lead: {
     type: ArtilleryBulletType
-    collidesTiles: false
+    collidesAir: true
+    collidesGround: true
+    collides: true
     damage: 60
     speed: 4
     width: 8
