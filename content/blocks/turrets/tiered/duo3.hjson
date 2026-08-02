@@ -29,10 +29,10 @@ ammoTypes: {
     ammoMultiplier: 2
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
-    hitColor: copperAmmoBack
-    backColor: copperAmmoBack
-    trailColor: copperAmmoBack
-    frontColor: copperAmmoFront
+    hitColor: d39169
+    backColor: d39169
+    trailColor: d39169
+    frontColor: eac1a8
   }
   graphite: {
     speed: 4
@@ -42,10 +42,10 @@ ammoTypes: {
     ammoMultiplier: 4
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
-    hitColor: graphiteAmmoBack
-    backColor: graphiteAmmoBack
-    trailColor: graphiteAmmoBack
-    frontColor: graphiteAmmoFront
+    hitColor: 7d89d8
+    backColor: 7d89d8
+    trailColor: 7d89d8
+    frontColor: dae1ee
   }
 }
 

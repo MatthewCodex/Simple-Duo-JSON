@@ -24,6 +24,7 @@ consumes: {
 ammoTypes: {
   copper: {
     type: FlakBulletType
+    shootSound: shoot
     damage: 30
     speed: 4
     width: 4
@@ -32,10 +33,10 @@ ammoTypes: {
     ammoMultiplier: 2
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
-    hitColor: copperAmmoBack
-    backColor: copperAmmoBack
-    trailColor: copperAmmoBack
-    frontColor: copperAmmoFront
+    hitColor: d39169
+    backColor: d39169
+    trailColor: d39169
+    frontColor: eac1a8
   }
 }
 
