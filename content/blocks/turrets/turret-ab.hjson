@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Advanced Normal Turret
-description: "An upgraded Normal Turret that shoots and reloads faster. Uses Copper or Lead as ammo.\Note: Lead bullets deal more damage."
+description: "An upgraded Normal Turret that shoots and reloads faster. Uses Copper or Lead as ammo.\nNote: Lead bullets deal more damage."
 health: 900
 size: 2
 recoil: 0.5
