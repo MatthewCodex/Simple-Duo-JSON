@@ -1,18 +1,18 @@
 
   type: ThermalGenerator
-  name: T1 Thermal Generator
+  name: T3 Thermal Generator
   size: 2
-  powerProduction: 2.0
+  powerProduction: 3.0
   attribute: heat
   generateEffect: none
-  health: 200
+  health: 600
   requirements: [
-    copper/10
-    lead/10
-    metaglass/10
+    copper/50
+    lead/50
+    metaglass/50
   ]
   category: power
-  research: combustion-generator
+  research: therm-b
   conductivePower: true
 
   generateEffect: redgeneratespark
