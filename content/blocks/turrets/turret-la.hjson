@@ -58,7 +58,7 @@ lead/50
 graphite/50
 ]
 category: turret
-research: arc
+research: hail
  
 drawer: {
   type: DrawTurret

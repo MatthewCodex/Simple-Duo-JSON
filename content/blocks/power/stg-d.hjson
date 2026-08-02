@@ -1,14 +1,14 @@
 type: ConsumeGenerator
-name: "T1 Steam Generator"
+name: "T4 Steam Generator"
 description: Uses water and flammable items to produce power.
 size: 2
-health: 300
+health: 600
 category: power
-research: combustion-generator
+research: stg-c
 hasLiquids: true
 
 # Power Generation Settings
-powerProduction: 6.0
+powerProduction: 7.5
 
 # Fuel Consumption Settings
 itemDuration: 120.0
@@ -22,10 +22,10 @@ consumes: {
 
 # Visuals and Effects
 requirements: [
-  copper/5
-  lead/5
-  graphite/5
-  metaglass/5
+  copper/100
+  lead/100
+  graphite/100
+  metaglass/100
 ]
 
 drawer: {
