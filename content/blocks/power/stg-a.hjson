@@ -5,6 +5,7 @@ size: 2
 health: 300
 category: power
 research: combustion-generator
+hasLiquids: true
 
 # Power Generation Settings
 powerProduction: 1.5
