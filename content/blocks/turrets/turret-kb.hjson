@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Advanced Normal Turret
-description: "An upgraded Normal Turret that shoots and reloads faster. Uses Copper or Lead as ammo.\Note: Lead bullets deal more damage."
+name: Advanced Flak Turret
+description: "An upgraded Flak Turret that shoots and reloads faster. Uses Copper or Lead as ammo.\nNote: Lead bullets deal more damage."
 health: 900
 size: 2
 recoil: 0.5
@@ -23,6 +23,8 @@ consumes: {
 
 ammoTypes: {
   copper: {
+    type: FlakBulletType
+    shootSound: shoot
     damage: 45
     speed: 6
     width: 6
@@ -31,6 +33,8 @@ ammoTypes: {
     ammoMultiplier: 4
   }
   lead: {
+    type: FlakBulletType
+    shootSound: shoot
     damage: 60
     speed: 6
     width: 6
@@ -52,7 +56,7 @@ copper/50
 lead/50
 ]
 category: turret
-research: turret-aa
+research: turret-ka
  
 drawer: {
   type: DrawTurret

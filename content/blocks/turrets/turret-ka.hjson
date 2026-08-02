@@ -31,12 +31,7 @@ ammoTypes: {
     height: 4
     lifetime: 45
     ammoMultiplier: 2
-    hitEffect: hitBulletColor
-    despawnEffect: hitBulletColor
-    hitColor: d39169
-    backColor: d39169
-    trailColor: d39169
-    frontColor: eac1a8
+    
   }
 }
 
@@ -51,7 +46,7 @@ requirements: [
 copper/50
 ]
 category: turret
-research: core-shard
+research: scatter
  
 drawer: {
   type: DrawTurret

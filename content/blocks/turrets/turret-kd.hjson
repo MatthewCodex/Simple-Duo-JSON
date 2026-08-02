@@ -1,0 +1,78 @@
+type: ItemTurret
+name: Elite Flak Turret
+description: If you think the Professional Flak Turret is not strong enough, then how about an upgraded version of it? Uses Lead, Graphite, or Metaglass as ammo.
+health: 900
+size: 4
+recoil: 0.5
+shootY: 3
+reload: 4
+range: 240
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 2
+rotateSpeed: 30
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  lead: {
+    type: FlakBulletType
+    shootSound: shoot
+    damage: 75
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 90
+    ammoMultiplier: 8
+  }
+  graphite: {
+    type: FlakBulletType
+    shootSound: shoot
+    damage: 90
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 90
+    ammoMultiplier: 8
+  }
+  metaglass: {
+    type: FlakBulletType
+    shootSound: shoot
+    damage: 135
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 90
+    ammoMultiplier: 8
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 4
+}
+ 
+requirements: [
+copper/50
+lead/50
+graphite/50
+metaglass/50
+]
+category: turret
+research: turret-ac
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
+
+shownPlanets: [serpulo , erekir , rospuleball]
