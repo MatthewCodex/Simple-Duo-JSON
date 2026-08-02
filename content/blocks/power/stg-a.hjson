@@ -1,0 +1,74 @@
+type: ConsumeGenerator
+name: "T1 Steam Generator"
+description: Uses water and flammable items to produce power.
+size: 1
+health: 200
+category: power
+research: combustion-generator
+
+# Power Generation Settings
+powerProduction: 1.5
+
+# Fuel Consumption Settings
+itemDuration: 120.0
+consumes: {
+  itemFlammable: {}
+  itemExplode: {}
+  liquids: [
+      water/0.5
+    ]
+}
+
+# Visuals and Effects
+requirements: [
+  copper/5
+  lead/5
+  graphite/5
+  metaglass/5
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawWarmupRegion
+      // The suffix appended to your block's name for the texture
+      suffix: -top
+      // The color the texture blends into as it heats up
+      color: ff7a00
+    }
+    {
+      type: DrawRegion
+      // Name of your sub-sprite (looks for your-block-name-spinner.png)
+      suffix: "-turbine"
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      // Name of your sub-sprite (looks for your-block-name-spinner.png)
+      suffix: "-turbine"
+      spinSprite: true
+      rotateSpeed: -2
+      rotation: 45
+    }
+    {
+      type: DrawRegion
+      // Name of your sub-sprite (looks for your-block-name-cap.png)
+      suffix: "-cap"
+    }
+    {
+      type: DrawLiquidTile
+      // Specify your custom sprite suffix here (include the leading hyphen)
+      suffix: "-liquid"
+      drawLiquid: water
+    }
+  ]
+}
+
+
+ambientSound: generatespark
+ambientSoundVolume: 0.2
