@@ -40,3 +40,4 @@ requirements: [
 
 category: power
 research: tr-c
+  conductivePower: true

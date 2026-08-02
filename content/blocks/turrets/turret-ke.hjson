@@ -48,5 +48,6 @@ drawer: {
   type: DrawTurret
   basePrefix: "turret-"
 }
+  conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

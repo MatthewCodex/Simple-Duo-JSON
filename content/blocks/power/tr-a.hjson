@@ -40,3 +40,4 @@ requirements: [
 
 category: power
 research: thorium-reactor
+  conductivePower: true
