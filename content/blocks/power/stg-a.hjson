@@ -61,7 +61,7 @@ drawer: {
       suffix: "-cap"
     }
     {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
       // Specify your custom sprite suffix here (include the leading hyphen)
       suffix: "-liquid"
       drawLiquid: water
