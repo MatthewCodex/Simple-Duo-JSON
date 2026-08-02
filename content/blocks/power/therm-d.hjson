@@ -1,0 +1,20 @@
+
+  type: ThermalGenerator
+  name: T4 Thermal Generator
+  size: 2
+  powerProduction: 3.5
+  attribute: heat
+  generateEffect: none
+  health: 800
+  requirements: [
+    copper/100
+    lead/100
+    metaglass/100
+  ]
+  category: power
+  research: therm-c
+  conductivePower: true
+
+  generateEffect: redgeneratespark
+  ambientSound: loopHum
+  ambientSoundVolume: 0.06

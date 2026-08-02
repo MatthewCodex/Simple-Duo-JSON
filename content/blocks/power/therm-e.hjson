@@ -1,0 +1,20 @@
+
+  type: ThermalGenerator
+  name: T5 Thermal Generator
+  size: 2
+  powerProduction: 4.0
+  attribute: heat
+  generateEffect: none
+  health: 800
+  requirements: [
+    copper/200
+    lead/200
+    metaglass/200
+  ]
+  category: power
+  research: therm-d
+  conductivePower: true
+
+  generateEffect: redgeneratespark
+  ambientSound: loopHum
+  ambientSoundVolume: 0.06
