@@ -1,6 +1,6 @@
-type: ItemTurret
-name: Basic Flak Turret
-description: Shoots flak bullets.
+type: PowerTurret
+name: Basic Laser Bolt Turret
+description: Shoots laser bolts.
 health: 600
 size: 1
 recoil: 0.5
@@ -21,26 +21,17 @@ consumes: {
   }
 }
 
-ammoTypes: {
-  copper: {
-    type: FlakBulletType
-    shootSound: shoot
+shootType: {
+    type: LaserBoltBulletType
     damage: 30
     speed: 4
+    lifetime: 40
     width: 4
     height: 4
-    lifetime: 45
-    ammoMultiplier: 2
-    
+    shootSound: shootAlpha
   }
-}
 
-shoot: {
-  type: ShootAlternate
-  shots: 1
-  spread: 3
-  shotDelay: 10
-}
+
  
 requirements: [
 copper/50

@@ -1,11 +1,11 @@
-type: ItemTurret
-name: Elite Flak Turret
-description: If you think the Professional Flak Turret is not strong enough, then how about an upgraded version of it? Uses Lead, Graphite, or Metaglass as ammo.
+type: PowerTurret
+name: Elite Laser Bolt Turret
+description: If you think the Professional Laser Bolt Turret is not strong enough, then how about an upgraded version of it? Requires power.
 health: 900
 size: 4
 recoil: 0.5
 shootY: 3
-reload: 4
+reload: 7
 range: 240
 shootCone: 15
 ammoUseEffect: casing1
@@ -13,53 +13,26 @@ inaccuracy: 2
 rotateSpeed: 30
 targetGround: true
 targetAir: true
+hasPower: true
+
 researchCostMultiplier: 0.5
 
 consumes: {
+  power: 0.25
   coolant: {
     amount: 0.1
   }
 }
 
-ammoTypes: {
-  lead: {
-    type: FlakBulletType
-    shootSound: shoot
+shootType: {
+    type: LaserBoltBulletType
     damage: 75
-    speed: 10
-    width: 10
-    height: 10
-    lifetime: 90
-    ammoMultiplier: 8
+    speed: 4
+    lifetime: 40
+    width: 4
+    height: 4
+    shootSound: shootAlpha
   }
-  graphite: {
-    type: FlakBulletType
-    shootSound: shoot
-    damage: 90
-    speed: 10
-    width: 10
-    height: 10
-    lifetime: 90
-    ammoMultiplier: 8
-  }
-  metaglass: {
-    type: FlakBulletType
-    shootSound: shoot
-    damage: 135
-    speed: 10
-    width: 10
-    height: 10
-    lifetime: 90
-    ammoMultiplier: 8
-  }
-}
-
-shoot: {
-  type: ShootAlternate
-  shots: 1
-  spread: 3
-  shotDelay: 4
-}
  
 requirements: [
 copper/50
@@ -68,7 +41,7 @@ graphite/50
 metaglass/50
 ]
 category: turret
-research: turret-ac
+research: turret-kc
  
 drawer: {
   type: DrawTurret

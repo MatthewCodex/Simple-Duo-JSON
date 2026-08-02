@@ -1,11 +1,11 @@
-type: ItemTurret
-name: Professional Flak Turret
-description: "A professional-grade Flak Turret. Uses Lead or Graphite as ammo.\nNote: Graphite bullets deal more damage."
+type: PowerTurret
+name: Professional Laser Bolt Turret
+description: "A professional-grade Laser Bolt Turret that is stronger than the Advanced Laser Bolt Turret."
 health: 900
 size: 3
 recoil: 0.5
 shootY: 3
-reload: 6
+reload: 8
 range: 210
 shootCone: 15
 ammoUseEffect: casing1
@@ -21,35 +21,17 @@ consumes: {
   }
 }
 
-ammoTypes: {
-  lead: {
-    type: FlakBulletType
-    shootSound: shoot
+shootType: {
+    type: LaserBoltBulletType
     damage: 60
-    speed: 8
-    width: 8
-    height: 8
-    lifetime: 75
-    ammoMultiplier: 6
+    speed: 4
+    lifetime: 40
+    width: 4
+    height: 4
+    shootSound: shootAlpha
   }
-  graphite: {
-    type: FlakBulletType
-    shootSound: shoot
-    damage: 75
-    speed: 8
-    width: 8
-    height: 8
-    lifetime: 75
-    ammoMultiplier: 6
-  }
-}
 
-shoot: {
-  type: ShootAlternate
-  shots: 1
-  spread: 3
-  shotDelay: 6
-}
+
  
 requirements: [
 copper/50

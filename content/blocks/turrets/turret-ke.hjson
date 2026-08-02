@@ -1,11 +1,11 @@
 type: ItemTurret
-name: Extreme Flak Turret
-description: A huge and super strong Flak Turret that belongs in the Extreme tier, which is the highest tier in the mod. Uses Graphite, Metaglass, or Titanium as ammo.
+name: Extreme Laser Bolt Turret
+description: A huge and super strong Laser Bolt Turret that belongs in the Extreme tier, which is the highest tier in the mod. Requires power.
 health: 900
 size: 5
 recoil: 0.5
 shootY: 3
-reload: 2
+reload: 6
 range: 270
 shootCone: 15
 ammoUseEffect: casing1
@@ -13,53 +13,27 @@ inaccuracy: 1
 rotateSpeed: 50
 targetGround: true
 targetAir: true
+hasPower: true
+
 researchCostMultiplier: 0.5
 
 consumes: {
+  power: 0.5
   coolant: {
     amount: 0.1
   }
 }
 
-ammoTypes: {
-  graphite: {
-    type: FlakBulletType
-    shootSound: shoot
+shootType: {
+    type: LaserBoltBulletType
     damage: 90
-    speed: 12
-    width: 12
-    height: 12
-    lifetime: 105
-    ammoMultiplier: 10
-  }
-  metaglass: {
-    type: FlakBulletType
-    shootSound: shoot
-    damage: 120
-    speed: 12
-    width: 12
-    height: 12
-    lifetime: 105
-    ammoMultiplier: 10
-  }
-  titanium: {
-    type: FlakBulletType
-    shootSound: shoot
-    damage: 150
-    speed: 12
-    width: 12
-    height: 12
-    lifetime: 105
-    ammoMultiplier: 10
-  }
-}
+    speed: 4
+    lifetime: 40
+    width: 4
+    height: 4
+    shootSound: shootAlpha
 
-shoot: {
-  type: ShootAlternate
-  shots: 1
-  spread: 3
-  shotDelay: 2
-}
+  }
  
 requirements: [
 lead/50
@@ -68,7 +42,7 @@ metaglass/50
 titanium/50  
 ]
 category: turret
-research: turret-ad
+research: turret-kd
  
 drawer: {
   type: DrawTurret

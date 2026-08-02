@@ -1,11 +1,11 @@
-type: ItemTurret
-name: Advanced Flak Turret
-description: "An upgraded Flak Turret that shoots and reloads faster. Uses Copper or Lead as ammo.\nNote: Lead bullets deal more damage."
+type: PowerTurret
+name: Advanced Laser Bolt Turret
+description: "An upgraded Laser Bolt Turret that shoots faster."
 health: 900
 size: 2
 recoil: 0.5
 shootY: 3
-reload: 8
+reload: 9
 range: 180
 shootCone: 15
 ammoUseEffect: casing1
@@ -21,35 +21,17 @@ consumes: {
   }
 }
 
-ammoTypes: {
-  copper: {
-    type: FlakBulletType
-    shootSound: shoot
+shootType: {
+    type: LaserBoltBulletType
     damage: 45
-    speed: 6
-    width: 6
-    height: 6
-    lifetime: 60
-    ammoMultiplier: 4
+    speed: 4
+    lifetime: 40
+    width: 4
+    height: 4
+    shootSound: shootAlpha
   }
-  lead: {
-    type: FlakBulletType
-    shootSound: shoot
-    damage: 60
-    speed: 6
-    width: 6
-    height: 6
-    lifetime: 60
-    ammoMultiplier: 4
-  }
-}
 
-shoot: {
-  type: ShootAlternate
-  shots: 1
-  spread: 3
-  shotDelay: 8
-}
+
  
 requirements: [
 copper/50
