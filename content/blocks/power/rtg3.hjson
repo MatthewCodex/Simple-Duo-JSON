@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 name: "T3 RTG Generator"
 description: Consumes radioactive items to produce power.
-size: 1
+size: 2
 health: 800
 category: power
 research: rtg2
