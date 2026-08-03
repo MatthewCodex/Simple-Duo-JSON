@@ -18,21 +18,12 @@ Events.on(BlockBuildEndEvent, event => {
         let blockName = event.tile.block().name;
 
         // Change 'router' to the specific block name you want to target
-        if (blockName === "scrap-wall-gigantic") {
+        if (blockName === stop1times) {
             // Your custom response code goes here
             Vars.control.sound.stop();
             Log.info("Music reset");
             Vars.ui.hudfrag.showToast("Music reset");
-            // First delay: Wait 2 seconds (120 ticks)
-            Timer.schedule(() => {
-                Log.info("First message printed after 120 ticks!");
-
-    // Second delay: Wait another 2 seconds (120 ticks) after the first message
-                Timer.schedule(() => {
-                    Log.info("Second message printed after 240 total ticks!");
-                }, 120 / 60);
-
-                }, 120 / 60);
+            
 
         }
     }
