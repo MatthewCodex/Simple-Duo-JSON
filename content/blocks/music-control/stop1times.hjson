@@ -1,0 +1,10 @@
+type: Wall
+  name: "Stop music 1 time"
+  description: "Stops music once."
+  health: 500
+  size: 1
+  requirements: [
+    copper/6
+  ]
+  category: defense
+  research: core-shard
