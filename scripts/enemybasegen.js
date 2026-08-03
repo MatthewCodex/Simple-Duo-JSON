@@ -18,7 +18,7 @@ Events.on(BlockBuildEndEvent, event => {
         let blockName = event.tile.block().name;
 
         // Change 'router' to the specific block name you want to target
-        if (blockName === stop1times) {
+        if (event.tile.block() === stop1times) {
             // Your custom response code goes here
             Vars.control.sound.stop();
             Log.info("Music reset");
