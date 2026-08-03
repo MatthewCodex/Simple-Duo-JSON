@@ -1,0 +1,28 @@
+type: Pump
+name: T2 Impulse Pump
+description: Sucks up liquids from the ground and outputs them. Faster than a rotary pump, but requires more power.
+size: 2
+health: 650
+category: liquid
+
+hasPower: true
+consumes: {
+  power: 2.25
+}
+
+// The speed at which it pumps liquids (per frame)
+pumpAmount: 1.2
+
+// Requirements to build the block
+requirements: [
+  copper/120
+  lead/120
+  metaglass/120
+]
+
+// Research requirements
+research: p-ca
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
