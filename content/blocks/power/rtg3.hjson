@@ -1,0 +1,52 @@
+type: ConsumeGenerator
+name: "T3 RTG Generator"
+description: Consumes radioactive items to produce power.
+size: 1
+health: 800
+category: power
+research: combustion-generator
+
+# Power Generation Settings
+powerProduction: 6
+
+# Fuel Consumption Settings
+itemDuration: 120.0
+consumes: {
+  itemRadioactive: {}
+}
+itemDurationMultipliers: {
+  
+  phase-fabric: 2.0
+  
+}
+
+
+
+# Visuals and Effects
+requirements: [
+  silicon/50
+  lead/50
+  phase-fabric/50
+  plastanium/50
+  thorium/50
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawWarmupRegion
+      // The suffix appended to your block's name for the texture
+      suffix: -top
+      // The color the texture blends into as it heats up
+      color: bf92f9
+    }
+    
+  ]
+}
+
+ambientSound: generatespark
+ambientSoundVolume: 0.1
