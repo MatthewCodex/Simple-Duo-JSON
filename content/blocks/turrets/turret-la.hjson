@@ -55,7 +55,6 @@ shoot: {
 requirements: [
 copper/50
 lead/50
-graphite/50
 ]
 category: turret
 research: hail

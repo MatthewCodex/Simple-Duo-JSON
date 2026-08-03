@@ -55,10 +55,11 @@ shoot: {
 requirements: [
 copper/50
 lead/50
-graphite/50
+graphite/50  
+metaglass/50  
 ]
 category: turret
-research: arc
+research: turret-lb
  
 drawer: {
   type: DrawTurret
