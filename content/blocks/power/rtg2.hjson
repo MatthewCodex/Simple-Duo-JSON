@@ -4,7 +4,7 @@ description: Consumes radioactive items to produce power.
 size: 1
 health: 700
 category: power
-research: combustion-generator
+research: rtg1
 
 # Power Generation Settings
 powerProduction: 5.5

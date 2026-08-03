@@ -1,0 +1,12 @@
+type: item
+name: quantum-alloy
+description: A highly dense, charged compound used in advanced technology. Created by combining Thorium, Phase Fabric, and Surge Alloy together using a Quantum Smelter.
+localizedName: Quantum Alloy
+hardness: 4
+cost: 2.5
+buildable: true
+flammability: 0.1
+explosiveness: 0.5
+radioactivity: 1.2
+charge: 0.8
+color: ffffff
