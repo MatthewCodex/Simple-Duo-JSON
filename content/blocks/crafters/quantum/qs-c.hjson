@@ -1,0 +1,50 @@
+type: GenericCrafter
+name: T3 Quantum Smelter
+description: Turns Thorium, Phase Fabric, and Surge Alloy into Quantum Alloy. Requires power. Glows when active.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+
+# Base light settings for the block
+emitLight: true
+lightRadius: 60
+
+consumes: {
+  power: 4.0
+  items: [
+    thorium/1
+    phase-fabric/1
+    surge-alloy/1
+  ]
+}
+
+requirements: [
+surge-alloy/100
+lead/100
+thorium/100
+phase-fabric/100
+iron-ingot/100
+]
+
+outputItem: quantum-alloy/4
+
+# This section controls the visual glow during crafting
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      flameColor: 00c3ffff
+    }
+  ]
+}
+
+category: crafting
+research: qs-b
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
