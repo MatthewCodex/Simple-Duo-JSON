@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T1 Tin Furnace
+description: Turns raw tin into tin ingots.
+size: 1
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+consumes: {
+  power: 1.0
+  items: [
+    m-tin/1
+  ]
+}
+outputItems: [
+  m-tin-ingot/1
+]
+requirements: [
+  m-tin/100
+  
+]
+category: crafting
+research: tin-drill-a
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T1 Tin Press
+description: Turns tin ingots into tin plates.
+size: 1
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+consumes: {
+  power: 1.0
+  items: [
+    m-tin-ingot/1
+  ]
+}
+outputItems: [
+  m-tin-plate/1
+]
+requirements: [
+  m-tin-ingot/100
+  
+]
+category: crafting
+research: c-tin-aa
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

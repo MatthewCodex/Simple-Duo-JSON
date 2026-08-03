@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T2 Tin Roller
+description: Turns tin plates into tin rods.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 45
+consumes: {
+  power: 1.5
+  items: [
+    m-tin-plate/1
+  ]
+}
+outputItems: [
+  m-tin-rod/1
+]
+requirements: [
+  m-tin-rod/200
+  
+]
+category: crafting
+research: c-tin-bb
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
