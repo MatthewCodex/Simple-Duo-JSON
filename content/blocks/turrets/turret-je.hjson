@@ -28,7 +28,9 @@ ammoTypes: {
   damage: 150
   length: 200
   width: 4
-  
+  incendAmount: 0
+  incendSpread: 0
+  incendChance: 0
   # Visual colors of the laser beam (Ice blue themes)
   colors: [008080, 00bfbf, 00ffff]
 
