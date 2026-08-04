@@ -4,7 +4,7 @@ description: Turns Thorium, Phase Fabric, and Surge Alloy into Quantum Alloy. Re
 size: 3
 hasPower: true
 hasItems: true
-craftTime: 60
+craftTime: 50
 
 # Base light settings for the block
 emitLight: true

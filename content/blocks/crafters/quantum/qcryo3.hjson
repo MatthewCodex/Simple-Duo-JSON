@@ -1,0 +1,71 @@
+# The base logic type for production blocks
+type: GenericCrafter
+
+# Visual name and description in the UI
+name: T3 Quantum Cryofluid Mixer
+description: Mixes cryofluid and titanium to produce quantum-cryofluid.
+
+# Physical characteristics
+size: 2
+health: 600
+category: crafting
+research: qcryo2
+
+# Base processing speed (in seconds per operation)
+craftTime: 30.0
+
+# Item and liquid storage limits inside the machine
+itemCapacity: 50
+liquidCapacity: 50.0
+
+# Define what the block requires to run
+consumes: {
+  power: 1.0
+  items: [
+    titanium/1
+  ]
+  liquids: [
+    water/0.5
+  ]
+}
+
+# The single fluid output configuration
+outputLiquid: quantum-cryofluid/4
+
+# Build costs required to construct the block
+requirements: [
+  lead/50
+  silicon/50
+  titanium/50
+  phase-fabric/50
+  metaglass/50
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: cryofluid
+      drawLiquidLight: true
+    }
+    {
+      type: DrawDefault
+    }
+    
+  ]
+}
+
+# Visual effect played when the machine finishes an item cycle
+lightLiquid: cryofluid
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
