@@ -11,7 +11,8 @@ powerProduction: 2.0
 
 // Visual light settings (Color format is TColor / Hex RRGGBBAA)
 emitLight: true
-lightColor: ffffffaa
+lightRadius: 16
+lightColor: 00ff00aa
 flameColor: ffffff
 
 // Requirements to build
