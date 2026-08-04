@@ -5,13 +5,13 @@ size: 2
 hasPower: true
 updateEffect: redout
 ambientSound: hum
-
+attribute: spores
 // Power production settings
 powerProduction: 2.0
 
 // Visual light settings (Color format is TColor / Hex RRGGBBAA)
-lightColor: 9f5394aa
-flameColor: 9f5394
+lightColor: ffffffaa
+flameColor: ffffff
 
 // Requirements to build
 requirements: [
