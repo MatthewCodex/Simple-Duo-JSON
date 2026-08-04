@@ -1,18 +1,18 @@
 
   type: ThermalGenerator
-  name: T3 Biothermal Generator
+  name: T5 Biothermal Generator
   size: 2
-  powerProduction: 3.0
+  powerProduction: 4.0
   attribute: spores
   generateEffect: none
-  health: 600
+  health: 800
   requirements: [
-    copper/50
-    lead/50
-    metaglass/50
+    copper/200
+    lead/200
+    metaglass/200
   ]
   category: power
-  research: therm-g
+  research: therm-i
   conductivePower: true
 
   generateEffect: redgeneratespark
