@@ -15,9 +15,9 @@ flameColor: 9f5394
 
 // Requirements to build
 requirements: [
-  copper/20
-  lead/20
-  metaglass/20
+  copper/10
+  lead/10
+  metaglass/10
 ]
 
 category: power
