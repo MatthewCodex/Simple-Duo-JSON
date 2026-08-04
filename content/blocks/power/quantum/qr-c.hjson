@@ -1,8 +1,8 @@
 type: NuclearReactor
-name: T1 Quantum Reactor
+name: T3 Quantum Reactor
 description: Produces power by consuming quantum alloy. Detonates more violently than a thorium reactor if it overheats or loses quantum cryofluid.
 size: 3
-health: 1500
+health: 2500
 
 // Item and Liquid Inputs
 hasItems: true
@@ -11,7 +11,7 @@ itemCapacity: 100
 liquidCapacity: 100
 
 // Power Generation
-powerProduction: 40
+powerProduction: 60
 
 // Heating Mechanics
 heating: 0.04
@@ -32,13 +32,13 @@ consumes: {
 }
 
 requirements: [
-  lead/10
-  silicon/10
-  thorium/10
-  phase-fabric/10
-  quantum-alloy/10
+  lead/100
+  silicon/100
+  thorium/100
+  phase-fabric/100
+  quantum-alloy/100
 ]
 
 category: power
-research: thorium-reactor
+research: qr-b
   conductivePower: true

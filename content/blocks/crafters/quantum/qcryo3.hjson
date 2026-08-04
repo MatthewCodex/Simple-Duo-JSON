@@ -20,7 +20,7 @@ liquidCapacity: 50.0
 
 # Define what the block requires to run
 consumes: {
-  power: 1.0
+  power: 3.0
   items: [
     titanium/1
   ]

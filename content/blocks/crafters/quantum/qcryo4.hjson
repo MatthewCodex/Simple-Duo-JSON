@@ -2,14 +2,14 @@
 type: GenericCrafter
 
 # Visual name and description in the UI
-name: T2 Quantum Cryofluid Mixer
+name: T4 Quantum Cryofluid Mixer
 description: Mixes cryofluid and titanium to produce quantum-cryofluid.
 
 # Physical characteristics
 size: 2
-health: 500
+health: 700
 category: crafting
-research: qcryo1
+research: qcryo3
 
 # Base processing speed (in seconds per operation)
 craftTime: 30.0
@@ -20,25 +20,25 @@ liquidCapacity: 50.0
 
 # Define what the block requires to run
 consumes: {
-  power: 2.0
+  power: 4.0
   items: [
     titanium/1
   ]
   liquids: [
-    cryofluid/0.5
+    water/0.5
   ]
 }
 
 # The single fluid output configuration
-outputLiquid: quantum-cryofluid/3
+outputLiquid: quantum-cryofluid/5
 
 # Build costs required to construct the block
 requirements: [
-  lead/25
-  silicon/25
-  titanium/25
-  phase-fabric/25
-  metaglass/25
+  lead/150
+  silicon/150
+  titanium/150
+  phase-fabric/150
+  metaglass/150
 ]
 
 drawer: {
