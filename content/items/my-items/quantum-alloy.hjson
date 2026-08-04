@@ -5,7 +5,7 @@ localizedName: Quantum Alloy
 hardness: 4
 cost: 2.5
 buildable: true
-flammability: 0.5
+flammability: 0
 explosiveness: 0.5
 radioactivity: 1.5
 charge: 0.8
