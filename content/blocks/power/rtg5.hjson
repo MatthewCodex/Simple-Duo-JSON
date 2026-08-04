@@ -1,13 +1,13 @@
 type: ConsumeGenerator
-name: "T2 RTG Generator"
+name: "T5 RTG Generator"
 description: Consumes radioactive items to produce power.
 size: 2
-health: 700
+health: 1000
 category: power
-research: rtg1
+research: rtg4
 
 # Power Generation Settings
-powerProduction: 6
+powerProduction: 9
 
 # Fuel Consumption Settings
 itemDuration: 120.0
@@ -24,11 +24,11 @@ itemDurationMultipliers: {
 
 # Visuals and Effects
 requirements: [
-  silicon/25
-  lead/25
-  phase-fabric/25
-  plastanium/25
-  thorium/25
+  silicon/300
+  lead/300
+  phase-fabric/300
+  plastanium/300
+  thorium/300
 ]
 
 drawer: {
