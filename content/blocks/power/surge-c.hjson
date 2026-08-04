@@ -1,0 +1,15 @@
+{
+  type: PowerNode
+  name: T3 Surge Tower
+  description: Transmits power over long distances.
+  size: 2
+  laserRange: 80
+  maxNodes: 8
+  health: 400
+  requirements: [
+    copper/25
+    surge-alloy/25
+  ]
+  category: power
+  research: surge-b
+}

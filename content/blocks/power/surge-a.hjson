@@ -1,0 +1,15 @@
+{
+  type: PowerNode
+  name: T1 Surge Tower
+  description: Transmits power over long distances.
+  size: 2
+  laserRange: 40
+  maxNodes: 4
+  health: 200
+  requirements: [
+    copper/5
+    surge-alloy/5
+  ]
+  category: power
+  research: surge-tower
+}
