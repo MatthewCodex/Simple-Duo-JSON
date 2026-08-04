@@ -42,10 +42,11 @@ ammoTypes: {
 }
 
 shoot: {
-  type: ShootAlternate
+  type: ShootPattern
   shots: 5
   spread: 0
   shotDelay: 5
+  firstShotDelay: 20
 }
  
 requirements: [
