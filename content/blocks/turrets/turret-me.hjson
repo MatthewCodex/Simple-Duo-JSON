@@ -58,7 +58,7 @@ titanium/50
 plastanium/50  
 ]
 category: turret
-research: turret-cd
+research: turret-md
  
 drawer: {
   type: DrawTurret
