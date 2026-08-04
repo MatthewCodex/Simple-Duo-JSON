@@ -46,5 +46,6 @@ drawer: {
 category: crafting
 research: qs-b
 conductivePower: true
-
+ambientSound: loopTech
+ambientSoundVolume: 0.05
 shownPlanets: [serpulo , erekir , rospuleball]
