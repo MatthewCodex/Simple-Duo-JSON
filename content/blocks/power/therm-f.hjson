@@ -10,6 +10,7 @@ attribute: spores
 powerProduction: 2.0
 
 // Visual light settings (Color format is TColor / Hex RRGGBBAA)
+emitLight: true
 lightColor: ffffffaa
 flameColor: ffffff
 
@@ -19,6 +20,15 @@ requirements: [
   lead/10
   metaglass/10
 ]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+  ]
+}
 
 category: power
 research: thermal-generator
