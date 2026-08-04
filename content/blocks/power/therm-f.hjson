@@ -1,0 +1,24 @@
+type: ThermalGenerator
+name: "T1 Neon Thermal Generator"
+description: "Generates power from magma. Emits a distinct neon blue glow."
+size: 2
+hasPower: true
+updateEffect: redout
+ambientSound: hum
+
+// Power production settings
+powerProduction: 1.5
+
+// Visual light settings (Color format is TColor / Hex RRGGBBAA)
+lightColor: 00ffffaa
+flameColor: 00ffff
+
+// Requirements to build
+requirements: [
+  copper/20
+  lead/20
+  metaglass/20
+]
+
+category: power
+research: thermal-generator
