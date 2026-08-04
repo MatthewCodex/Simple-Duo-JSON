@@ -3,7 +3,6 @@ name: "T1 Biothermal Generator"
 description: "Generates power from spore floors."
 size: 2
 hasPower: true
-updateEffect: redout
 ambientSound: hum
 attribute: spores
 // Power production settings
