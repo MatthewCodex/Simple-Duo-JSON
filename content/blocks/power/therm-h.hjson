@@ -1,0 +1,20 @@
+
+  type: ThermalGenerator
+  name: T3 Biothermal Generator
+  size: 2
+  powerProduction: 3.0
+  attribute: heat
+  generateEffect: none
+  health: 600
+  requirements: [
+    copper/50
+    lead/50
+    metaglass/50
+  ]
+  category: power
+  research: therm-g
+  conductivePower: true
+
+  generateEffect: redgeneratespark
+  ambientSound: loopHum
+  ambientSoundVolume: 0.06

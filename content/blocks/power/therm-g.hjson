@@ -1,17 +1,17 @@
 type: ThermalGenerator
-name: T1 Biothermal Generator
+name: T2 Biothermal Generator
 size: 2
-powerProduction: 2.0
+powerProduction: 2.5
 attribute: spores
 generateEffect: none
-health: 200
+health: 400
 requirements: [
-    copper/10
-    lead/10
-    metaglass/10
+    copper/25
+    lead/25
+    metaglass/25
 ]
 category: power
-research: combustion-generator
+research: therm-f
 conductivePower: true
 
 generateEffect: redgeneratespark
