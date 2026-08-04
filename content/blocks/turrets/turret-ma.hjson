@@ -44,7 +44,7 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 5
-  spread: 5
+  spread: 0
   shotDelay: 2.5
 }
  

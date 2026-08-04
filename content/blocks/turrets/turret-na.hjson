@@ -1,0 +1,42 @@
+type: ItemTurret
+name: Basic Incendiary Turret
+description: Burns enemies using coal as ammo.
+health: 900
+size: 1
+range: 50
+reload: 3
+liquidCapacity: 40
+  
+targetAir: true
+targetGround: true
+shootSound: shootFlame
+hasLiquids: true
+  
+research: scorch
+category: turret
+  
+requirements: [
+copper/50
+metaglass/50
+lead/50
+]
+
+ammoTypes: {
+    coal: {
+      damage: 15
+      speed: 8
+      width: 4
+      height: 4
+      knockback: 1
+      lifetime: 40
+      status: burning
+      statusDuration: 120
+    }
+  }
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
+
+shownPlanets: [serpulo , erekir , rospuleball]
