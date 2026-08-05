@@ -1,7 +1,7 @@
 type: CoreBlock
 name: shard-i
 localizedName: T4 Large Core Shard
-size: 3
+size: 6
 health: 9000
 itemCapacity: 18000
 unitCapModifier: 10

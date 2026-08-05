@@ -1,7 +1,7 @@
 type: CoreBlock
 name: shard-j
 localizedName: T5 Large Core Shard
-size: 3
+size: 6
 health: 10000
 itemCapacity: 20000
 unitCapModifier: 10

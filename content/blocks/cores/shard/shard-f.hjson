@@ -1,7 +1,7 @@
 type: CoreBlock
 name: shard-f
 localizedName: T1 Large Core Shard
-size: 3
+size: 6
 health: 6000
 itemCapacity: 12000
 unitCapModifier: 10
