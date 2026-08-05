@@ -1,14 +1,14 @@
 {
   type: PowerNode
-  name: T3 Power Node
+  name: T2 Power Node
   description: Transmits power.
   size: 1
-  laserRange: 10
-  maxNodes: 12
-  health: 500
+  laserRange: 8
+  maxNodes: 8
+  health: 200
   requirements: [
-    copper/100
+    copper/10
   ]
   category: power
-  research: n4
+  research: node-a
 }
