@@ -1,0 +1,20 @@
+type: ItemBridge
+name: T5 Phase Bridge Conveyor
+description: Moves items over structures and terrain across longer distances. Requires power.
+size: 1
+health: 180
+range: 60
+transportTime: 0.0
+hasPower: true
+consumes: {
+    power: 0.18
+}
+research: bridge-i
+
+requirements: [
+  copper/5
+  lead/5
+  phase-fabric/5
+]
+
+category: distribution

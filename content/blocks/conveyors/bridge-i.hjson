@@ -1,0 +1,20 @@
+type: ItemBridge
+name: T4 Phase Bridge Conveyor
+description: Moves items over structures and terrain across longer distances. Requires power.
+size: 1
+health: 160
+range: 55
+transportTime: 0.0
+hasPower: true
+consumes: {
+    power: 0.16
+}
+research: bridge-h
+
+requirements: [
+  copper/4
+  lead/4
+  phase-fabric/4
+]
+
+category: distribution

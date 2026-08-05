@@ -1,0 +1,20 @@
+type: ItemBridge
+name: T3 Phase Bridge Conveyor
+description: Moves items over structures and terrain across longer distances. Requires power.
+size: 1
+health: 140
+range: 50
+transportTime: 0.0
+hasPower: true
+consumes: {
+    power: 0.14
+}
+research: bridge-g
+
+requirements: [
+  copper/3
+  lead/3
+  phase-fabric/3
+]
+
+category: distribution

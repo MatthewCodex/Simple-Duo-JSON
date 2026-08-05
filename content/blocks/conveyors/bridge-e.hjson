@@ -1,17 +1,17 @@
 type: ItemBridge
-name: T2 Bridge Conveyor
+name: T5 Bridge Conveyor
 description: Moves items over structures and terrain across long distances.
 size: 1
-health: 120
-range: 20
+health: 180
+range: 35
 transportTime: 0.0
 hasPower: false
 
-research: bridge-a
+research: bridge-d
 
 requirements: [
-  copper/2
-  lead/2
+  copper/5
+  lead/5
 ]
 
 category: distribution
