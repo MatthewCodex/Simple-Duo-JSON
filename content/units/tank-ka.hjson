@@ -1,6 +1,6 @@
 type: tank
-name: tank-ba
-localizedName: Basic Laser Bolt Tank
+name: "tank-ba"
+localizedName: "Basic Laser Bolt Tank"
 description: A cheap tank that uses a machine gun.
 
 health: 100
