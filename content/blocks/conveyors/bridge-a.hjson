@@ -1,0 +1,17 @@
+type: ItemBridge
+name: T1 Bridge Conveyor
+description: Moves items over structures and terrain across long distances.
+size: 1
+health: 100
+range: 15
+transportTime: 0.0
+hasPower: false
+
+research: bridge-conveyor
+
+requirements: [
+  copper/1
+  lead/1
+]
+
+category: distribution
