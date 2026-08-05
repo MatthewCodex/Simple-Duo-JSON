@@ -1,0 +1,15 @@
+{
+  type: PowerNode
+  name: T4 Large Power Node
+  description: Transmits power.
+  size: 2
+  laserRange: 22
+  maxNodes: 22
+  health: 900
+  requirements: [
+    lead/50
+    copper/50
+  ]
+  category: power
+  research: node-h
+}

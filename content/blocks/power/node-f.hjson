@@ -1,0 +1,15 @@
+{
+  type: PowerNode
+  name: T1 Large Power Node
+  description: Transmits power.
+  size: 2
+  laserRange: 16
+  maxNodes: 16
+  health: 600
+  requirements: [
+    lead/5
+    copper/5
+  ]
+  category: power
+  research: power-node-large
+}
