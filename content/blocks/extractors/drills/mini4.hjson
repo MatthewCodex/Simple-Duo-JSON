@@ -2,9 +2,9 @@ type: Drill
 name: T4 Mini Drill
 description: A smaller drill that uses a rotating head to mine resources. Requires power.
 size: 1
-health: 600
-tier: 3
-drillTime: 80
+health: 500
+tier: 8
+drillTime: 34
 hasPower: true
 
 consumes: {
@@ -12,7 +12,7 @@ consumes: {
 }
 
 // Rotation and Visuals
-rotateSpeed: 5
+rotateSpeed: 3.5
 drawRim: true
 drawMineItem: false
 // Requirements and Categories

@@ -1,0 +1,31 @@
+type: Drill
+name: T5 Laser Drill
+description: A drill that uses a rotating head to mine resources. Faster than a pneumatic drill, but requires power.
+size: 3
+health: 1600
+tier: 8
+drillTime: 12
+
+// Rotation and Visuals
+rotateSpeed: 9
+drawRim: false
+
+hasPower: true
+
+consumes: {
+  power: 0.9
+}
+
+// Requirements and Categories
+category: production
+research: ld-d
+requirements: [
+  copper/200
+  graphite/200
+  lead/200
+  titanium/200
+]
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -2,9 +2,9 @@ type: Drill
 name: T5 Mini Drill
 description: A smaller drill that uses a rotating head to mine resources. Requires power.
 size: 1
-health: 720
-tier: 3
-drillTime: 
+health: 600
+tier: 8
+drillTime: 32
 hasPower: true
 
 consumes: {
@@ -12,7 +12,7 @@ consumes: {
 }
 
 // Rotation and Visuals
-rotateSpeed: 6
+rotateSpeed: 4
 drawRim: true
 drawMineItem: false
 // Requirements and Categories

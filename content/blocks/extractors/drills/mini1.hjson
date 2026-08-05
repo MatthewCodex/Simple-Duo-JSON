@@ -2,9 +2,9 @@ type: Drill
 name: T1 Mini Drill
 description: A smaller drill that uses a rotating head to mine resources. Requires power.
 size: 1
-health: 240
-tier: 2
-drillTime: 200
+health: 200
+tier: 8
+drillTime: 40
 hasPower: true
 
 consumes: {

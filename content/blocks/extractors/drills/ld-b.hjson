@@ -1,0 +1,31 @@
+type: Drill
+name: T2 Laser Drill
+description: A drill that uses a rotating head to mine resources. Faster than a pneumatic drill, but requires power.
+size: 3
+health: 1300
+tier: 8
+drillTime: 18
+
+// Rotation and Visuals
+rotateSpeed: 7.5
+drawRim: false
+
+hasPower: true
+
+consumes: {
+  power: 0.6
+}
+
+// Requirements and Categories
+category: production
+research: ld-a
+requirements: [
+  copper/25
+  graphite/25
+  lead/25
+  titanium/25
+]
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

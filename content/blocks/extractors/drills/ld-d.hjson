@@ -1,0 +1,31 @@
+type: Drill
+name: T4 Laser Drill
+description: A drill that uses a rotating head to mine resources. Faster than a pneumatic drill, but requires power.
+size: 3
+health: 1500
+tier: 8
+drillTime: 14
+
+// Rotation and Visuals
+rotateSpeed: 8.5
+drawRim: false
+
+hasPower: true
+
+consumes: {
+  power: 0.8
+}
+
+// Requirements and Categories
+category: production
+research: ld-c
+requirements: [
+  copper/100
+  graphite/100
+  lead/100
+  titanium/100
+]
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

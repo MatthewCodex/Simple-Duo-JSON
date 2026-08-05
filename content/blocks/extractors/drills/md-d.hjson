@@ -2,12 +2,12 @@ type: Drill
 name: T4 Mechanical Drill
 description: A drill that uses a rotating head to mine resources.
 size: 2
-health: 600
-tier: 4
-drillTime: 100
+health: 500
+tier: 8
+drillTime: 44
 
 // Rotation and Visuals
-rotateSpeed: 5
+rotateSpeed: 3.5
 drawRim: true
 
 // Requirements and Categories

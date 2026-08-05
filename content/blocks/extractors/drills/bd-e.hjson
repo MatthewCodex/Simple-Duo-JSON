@@ -1,0 +1,32 @@
+type: Drill
+name: T5 Blast Drill
+description: A drill that uses a rotating head to mine resources. Faster than a laser drill, but requires more power.
+size: 4
+health: 2100
+tier: 8
+drillTime: 2
+
+// Rotation and Visuals
+rotateSpeed: 11.5
+drawRim: false
+
+hasPower: true
+
+consumes: {
+  power: 1.3
+}
+
+// Requirements and Categories
+category: production
+research: bd-d
+requirements: [
+  copper/200
+  graphite/200
+  lead/200
+  titanium/200
+  plastanium/200
+]
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

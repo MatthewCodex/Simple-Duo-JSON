@@ -2,9 +2,9 @@ type: Drill
 name: T2 Mini Drill
 description: A smaller drill that uses a rotating head to mine resources. Requires power.
 size: 1
-health: 360
-tier: 3
-drillTime: 160
+health: 300
+tier: 8
+drillTime: 38
 hasPower: true
 
 consumes: {
@@ -12,7 +12,7 @@ consumes: {
 }
 
 // Rotation and Visuals
-rotateSpeed: 3
+rotateSpeed: 2.5
 drawRim: true
 drawMineItem: false
 // Requirements and Categories

@@ -2,9 +2,9 @@ type: Drill
 name: T1 Mechanical Drill
 description: A drill that uses a rotating head to mine resources.
 size: 2
-health: 240
-tier: 1
-drillTime: 240
+health: 200
+tier: 8
+drillTime: 50
 
 // Rotation and Visuals
 rotateSpeed: 2
