@@ -1,16 +1,16 @@
 type: ItemTurret
-name: Basic Missile Turret
-description: Shoots explosive missiles that cause splash damage to enemies.
-health: 600
-size: 1
+name: Advanced Missile Turret
+description: Greater splash damage. Uses Iron Rods as ammo.
+health: 1200
+size: 2
 recoil: 0.5
 shootY: 3
-reload: 20
-range: 150
+reload: 18
+range: 175
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 5
-rotateSpeed: 10
+rotateSpeed: 20
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
@@ -22,17 +22,17 @@ consumes: {
 }
 
 ammoTypes: {
-  m-iron-ingot: {
+  m-iron-rod: {
     type: MissileBulletType
-    damage: 100
-    speed: 8
+    damage: 200
+    speed: 4
     width: 8
     height: 8
     shrinkY: 0
     lifetime: 120
     ammoMultiplier: 5
-    splashDamage: 200
-    splashDamageRadius: 60
+    splashDamage: 300
+    splashDamageRadius: 90
     shootEffect: shootSmokeSquareBig
     hitEffect: titanExplosion
     despawnEffect: titanExplosion
@@ -45,7 +45,7 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 1
-  spread: 0
+  spread: 3
   shotDelay: 0
 }
  
@@ -53,9 +53,10 @@ requirements: [
 copper/50
 lead/50
 graphite/50
+silicon/50  
 ]
 category: turret
-research: swarmer
+research: turret-oa
  
 drawer: {
   type: DrawTurret

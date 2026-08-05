@@ -23,7 +23,7 @@ graphite/50
 ]
 
 ammoTypes: {
-    coal: {
+    pyratite: {
       damage: 75
       speed: 16
       width: 4

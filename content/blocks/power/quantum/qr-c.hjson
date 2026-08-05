@@ -15,7 +15,7 @@ powerProduction: 60
 
 // Heating Mechanics
 heating: 0.04
-coolantPower: 1.0
+coolantPower: 0.5
 
 // Explosion Properties
 explosionRadius: 80
