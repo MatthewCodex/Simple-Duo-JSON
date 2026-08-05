@@ -4,7 +4,7 @@ localizedName: T4 Large Core Shard
 size: 6
 health: 9000
 itemCapacity: 18000
-unitCapModifier: 10
+unitCapModifier: 20
 allowSpawn: true
 incinerateNonBuildable: true
 unitType: t4-alpha

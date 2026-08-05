@@ -4,7 +4,7 @@ localizedName: T1 Large Core Shard
 size: 6
 health: 6000
 itemCapacity: 12000
-unitCapModifier: 10
+unitCapModifier: 14
 allowSpawn: true
 incinerateNonBuildable: true
 unitType: t1-alpha

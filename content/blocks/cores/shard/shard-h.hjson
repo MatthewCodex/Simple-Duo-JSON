@@ -4,7 +4,7 @@ localizedName: T3 Large Core Shard
 size: 6
 health: 8000
 itemCapacity: 16000
-unitCapModifier: 10
+unitCapModifier: 18
 allowSpawn: true
 incinerateNonBuildable: true
 unitType: t3-alpha

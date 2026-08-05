@@ -4,7 +4,7 @@ localizedName: T5 Core Shard
 size: 3
 health: 5000
 itemCapacity: 10000
-unitCapModifier: 10
+unitCapModifier: 12
 allowSpawn: true
 incinerateNonBuildable: true
 unitType: t5-alpha
