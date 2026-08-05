@@ -1,0 +1,65 @@
+type: ItemTurret
+name: Basic Missile Turret
+description: Shoots explosive missiles that cause splash damage to enemies.
+health: 600
+size: 1
+recoil: 0.5
+shootY: 3
+reload: 40
+range: 150
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  m-iron-ingot: {
+    type: MissileBulletType
+    damage: 90
+    speed: 8
+    width: 8
+    height: 8
+    shrinkY: 0
+    lifetime: 120
+    ammoMultiplier: 5
+    splashDamage: 90
+    splashDamageRadius: 60
+    shootEffect: shootSmokeMissile
+    hitEffect: dynamicExplosion
+    despawnEffect: dynamicExplosion
+    shootSound: shootMissile
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 0
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/50
+lead/50
+graphite/50
+]
+category: turret
+research: swarmer
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
+
+shownPlanets: [serpulo , erekir , rospuleball]
