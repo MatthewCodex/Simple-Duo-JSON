@@ -2,7 +2,7 @@ type: ItemTurret
 name: Extreme Incendiary Turret
 description: Burns enemies using pyratite as ammo.
 health: 2100
-size: 1
+size: 5
 range: 150
 reload: 3
 itemCapacity: 40

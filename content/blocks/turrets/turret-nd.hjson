@@ -2,7 +2,7 @@ type: ItemTurret
 name: Elite Incendiary Turret
 description: Burns enemies using pyratite as ammo.
 health: 1800
-size: 1
+size: 4
 range: 125
 reload: 3
 itemCapacity: 40
