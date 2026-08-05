@@ -3,7 +3,7 @@ type: liquid
 color: 00c3ff
 temperature: 0.05
 viscosity: 0.2
-heatCapacity: 1.5
+heatCapacity: 2.0
 effect: freezing
 colorFrom: 00c3ff
 colorTo: 00c3ff
