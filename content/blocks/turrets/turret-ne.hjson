@@ -1,9 +1,9 @@
 type: ItemTurret
-name: Basic Incendiary Turret
-description: Burns enemies using coal as ammo.
-health: 900
+name: Extreme Incendiary Turret
+description: Burns enemies using pyratite as ammo.
+health: 2100
 size: 1
-range: 50
+range: 150
 reload: 3
 itemCapacity: 40
   
@@ -12,25 +12,26 @@ targetGround: true
 shootSound: shootFlame
 hasItems: true
   
-research: scorch
+research: turret-nd
 category: turret
   
 requirements: [
 copper/50
 metaglass/50
 lead/50
+graphite/50
 ]
 
 ammoTypes: {
     coal: {
-      damage: 15
-      speed: 8
+      damage: 75
+      speed: 16
       width: 4
       height: 4
       knockback: 1
-      lifetime: 40
+      lifetime: 60
       status: burning
-      statusDuration: 120
+      statusDuration: 240
     }
   }
 
