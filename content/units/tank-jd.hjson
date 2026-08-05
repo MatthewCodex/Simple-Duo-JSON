@@ -48,8 +48,8 @@ weapons: [
     shootSound: shootDuo
     bullet: {
       type: ContinuousLaserBulletType
-      damage: 125
-      length: 175
+      damage: 175
+      length: 350
       width: 4
       incendAmount: 0
       incendSpread: 0

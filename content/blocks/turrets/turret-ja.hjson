@@ -16,8 +16,8 @@ consumes: {
 # Define the laser properties
 shootType: {
   type: ContinuousLaserBulletType
-  damage: 50
-  length: 100
+  damage: 100
+  length: 200
   width: 4
   incendAmount: 0
   incendSpread: 0
