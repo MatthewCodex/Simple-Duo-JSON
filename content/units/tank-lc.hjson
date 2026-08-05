@@ -1,0 +1,79 @@
+type: tank
+name: tank-lc
+localizedName: Professional Artillery Tank
+description: Shoots artillery shells that cause splash damage to enemies.
+
+health: 500
+armor: 3
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+omniMovement: false
+
+research: tank-bb
+
+hitSize: 32
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-bc"
+      localizedName: "Professional Shotgun Tank Weapon"
+      length: 8
+      reload: 16
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shootAfflict
+
+      shoot: {
+      type: ShootSpread
+      shots: 5
+      spread: 14
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: ArtilleryBulletType
+    collidesAir: true
+    collidesGround: true
+    collides: true
+    damage: 160
+    speed: 6
+    width: 8
+    height: 8
+    lifetime: 60
+    splashDamage: 80
+    splashDamageRadius: 80
+    shootEffect: shootBig
+    hitEffect: flakExplosion
+    trailEffect: artilleryTrail
+    despawnEffect: flakExplosion
+    shootSound: shootArtillery
+    hitSound: explosionArtillery
+    despawnSound: explosionArtillery
+      }
+    }
+  ]
+
+shownPlanets: [serpulo , erekir , rospuleball]

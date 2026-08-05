@@ -1,0 +1,74 @@
+type: tank
+name: tank-la
+localizedName: Basic Artillery Tank
+description: Shoots artillery shells that cause splash damage to enemies.
+
+health: 100
+armor: 1
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-factory-a
+
+hitSize: 16
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-ba"
+      localizedName: "Basic Shotgun Tank Weapon"
+      length: 8
+      reload: 20
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shootAfflict
+
+      
+
+      bullet: {
+        type: ArtilleryBulletType
+    collidesAir: true
+    collidesGround: true
+    collides: true
+    damage: 80
+    speed: 4
+    width: 8
+    height: 8
+    lifetime: 60
+    splashDamage: 40
+    splashDamageRadius: 40
+    shootEffect: shootBig
+    hitEffect: flakExplosion
+    trailEffect: artilleryTrail
+    despawnEffect: flakExplosion
+    shootSound: shootArtillery
+    hitSound: explosionArtillery
+    despawnSound: explosionArtillery
+      }
+    }
+  ]
+
+shownPlanets: [serpulo , erekir , rospuleball]
