@@ -1,0 +1,20 @@
+type: CoreBlock
+name: shard-f
+localizedName: T1 Large Core Shard
+size: 3
+health: 6000
+itemCapacity: 12000
+unitCapModifier: 10
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t1-alpha
+
+requirements: [
+    copper/1750
+    lead/1750
+  ]
+
+category: effect
+research: shard-e
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,20 @@
+type: CoreBlock
+name: shard-e
+localizedName: T5 Core Shard
+size: 3
+health: 5000
+itemCapacity: 10000
+unitCapModifier: 10
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t5-alpha
+
+requirements: [
+    copper/1500
+    lead/1500
+  ]
+
+category: effect
+research: shard-d
+
+shownPlanets: [serpulo , erekir , rospuleball]

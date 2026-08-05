@@ -1,0 +1,20 @@
+type: CoreBlock
+name: shard-j
+localizedName: T5 Large Core Shard
+size: 3
+health: 10000
+itemCapacity: 20000
+unitCapModifier: 10
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t5-alpha
+
+requirements: [
+    copper/2750
+    lead/2750
+  ]
+
+category: effect
+research: shard-i
+
+shownPlanets: [serpulo , erekir , rospuleball]

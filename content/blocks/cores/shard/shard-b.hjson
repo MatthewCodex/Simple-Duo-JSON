@@ -1,0 +1,20 @@
+type: CoreBlock
+name: shard-b
+localizedName: T2 Core Shard
+size: 3
+health: 2000
+itemCapacity: 4000
+unitCapModifier: 6
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t2-alpha
+
+requirements: [
+    copper/750
+    lead/750
+  ]
+
+category: effect
+research: shard-a
+
+shownPlanets: [serpulo , erekir , rospuleball]

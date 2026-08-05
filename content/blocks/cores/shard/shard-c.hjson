@@ -1,0 +1,20 @@
+type: CoreBlock
+name: shard-c
+localizedName: T3 Core Shard
+size: 3
+health: 3000
+itemCapacity: 6000
+unitCapModifier: 8
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t3-alpha
+
+requirements: [
+    copper/1000
+    lead/1000
+  ]
+
+category: effect
+research: shard-b
+
+shownPlanets: [serpulo , erekir , rospuleball]

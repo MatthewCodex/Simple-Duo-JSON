@@ -1,0 +1,20 @@
+type: CoreBlock
+name: shard-i
+localizedName: T4 Large Core Shard
+size: 3
+health: 9000
+itemCapacity: 18000
+unitCapModifier: 10
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t4-alpha
+
+requirements: [
+    copper/2500
+    lead/2500
+  ]
+
+category: effect
+research: shard-h
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,20 @@
+type: CoreBlock
+name: shard-a
+localizedName: T1 Core Shard
+size: 3
+health: 1000
+itemCapacity: 2000
+unitCapModifier: 4
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: t1-alpha
+
+requirements: [
+    copper/500
+    lead/500
+  ]
+
+category: effect
+research: core-shard
+
+shownPlanets: [serpulo , erekir , rospuleball]
