@@ -1,19 +1,19 @@
 type: tank
-name: tank-lb
-localizedName: Advanced Artillery Tank
+name: tank-ld
+localizedName: Elite Artillery Tank
 description: Shoots artillery shells that cause splash damage to enemies.
 
-health: 250
-armor: 2
+health: 1000
+armor: 4
 speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
 omniMovement: false
 
-research: tank-la
+research: tank-lc
 
-hitSize: 24
+hitSize: 40
 targetAir: true
 
 treadFrames: 4
@@ -34,10 +34,10 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-lb"
-      localizedName: "Advanced Artillery Tank Weapon"
+      name: "turret-ld"
+      localizedName: "Elite Artillery Tank Weapon"
       length: 8
-      reload: 18
+      reload: 14
       alternate: true
       inaccuracy: 5
       mirror: false
@@ -53,14 +53,14 @@ weapons: [
     collidesAir: true
     collidesGround: true
     collides: true
-    damage: 120
-    speed: 5
+    damage: 200
+    speed: 7
     width: 8
     height: 8
     lifetime: 60
     ammoMultiplier: 2
-    splashDamage: 60
-    splashDamageRadius: 60
+    splashDamage: 90
+    splashDamageRadius: 40
     shootEffect: shootBig
     hitEffect: flakExplosion
     trailEffect: artilleryTrail

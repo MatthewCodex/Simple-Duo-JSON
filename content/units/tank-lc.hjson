@@ -11,7 +11,7 @@ drag: 0.05
 rotateSpeed: 10
 omniMovement: false
 
-research: tank-bb
+research: tank-lb
 
 hitSize: 32
 targetAir: true
@@ -34,8 +34,8 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-bc"
-      localizedName: "Professional Shotgun Tank Weapon"
+      name: "turret-lc"
+      localizedName: "Professional Artillery Tank Weapon"
       length: 8
       reload: 16
       alternate: true
@@ -44,14 +44,9 @@ weapons: [
       rotate: true
       x: 0
       y: 0
-      shootSound: shootAfflict
+      shootSound: shootArtillery
 
-      shoot: {
-      type: ShootSpread
-      shots: 5
-      spread: 14
-      shotDelay: 0
-      }
+      
 
       bullet: {
         type: ArtilleryBulletType
