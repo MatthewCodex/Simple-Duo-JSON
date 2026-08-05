@@ -4,7 +4,7 @@ description: A smaller drill that uses a rotating head to mine resources. Requir
 size: 1
 health: 720
 tier: 3
-drillTime: 40
+drillTime: 
 hasPower: true
 
 consumes: {

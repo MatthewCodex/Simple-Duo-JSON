@@ -1,7 +1,7 @@
 type: Pump
 name: T4 Impulse Pump
 description: Sucks up liquids from the ground and outputs them. Faster than a rotary pump, but requires more power.
-size: 2
+size: 3
 health: 750
 category: liquid
 
