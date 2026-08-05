@@ -1,0 +1,22 @@
+type: StorageBlock
+name: T4 Large Item Vault
+description: Stores items.
+
+hasItems: true
+size: 6
+health: 5000
+itemCapacity: 5000
+
+category: effect
+research: c2-item-h
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/450
+  lead/450
+  titanium/450
+  graphite/450
+]
+squareSprite: false
+

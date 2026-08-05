@@ -1,0 +1,22 @@
+type: StorageBlock
+name: T5 Large Item Vault
+description: Stores items.
+
+hasItems: true
+size: 6
+health: 5500
+itemCapacity: 5500
+
+category: effect
+research: c2-item-i
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/500
+  lead/500
+  titanium/500
+  graphite/500
+]
+squareSprite: false
+

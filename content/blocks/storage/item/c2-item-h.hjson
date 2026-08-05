@@ -1,0 +1,22 @@
+type: StorageBlock
+name: T3 Large Item Vault
+description: Stores items.
+
+hasItems: true
+size: 6
+health: 4500
+itemCapacity: 4500
+
+category: effect
+research: c2-item-g
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/400
+  lead/400
+  titanium/400
+  graphite/400
+]
+squareSprite: false
+

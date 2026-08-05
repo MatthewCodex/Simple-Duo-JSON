@@ -1,0 +1,22 @@
+type: StorageBlock
+name: T1 Item Vault
+description: Stores items.
+
+hasItems: true
+size: 3
+health: 1000
+itemCapacity: 1000
+
+category: effect
+research: core-shard
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/50
+  lead/50
+  titanium/50
+  graphite/50
+]
+squareSprite: false
+

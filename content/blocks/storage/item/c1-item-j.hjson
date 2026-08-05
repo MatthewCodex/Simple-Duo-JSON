@@ -1,0 +1,20 @@
+type: StorageBlock
+name: T5 Large Item Container
+description: Stores items.
+
+hasItems: true
+size: 4
+health: 2750
+itemCapacity: 2750
+
+category: effect
+research: c1-item-i
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/500
+  lead/500
+]
+squareSprite: false
+

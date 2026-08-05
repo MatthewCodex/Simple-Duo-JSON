@@ -1,0 +1,20 @@
+type: StorageBlock
+name: T3 Large Item Container
+description: Stores items.
+
+hasItems: true
+size: 4
+health: 2250
+itemCapacity: 2250
+
+category: effect
+research: c1-item-g
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/400
+  lead/400
+]
+squareSprite: false
+

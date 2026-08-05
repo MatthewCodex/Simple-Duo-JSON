@@ -1,0 +1,20 @@
+type: StorageBlock
+name: T2 Item Container
+description: Stores items.
+
+hasItems: true
+size: 2
+health: 750
+itemCapacity: 750
+
+category: effect
+research: c1-item-a
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/100
+  lead/100
+]
+squareSprite: false
+

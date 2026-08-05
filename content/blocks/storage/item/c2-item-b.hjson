@@ -1,0 +1,22 @@
+type: StorageBlock
+name: T2 Item Vault
+description: Stores items.
+
+hasItems: true
+size: 3
+health: 1500
+itemCapacity: 1500
+
+category: effect
+research: c2-item-a
+
+drawTeamOverlay: true
+
+requirements: [
+  copper/100
+  lead/100
+  titanium/100
+  graphite/100
+]
+squareSprite: false
+
