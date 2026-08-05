@@ -33,9 +33,9 @@ ammoTypes: {
     ammoMultiplier: 5
     splashDamage: 90
     splashDamageRadius: 60
-    shootEffect: shootSmokeMissile
-    hitEffect: dynamicExplosion
-    despawnEffect: dynamicExplosion
+    shootEffect: shootSmokeSquareBig
+    hitEffect: titanExplosion
+    despawnEffect: titanExplosion
     shootSound: shootMissile
     hitSound: blockExplode3
     despawnSound: blockExplode3
