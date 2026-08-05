@@ -3,7 +3,7 @@ name: tank-ia
 localizedName: Basic Blast Tank
 description: Shoots Explosive Shells at enemies.
 
-health: 300
+health: 500
 armor: 1
 speed: 1
 accel: 0.1

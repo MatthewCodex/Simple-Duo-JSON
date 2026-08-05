@@ -3,7 +3,7 @@ name: tank-hd
 localizedName: Elite Cryofluid Tank
 description: Freezes enemies.
 
-health: 1200
+health: 4000
 armor: 4
 speed: 1
 accel: 0.1

@@ -3,7 +3,7 @@ name: tank-bc
 localizedName: Professional Shotgun Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
-health: 450
+health: 500
 armor: 3
 speed: 1
 accel: 0.1

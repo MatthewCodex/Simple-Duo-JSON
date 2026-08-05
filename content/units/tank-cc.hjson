@@ -3,7 +3,7 @@ name: tank-cc
 localizedName: Professional Minigun Tank
 description: Fires bullets very fast.
 
-health: 600
+health: 1000
 armor: 3
 speed: 1.5
 accel: 0.1

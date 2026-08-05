@@ -3,7 +3,7 @@ name: tank-be
 localizedName: Extreme Shotgun Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
-health: 600
+health: 2500
 armor: 5
 speed: 1
 accel: 0.1

@@ -3,7 +3,7 @@ name: tank-fe
 localizedName: Extreme Sprayer Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
-health: 1500
+health: 5000
 armor: 5
 speed: 1
 accel: 0.1

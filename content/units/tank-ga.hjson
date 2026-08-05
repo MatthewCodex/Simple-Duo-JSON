@@ -3,7 +3,7 @@ name: tank-ga
 localizedName: Basic Homing Tank
 description: Shoots Explosive Shells at enemies.
 
-health: 300
+health: 400
 armor: 1
 speed: 1
 accel: 0.1

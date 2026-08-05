@@ -3,7 +3,7 @@ name: tank-fc
 localizedName: Professional Sprayer Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
-health: 900
+health: 1200
 armor: 3
 speed: 1
 accel: 0.1

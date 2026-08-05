@@ -3,7 +3,7 @@ name: tank-cd
 localizedName: Elite Minigun Tank
 description: Fires bullets very fast.
 
-health: 800
+health: 2000
 armor: 4
 speed: 1.5
 accel: 0.1

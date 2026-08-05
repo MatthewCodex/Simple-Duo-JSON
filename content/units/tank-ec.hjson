@@ -3,7 +3,7 @@ name: tank-ec
 localizedName: Professional Cannon Tank
 description: Shoots Explosive Shells at enemies.
 
-health: 900
+health: 1200
 armor: 3
 speed: 1
 accel: 0.1

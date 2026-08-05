@@ -3,7 +3,7 @@ name: tank-dd
 localizedName: Elite Slag Tank
 description: Melts enemies.
 
-health: 1000
+health: 2000
 armor: 4
 speed: 1.5
 accel: 0.1

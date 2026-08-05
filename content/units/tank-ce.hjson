@@ -3,7 +3,7 @@ name: tank-ce
 localizedName: Extreme Minigun Tank
 description: Fires bullets very fast.
 
-health: 1000
+health: 4000
 armor: 5
 speed: 1.5
 accel: 0.1

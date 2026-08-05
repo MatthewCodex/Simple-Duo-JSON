@@ -3,7 +3,7 @@ name: tank-fd
 localizedName: Elite Sprayer Tank
 description: Shoots multiple bullets dealing spread damage to enemies.
 
-health: 1200
+health: 2400
 armor: 4
 speed: 1
 accel: 0.1

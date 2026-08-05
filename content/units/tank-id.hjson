@@ -3,7 +3,7 @@ name: tank-id
 localizedName: Elite Blast Tank
 description: Shoots Explosive Shells at enemies.
 
-health: 1200
+health: 5000
 armor: 4
 speed: 1
 accel: 0.1

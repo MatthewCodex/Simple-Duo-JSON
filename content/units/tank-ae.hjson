@@ -3,7 +3,7 @@ name: tank-ae
 localizedName: Extreme Normal Tank
 description: Extreme tier is final tier.
 
-health: 500
+health: 2500
 armor: 5
 speed: 1.2
 accel: 0.1

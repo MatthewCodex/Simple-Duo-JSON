@@ -1,0 +1,59 @@
+type: tank
+name: tank-kb
+localizedName: Advanced Laser Bolt Tank
+description: A better tank with a better laser bolt gun.
+
+health: 250
+armor: 2
+speed: 1.05
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-ka
+
+hitSize: 24
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-kb"
+      localizedName: "Advanced Laser Bolt Tank Weapon"
+      length: 8
+      reload: 9
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shootAlpha
+      bullet: {
+        type: LaserBoltBulletType
+        damage: 45
+        speed: 4
+        lifetime: 40
+        width: 4
+        height: 4
+      }
+    }
+  ]
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -3,7 +3,7 @@ name: tank-cb
 localizedName: Advanced Minigun Tank
 description: Fires bullets very fast.
 
-health: 400
+health: 500
 armor: 2
 speed: 1.5
 accel: 0.1

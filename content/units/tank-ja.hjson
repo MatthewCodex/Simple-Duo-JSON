@@ -3,7 +3,7 @@ name: tank-ja
 localizedName: Basic Pierce Tank
 description: Shoot piercing projectiles at enemies.
 
-health: 300
+health: 500
 armor: 1
 speed: 1
 accel: 0.1

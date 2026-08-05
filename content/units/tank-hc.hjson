@@ -3,7 +3,7 @@ name: tank-hc
 localizedName: Professional Cryofluid Tank
 description: Freezes enemies.
 
-health: 900
+health: 2000
 armor: 3
 speed: 1
 accel: 0.1

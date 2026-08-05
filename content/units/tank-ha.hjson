@@ -3,7 +3,7 @@ name: tank-ha
 localizedName: Basic Cryofluid Tank
 description: Freezes enemies.
 
-health: 300
+health: 400
 armor: 1
 speed: 1
 accel: 0.1

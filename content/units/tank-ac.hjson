@@ -3,7 +3,7 @@ name: tank-ac
 localizedName: Professional Normal Tank
 description: A Professional-grade tank with a machine gun.
 
-health: 300
+health: 500
 armor: 3
 speed: 1.1
 accel: 0.1
