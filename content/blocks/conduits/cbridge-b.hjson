@@ -1,0 +1,20 @@
+type: LiquidBridge
+name: T2 Bridge Conduit
+description: Transports liquids over structures and terrain.
+category: liquid
+research: cbridge-a
+
+# Health and size
+health: 120
+size: 1
+hasLiquids: true
+
+# Bridge specific properties
+range: 20
+moveArrows: true
+
+# Build requirements
+requirements: [
+  graphite/2
+  metaglass/2
+]

@@ -1,0 +1,20 @@
+type: LiquidBridge
+name: T4 Bridge Conduit
+description: Transports liquids over structures and terrain.
+category: liquid
+research: cbridge-c
+
+# Health and size
+health: 160
+size: 1
+hasLiquids: true
+
+# Bridge specific properties
+range: 30
+moveArrows: true
+
+# Build requirements
+requirements: [
+  graphite/4
+  metaglass/4
+]

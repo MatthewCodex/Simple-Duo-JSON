@@ -1,0 +1,20 @@
+type: LiquidBridge
+name: T5 Bridge Conduit
+description: Transports liquids over structures and terrain.
+category: liquid
+research: cbridge-d
+
+# Health and size
+health: 180
+size: 1
+hasLiquids: true
+
+# Bridge specific properties
+range: 35
+moveArrows: true
+
+# Build requirements
+requirements: [
+  graphite/5
+  metaglass/5
+]
