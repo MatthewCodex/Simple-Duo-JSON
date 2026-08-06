@@ -31,6 +31,14 @@ plans: [
       graphite/20
     ]
   }
+  {
+    unit: tank-ma
+    time: 300
+    requirements: [
+      lead/20
+      graphite/20
+    ]
+  }
 ]
 consumes: {
   power: 1.0

@@ -48,6 +48,34 @@ upgrades: [
     tank-fa
     tank-fb
   ]
+  [
+    tank-ga
+    tank-gb
+  ]
+  [
+    tank-ha
+    tank-hb
+  ]
+  [
+    tank-ia
+    tank-ib
+  ]
+  [
+    tank-ja
+    tank-jb
+  ]
+  [
+    tank-ka
+    tank-kb
+  ]
+  [
+    tank-la
+    tank-lb
+  ]
+  [
+    tank-ma
+    tank-mb
+  ]
 ]
 category: units
 research: additive-reconstructor

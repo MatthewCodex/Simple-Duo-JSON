@@ -52,6 +52,34 @@ upgrades: [
     tank-fd
     tank-fe
   ]
+  [
+    tank-gd
+    tank-ge
+  ]
+  [
+    tank-hd
+    tank-he
+  ]
+  [
+    tank-id
+    tank-ie
+  ]
+  [
+    tank-jd
+    tank-je
+  ]
+  [
+    tank-kd
+    tank-ke
+  ]
+  [
+    tank-ld
+    tank-le
+  ]
+  [
+    tank-md
+    tank-me
+  ]
 ]
 category: units
 research: tetrative-reconstructor

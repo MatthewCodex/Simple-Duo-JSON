@@ -51,6 +51,34 @@ upgrades: [
     tank-fc
     tank-fd
   ]
+  [
+    tank-gc
+    tank-gd
+  ]
+  [
+    tank-hc
+    tank-hd
+  ]
+  [
+    tank-ic
+    tank-id
+  ]
+  [
+    tank-jc
+    tank-jd
+  ]
+  [
+    tank-kc
+    tank-kd
+  ]
+  [
+    tank-lc
+    tank-ld
+  ]
+  [
+    tank-mc
+    tank-md
+  ]
 ]
 category: units
 research: exponential-reconstructor

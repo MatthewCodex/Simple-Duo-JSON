@@ -49,6 +49,35 @@ upgrades: [
     tank-fb
     tank-fc
   ]
+  [
+    tank-gb
+    tank-gc
+  ]
+  [
+    tank-hb
+    tank-hc
+  ]
+  [
+    tank-ib
+    tank-ic
+  ]
+  [
+    tank-jb
+    tank-jc
+  ]
+  [
+    tank-kb
+    tank-kc
+  ]
+  [
+    tank-lb
+    tank-lc
+  ]
+  [
+    tank-mb
+    tank-mc
+  ]
+  
 ]
 category: units
 research: multiplicative-reconstructor

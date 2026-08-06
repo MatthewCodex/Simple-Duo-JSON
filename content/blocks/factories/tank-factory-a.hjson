@@ -30,6 +30,22 @@ plans: [
       graphite/10
     ]
   }
+  {
+    unit: tank-ka
+    time: 300
+    requirements: [
+      copper/10
+      lead/10
+    ]
+  }
+  {
+    unit: tank-la
+    time: 450
+    requirements: [
+      copper/10
+      graphite/10
+    ]
+  }
 ]
 consumes: {
   power: 1.0
