@@ -12,4 +12,9 @@
   ]
   category: power
   research: node-g
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
+
 }

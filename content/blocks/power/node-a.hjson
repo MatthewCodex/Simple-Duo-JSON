@@ -11,4 +11,9 @@
   ]
   category: power
   research: power-node
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
+
 }
