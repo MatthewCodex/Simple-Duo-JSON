@@ -51,5 +51,6 @@ consumes: {
   power: 1.0
   
 }
+conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

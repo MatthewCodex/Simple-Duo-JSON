@@ -24,3 +24,6 @@ requirements: [
   metaglass/4
   phase-fabric/4
 ]
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

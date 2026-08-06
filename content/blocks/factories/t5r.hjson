@@ -83,5 +83,6 @@ upgrades: [
 ]
 category: units
 research: tetrative-reconstructor
+conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

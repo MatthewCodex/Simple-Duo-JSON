@@ -79,5 +79,6 @@ upgrades: [
 ]
 category: units
 research: additive-reconstructor
+conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]
