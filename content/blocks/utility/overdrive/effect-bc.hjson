@@ -1,0 +1,33 @@
+type: OverdriveProjector
+name: T3 Overdrive Projector
+
+health: 1500
+size: 1
+
+speedBoost: 2.0
+speedBoostPhase: 2.0
+
+range: 75
+phaseRangeBoost: 75
+
+consumes:{
+		power: 1.5
+		items: {
+			items: [
+				{ item: phase-fabric , amount: 1}
+			]
+		booster: true
+		optional: true
+		}
+	}
+
+requirements: [
+  copper/150
+]
+  
+category: effect
+research: effect-bb
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

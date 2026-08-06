@@ -1,0 +1,33 @@
+type: OverdriveProjector
+name: T1 Overdrive Projector
+
+health: 500
+size: 1
+
+speedBoost: 1.0
+speedBoostPhase: 1.0
+
+range: 25
+phaseRangeBoost: 25
+
+consumes:{
+		power: 0.5
+		items: {
+			items: [
+				{ item: phase-fabric , amount: 1}
+			]
+		booster: true
+		optional: true
+		}
+	}
+
+requirements: [
+  copper/50
+]
+  
+category: effect
+research: core-shard
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

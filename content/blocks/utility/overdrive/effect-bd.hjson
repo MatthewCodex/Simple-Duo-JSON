@@ -1,17 +1,18 @@
 type: OverdriveProjector
-name: T2 Overdrive Projector
-health: 1500
+name: T4 Overdrive Projector
+health: 2500
 size: 1
-speedBoost: 3.0
+speedBoost: 5.0
 speedBoostPhase: 1.0
-range: 100
+range: 200
 phaseRangeBoost: 50
 
 requirements: [
-  copper/100
+  copper/200
+  lead/200
 ]
   
 category: effect
-research: op1
+research: effect-ac
 
 shownPlanets: [serpulo , erekir , rospuleball]

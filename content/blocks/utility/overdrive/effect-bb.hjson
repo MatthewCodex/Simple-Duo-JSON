@@ -1,0 +1,33 @@
+type: OverdriveProjector
+name: T2 Overdrive Projector
+
+health: 1000
+size: 1
+
+speedBoost: 1.5
+speedBoostPhase: 1.5
+
+range: 50
+phaseRangeBoost: 50
+
+consumes:{
+		power: 1.0
+		items: {
+			items: [
+				{ item: phase-fabric , amount: 1}
+			]
+		booster: true
+		optional: true
+		}
+	}
+
+requirements: [
+  copper/100
+]
+  
+category: effect
+research: effect-ba
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
