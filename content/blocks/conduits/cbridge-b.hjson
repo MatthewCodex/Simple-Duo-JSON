@@ -11,7 +11,7 @@ hasLiquids: true
 
 # Bridge specific properties
 range: 20
-moveArrows: true
+moveArrows: false
 
 # Build requirements
 requirements: [

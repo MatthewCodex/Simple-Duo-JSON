@@ -4,12 +4,13 @@ description: Moves items over structures and terrain across longer distances. Re
 size: 1
 health: 100
 range: 40
-transportTime: 0.0
+transportTime: 0.5
 hasPower: true
 consumes: {
     power: 0.1
 }
 research: bridge-conveyor
+moveArrows: false
 
 requirements: [
   copper/1

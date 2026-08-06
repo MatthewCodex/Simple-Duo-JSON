@@ -4,12 +4,13 @@ description: Moves items over structures and terrain across longer distances. Re
 size: 1
 health: 120
 range: 45
-transportTime: 0.0
+transportTime: 0.5
 hasPower: true
 consumes: {
     power: 0.12
 }
 research: bridge-f
+moveArrows: false
 
 requirements: [
   copper/2

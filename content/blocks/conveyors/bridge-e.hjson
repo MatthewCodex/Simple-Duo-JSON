@@ -4,8 +4,9 @@ description: Moves items over structures and terrain across long distances.
 size: 1
 health: 180
 range: 35
-transportTime: 0.0
+transportTime: 1.0
 hasPower: false
+moveArrows: false
 
 research: bridge-d
 
