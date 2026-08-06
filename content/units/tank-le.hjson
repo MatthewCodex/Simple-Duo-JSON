@@ -46,12 +46,7 @@ weapons: [
       y: 0
       shootSound: shootArtillery
 
-      shoot: {
-      type: ShootSpread
-      shots: 8
-      spread: 20
-      shotDelay: 0
-      }
+
 
       bullet: {
         type: ArtilleryBulletType

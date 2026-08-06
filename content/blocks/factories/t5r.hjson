@@ -80,6 +80,10 @@ upgrades: [
     tank-md
     tank-me
   ]
+  [
+    tank-nd
+    tank-ne
+  ]
 ]
 category: units
 research: tetrative-reconstructor

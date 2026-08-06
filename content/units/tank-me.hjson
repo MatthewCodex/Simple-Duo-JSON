@@ -37,7 +37,7 @@ weapons: [
       name: "turret-me"
       localizedName: "Extreme Minigun Tank Weapon"
       length: 8
-      reload: 3
+      reload: 20
       alternate: true
       inaccuracy: 2
       mirror: false

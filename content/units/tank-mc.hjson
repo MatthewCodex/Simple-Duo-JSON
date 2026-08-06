@@ -37,7 +37,7 @@ weapons: [
       name: "turret-mc"
       localizedName: "Professional Salvo Tank Weapon"
       length: 8
-      reload: 4
+      reload: 20
       alternate: true
       inaccuracy: 2
       mirror: false

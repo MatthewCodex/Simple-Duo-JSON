@@ -77,7 +77,10 @@ upgrades: [
     tank-mb
     tank-mc
   ]
-  
+  [
+    tank-nb
+    tank-nc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

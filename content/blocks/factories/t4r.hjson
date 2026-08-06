@@ -79,6 +79,10 @@ upgrades: [
     tank-mc
     tank-md
   ]
+  [
+    tank-nc
+    tank-nd
+  ]
 ]
 category: units
 research: exponential-reconstructor

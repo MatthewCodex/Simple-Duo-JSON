@@ -37,7 +37,7 @@ weapons: [
       name: "turret-md"
       localizedName: "Elite Salvo Tank Weapon"
       length: 8
-      reload: 3.5
+      reload: 20
       alternate: true
       inaccuracy: 2
       mirror: false

@@ -39,6 +39,15 @@ plans: [
       graphite/20
     ]
   }
+  {
+    unit: tank-na
+    time: 450
+    requirements: [
+      copper/20
+      lead/20
+      graphite/20
+    ]
+  }
 ]
 consumes: {
   power: 1.0
