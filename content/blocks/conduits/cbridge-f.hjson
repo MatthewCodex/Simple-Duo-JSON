@@ -1,0 +1,26 @@
+type: LiquidBridge
+name: T1 Phase Bridge Conduit
+description: Transports liquids over structures and terrain. Requires power.
+category: liquid
+research: bridge-conduit
+
+# Health and size
+health: 100
+size: 1
+hasLiquids: true
+
+hasPower: true
+consumes: {
+    power: 0.1
+}
+
+# Bridge specific properties
+range: 40
+moveArrows: false
+
+# Build requirements
+requirements: [
+  graphite/1
+  metaglass/1
+  phase-fabric/1
+]

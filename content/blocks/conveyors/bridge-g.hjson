@@ -4,7 +4,7 @@ description: Moves items over structures and terrain across longer distances. Re
 size: 1
 health: 120
 range: 45
-transportTime: 0.5
+transportTime: 0.25
 hasPower: true
 consumes: {
     power: 0.12
