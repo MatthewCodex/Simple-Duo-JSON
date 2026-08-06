@@ -1,20 +1,20 @@
 
   type: Wall
-  name: T3 Unit Capacity Block
+  name: T4 Unit Capacity Block
   description: Increases maximum active unit capacity for all unit types.
-  health: 1500
+  health: 2000
   size: 1
 
   drawTeamOverlay: true
 
   category: effect
-  research: unit-cap-b
+  research: unit-cap-c
   requirements: [
     copper/200
     lead/200
     silicon/200
   ]
   
-  unitCapModifier: 16
+  unitCapModifier: 20
 
 shownPlanets: [serpulo , erekir , rospuleball]

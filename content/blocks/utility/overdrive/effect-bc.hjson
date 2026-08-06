@@ -9,6 +9,7 @@ speedBoostPhase: 2.0
 
 range: 75
 phaseRangeBoost: 75
+hasPower: true
 
 consumes:{
 		power: 1.5

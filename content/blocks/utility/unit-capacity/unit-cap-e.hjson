@@ -1,20 +1,20 @@
 
   type: Wall
-  name: T3 Unit Capacity Block
+  name: T5 Unit Capacity Block
   description: Increases maximum active unit capacity for all unit types.
-  health: 1500
+  health: 2500
   size: 1
 
   drawTeamOverlay: true
 
   category: effect
-  research: unit-cap-b
+  research: unit-cap-d
   requirements: [
     copper/200
     lead/200
     silicon/200
   ]
   
-  unitCapModifier: 16
+  unitCapModifier: 24
 
 shownPlanets: [serpulo , erekir , rospuleball]
