@@ -14,6 +14,8 @@ category: power
 research: therm-f
 conductivePower: true
 
+shownPlanets: [serpulo , erekir , rospuleball]
+
 generateEffect: redgeneratespark
 ambientSound: loopHum
 ambientSoundVolume: 0.06

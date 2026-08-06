@@ -40,4 +40,6 @@ requirements: [
 
 category: power
 research: tr-c
-  conductivePower: true
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

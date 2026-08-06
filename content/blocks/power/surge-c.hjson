@@ -12,4 +12,7 @@
   ]
   category: power
   research: surge-b
+  conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
 }

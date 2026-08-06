@@ -52,7 +52,7 @@ weapons: [
         drag: 0.01
         knockback: 1
         lifetime: 40
-        status: burning
+        status: melting
         statusDuration: 360
       }
 

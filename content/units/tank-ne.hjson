@@ -1,19 +1,19 @@
 type: tank
-name: tank-dd
-localizedName: Elite Slag Tank
-description: Melts enemies.
+name: tank-ne
+localizedName: Extreme Incendiary Tank
+description: Burns enemies.
 
-health: 2000
-armor: 4
+health: 4000
+armor: 5
 speed: 1.5
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
 omniMovement: false
 
-research: tank-dc
+research: tank-nd
 
-hitSize: 40
+hitSize: 48
 targetAir: true
 
 treadFrames: 4
@@ -34,8 +34,8 @@ treadFrames: 4
 
 weapons: [
     { 
-      name: turret-dd
-      localizedName: Elite Slag Tank Weapon
+      name: turret-ne
+      localizedName: Extreme Incendiary Tank Weapon
       reload: 3
       shots: 1
       shootSound: shootFlame
@@ -45,15 +45,14 @@ weapons: [
       x: 0
       y: 0
       bullet: {
-        type: LiquidBulletType
-        liquid: slag
-        damage: 36
-        speed: 4
-        drag: 0.01
-        knockback: 1
-        lifetime: 40
-        status: melting
-        statusDuration: 420
+        damage: 75
+      speed: 16
+      width: 4
+      height: 4
+      knockback: 1
+      lifetime: 60
+      status: burning
+      statusDuration: 240
       }
 
     }

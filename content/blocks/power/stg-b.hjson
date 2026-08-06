@@ -73,3 +73,6 @@ drawer: {
 
 ambientSound: generatespark
 ambientSoundVolume: 0.2
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

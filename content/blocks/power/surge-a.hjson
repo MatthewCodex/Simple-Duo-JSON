@@ -12,4 +12,7 @@
   ]
   category: power
   research: surge-tower
+  conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
 }

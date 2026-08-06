@@ -40,4 +40,6 @@ requirements: [
 
 category: power
 research: thorium-reactor
-  conductivePower: true
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -39,7 +39,7 @@ ammoTypes: {
       drag: 0.01
       knockback: 1
       lifetime: 60
-      status: burning
+      status: melting
       statusDuration: 600
     }
   }
