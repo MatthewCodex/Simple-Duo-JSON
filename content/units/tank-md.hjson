@@ -1,19 +1,19 @@
 type: tank
-name: tank-mc
-localizedName: Professional Salvo Tank
+name: tank-md
+localizedName: Elite Salvo Tank
 description: Fires bursts of bullets.
 
-health: 1000
-armor: 3
+health: 2000
+armor: 4
 speed: 1.5
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
 omniMovement: false
 
-research: tank-mb
+research: tank-mc
 
-hitSize: 32
+hitSize: 40
 targetAir: true
 
 treadFrames: 4
@@ -34,10 +34,10 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-mc"
-      localizedName: "Professional Salvo Tank Weapon"
+      name: "turret-md"
+      localizedName: "Elite Salvo Tank Weapon"
       length: 8
-      reload: 4
+      reload: 3.5
       alternate: true
       inaccuracy: 2
       mirror: false
@@ -47,7 +47,7 @@ weapons: [
 
 shoot: {
   type: ShootPattern
-  shots: 8
+  shots: 10
   spread: 0
   shotDelay: 5
   firstShotDelay: 20
@@ -55,8 +55,8 @@ shoot: {
 
       shootSound: shootSalvo
       bullet: {
-        damage: 90
-    speed: 15
+        damage: 105
+    speed: 20
     width: 10
     height: 10
     lifetime: 45
