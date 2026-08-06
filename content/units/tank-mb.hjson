@@ -1,0 +1,66 @@
+type: tank
+name: tank-mb
+localizedName: Advanced Salvo Tank
+description: Fires Busrts of bullets.
+
+health: 500
+armor: 2
+speed: 1.5
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-ma
+
+hitSize: 24
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-mb"
+      localizedName: "Basic Salvo Tank Weapon"
+      length: 8
+      reload: 4.5
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+
+      shoot: {
+  type: ShootPattern
+  shots: 6
+  spread: 0
+  shotDelay: 5
+  firstShotDelay: 20
+}
+
+      shootSound: shootSalvo
+      bullet: {
+        damage: 60
+    speed: 10
+    width: 10
+    height: 10
+    lifetime: 45
+    ammoMultiplier: 8
+      }
+    }
+  ]
