@@ -1,26 +1,26 @@
 type: LiquidBridge
-name: T3 Phase Bridge Conduit
+name: T5 Phase Bridge Conduit
 description: Transports liquids over structures and terrain. Requires power.
 category: liquid
-research: cbridge-g
+research: cbridge-i
 
 # Health and size
-health: 140
+health: 180
 size: 1
 hasLiquids: true
 
 hasPower: true
 consumes: {
-    power: 0.14
+    power: 0.18
 }
 
 # Bridge specific properties
-range: 50
+range: 60
 moveArrows: false
 
 # Build requirements
 requirements: [
-  graphite/3
-  metaglass/3
-  phase-fabric/3
+  graphite/5
+  metaglass/5
+  phase-fabric/5
 ]
