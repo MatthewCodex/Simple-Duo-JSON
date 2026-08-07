@@ -49,7 +49,7 @@
       "frontColor": "000000",
       "backColor": "ffffff",
       "killShooter": true,
-      "lightning": 64,
+      "lightning": 128,
       "lightningLength": 360,
       "lightningDamage": 1000000,
       "lightningColor": "000000",
@@ -61,7 +61,7 @@
       "damageMultiplier": 0.8,
       "healthMultiplier": 0.8,
       "damage": 10,
-      "effect": "melting"
+      "effect": "burning"
     },
       "statusDuration": 600,
       "fragBullet": {
