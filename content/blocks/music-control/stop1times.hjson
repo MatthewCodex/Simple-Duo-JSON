@@ -1,10 +1,92 @@
-type: Wall
-  name: "Stop music 1 time"
-  description: "Stops music once."
-  health: 500
-  size: 1
-  requirements: [
-    copper/6
-  ]
-  category: defense
-  research: core-shard
+{
+  "type": "itemTurret",
+  "name": "Apophis Bomb",
+  "description": "[#000000]APOCALYPSE NNNOOOOOOOOOWWW!!!!!!. \n[#ff0000]Warning: May cause lag on weaker systems. \n[#ffff00]Note: This definitely makes a great sandbox block.",
+  "size": 3,
+  "health": 200,
+  "requirements": [
+    {"item": "copper", "amount": 1}
+  ],
+  "maxAmmo": 1,
+  "ammoPerShot": 1,
+  "targetAir": false,
+  "targetGround": false,
+  "shake": 100,
+  "recoil": 0,
+  "reload": 1,
+  "range": 360,
+  "shootCone": 360,
+  "shootY": 0,
+  "inaccuracy": 0,
+  "rotateSpeed": 0,
+  "shootSound": "explosionbig",
+  "chargeSound": "lasercharge",
+  "shoot":{"firstShotDelay": 120},
+  "shootEffect": {
+    "type": "particleEffect",
+    "lifetime": 60,
+    "particles": 3,
+    "length": 0,
+    "sizeFrom": 0,
+    "sizeTo": 360,
+    "colorFrom": "ffffff",
+    "colorTo": "00000000"
+  },
+  "ammoTypes": {
+    "antimatter": {
+      "type": "basicBulletType",
+      "width": 0,
+      "spin": 10,
+      "speed": 0,
+      "lifetime": 0,
+      "damage": 0,
+      "splashDamageRadius": 360,
+      "splashDamage": 1000000,
+      "ammoMultiplier": 1,
+      "hitSound": "massiveExplosion",
+      "despawnEffect": "spawnShockwave",
+      "hitEffect": "spawnShockwave",
+      "frontColor": "000000",
+      "backColor": "ffffff",
+      "killShooter": true,
+      "lightning": 64,
+      "lightningLength": 360,
+      "lightningDamage": 1000000,
+      "lightningColor": "000000",
+      "fragBullets": 128,
+      "status": {
+      "name": "extinct",
+      "localizedName": "VAPORIZED",
+      "speedMultiplier": 0.8,
+      "damageMultiplier": 0.8,
+      "healthMultiplier": 0.8,
+      "damage": 10,
+      "effect": "melting"
+    },
+      "statusDuration": 600,
+      "fragBullet": {
+        "type": "LaserBulletType",
+        "colors": ["000000", "000000", "000000"],
+        "length": 1600,
+        "width": 16,
+        "sideLength": 25,
+        "sideWidth": 2,
+        "sideAngle": 5.62,
+        "pierce": true,
+        "damage": 1000000,
+        "hitEffect": "none"
+      },
+      "chargeEffect": {
+        "type": "particleEffect",
+        "lifetime": 180,
+        "particles": 3,
+        "length": 0,
+        "sizeFrom": 80,
+        "sizeTo": 0,
+        "colorFrom": "00000000",
+        "colorTo": "ffffff"
+      }
+    }
+  },
+  "category": "turret"
+}
