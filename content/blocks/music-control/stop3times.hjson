@@ -105,8 +105,26 @@
         "sideWidth": 2,
         "sideAngle": 5.62,
         "pierce": true,
+        "pierceCap": 100,
         "damage": 1000000,
         "hitEffect": "heatReactorSmoke"
+        "despawnEffect": {
+  type: ExplosionEffect
+  lifetime: 120
+  waveStroke: 6
+  waveRad: 480
+  waveColor: "ff0000"   # Purple radioactive wave
+  
+  smokeColor: "000000"
+  smokeParticles: 10
+  smokeLen: 15
+  smokeSize: 8
+  
+  sparkColor: "bd93f9"
+  sparks: 25
+  sparkLen: 40
+  sparkStroke: 3.5
+}
       },
       "chargeEffect": {
         "type": "particleEffect",
