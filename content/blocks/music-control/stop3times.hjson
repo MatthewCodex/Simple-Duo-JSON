@@ -106,19 +106,7 @@
         "sideAngle": 5.62,
         "pierce": true,
         "damage": 1000000,
-        "hitEffect": {
-  type: NoiseEffect
-  lifetime: 120
-  
-  # Structural noise parameters
-  noiseLayers: 3
-  noiseScale: 15.0
-  radius: 24.0
-  tex: stop3times-fx
-  # Visual adjustments
-  color: 000000
-  secondaryColor: ff0000
-}
+        "hitEffect": "none"
       },
       "chargeEffect": {
         "type": "particleEffect",
