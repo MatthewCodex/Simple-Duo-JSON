@@ -10,7 +10,7 @@
   "maxAmmo": 1,
   "ammoPerShot": 1,
   "targetAir": false,
-  "targetGround": false,
+  "targetGround": true,
   "shake": 100,
   "recoil": 0,
   "reload": 1,
