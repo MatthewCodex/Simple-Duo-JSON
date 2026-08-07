@@ -33,7 +33,7 @@
     "colorTo": "00000000"
   },
   "ammoTypes": {
-    "antimatter": {
+    "copper": {
       "type": "basicBulletType",
       "width": 0,
       "spin": 10,
