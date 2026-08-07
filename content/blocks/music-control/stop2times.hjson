@@ -7,7 +7,7 @@ recoil: 0.5
 shootY: 3
 reload: 10
 range: 150
-shootCone: 15
+shootCone: 360
 ammoUseEffect: casing1
 inaccuracy: 5
 rotateSpeed: 10
@@ -27,10 +27,10 @@ ammoTypes: {
     speed: 4
     width: 4
     height: 4
-    lifetime: 0
+    lifetime: 45
     ammoMultiplier: 2
-    lightning: 64
-    lightningLength: 4,
+    lightning: 4
+    lightningLength: 100,
     lightningDamage: 100,
   }
 }
