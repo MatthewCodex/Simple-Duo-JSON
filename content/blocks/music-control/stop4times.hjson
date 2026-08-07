@@ -1,0 +1,91 @@
+type: ItemTurret
+name: Armageddon Device
+description: "[#ff0000]Eradicates [#800000]ALMOST ALL [#ff0000]enemies in the [#800000]ENTIRE SECTOR [#ff0000]incredibly hard! \n[#0a0000]THERE IS NO ESCAPE FOR THE ENEMIES WHEN THIS TURRET IS READY FOR CHAOS."
+health: 1000000
+size: 1
+recoil: 0
+shootY: 0
+reload: 10
+range: 720
+shootCone: 360
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  copper: {
+    killShooter: true
+    damage: 1000000000
+    speed: 0
+    width: 4
+    height: 4
+    lifetime: 0
+    ammoMultiplier: 1
+    hitSound: massiveExplosion
+    despawnEffect: {
+      type: multiEffect
+      lifetime: 120
+      effects: [
+        {
+          type": ParticleEffect
+          particles: 20
+          sizeFrom: 1
+          sizeTo: 20
+          length: 0
+          layer: 101
+          interp: "swingIn"
+          lifetime: 120
+          colorFrom: "FF0000FF"
+          colorTo: "00000000"
+          cone: 360
+        },
+        {
+          type: ExplosionEffect
+          lifetime: 120
+          waveStroke: 10
+          waveRad: 720
+          waveColor: "FF0000"   # Red radioactive wave
+  
+          smokeColor: "000000"
+          smokeParticles: 10
+          smokeLen: 15
+          smokeSize: 8
+  
+          sparkColor: "FF0000"
+          sparks: 25
+          sparkLen: 40
+          sparkStroke: 5
+}
+      ]
+    }
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 20
+  spread: 3
+  shotDelay: 1
+}
+ 
+requirements: [
+copper/50
+]
+category: turret
+research: core-shard
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
+
+shownPlanets: [serpulo , erekir , rospuleball]
