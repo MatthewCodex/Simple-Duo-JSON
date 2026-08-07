@@ -106,7 +106,7 @@
         "sideAngle": 5.62,
         "pierce": true,
         "damage": 1000000,
-        "hitEffect": "none"
+        "hitEffect": "heatReactorSmoke"
       },
       "chargeEffect": {
         "type": "particleEffect",
