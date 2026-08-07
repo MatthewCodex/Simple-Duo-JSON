@@ -1,0 +1,136 @@
+{
+  "type": "itemTurret",
+  "name": "Collision Course Bomb",
+  "description": "[#000000]SUPER DOOMSDAY!!!!!! \n[#ff0000]Warning: May cause lag on weaker systems. \n[#ffff00]Note: This definitely makes a great sandbox block.",
+  "size": 3,
+  "health": 200,
+  "requirements": [
+    {"item": "copper", "amount": 1}
+  ],
+  "maxAmmo": 1,
+  "ammoPerShot": 1,
+  "targetAir": true,
+  "targetGround": true,
+  "shake": 150,
+  "recoil": 0,
+  "reload": 1,
+  "range": 480,
+  "shootCone": 360,
+  "shootY": 0,
+  "inaccuracy": 0,
+  "rotateSpeed": 0,
+  "shootSound": "shootCorvus",
+  "chargeSound": "chargeCorvus",
+  "shoot":{"firstShotDelay": 300},
+  "shootEffect": {
+    "type": "particleEffect",
+    "lifetime": 60,
+    "particles": 3,
+    "length": 0,
+    "sizeFrom": 0,
+    "sizeTo": 480,
+    "colorFrom": "ffffff",
+    "colorTo": "00000000"
+  },
+  "ammoTypes": {
+    "copper": {
+      "type": "basicBulletType",
+      "width": 0,
+      "spin": 10,
+      "speed": 0,
+      "lifetime": 0,
+      "damage": 1000000,
+      "splashDamageRadius": 360,
+      "splashDamage": 1000000,
+      "ammoMultiplier": 1,
+      "hitSound": "massiveExplosion",
+      "despawnEffect": {
+  type: ExplosionEffect
+  lifetime: 120
+  waveStroke: 6
+  waveRad: 480
+  waveColor: "ff0000"   # Purple radioactive wave
+  
+  smokeColor: "000000"
+  smokeParticles: 10
+  smokeLen: 15
+  smokeSize: 8
+  
+  sparkColor: "bd93f9"
+  sparks: 25
+  sparkLen: 40
+  sparkStroke: 3.5
+}
+      "hitEffect": {
+  type: ExplosionEffect
+  lifetime: 120
+  waveStroke: 6
+  waveRad: 480
+  waveColor: "ff0000"   # Purple radioactive wave
+  
+  smokeColor: "000000"
+  smokeParticles: 10
+  smokeLen: 15
+  smokeSize: 8
+  
+  sparkColor: "bd93f9"
+  sparks: 25
+  sparkLen: 40
+  sparkStroke: 3.5
+}
+      "frontColor": "000000",
+      "backColor": "ffffff",
+      "killShooter": true,
+      "lightning": 128,
+      "lightningLength": 360,
+      "lightningDamage": 1000000,
+      "lightningColor": "000000",
+      "fragBullets": 128,
+      "status": {
+      "name": "extinct",
+      "localizedName": "SUPER VAPORIZED",
+      "speedMultiplier": 0.8,
+      "damageMultiplier": 0.8,
+      "healthMultiplier": 0.8,
+      "damage": 1000000,
+      "effect": "burning"
+    },
+      "statusDuration": 600,
+      "fragBullet": {
+        "type": "LaserBulletType",
+        "colors": ["000000", "000000", "000000"],
+        "length": 1600,
+        "width": 16,
+        "sideLength": 25,
+        "sideWidth": 2,
+        "sideAngle": 5.62,
+        "pierce": true,
+        "damage": 1000000,
+        "hitEffect": {
+  type: NoiseEffect
+  lifetime: 120
+  
+  # Structural noise parameters
+  noiseLayers: 3
+  noiseScale: 15.0
+  radius: 24.0
+  
+  # Visual adjustments
+  color: 000000
+  secondaryColor: ff0000
+}
+      },
+      "chargeEffect": {
+        "type": "particleEffect",
+        "lifetime": 300,
+        "particles": 6,
+        "length": 0,
+        "sizeFrom": 160,
+        "sizeTo": 0,
+        "colorFrom": "00000000",
+        "colorTo": "ff0000"
+      }
+    }
+  },
+  "category": "turret"
+}
