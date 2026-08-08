@@ -47,10 +47,5 @@ copper/50
 ]
 category: turret
 research: core-shard
- 
-drawer: {
-  type: DrawTurret
-  basePrefix: "turret-"
-}
 
 shownPlanets: [serpulo , erekir , rospuleball]

@@ -24,14 +24,14 @@ consumes: {
 ammoTypes: {
   copper: {
     killShooter: true
-    damage: 100000
+    damage: 1000000
     speed: 0
     width: 4
     height: 4
     lifetime: 0
-    lightning: 16
+    lightning: 128
     lightningLength: 360
-    lightningDamage: 100000
+    lightningDamage: 1000000
     ammoMultiplier: 1
     hitSound: massiveExplosion
     despawnEffect: {
@@ -41,7 +41,7 @@ ammoTypes: {
         {
           type": ParticleEffect
           particles: 20
-          sizeFrom: 1
+          sizeFrom: 0
           sizeTo: 20
           length: 0
           layer: 101
@@ -58,9 +58,9 @@ ammoTypes: {
           waveRad: 720
           waveColor: "FF0000"   # Red radioactive wave
   
-          smokeColor: "000000"
+          smokeColor: "000000FF"
           smokeParticles: 50
-          smokeLen: 360
+          smokeLen: 25
           smokeSize: 25
   
           sparkColor: "FF0000"
@@ -74,10 +74,10 @@ ammoTypes: {
 }
 
 shoot: {
-  type: ShootAlternate
+  type: ShootPattern
   shots: 20
   spread: 3
-  shotDelay: 1
+  shotDelay: 30
 }
  
 requirements: [
@@ -85,10 +85,5 @@ copper/50
 ]
 category: turret
 research: core-shard
- 
-drawer: {
-  type: DrawTurret
-  basePrefix: "turret-"
-}
 
 shownPlanets: [serpulo , erekir , rospuleball]
