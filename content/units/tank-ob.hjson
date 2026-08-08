@@ -1,0 +1,75 @@
+type: tank
+name: tank-ob
+localizedName: Advanced Missile Tank
+description: Shoots Explosive Missiles at enemies.
+
+health: 600
+armor: 2
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-oa
+
+hitSize: 24
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-ob"
+      localizedName: "Advanced Missile Tank Weapon"
+      length: 8
+      reload: 35
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: MissileBulletType
+    damage: 200
+    speed: 4
+    width: 8
+    height: 8
+    shrinkY: 0
+    lifetime: 120
+    ammoMultiplier: 5
+    splashDamage: 300
+    splashDamageRadius: 90
+    shootEffect: shootSmokeSquareBig
+    hitEffect: titanExplosion
+    despawnEffect: titanExplosion
+    shootSound: shootMissile
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+      }
+    }
+  ]

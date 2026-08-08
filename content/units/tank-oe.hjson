@@ -1,0 +1,76 @@
+type: tank
+name: tank-oe
+localizedName: Extreme Missile Tank
+description: Shoots Explosive Missiles at enemies.
+
+health: 5000
+armor: 4
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-od
+
+hitSize: 48
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-oe"
+      localizedName: "Extreme Missile Tank Weapon"
+      length: 8
+      
+      shootEffect: shootBig
+
+      reload: 20
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: MissileBulletType
+    damage: 500
+    speed: 12
+    width: 12
+    height: 12
+    shrinkY: 0
+    lifetime: 120
+    ammoMultiplier: 5
+    splashDamage: 750
+    splashDamageRadius: 180
+    shootEffect: shootSmokeSquareBig
+    hitEffect: titanExplosion
+    despawnEffect: titanExplosion
+    shootSound: shootMissile
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+      }
+    }
+  ]

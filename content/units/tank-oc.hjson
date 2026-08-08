@@ -1,0 +1,75 @@
+type: tank
+name: tank-oc
+localizedName: Professional Missile Tank
+description: Shoots Explosive Missiles at enemies.
+
+health: 1200
+armor: 3
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-ob
+
+hitSize: 32
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-oc"
+      localizedName: "Professional Missile Tank Weapon"
+      length: 8
+      reload: 30
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: MissileBulletType
+    damage: 300
+    speed: 8
+    width: 8
+    height: 8
+    shrinkY: 0
+    lifetime: 120
+    ammoMultiplier: 5
+    splashDamage: 400
+    splashDamageRadius: 120
+    shootEffect: shootSmokeSquareBig
+    hitEffect: titanExplosion
+    despawnEffect: titanExplosion
+    shootSound: shootMissile
+    hitSound: blockExplode3
+    despawnSound: blockExplode3
+      }
+    }
+  ]
