@@ -3,7 +3,7 @@ name: Basic Cryofluid Turret
 description: Freezes enemies using cryofluid.
 health: 900
 size: 1
-range: 50
+range: 100
 reload: 3
 liquidCapacity: 40
   

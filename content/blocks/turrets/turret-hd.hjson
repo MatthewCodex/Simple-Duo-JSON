@@ -3,7 +3,7 @@ name: Elite Cryofluid Turret
 description: Freezes enemies using cryofluid.
 health: 2400
 size: 4
-range: 125
+range: 175
 reload: 3
 liquidCapacity: 320
   

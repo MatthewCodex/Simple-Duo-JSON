@@ -3,7 +3,7 @@ name: Extreme Cryofluid Turret
 description: Freezes enemies using cryofluid. Unlike its predecessor, it requires power.
 health: 3000
 size: 5
-range: 125
+range: 200
 reload: 3
 liquidCapacity: 320
 hasPower: true  

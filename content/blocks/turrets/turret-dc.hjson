@@ -3,7 +3,7 @@ name: Professional Slag Turret
 description: Melts enemies using slag.
 health: 1800
 size: 3
-range: 100
+range: 150
 reload: 3
 liquidCapacity: 160
   

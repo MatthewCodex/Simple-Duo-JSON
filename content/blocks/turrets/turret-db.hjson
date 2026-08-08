@@ -3,7 +3,7 @@ name: Advanced Slag Turret
 description: Melts enemies using slag.
 health: 1200
 size: 2
-range: 75
+range: 125
 reload: 3
 liquidCapacity: 80
   

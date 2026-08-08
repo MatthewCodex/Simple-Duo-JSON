@@ -1,0 +1,37 @@
+type: MendProjector
+name: T3 Mender
+
+health: 1500
+size: 1
+
+reload: 45
+
+range: 100
+
+healPercent: 30
+
+phaseBoost: 30
+
+phaseRangeBoost: 100
+
+consumes:{
+		power: 1.0
+		items: {
+			items: [
+				{ item: phase-fabric , amount: 1}
+			]
+		booster: true
+		optional: true
+		}
+	}
+
+   requirements: [
+  copper/100
+]
+  
+category: effect
+research: core-shard
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball] 

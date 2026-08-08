@@ -3,7 +3,7 @@ name: Basic Slag Turret
 description: Melts enemies using slag.
 health: 900
 size: 1
-range: 50
+range: 100
 reload: 3
 liquidCapacity: 40
   

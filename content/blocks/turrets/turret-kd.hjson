@@ -18,7 +18,7 @@ hasPower: true
 researchCostMultiplier: 0.5
 
 consumes: {
-  power: 0.25
+  power: 1.0
   coolant: {
     amount: 0.1
   }

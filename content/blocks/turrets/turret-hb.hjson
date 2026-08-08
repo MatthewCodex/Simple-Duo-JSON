@@ -3,7 +3,7 @@ name: Advanced Cryofluid Turret
 description: Freezes enemies using cryofluid.
 health: 1200
 size: 2
-range: 75
+range: 125
 reload: 3
 liquidCapacity: 80
   
