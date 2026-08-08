@@ -1,16 +1,18 @@
-type: OverdriveProjector
-name: T1 Overdrive Projector
+type: MendProjector
+name: T1 Mender
 
 health: 500
 size: 1
 
-speedBoost: 1.0
-speedBoostPhase: 1.0
+reload: 60
 
-range: 25
-phaseRangeBoost: 25
-hasPower: true
-hasItems: true
+range: 50
+
+healPercent: 15
+
+phaseBoost: 15
+
+phaseRangeBoost: 50
 
 consumes:{
 		power: 0.5
@@ -23,7 +25,7 @@ consumes:{
 		}
 	}
 
-requirements: [
+   requirements: [
   copper/50
 ]
   
@@ -32,4 +34,4 @@ research: core-shard
 
 conductivePower: true
 
-shownPlanets: [serpulo , erekir , rospuleball]
+shownPlanets: [serpulo , erekir , rospuleball] 

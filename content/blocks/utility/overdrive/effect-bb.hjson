@@ -10,6 +10,7 @@ speedBoostPhase: 1.5
 range: 50
 phaseRangeBoost: 50
 hasPower: true
+hasItems: true
 
 consumes:{
 		power: 1.0
