@@ -5,12 +5,12 @@ health: 1000000000
 size: 1
 recoil: 0
 shootY: 0
-reload: 10
+reload: 20
 range: 720
 shootCone: 360
 ammoUseEffect: none
 inaccuracy: 5
-rotateSpeed: 10
+rotateSpeed: 0
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
@@ -29,9 +29,9 @@ ammoTypes: {
     width: 4
     height: 4
     lifetime: 0
-    lightning: 128
+    lightning: 16
     lightningLength: 360
-    lightningDamage: 1000000
+    lightningDamage: 100000
     ammoMultiplier: 1
     hitSound: massiveExplosion
     despawnEffect: {

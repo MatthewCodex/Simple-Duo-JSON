@@ -9,6 +9,7 @@ hasItems: true
 hasLiquids: true
 itemCapacity: 50
 liquidCapacity: 50
+hasPower: true
 
 // Power Generation
 powerProduction: 35
