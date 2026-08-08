@@ -8,9 +8,9 @@ reload: 60
 
 range: 50
 
-healPercent: 15
+healPercent: 30
 
-phaseBoost: 15
+phaseBoost: 30
 
 phaseRangeBoost: 50
 

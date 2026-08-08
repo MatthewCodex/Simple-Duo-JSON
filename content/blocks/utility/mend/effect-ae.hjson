@@ -1,21 +1,21 @@
 type: MendProjector
-name: T2 Mender
+name: T5 Mender
 
-health: 1000
+health: 3000
 size: 1
 
-reload: 45
+reload: 10
 
-range: 75
+range: 200
 
-healPercent: 45
+healPercent: 90
 
-phaseBoost: 45
+phaseBoost: 90
 
-phaseRangeBoost: 75
+phaseRangeBoost: 200
 
 consumes:{
-		power: 1.0
+		power: 2.5
 		items: {
 			items: [
 				{ item: phase-fabric , amount: 1}
@@ -26,11 +26,12 @@ consumes:{
 	}
 
    requirements: [
-  copper/100
+  copper/150
+  lead/150
 ]
   
 category: effect
-research: effect-aa
+research: effect-ad
 
 conductivePower: true
 

@@ -4,18 +4,18 @@ name: T3 Mender
 health: 1500
 size: 1
 
-reload: 45
+reload: 30
 
 range: 100
 
-healPercent: 30
+healPercent: 60
 
-phaseBoost: 30
+phaseBoost: 60
 
 phaseRangeBoost: 100
 
 consumes:{
-		power: 1.0
+		power: 1.5
 		items: {
 			items: [
 				{ item: phase-fabric , amount: 1}
@@ -27,10 +27,11 @@ consumes:{
 
    requirements: [
   copper/100
+  lead/50
 ]
   
 category: effect
-research: core-shard
+research: effect-ab
 
 conductivePower: true
 

@@ -7,8 +7,8 @@ size: 1
 speedBoost: 2.5
 speedBoostPhase: 2.5
 
-range: 125
-phaseRangeBoost: 125
+range: 200
+phaseRangeBoost: 200
 hasPower: true
 hasItems: true
 
@@ -26,7 +26,8 @@ consumes:{
 	}
 
 requirements: [
-  copper/250
+  copper/150
+  lead/150
 ]
   
 category: effect

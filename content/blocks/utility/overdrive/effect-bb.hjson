@@ -7,8 +7,8 @@ size: 1
 speedBoost: 1.5
 speedBoostPhase: 1.5
 
-range: 50
-phaseRangeBoost: 50
+range: 75
+phaseRangeBoost: 75
 hasPower: true
 hasItems: true
 

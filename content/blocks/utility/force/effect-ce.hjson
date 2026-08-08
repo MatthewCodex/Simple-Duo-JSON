@@ -1,25 +1,25 @@
 type: forceProjector
-name: T1 Forcefield
+name: T5 Forcefield
 
-health: 500
+health: 2500
 size:1
 
-shieldHealth: 1000
+shieldHealth: 3000
 
-radius: 100
+radius: 400
 
 phaseUseTime: 300
 
-phaseShieldBoost: 1000
+phaseShieldBoost: 3000
 
-phaseRadiusBoost: 100
+phaseRadiusBoost: 400
 
 cooldownNormal: 2.0
 cooldownLiquid: 1.0
 cooldownBrokenBase: 0.5
 
 consumes:{
-		power: 0.5
+		power: 1.5
 		items: {
 			items: [
 				{ item: phase-fabric , amount: 1}
@@ -30,11 +30,11 @@ consumes:{
 	}
 
    requirements: [
-  copper/50
+  copper/100
 ]
   
 category: effect
-research: core-shard
+research: effect-cd
 
 conductivePower: true
 
