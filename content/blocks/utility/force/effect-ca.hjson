@@ -1,0 +1,37 @@
+type: forceProjector
+name: T1 Forcefield
+
+health: 500
+size:1
+
+radius: 100
+
+phaseUseTime: 300
+
+phaseRadiusBoost: 100
+
+cooldownNormal: 2.0
+cooldownLiquid: 1.0
+cooldownBrokenBase: 0.5
+
+consumes:{
+		power: 0.5
+		items: {
+			items: [
+				{ item: phase-fabric , amount: 1}
+			]
+		booster: true
+		optional: true
+		}
+	}
+
+   requirements: [
+  copper/50
+]
+  
+category: effect
+research: core-shard
+
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball] 
