@@ -1,4 +1,4 @@
-type: ItemTurret
+type: PowerTurret
 name: Extreme Laser Bolt Turret
 description: A huge and super strong Laser Bolt Turret that belongs in the Extreme tier, which is the highest tier in the mod. Requires power.
 health: 900

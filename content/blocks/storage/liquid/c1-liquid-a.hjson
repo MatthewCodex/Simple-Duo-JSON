@@ -1,0 +1,15 @@
+type: LiquidRouter
+name: T1 Liquid Container
+description: Stores liquids.
+
+liquidCapacity: 500
+size: 3
+
+category: effect
+research: core-shard
+
+requirements: [
+  copper/50
+  lead/50
+]
+squareSprite: false
