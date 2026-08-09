@@ -83,6 +83,10 @@ upgrades: [
     tank-nc
     tank-nd
   ]
+  [
+    tank-oc
+    tank-od
+  ]
 ]
 category: units
 research: exponential-reconstructor

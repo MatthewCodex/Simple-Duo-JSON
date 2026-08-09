@@ -80,6 +80,10 @@ upgrades: [
     tank-na
     tank-nb
   ]
+  [
+    tank-oa
+    tank-ob
+  ]
 ]
 category: units
 research: additive-reconstructor
