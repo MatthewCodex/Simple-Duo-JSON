@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Lead Rod
+	description: Produced from lead plates by using a lead roller.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: m-lead-plate
+}

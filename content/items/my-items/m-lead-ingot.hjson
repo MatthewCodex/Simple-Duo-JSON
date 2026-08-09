@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Lead Ingot
+	description: Produced from raw lead by using a lead furnace. Can be converted into lead plates using a lead press.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: lead
+}

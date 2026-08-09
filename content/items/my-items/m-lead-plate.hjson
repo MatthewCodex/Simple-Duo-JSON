@@ -1,0 +1,12 @@
+{
+	type: material
+	name: Lead Plate
+	description: Produced from lead ingots by using a lead press. Can be converted into lead rods using a lead roller.
+	cost: 1.1
+	flammability: 0.0
+	radioactivity: 0.0
+	explosiveness: 0.0
+	charge: 0.0
+	color: ffffff
+	research: m-lead-ingot
+}
