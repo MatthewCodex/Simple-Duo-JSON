@@ -1,0 +1,74 @@
+type: ItemTurret
+name: Elite Frag Turret
+description: Shoots bullets that spawn frags when they hit an enemy or when they despawn. Additionally, the bullets and their frags can pierce.
+health: 1800
+size: 4
+recoil: 0.5
+shootY: 3
+reload: 12.5
+range: 200
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 0
+rotateSpeed: 30
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+shootSound: shoot
+shootEffect: shootSmall
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  metaglass: {
+    damage: 60
+    speed: 7
+    width: 8
+    height: 8
+    lifetime: 60
+    ammoMultiplier: 2
+    pierce: true
+    pierceCap: 3 
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      speed: 7
+      damage: 75
+      lifetime: 15
+      width: 4
+      height: 4
+      pierce: true
+      pierceCap: 3 
+    }
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 0
+  shotDelay: 12.5
+
+}
+ 
+requirements: [
+copper/100
+lead/100
+metaglass/100
+graphite/100
+silicon/100
+plastanium/100  
+]
+category: turret
+research: turret-pc
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
+
+shownPlanets: [serpulo , erekir , rospuleball]
