@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T5 Tin Roller
+description: Turns tin plates into tin rods.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 100
+craftTime: 10
+consumes: {
+  power: 3.0
+  items: [
+    m-tin-plate/1
+  ]
+}
+outputItems: [
+  m-tin-rod/1
+]
+requirements: [
+  m-steel-rod/1600
+  
+]
+category: crafting
+research: c-tin-be
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

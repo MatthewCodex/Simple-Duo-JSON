@@ -1,0 +1,75 @@
+type: tank
+name: tank-pa
+localizedName: Basic Frag Tank
+description: Shoots bullets that spawn frags when they hit an enemy or when they despawn.
+
+health: 300
+armor: 1
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-factory-c
+
+hitSize: 16
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-pa"
+      localizedName: "Basic Frag Tank Weapon"
+      length: 8
+      reload: 20
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shoot
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      spread: 0
+      shotDelay: 20
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 15
+    speed: 4
+    width: 8
+    height: 8
+    lifetime: 60
+    ammoMultiplier: 2
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      speed: 4
+      damage: 30
+      lifetime: 15
+      width: 4
+      height: 4
+    }
+      }
+    }
+  ]

@@ -1,0 +1,75 @@
+type: tank
+name: tank-pb
+localizedName: Advanced Frag Tank
+description: Shoots bullets that spawn frags when they hit an enemy or when they despawn.
+
+health: 600
+armor: 2
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-pa
+
+hitSize: 24
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-pb"
+      localizedName: "Advanced Frag Tank Weapon"
+      length: 8
+      reload: 17.5
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shoot
+
+      shoot: {
+      type: ShootAlternate
+  shots: 1
+  spread: 0
+  shotDelay: 20
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 30
+    speed: 5
+    width: 8
+    height: 8
+    lifetime: 60
+    ammoMultiplier: 2
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      speed: 5
+      damage: 45
+      lifetime: 15
+      width: 4
+      height: 4
+    }
+      }
+    }
+  ]

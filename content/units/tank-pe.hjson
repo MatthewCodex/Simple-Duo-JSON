@@ -1,0 +1,79 @@
+type: tank
+name: tank-pe
+localizedName: Extreme Frag Tank
+description: Shoots bullets that spawn frags when they hit an enemy or when they despawn. Additionally, the bullets and their frags can pierce.
+
+health: 5000
+armor: 5
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-pd
+
+hitSize: 48
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-pe"
+      localizedName: "Extreme Frag Tank Weapon"
+      length: 8
+      reload: 5
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shootSalvo
+
+      shoot: {
+      type: ShootAlternate
+  shots: 1
+  spread: 0
+  shotDelay: 20
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 75
+    speed: 8
+    width: 8
+    height: 8
+    lifetime: 60
+    ammoMultiplier: 2
+    pierce: true
+    pierceCap: 3 
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      speed: 8
+      damage: 90
+      lifetime: 15
+      width: 4
+      height: 4
+      pierce: true
+      pierceCap: 3 
+    }
+      }
+    }
+  ]
