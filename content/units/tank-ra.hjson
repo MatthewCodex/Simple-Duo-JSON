@@ -44,10 +44,12 @@ weapons: [
     bullet: {
       type: PointLaserBulletType
       damage: 15
-      speed: 0
-      hitEffect: hitLaser
+      beamLength: 100
+      
+      # Visual Laser Customization
+      hitEffect: hitLancer
       smokeEffect: none
-      beamEffect: pointBeam
+      laserColor: ff0000
     }
   }
 ]
