@@ -1,46 +1,44 @@
 type: PowerTurret
-name: Advanced Laser Bolt Turret
-description: "An upgraded Laser Bolt Turret that shoots faster."
-health: 900
-size: 2
+name: Basic Arc Turret
+description: Shoots bolts of electricity at nearby enemies. Requires power.
+health: 600
+size: 1
 recoil: 0.5
 shootY: 3
-reload: 9
-range: 180
+reload: 20
+range: 100
 shootCone: 15
 ammoUseEffect: casing1
-inaccuracy: 4
-rotateSpeed: 15
+inaccuracy: 5
+rotateSpeed: 10
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
 hasPower: true
 
 consumes: {
-  power: 0.5
+  power: 1.0
   coolant: {
     amount: 0.1
   }
 }
 
 shootType: {
-    type: LaserBoltBulletType
-    damage: 45
-    speed: 4
-    lifetime: 40
-    width: 4
-    height: 4
-    shootSound: shootAlpha
-  }
+  type: LightningBulletType
+  damage: 30
+  lightningLength: 20
+  shootSound: shootArc
+}
 
 
  
 requirements: [
-copper/50
-lead/50
+copper/100
+lead/100
+graphite/100
 ]
 category: turret
-research: turret-ka
+research: arc
  
 drawer: {
   type: DrawTurret
