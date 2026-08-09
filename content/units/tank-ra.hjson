@@ -1,6 +1,6 @@
 type: tank
 name: tank-ha
-localizedName: Basic Point Laser Tank
+localizedName: Basic Laser Beam Tank
 description: Shoots a laser that damages enemies.
 
 health: 400
@@ -35,21 +35,17 @@ treadFrames: 4
 weapons: [
   {
     name: turret-ra
-    localizedName: Basic Point Laser Tank Weapon
+    localizedName: Basic Laser Beam Tank Weapon
     reload: 10
     mirror: false
     rotate: true
     x: 0
     y: 0
     bullet: {
-      type: PointLaserBulletType
+      type: LaserBulletType
       damage: 15
-      beamLength: 100
-      
-      # Visual Laser Customization
-      hitEffect: hitLancer
-      smokeEffect: none
-      laserColor: ff0000
+      length: 100
+      colors: [800000, bf0000, ff0000]
     }
   }
 ]
