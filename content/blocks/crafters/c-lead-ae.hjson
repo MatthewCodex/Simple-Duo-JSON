@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T5 Lead Furnace
+description: Turns raw lead into lead ingots.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 100
+craftTime: 10
+consumes: {
+  power: 3
+  items: [
+    lead/1
+  ]
+}
+outputItems: [
+  m-lead-ingot/1
+]
+requirements: [
+  m-steel-ingot/1600
+  
+]
+category: crafting
+research: lead-drill-e
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

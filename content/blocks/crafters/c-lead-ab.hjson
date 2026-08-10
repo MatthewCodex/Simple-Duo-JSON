@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T2 Lead Furnace
+description: Turns raw lead into lead ingots.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 45
+consumes: {
+  power: 1.5
+  items: [
+    lead/1
+  ]
+}
+outputItems: [
+  m-lead-ingot/1
+]
+requirements: [
+  m-lead-ingot/200
+
+]
+category: crafting
+research: lead-drill-b
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
