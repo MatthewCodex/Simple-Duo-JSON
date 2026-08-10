@@ -85,6 +85,18 @@ upgrades: [
     tank-ob
     tank-oc
   ]
+  [
+    tank-pb
+    tank-pc
+  ]
+  [
+    tank-qb
+    tank-qc
+  ]
+  [
+    tank-rb
+    tank-rc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

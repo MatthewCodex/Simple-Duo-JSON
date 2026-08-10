@@ -87,6 +87,18 @@ upgrades: [
     tank-oc
     tank-od
   ]
+  [
+    tank-pc
+    tank-pd
+  ]
+  [
+    tank-qc
+    tank-qd
+  ]
+  [
+    tank-rc
+    tank-rd
+  ]
 ]
 category: units
 research: exponential-reconstructor

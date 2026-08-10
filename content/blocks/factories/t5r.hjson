@@ -88,6 +88,18 @@ upgrades: [
     tank-od
     tank-oe
   ]
+  [
+    tank-pd
+    tank-pe
+  ]
+  [
+    tank-qd
+    tank-qe
+  ]
+  [
+    tank-rd
+    tank-re
+  ]
 ]
 category: units
 research: tetrative-reconstructor

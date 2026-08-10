@@ -84,6 +84,18 @@ upgrades: [
     tank-oa
     tank-ob
   ]
+  [
+    tank-pa
+    tank-pb
+  ]
+  [
+    tank-qa
+    tank-qb
+  ]
+  [
+    tank-ra
+    tank-rb
+  ]
 ]
 category: units
 research: additive-reconstructor

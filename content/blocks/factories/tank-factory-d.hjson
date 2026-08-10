@@ -38,6 +38,28 @@ plans: [
       titanium/40
     ]
   }
+  {
+    unit: tank-qa
+    time: 300
+    requirements: [
+      copper/40
+      lead/40
+      graphite/40
+      silicon/40
+      metaglass/40
+    ]
+  }
+  {
+    unit: tank-ra
+    time: 450
+    requirements: [
+      copper/40
+      lead/40
+      graphite/40
+      silicon/40
+      titanium/40
+    ]
+  }
 ]
 consumes: {
   power: 1.0
