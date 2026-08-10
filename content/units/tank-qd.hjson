@@ -1,0 +1,51 @@
+type: tank
+name: tank-qd
+localizedName: Elite Arc Tank
+description: Shoots laser bullets.
+
+health: 4000
+armor: 4
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-qc
+
+hitSize: 40
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+  {
+    name: turret-qd
+    localizedName: Elite Arc Tank Weapon
+    reload: 12.5
+    mirror: false
+    rotate: true
+    x: 0
+    y: 0
+    bullet: {
+      type: LightningBulletType
+      damage: 75
+      lightningLength: 35
+      shootSound: shootArc
+    }
+  }
+]

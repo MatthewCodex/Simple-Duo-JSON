@@ -1,0 +1,51 @@
+type: tank
+name: tank-qe
+localizedName: Extreme Arc Tank
+description: Shoots laser bullets.
+
+health: 7000
+armor: 5
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-qd
+
+hitSize: 48
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+  {
+    name: turret-re
+    localizedName: Extreme Arc Tank Weapon
+    reload: 10
+    mirror: false
+    rotate: true
+    x: 0
+    y: 0
+    bullet: {
+      type: LightningBulletType
+      damage: 90
+      lightningLength: 40
+      shootSound: shootArc
+    }
+  }
+]
