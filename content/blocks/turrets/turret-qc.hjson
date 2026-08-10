@@ -1,7 +1,7 @@
 type: PowerTurret
 name: Professional Arc Turret
 description: Shoots bolts of electricity at nearby enemies. Requires power.
-health: 1800
+health: 1500
 size: 3
 recoil: 0.5
 shootY: 3

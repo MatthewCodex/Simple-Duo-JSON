@@ -1,7 +1,7 @@
 type: PowerTurret
 name: Extreme Arc Turret
 description: Shoots bolts of electricity at nearby enemies. Requires power.
-health: 3000
+health: 4000
 size: 5
 recoil: 0.5
 shootY: 3

@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Advanced Salvo Turret
 description: Shoots bursts of bullets.
-health: 1200
+health: 600
 size: 2
 recoil: 0.5
 shootY: 3

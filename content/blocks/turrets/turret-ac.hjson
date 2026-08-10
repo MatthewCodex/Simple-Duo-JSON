@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Professional Normal Turret
 description: "A professional-grade Normal Turret. Uses Lead or Graphite as ammo.\nNote: Graphite bullets deal more damage."
-health: 900
+health: 600
 size: 3
 recoil: 0.5
 shootY: 3

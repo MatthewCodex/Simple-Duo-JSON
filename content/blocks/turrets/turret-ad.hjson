@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Elite Normal Turret
 description: If you think the Professional Normal Turret is not strong enough, then how about an upgraded version of it? Uses Lead, Graphite, or Metaglass as ammo.
-health: 900
+health: 800
 size: 4
 recoil: 0.5
 shootY: 3

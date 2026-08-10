@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Advanced Artillery Turret
 description: Shoots artillery shells that cause splash damage to enemies. Uses Lead as ammo.
-health: 900
+health: 400
 size: 2
 recoil: 0.5
 shootY: 3

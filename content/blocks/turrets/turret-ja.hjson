@@ -3,7 +3,7 @@ name: Basic Pierce Turret
 description: Shoots piercing projectiles.
 hasPower: true
 size: 1
-health: 800
+health: 600
 range: 100
 reload: 60
 category: turret

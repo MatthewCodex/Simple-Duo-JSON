@@ -1,7 +1,7 @@
 type: PowerTurret
 name: Elite Laser Bolt Turret
 description: If you think the Professional Laser Bolt Turret is not strong enough, then how about an upgraded version of it? Requires power.
-health: 900
+health: 800
 size: 4
 recoil: 0.5
 shootY: 3

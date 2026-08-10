@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Basic Blast Turret
 description: Functions the same way as a homing turret, except it blasts enemies. Uses Lead as ammo.
-health: 800
+health: 600
 size: 1
 recoil: 0.5
 shootY: 3

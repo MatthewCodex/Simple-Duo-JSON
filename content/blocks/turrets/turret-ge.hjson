@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Extreme Homing Turret
 description: Fires an explosive shell capable of homing in at enemies. Uses Blast compound as ammo.
-health: 3000
+health: 4000
 size: 5
 recoil: 0.5
 shootY: 3

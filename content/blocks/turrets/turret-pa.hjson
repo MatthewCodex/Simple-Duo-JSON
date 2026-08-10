@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Basic Frag Turret
 description: Shoots bullets that spawn frags when they hit an enemy or when they despawn.
-health: 900
+health: 400
 size: 1
 recoil: 0.5
 shootY: 3

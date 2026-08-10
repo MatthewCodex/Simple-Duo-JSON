@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Advanced Incendiary Turret
 description: Burns enemies using coal as ammo.
-health: 1200
+health: 600
 size: 2
 range: 100
 reload: 3

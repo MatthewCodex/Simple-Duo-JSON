@@ -1,7 +1,7 @@
 type: PowerTurret
 name: Professional Laser Bolt Turret
 description: "A professional-grade Laser Bolt Turret that is stronger than the Advanced Laser Bolt Turret."
-health: 900
+health: 600
 size: 3
 recoil: 0.5
 shootY: 3

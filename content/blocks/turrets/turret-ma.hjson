@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Basic Salvo Turret
 description: Shoots bursts of bullets.
-health: 600
+health: 300
 size: 1
 recoil: 0.5
 shootY: 3

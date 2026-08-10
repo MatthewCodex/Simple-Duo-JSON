@@ -1,7 +1,7 @@
 type: PowerTurret
 name: Advanced Laser Bolt Turret
 description: "An upgraded Laser Bolt Turret that shoots faster."
-health: 900
+health: 400
 size: 2
 recoil: 0.5
 shootY: 3

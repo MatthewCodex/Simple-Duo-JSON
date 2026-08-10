@@ -1,19 +1,19 @@
 type: tank
-name: tank-ra
-localizedName: Basic Laser Bullet Tank
+name: tank-rc
+localizedName: Professional Laser Bullet Tank
 description: Shoots laser bullets.
 
-health: 400
-armor: 1
+health: 2000
+armor: 3
 speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
 omniMovement: false
 
-research: tank-factory-d
+research: tank-rb
 
-hitSize: 16
+hitSize: 32
 targetAir: true
 
 treadFrames: 4
@@ -34,8 +34,8 @@ treadFrames: 4
 
 weapons: [
   {
-    name: turret-ra
-    localizedName: Basic Laser Bullet Tank Weapon
+    name: turret-rc
+    localizedName: Professional Laser Bullet Tank Weapon
     reload: 10
     mirror: false
     rotate: true
@@ -43,8 +43,8 @@ weapons: [
     y: 0
     bullet: {
       type: LaserBulletType
-      damage: 30
-      length: 200
+      damage: 90
+      length: 400
       colors: [800000, bf0000, ff0000]
     }
   }

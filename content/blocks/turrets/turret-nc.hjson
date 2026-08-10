@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Professional Incendiary Turret
 description: Burns enemies using coal as ammo.
-health: 1500
+health: 900
 size: 3
 range: 120
 reload: 3

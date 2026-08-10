@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Professional Cannon Turret
 description: A bigger Cannon Turret that is stronger than the Advanced Cannon Turret. Uses Titanium as ammo.
-health: 1800
+health: 1200
 size: 3
 recoil: 0.5
 shootY: 3

@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Extreme Minigun Turret
 description: Almost uninterrupted firepower! Uses Titanium or Plastanium as ammo.
-health: 3000
+health: 2400
 size: 5
 recoil: 0.5
 shootY: 3

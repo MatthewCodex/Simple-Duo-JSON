@@ -1,7 +1,7 @@
 type: LiquidTurret
 name: Elite Cryofluid Turret
 description: Freezes enemies using cryofluid.
-health: 2400
+health: 2000
 size: 4
 range: 175
 reload: 3
@@ -16,12 +16,12 @@ research: turret-hc
 category: turret
   
 requirements: [
-copper/50
-metaglass/50
-lead/50
-graphite/50
-titanium/50
-silicon/50  
+copper/100
+metaglass/100
+lead/100
+graphite/100
+titanium/100
+silicon/100  
 ]
 
 ammoTypes: {

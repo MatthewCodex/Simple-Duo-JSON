@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Advanced Shotgun Turret
 description: An improvised version of the Basic Shotgun Turret. Uses Graphite as ammo.
-health: 1200
+health: 400
 size: 2
 recoil: 0.5
 shootY: 3

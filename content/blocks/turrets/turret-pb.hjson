@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Advanced Frag Turret
 description: Shoots bullets that spawn frags when they hit an enemy or when they despawn.
-health: 1200
+health: 800
 size: 2
 recoil: 0.5
 shootY: 3

@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Extreme Pierce Turret
 description: Shoots piercing projectiles. Uses Thorium as ammo.
-health: 4000
+health: 4800
 size: 5
 recoil: 0.5
 shootY: 3

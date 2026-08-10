@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Advanced Spray Turret
 description: More bullets per volley. Uses Lead as ammo.
-health: 1200
+health: 800
 size: 2
 recoil: 0.5
 shootY: 3

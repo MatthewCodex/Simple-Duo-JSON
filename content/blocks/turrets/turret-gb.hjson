@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Advanced Homing Turret
 description: Fires an explosive shell capable of homing in at enemies. Uses Silicon as ammo.
-health: 1200
+health: 1000
 size: 2
 recoil: 0.5
 shootY: 3

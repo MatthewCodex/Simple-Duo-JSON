@@ -3,7 +3,7 @@ name: Professional Pierce Turret
 description: Shoots piercing projectiles.
 hasPower: true
 size: 3
-health: 2400
+health: 1800
 range: 150
 reload: 40
 category: turret

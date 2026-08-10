@@ -1,7 +1,7 @@
 type: LiquidTurret
 name: Extreme Cryofluid Turret
 description: Freezes enemies using cryofluid. Unlike its predecessor, it requires power.
-health: 3000
+health: 4000
 size: 5
 range: 200
 reload: 3
@@ -21,13 +21,13 @@ research: turret-hd
 category: turret
   
 requirements: [
-copper/50
-metaglass/50
-lead/50
-graphite/50
-titanium/50
-silicon/50
-pyratite/50  
+copper/100
+metaglass/100
+lead/100
+graphite/100
+titanium/100
+silicon/100
+pyratite/100  
 ]
 
 ammoTypes: {

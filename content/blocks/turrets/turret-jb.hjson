@@ -3,7 +3,7 @@ name: Advanced Pierce Turret
 description: Shoots piercing projectiles.
 hasPower: true
 size: 2
-health: 1600
+health: 1200
 range: 125
 reload: 50
 category: turret

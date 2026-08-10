@@ -1,7 +1,7 @@
 type: LiquidTurret
 name: Basic Cryofluid Turret
 description: Freezes enemies using cryofluid.
-health: 900
+health: 500
 size: 1
 range: 100
 reload: 3
@@ -16,9 +16,9 @@ research: arc
 category: turret
   
 requirements: [
-copper/50
-metaglass/50
-lead/50
+copper/100
+metaglass/100
+lead/100
 ]
 
 ammoTypes: {

@@ -1,12 +1,12 @@
 type: PowerTurret
-name: Elite Arc Turret
-description: Shoots bolts of electricity at nearby enemies. Requires power.
-health: 2000
-size: 4
+name: Advanced Laser Bullet Turret
+description: Shoots laser bullets. Requires power.
+health: 1000
+size: 2
 recoil: 0.5
 shootY: 3
-reload: 12.5
-range: 175
+reload: 10
+range: 150
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 5
@@ -17,31 +17,29 @@ researchCostMultiplier: 0.5
 hasPower: true
 
 consumes: {
-  power: 2.5
+  power: 1.5
   coolant: {
     amount: 0.1
   }
 }
 
 shootType: {
-  type: LightningBulletType
-  damage: 75
-  lightningLength: 35
-  shootSound: shootArc
+  type: LaserBulletType
+      damage: 60
+      length: 300
+      colors: [800000, bf0000, ff0000]
 }
 
 
  
 requirements: [
 copper/100
+metaglass/100
 lead/100
 graphite/100
-silicon/100
-metaglass/100
-plastanium/100
 ]
 category: turret
-research: turret-qc
+research: turret-ra
  
 drawer: {
   type: DrawTurret

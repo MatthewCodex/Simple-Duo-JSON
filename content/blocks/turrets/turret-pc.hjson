@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Professional Frag Turret
 description: Shoots bullets that spawn frags when they hit an enemy or when they despawn.
-health: 1500
+health: 1200
 size: 3
 recoil: 0.5
 shootY: 3

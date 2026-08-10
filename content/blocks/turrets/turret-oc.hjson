@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Professional Missile Turret
 description: A bigger Missile Turret that is stronger than the Advanced Missile Turret. Uses Steel Ingots as ammo.
-health: 1800
+health: 1200
 size: 3
 recoil: 0.5
 shootY: 3

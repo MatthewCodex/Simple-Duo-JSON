@@ -1,7 +1,7 @@
 type: LiquidTurret
 name: Advanced Slag Turret
 description: Melts enemies using slag.
-health: 1200
+health: 600
 size: 2
 range: 125
 reload: 3

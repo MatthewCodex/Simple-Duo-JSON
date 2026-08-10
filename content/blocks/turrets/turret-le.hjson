@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Extreme Artillery Turret
 description: Shoots artillery shells that cause splash damage to enemies. Uses Lead as ammo.
-health: 1800
+health: 1600
 size: 5
 recoil: 0.5
 shootY: 3

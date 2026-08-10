@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Elite Frag Turret
 description: Shoots bullets that spawn frags when they hit an enemy or when they despawn. Additionally, the bullets and their frags can pierce.
-health: 2400
+health: 3200
 size: 5
 recoil: 0.5
 shootY: 3

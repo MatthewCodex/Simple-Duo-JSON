@@ -1,7 +1,7 @@
 type: LiquidTurret
 name: Professional Cryofluid Turret
 description: Freezes enemies using cryofluid.
-health: 1800
+health: 1500
 size: 3
 range: 150
 reload: 3
@@ -16,11 +16,11 @@ research: turret-hb
 category: turret
   
 requirements: [
-copper/50
-metaglass/50
-lead/50
-graphite/50
-titanium/50  
+copper/100
+metaglass/100
+lead/100
+graphite/100
+titanium/100  
 ]
 
 ammoTypes: {
