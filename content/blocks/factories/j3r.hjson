@@ -1,0 +1,42 @@
+type: Reconstructor
+name: "Jet Reconstructor 2"
+description: "Upgrades Advanced jets to Professional ones."
+size: 7
+health: 2400
+itemCapacity: 240
+constructTime: 240
+# Upgrades require power and resources to operate
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  metaglass/100
+  titanium/100
+]
+consumes: {
+  power: 2.0
+  items: {
+    items: [
+      silicon/50
+      lead/50
+    ]
+  }
+}
+# Define what tier binds to what tier
+upgrades: [
+  [
+    jet-ab
+    jet-ac
+  ]
+  [
+    jet-bb
+    jet-bc
+  ]
+  
+]
+category: units
+research: multiplicative-reconstructor
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

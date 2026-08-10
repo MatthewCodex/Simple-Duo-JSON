@@ -1,5 +1,5 @@
 type: flying
-name: jet-ab
+name: jet-bb
 localizedName: Advanced Normal Jet
 
 health: 250
@@ -15,26 +15,33 @@ canAttack: true
 hitSize: 24
 targetAir: true
 
-research: jet-aa
+research: jet-ba
 
 weapons: [
     {
-      name: "turret-ab"
-      localizedName: "Advanced Normal Jet Weapon"
+      name: "turret-bb"
+      localizedName: "Advanced Shotgun Tank Weapon"
       length: 8
-      reload: 9
+      reload: 18
       alternate: true
-      inaccuracy: 2
+      inaccuracy: 5
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootAfflict
+
+      shoot: {
+      type: ShootSpread
+      shots: 4
+      spread: 12
+      shotDelay: 0
+      }
+
       bullet: {
         type: BasicBulletType
-        speed: 6
-        damage: 45
+        speed: 12
+        damage: 30
         width: 6
         height: 6
       }

@@ -1,0 +1,41 @@
+type: UnitFactory
+name: T1 Tank Factory
+description: Produces Basic-level Tanks.
+size: 3
+health: 600
+solid: true
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  
+]
+category: units
+research: air-factory
+plans: [
+  {
+    unit: jet-aa
+    time: 300
+    requirements: [
+      copper/10
+      lead/10
+    ]
+  }
+  {
+    unit: jet-ba
+    time: 450
+    requirements: [
+      copper/10
+      graphite/10
+    ]
+  }
+  
+]
+consumes: {
+  power: 1.0
+  
+}
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

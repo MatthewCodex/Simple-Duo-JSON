@@ -1,5 +1,5 @@
 type: flying
-name: jet-ae
+name: jet-be
 localizedName: Extreme Normal Jet
 
 health: 2500
@@ -15,28 +15,35 @@ canAttack: true
 hitSize: 24
 targetAir: true
 
-research: jet-ad
+research: jet-bd
 
 weapons: [
     {
-      name: "turret-ae"
-      localizedName: "Extreme Normal Jet Weapon"
+      name: "turret-be"
+      localizedName: "Extreme Shotgun Tank Weapon"
       length: 8
-      reload: 6
+      reload: 10
       alternate: true
-      inaccuracy: 2
+      inaccuracy: 5
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootAfflict
+
+      shoot: {
+      type: ShootSpread
+      shots: 8
+      spread: 20
+      shotDelay: 0
+      }
+
       bullet: {
         type: BasicBulletType
         speed: 12
-        damage: 90
-        width: 12
-        height: 12
+        damage: 75
+        width: 6
+        height: 6
       }
     }
   ]

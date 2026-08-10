@@ -1,5 +1,5 @@
 type: flying
-name: jet-ac
+name: jet-bc
 localizedName: Professional Normal Jet
 
 health: 500
@@ -15,28 +15,35 @@ canAttack: true
 hitSize: 24
 targetAir: true
 
-research: jet-ab
+research: jet-bb
 
 weapons: [
     {
-      name: "turret-ac"
-      localizedName: "Professional Normal Jet Weapon"
+      name: "turret-bc"
+      localizedName: "Professional Shotgun Tank Weapon"
       length: 8
-      reload: 8
+      reload: 16
       alternate: true
-      inaccuracy: 2
+      inaccuracy: 5
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootAfflict
+
+      shoot: {
+      type: ShootSpread
+      shots: 5
+      spread: 14
+      shotDelay: 0
+      }
+
       bullet: {
         type: BasicBulletType
-        speed: 8
-        damage: 60
-        width: 8
-        height: 8
+        speed: 12
+        damage: 45
+        width: 6
+        height: 6
       }
     }
   ]

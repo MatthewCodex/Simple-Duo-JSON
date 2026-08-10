@@ -1,0 +1,41 @@
+type: Reconstructor
+name: "Jet Reconstructor 1"
+description: "Upgrades Basic jets to Advanced ones."
+size: 5
+health: 1200
+itemCapacity: 120
+constructTime: 120
+# Upgrades require power and resources to operate
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  metaglass/100
+]
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      copper/50
+      silicon/50
+    ]
+  }
+}
+# Define what tier binds to what tier
+upgrades: [
+  [
+    jet-aa
+    jet-ab
+  ]
+  [
+    jet-ba
+    jet-bb
+  ]
+  
+]
+category: units
+research: additive-reconstructor
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

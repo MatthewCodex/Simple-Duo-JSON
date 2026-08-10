@@ -1,0 +1,44 @@
+type: Reconstructor
+name: "Jet Reconstructor 3"
+description: "Upgrades Professional tanks to Elite ones."
+size: 9
+health: 3600
+itemCapacity: 360
+constructTime: 360
+# Upgrades require power and resources to operate
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  metaglass/100
+  titanium/100
+  m-iron/100
+]
+consumes: {
+  power: 2.5
+  items: {
+    items: [
+      silicon/50
+      graphite/50
+      
+    ]
+  }
+}
+# Define what tier binds to what tier
+upgrades: [
+  [
+    jet-ac
+    jet-ad
+  ]
+  [
+    jet-bc
+    jet-bd
+  ]
+  
+]
+category: units
+research: exponential-reconstructor
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

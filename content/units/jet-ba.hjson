@@ -1,0 +1,51 @@
+type: flying
+name: jet-ba
+localizedName: Basic Shotgun Jet
+
+health: 100
+armor: 1
+speed: 5
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 8
+engineSize: 4
+canAttack: true
+hitSize: 16
+targetAir: true
+
+research: air-factory
+
+weapons: [
+    {
+      name: "turret-ba"
+      localizedName: "Basic Shotgun Tank Weapon"
+      length: 8
+      reload: 20
+      alternate: true
+      inaccuracy: 5
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shootAfflict
+
+      shoot: {
+      type: ShootSpread
+      shots: 3
+      spread: 10
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        speed: 12
+        damage: 15
+        width: 6
+        height: 6
+      }
+    }
+  ]
+
+shownPlanets: [serpulo , erekir , rospuleball]
