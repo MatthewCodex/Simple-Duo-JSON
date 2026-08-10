@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T3 Lead Press
+description: Turns lead ingots into lead plates.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 60
+craftTime: 30
+consumes: {
+  power: 2.0
+  items: [
+    m-lead-ingot/1
+  ]
+}
+outputItems: [
+  m-lead-plate/1
+]
+requirements: [
+  m-lead-rod/400
+  
+]
+category: crafting
+research: c-lead-ac
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

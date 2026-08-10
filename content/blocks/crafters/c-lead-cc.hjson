@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T3 Lead Roller
+description: Turns lead plates into lead rods.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 60
+craftTime: 30
+consumes: {
+  power: 2.0
+  items: [
+    m-lead-plate/1
+  ]
+}
+outputItems: [
+  m-lead-rod/1
+]
+requirements: [
+  m-steel-ingot/400
+  
+]
+category: crafting
+research: c-lead-bc
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
