@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T5 Copper Furnace
+description: Turns raw copper into copper ingots.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 100
+craftTime: 10
+consumes: {
+  power: 3
+  items: [
+    copper/1
+  ]
+}
+outputItems: [
+  m-copper-ingot/1
+]
+requirements: [
+  m-steel-ingot/1600
+  
+]
+category: crafting
+research: copper-drill-e
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

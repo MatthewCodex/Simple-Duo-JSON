@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T4 Coppererer Roller
+description: Turns coppererer plates icopperpperpper rods.
+size: 4
+hasPower: true
+hasItems: true
+itemCapacity: 80
+craftTime: 20
+consumes: {
+  power: 2.5
+  items: [
+    m-copper-plate/1
+  ]
+}
+outputItems: [
+  m-copper-rod/1
+]
+requirements: [
+  m-steel-plate/800
+  
+]
+category: crafting
+research: c-copper-bd
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

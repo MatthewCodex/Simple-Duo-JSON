@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T2 Copper Furnace
+description: Turns raw copper into copper ingots.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 45
+consumes: {
+  power: 1.5
+  items: [
+    copper/1
+  ]
+}
+outputItems: [
+  m-copper-ingot/1
+]
+requirements: [
+  m-copper-ingot/200
+
+]
+category: crafting
+research: copper-drill-b
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: T3 Iron Drill
+description: Produces raw iron.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 30
+consumes: {
+  power: 1.0
+}
+outputItems: [
+  m-zinc/1
+]
+requirements: [
+  m-iron-ingot/300
+]
+category: production
+research: iron-drill-b
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

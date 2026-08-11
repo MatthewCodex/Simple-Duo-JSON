@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T3 Copper Roller
+description: Turns copper plates into copper rods.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 60
+craftTime: 30
+consumes: {
+  power: 2.0
+  items: [
+    m-copper-plate/1
+  ]
+}
+outputItems: [
+  m-copper-rod/1
+]
+requirements: [
+  m-steel-ingot/400
+  
+]
+category: crafting
+research: c-copper-bc
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

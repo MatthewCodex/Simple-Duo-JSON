@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T3 Copper Furnace
+description: Turns raw copper into copper ingots.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 60
+craftTime: 30
+consumes: {
+  power: 2.0
+  items: [
+    copper/1
+  ]
+}
+outputItems: [
+  m-copper-ingot/1
+]
+requirements: [
+  m-copper-plate/400
+  
+]
+category: crafting
+research: copper-drill-c
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: T5 Iron Drill
+description: Produces raw iron.
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 10
+consumes: {
+  power: 3.0
+}
+outputItems: [
+  m-zinc/1
+]
+requirements: [
+  m-iron-rod/900
+]
+category: production
+research: iron-drill-d
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

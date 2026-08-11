@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: T4 Iron Drill
+description: Produces raw iron.
+size: 4
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 20
+consumes: {
+  power: 2.0
+}
+outputItems: [
+  m-zinc/1
+]
+requirements: [
+  m-iron-plate/450
+  
+]
+category: production
+research: iron-drill-c
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
