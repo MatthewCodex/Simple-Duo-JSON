@@ -1,28 +1,26 @@
-type: flying
-name: jet-bd
-localizedName: Elite Normal Jet
-
-health: 1000
-armor: 4
+type: legs
+name: Basic Shotgun Mech
+flying: false
+hitSize: 16
+health: 100
+armor: 1
 speed: 2
-accel: 0.1
-drag: 0.05
-rotateSpeed: 10
-flying: true
-engineOffset: 32
-engineSize: 8
-canAttack: true
-hitSize: 24
-targetAir: true
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: -2
+legSpeed: 0.25
+stepShake: 0
 
-research: jet-bc
 
+
+research: ground-factory
 weapons: [
     {
-      name: "turret-bd"
-      localizedName: "Elite Shotgun Tank Weapon"
+      name: "turret-ba"
+      localizedName: "Basic Shotgun Tank Weapon"
       length: 8
-      reload: 14
+      reload: 20
       alternate: true
       inaccuracy: 5
       mirror: false
@@ -33,15 +31,15 @@ weapons: [
 
       shoot: {
       type: ShootSpread
-      shots: 6
-      spread: 16
+      shots: 3
+      spread: 10
       shotDelay: 0
       }
 
       bullet: {
         type: BasicBulletType
         speed: 12
-        damage: 60
+        damage: 15
         width: 6
         height: 6
       }

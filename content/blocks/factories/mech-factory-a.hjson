@@ -1,6 +1,6 @@
 type: UnitFactory
-name: T1 Jet Factory
-description: Produces Basic-level Jets.
+name: T1 Mech Factory
+description: Produces Basic-level Mechs.
 size: 3
 health: 600
 solid: true
@@ -15,7 +15,7 @@ category: units
 research: air-factory
 plans: [
   {
-    unit: jet-aa
+    unit: mech-aa
     time: 300
     requirements: [
       copper/10
@@ -23,7 +23,7 @@ plans: [
     ]
   }
   {
-    unit: jet-ba
+    unit: mech-ba
     time: 450
     requirements: [
       copper/10

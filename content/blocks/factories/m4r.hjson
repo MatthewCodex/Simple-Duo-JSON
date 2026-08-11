@@ -1,6 +1,6 @@
 type: Reconstructor
-name: "Jet Reconstructor 3"
-description: "Upgrades Professional jets to Elite ones."
+name: "Mech Reconstructor 3"
+description: "Upgrades Professional mechs to Elite ones."
 size: 9
 health: 3600
 itemCapacity: 360
@@ -28,12 +28,12 @@ consumes: {
 # Define what tier binds to what tier
 upgrades: [
   [
-    jet-ac
-    jet-ad
+    mech-ac
+    mech-ad
   ]
   [
-    jet-bc
-    jet-bd
+    mech-bc
+    mech-bd
   ]
   
 ]

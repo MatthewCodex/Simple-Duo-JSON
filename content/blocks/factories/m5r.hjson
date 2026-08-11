@@ -1,10 +1,10 @@
 type: Reconstructor
-name: "Jet Reconstructor 3"
-description: "Upgrades Professional jets to Elite ones."
-size: 9
-health: 3600
-itemCapacity: 360
-constructTime: 360
+name: "Mech Reconstructor 4"
+description: "Upgrades Elite mechs to Extreme ones."
+size: 11
+health: 4800
+itemCapacity: 480
+constructTime: 480
 # Upgrades require power and resources to operate
 requirements: [
   copper/100
@@ -14,13 +14,14 @@ requirements: [
   metaglass/100
   titanium/100
   m-iron/100
+  m-iron-ingot/100
 ]
 consumes: {
-  power: 2.5
+  power: 3.0
   items: {
     items: [
       silicon/50
-      graphite/50
+      titanium/50
       
     ]
   }
@@ -28,17 +29,17 @@ consumes: {
 # Define what tier binds to what tier
 upgrades: [
   [
-    jet-ac
-    jet-ad
+    mech-ad
+    mech-ae
   ]
   [
-    jet-bc
-    jet-bd
+    mech-bd
+    mech-be
   ]
   
 ]
 category: units
-research: exponential-reconstructor
+research: tetrative-reconstructor
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

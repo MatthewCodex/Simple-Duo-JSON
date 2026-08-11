@@ -1,6 +1,6 @@
 type: Reconstructor
 name: "Jet Reconstructor 4"
-description: "Upgrades Elite tanks to Extreme ones."
+description: "Upgrades Elite jets to Extreme ones."
 size: 11
 health: 4800
 itemCapacity: 480

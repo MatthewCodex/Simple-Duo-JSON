@@ -15,7 +15,7 @@ canAttack: true
 hitSize: 16
 targetAir: true
 
-research: air-factory
+research: jet-factory-a
 
 weapons: [
     {

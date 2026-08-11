@@ -2,7 +2,7 @@ type: legs
 name: Basic Normal Mech
 flying: false
 hitSize: 16
-health: 150
+health: 100
 armor: 1
 speed: 2
 rotateSpeed: 4.75

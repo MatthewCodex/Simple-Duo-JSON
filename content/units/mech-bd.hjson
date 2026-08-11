@@ -1,21 +1,18 @@
-type: flying
-name: jet-bd
-localizedName: Elite Normal Jet
-
+type: legs
+name: Elite Shotgun Mech
+flying: false
+hitSize: 32
 health: 1000
 armor: 4
 speed: 2
-accel: 0.1
-drag: 0.05
-rotateSpeed: 10
-flying: true
-engineOffset: 32
-engineSize: 8
-canAttack: true
-hitSize: 24
-targetAir: true
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: 4
+legSpeed: 0.25
+stepShake: 0
 
-research: jet-bc
+research: mech-bc
 
 weapons: [
     {
