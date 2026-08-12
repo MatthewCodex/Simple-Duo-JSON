@@ -1,16 +1,16 @@
 type: LiquidRouter
-name: T1 Liquid Container
+name: T4 Liquid Container
 description: Stores liquids.
 
-health: 500
-liquidCapacity: 500
+health: 1250
+liquidCapacity: 1250
 size: 2
 
 category: effect
-research: core-shard
+research: c1-liquid-c
 
 requirements: [
-  copper/50
-  metaglass/50
+  copper/200
+  metaglass/200
 ]
 squareSprite: false

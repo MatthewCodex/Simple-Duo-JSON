@@ -8,7 +8,7 @@ health: 3500
 itemCapacity: 3500
 
 category: effect
-research: c2-item-e
+research: core-shard
 
 drawTeamOverlay: true
 

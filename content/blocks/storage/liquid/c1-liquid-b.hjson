@@ -2,11 +2,12 @@ type: LiquidRouter
 name: T2 Liquid Container
 description: Stores liquids.
 
-liquidCapacity: 1000
+health: 750
+liquidCapacity: 750
 size: 2
 
 category: effect
-research: core-shard
+research: c1-liquid-a
 
 requirements: [
   copper/100

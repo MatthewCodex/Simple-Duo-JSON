@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: T5 Large Liquid Container
+description: Stores liquids.
+
+health: 2750
+liquidCapacity: 2750
+size: 4
+
+category: effect
+research: c1-liquid-i
+
+requirements: [
+  copper/500
+  metaglass/500
+]
+squareSprite: false

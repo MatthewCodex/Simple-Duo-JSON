@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: T3 Large Liquid Container
+description: Stores liquids.
+
+health: 2250
+liquidCapacity: 2250
+size: 4
+
+category: effect
+research: c1-liquid-g
+
+requirements: [
+  copper/400
+  metaglass/400
+]
+squareSprite: false
