@@ -35,7 +35,14 @@ upgrades: [
     mech-bc
     mech-bd
   ]
-  
+  [
+    mech-cc
+    mech-cd
+  ]
+  [
+    mech-dc
+    mech-dd
+  ]
 ]
 category: units
 research: exponential-reconstructor

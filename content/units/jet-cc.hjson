@@ -1,0 +1,41 @@
+type: flying
+name: jet-cc
+localizedName: Professional Minigun Jet
+
+health: 1000
+armor: 3
+speed: 4
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 16
+engineSize: 8
+canAttack: true
+hitSize: 32
+targetAir: true
+
+research: jet-cb
+
+weapons: [
+    {
+      name: "turret-cc"
+      localizedName: "Professional Minigun Tank Weapon"
+      length: 8
+      reload: 4
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shootScatter
+      bullet: {
+        type: BasicBulletType
+        speed: 8
+        damage: 30
+        width: 4
+        height: 4
+      }
+    }
+  ]

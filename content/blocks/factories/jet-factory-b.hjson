@@ -1,0 +1,42 @@
+type: UnitFactory
+name: T2 Jet Factory
+description: Produces Basic-level Jets.
+size: 3
+health: 600
+solid: true
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  
+]
+category: units
+research: jet-factory-a
+plans: [
+  {
+    unit: jet-ca
+    time: 300
+    requirements: [
+      lead/20
+      graphite/20
+    ]
+  }
+  {
+    unit: jet-da
+    time: 450
+    requirements: [
+      copper/20
+      lead/20
+      graphite/20
+    ]
+  }
+  
+]
+consumes: {
+  power: 1.0
+  
+}
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,45 @@
+type: flying
+name: jet-dd
+localizedName: Elite Slag Jet
+
+health: 2000
+armor: 4
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 32
+engineSize: 8
+canAttack: true
+hitSize: 40
+targetAir: true
+
+research: jet-dc
+
+weapons: [
+    { 
+      name: turret-dd
+      localizedName: Elite Slag Tank Weapon
+      reload: 3
+      shots: 1
+      shootSound: shootFlame
+      alternate: true
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      bullet: {
+        type: LiquidBulletType
+        liquid: slag
+        damage: 36
+        speed: 4
+        drag: 0.01
+        knockback: 1
+        lifetime: 40
+        status: melting
+        statusDuration: 420
+      }
+
+    }
+  ]

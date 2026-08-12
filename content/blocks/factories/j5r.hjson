@@ -36,7 +36,14 @@ upgrades: [
     jet-bd
     jet-be
   ]
-  
+  [
+    jet-cd
+    jet-ce
+  ]
+  [
+    jet-dd
+    jet-de
+  ]
 ]
 category: units
 research: tetrative-reconstructor

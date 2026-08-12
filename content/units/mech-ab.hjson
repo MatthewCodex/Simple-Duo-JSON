@@ -1,7 +1,7 @@
 type: legs
 name: Advanced Normal Mech
 flying: false
-hitSize: 32
+hitSize: 24
 health: 250
 armor: 2
 speed: 2
@@ -11,6 +11,7 @@ legExtension: 0
 legBaseOffset: 0
 legSpeed: 0.25
 stepShake: 0
+targetAir: true
 
 research: mech-aa
 

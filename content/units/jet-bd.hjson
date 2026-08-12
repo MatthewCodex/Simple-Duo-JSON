@@ -1,6 +1,6 @@
 type: flying
 name: jet-bd
-localizedName: Elite Normal Jet
+localizedName: Elite Shotgun Jet
 
 health: 1000
 armor: 4
@@ -12,7 +12,7 @@ flying: true
 engineOffset: 32
 engineSize: 8
 canAttack: true
-hitSize: 24
+hitSize: 40
 targetAir: true
 
 research: jet-bc

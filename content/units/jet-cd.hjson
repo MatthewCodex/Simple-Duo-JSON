@@ -1,8 +1,8 @@
 type: flying
-name: jet-ad
-localizedName: Elite Normal Jet
+name: jet-cd
+localizedName: Elite Minigun Jet
 
-health: 1000
+health: 2000
 armor: 4
 speed: 2
 accel: 0.1
@@ -15,30 +15,27 @@ canAttack: true
 hitSize: 40
 targetAir: true
 
-research: jet-ac
+research: jet-cc
 
 weapons: [
     {
-      name: "turret-ad"
-      localizedName: "Elite Normal Jet Weapon"
+      name: "turret-cd"
+      localizedName: "Elite Minigun Tank Weapon"
       length: 8
-      reload: 7
+      reload: 3.5
       alternate: true
       inaccuracy: 2
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootScatter
       bullet: {
         type: BasicBulletType
-        speed: 10
-        damage: 75
-        width: 10
-        height: 10
+        speed: 8
+        damage: 40
+        width: 4
+        height: 4
       }
     }
   ]
-
-shownPlanets: [serpulo , erekir , rospuleball]

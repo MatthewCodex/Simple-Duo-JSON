@@ -36,7 +36,14 @@ upgrades: [
     mech-bd
     mech-be
   ]
-  
+  [
+    mech-cd
+    mech-ce
+  ]
+  [
+    mech-dd
+    mech-de
+  ]
 ]
 category: units
 research: tetrative-reconstructor

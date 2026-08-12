@@ -1,8 +1,8 @@
 type: legs
-name: Professional Normal Mech
+name: Professional Minigun Mech
 flying: false
 hitSize: 32
-health: 500
+health: 1000
 armor: 3
 speed: 2
 rotateSpeed: 4.75
@@ -13,30 +13,27 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-ab
+research: mech-cb
 
 weapons: [
     {
-      name: "turret-ac"
-      localizedName: "Professional Normal Mech Weapon"
+      name: "turret-cc"
+      localizedName: "Professional Minigun Tank Weapon"
       length: 8
-      reload: 8
+      reload: 4
       alternate: true
       inaccuracy: 2
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootScatter
       bullet: {
         type: BasicBulletType
         speed: 8
-        damage: 60
-        width: 8
-        height: 8
+        damage: 30
+        width: 4
+        height: 4
       }
     }
   ]
-
-shownPlanets: [serpulo , erekir , rospuleball]

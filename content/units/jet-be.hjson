@@ -1,9 +1,9 @@
 type: flying
 name: jet-be
-localizedName: Extreme Normal Jet
+localizedName: Extreme Shotgun Jet
 
 health: 2500
-armor: 4
+armor: 5
 speed: 2
 accel: 0.1
 drag: 0.05
@@ -12,7 +12,7 @@ flying: true
 engineOffset: 40
 engineSize: 8
 canAttack: true
-hitSize: 24
+hitSize: 48
 targetAir: true
 
 research: jet-bd

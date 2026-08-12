@@ -1,44 +1,39 @@
 type: legs
-name: Basic Normal Mech
+name: Extreme Minigun Mech
 flying: false
-hitSize: 16
-health: 100
-armor: 1
+hitSize: 48
+health: 4000
+armor: 5
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: -2
+legBaseOffset: 6
 legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-
-
-research: ground-factory
+research: mech-cd
 
 weapons: [
     {
-      name: "turret-aa"
-      localizedName: "Basic Normal Mech Weapon"
+      name: "turret-ce"
+      localizedName: "Extreme Minigun Tank Weapon"
       length: 8
-      reload: 10
+      reload: 3
       alternate: true
       inaccuracy: 2
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootScatter
       bullet: {
         type: BasicBulletType
-        speed: 4
-        damage: 30
+        speed: 8
+        damage: 50
         width: 4
         height: 4
       }
     }
   ]
-
-shownPlanets: [serpulo , erekir , rospuleball]

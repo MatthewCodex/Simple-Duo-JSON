@@ -32,7 +32,14 @@ upgrades: [
     mech-ba
     mech-bb
   ]
-  
+  [
+    mech-ca
+    mech-cb
+  ]
+  [
+    mech-da
+    mech-db
+  ]
 ]
 category: units
 research: additive-reconstructor

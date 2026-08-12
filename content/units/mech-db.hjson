@@ -1,40 +1,39 @@
 type: legs
-name: Elite Normal Mech
+name: Advanced Slag Mech
 flying: false
-hitSize: 40
-health: 1000
-armor: 4
+hitSize: 24
+health: 500
+armor: 2
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: 4
+legBaseOffset: 0
 legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-ac
+research: mech-da
 
 weapons: [
     {
-      name: "turret-ad"
-      localizedName: "Elite Normal Mech Weapon"
+      name: "turret-cb"
+      localizedName: "Advanced Minigun Tank Weapon"
       length: 8
-      reload: 7
+      reload: 4.5
       alternate: true
       inaccuracy: 2
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootScatter
       bullet: {
         type: BasicBulletType
-        speed: 10
-        damage: 75
-        width: 10
-        height: 10
+        speed: 8
+        damage: 20
+        width: 4
+        height: 4
       }
     }
   ]

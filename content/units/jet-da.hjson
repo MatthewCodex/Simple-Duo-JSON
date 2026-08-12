@@ -1,0 +1,46 @@
+type: flying
+name: jet-da
+localizedName: Basic Slag Jet
+
+health: 200
+armor: 1
+speed: 5
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 8
+engineSize: 4
+canAttack: true
+hitSize: 16
+targetAir: true
+
+research: jet-factory-b
+
+weapons: [
+    {
+      name: turret-da
+      localizedName: Basic Slag Tank Weapon
+      reload: 3
+      shots: 1
+      shootSound: shootFlame
+      alternate: true
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      bullet: {
+        type: LiquidBulletType
+        liquid: slag
+        damage: 15
+        speed: 4
+        drag: 0.01
+        knockback: 1
+        lifetime: 40
+        status: melting
+        statusDuration: 120
+      }
+    }
+  ]
+
+shownPlanets: [serpulo , erekir , rospuleball]

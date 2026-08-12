@@ -1,0 +1,41 @@
+type: tank
+name: jet-ce
+localizedName: Extreme Minigun Jet
+
+health: 4000
+armor: 5
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 40
+engineSize: 8
+canAttack: true
+hitSize: 48
+targetAir: true
+
+research: jet-cd
+
+weapons: [
+    {
+      name: "turret-ce"
+      localizedName: "Extreme Minigun Tank Weapon"
+      length: 8
+      reload: 3
+      alternate: true
+      inaccuracy: 2
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      shootSound: shootScatter
+      bullet: {
+        type: BasicBulletType
+        speed: 8
+        damage: 50
+        width: 4
+        height: 4
+      }
+    }
+  ]

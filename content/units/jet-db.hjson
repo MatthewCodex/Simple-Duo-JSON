@@ -1,42 +1,41 @@
 type: flying
-name: jet-ad
-localizedName: Elite Normal Jet
+name: jet-db
+localizedName: Advanced Slag Jet
 
-health: 1000
-armor: 4
-speed: 2
+health: 500
+armor: 2
+speed: 4
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
 flying: true
-engineOffset: 32
+engineOffset: 16
 engineSize: 8
 canAttack: true
-hitSize: 40
+hitSize: 24
 targetAir: true
 
-research: jet-ac
+research: jet-da
 
 weapons: [
     {
-      name: "turret-ad"
-      localizedName: "Elite Normal Jet Weapon"
+      name: "turret-cb"
+      localizedName: "Advanced Minigun Tank Weapon"
       length: 8
-      reload: 7
+      reload: 4.5
       alternate: true
       inaccuracy: 2
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootScatter
       bullet: {
         type: BasicBulletType
-        speed: 10
-        damage: 75
-        width: 10
-        height: 10
+        speed: 8
+        damage: 20
+        width: 4
+        height: 4
       }
     }
   ]

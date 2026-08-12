@@ -1,7 +1,7 @@
 type: legs
 name: Elite Shotgun Mech
 flying: false
-hitSize: 32
+hitSize: 40
 health: 1000
 armor: 4
 speed: 2
@@ -11,6 +11,7 @@ legExtension: 0
 legBaseOffset: 4
 legSpeed: 0.25
 stepShake: 0
+targetAir: true
 
 research: mech-bc
 

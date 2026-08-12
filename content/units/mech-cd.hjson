@@ -1,8 +1,8 @@
 type: legs
-name: Elite Normal Mech
+name: Elite Minigun Mech
 flying: false
 hitSize: 40
-health: 1000
+health: 2000
 armor: 4
 speed: 2
 rotateSpeed: 4.75
@@ -13,30 +13,27 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-ac
+research: mech-cc
 
 weapons: [
     {
-      name: "turret-ad"
-      localizedName: "Elite Normal Mech Weapon"
+      name: "turret-cd"
+      localizedName: "Elite Minigun Tank Weapon"
       length: 8
-      reload: 7
+      reload: 3.5
       alternate: true
       inaccuracy: 2
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootScatter
       bullet: {
         type: BasicBulletType
-        speed: 10
-        damage: 75
-        width: 10
-        height: 10
+        speed: 8
+        damage: 40
+        width: 4
+        height: 4
       }
     }
   ]
-
-shownPlanets: [serpulo , erekir , rospuleball]

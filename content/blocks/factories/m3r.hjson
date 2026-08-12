@@ -33,7 +33,14 @@ upgrades: [
     mech-bb
     mech-bc
   ]
-  
+  [
+    mech-cb
+    mech-cc
+  ]
+  [
+    mech-db
+    mech-dc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

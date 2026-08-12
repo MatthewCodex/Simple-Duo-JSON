@@ -33,7 +33,14 @@ upgrades: [
     jet-bb
     jet-bc
   ]
-  
+  [
+    jet-cb
+    jet-cc
+  ]
+  [
+    jet-db
+    jet-dc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

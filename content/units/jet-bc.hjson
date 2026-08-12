@@ -1,6 +1,6 @@
 type: flying
 name: jet-bc
-localizedName: Professional Normal Jet
+localizedName: Professional Shotgun Jet
 
 health: 500
 armor: 3
@@ -12,7 +12,7 @@ flying: true
 engineOffset: 24
 engineSize: 8
 canAttack: true
-hitSize: 24
+hitSize: 32
 targetAir: true
 
 research: jet-bb

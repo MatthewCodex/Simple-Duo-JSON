@@ -35,7 +35,14 @@ upgrades: [
     jet-bc
     jet-bd
   ]
-  
+  [
+    jet-cc
+    jet-cd
+  ]
+  [
+    jet-dc
+    jet-dd
+  ]
 ]
 category: units
 research: exponential-reconstructor

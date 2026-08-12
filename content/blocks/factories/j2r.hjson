@@ -32,7 +32,14 @@ upgrades: [
     jet-ba
     jet-bb
   ]
-  
+  [
+    jet-ca
+    jet-cb
+  ]
+  [
+    jet-da
+    jet-db
+  ]
 ]
 category: units
 research: additive-reconstructor

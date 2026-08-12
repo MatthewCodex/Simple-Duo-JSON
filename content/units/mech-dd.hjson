@@ -1,0 +1,43 @@
+type: legs
+name: Elite Minigun Mech
+flying: false
+hitSize: 40
+health: 2000
+armor: 4
+speed: 2
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: 4
+legSpeed: 0.25
+stepShake: 0
+targetAir: true
+
+research: mech-dc
+
+weapons: [
+    { 
+      name: turret-dd
+      localizedName: Elite Slag Tank Weapon
+      reload: 3
+      shots: 1
+      shootSound: shootFlame
+      alternate: true
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      bullet: {
+        type: LiquidBulletType
+        liquid: slag
+        damage: 36
+        speed: 4
+        drag: 0.01
+        knockback: 1
+        lifetime: 40
+        status: melting
+        statusDuration: 420
+      }
+
+    }
+  ]

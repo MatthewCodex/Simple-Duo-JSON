@@ -1,40 +1,39 @@
 type: legs
-name: Elite Normal Mech
+name: Basic Minigun Mech
 flying: false
-hitSize: 40
-health: 1000
-armor: 4
+hitSize: 16
+health: 200
+armor: 1
 speed: 2
 rotateSpeed: 4.75
 legCount: 4
 legExtension: 0
-legBaseOffset: 4
+legBaseOffset: -2
 legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-ac
+research: mech-factory-b
 
 weapons: [
     {
-      name: "turret-ad"
-      localizedName: "Elite Normal Mech Weapon"
+      name: "turret-ca"
+      localizedName: "Basic Minigun Tank Weapon"
       length: 8
-      reload: 7
+      reload: 5
       alternate: true
       inaccuracy: 2
       mirror: false
-            rotate: true
-
+      rotate: true
       x: 0
       y: 0
-      shootSound: shootDuo
+      shootSound: shootScatter
       bullet: {
         type: BasicBulletType
-        speed: 10
-        damage: 75
-        width: 10
-        height: 10
+        speed: 8
+        damage: 10
+        width: 4
+        height: 4
       }
     }
   ]

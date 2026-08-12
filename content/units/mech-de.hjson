@@ -1,0 +1,43 @@
+type: legs
+name: Extreme Minigun Mech
+flying: false
+hitSize: 48
+health: 4000
+armor: 5
+speed: 2
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: 6
+legSpeed: 0.25
+stepShake: 0
+targetAir: true
+
+research: mech-dd
+
+weapons: [
+    { 
+      name: turret-de
+      localizedName: Extreme Slag Tank Weapon
+      reload: 3
+      shots: 1
+      shootSound: shootFlame
+      alternate: true
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      bullet: {
+        type: LiquidBulletType
+        liquid: slag
+        damage: 54
+        speed: 4
+        drag: 0.01
+        knockback: 1
+        lifetime: 60
+        status: melting
+        statusDuration: 600
+      }
+
+    }
+  ]

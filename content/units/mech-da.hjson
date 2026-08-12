@@ -1,0 +1,44 @@
+type: legs
+name: Basic Slag Mech
+flying: false
+hitSize: 16
+health: 200
+armor: 1
+speed: 2
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: -2
+legSpeed: 0.25
+stepShake: 0
+targetAir: true
+
+research: mech-factory-b
+
+weapons: [
+    {
+      name: turret-da
+      localizedName: Basic Slag Tank Weapon
+      reload: 3
+      shots: 1
+      shootSound: shootFlame
+      alternate: true
+      mirror: false
+      rotate: true
+      x: 0
+      y: 0
+      bullet: {
+        type: LiquidBulletType
+        liquid: slag
+        damage: 15
+        speed: 4
+        drag: 0.01
+        knockback: 1
+        lifetime: 40
+        status: melting
+        statusDuration: 120
+      }
+    }
+  ]
+
+shownPlanets: [serpulo , erekir , rospuleball]

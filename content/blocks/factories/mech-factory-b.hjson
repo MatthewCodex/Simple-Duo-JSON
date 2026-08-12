@@ -1,0 +1,42 @@
+type: UnitFactory
+name: T2 Mech Factory
+description: Produces Basic-level Mechs.
+size: 3
+health: 600
+solid: true
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+  graphite/100
+  
+]
+category: units
+research: air-factory
+plans: [
+  {
+    unit: mech-ca
+    time: 300
+    requirements: [
+      lead/20
+      graphite/20
+    ]
+  }
+  {
+    unit: mech-da
+    time: 450
+    requirements: [
+      copper/20
+      lead/20
+      graphite/20
+    ]
+  }
+  
+]
+consumes: {
+  power: 1.0
+  
+}
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
