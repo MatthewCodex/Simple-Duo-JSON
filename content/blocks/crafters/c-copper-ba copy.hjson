@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T1 Brass Press
+description: Turns copper ingots into copper plates.
+size: 1
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+consumes: {
+  power: 1.0
+  items: [
+    m-brass-ingot/1
+  ]
+}
+outputItems: [
+  m-brass-plate/1
+]
+requirements: [
+  m-copper-plate/100
+  
+]
+category: crafting
+research: c-copper-ba
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

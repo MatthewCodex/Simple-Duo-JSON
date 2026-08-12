@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: T1 Brass Roller
+description: Turns copper plates into copper rods.
+size: 1
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+consumes: {
+  power: 1.0
+  items: [
+    m-brass-plate/1
+  ]
+}
+outputItems: [
+  m-brass-rod/1
+]
+requirements: [
+  m-copper-rod/100
+  
+]
+category: crafting
+research: c-copper-ca
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

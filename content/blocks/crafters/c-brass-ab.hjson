@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: T2 Brass Furnace
+description: Turns raw copper into copper ingots.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 45
+consumes: {
+  power: 1.5
+  items: [
+    copper/1
+    m-zinc/1
+  ]
+}
+outputItems: [
+  m-brass-ingot/1
+]
+requirements: [
+  m-copper-plate/200
+
+]
+category: crafting
+research: c-copper-ab
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]
