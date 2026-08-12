@@ -1,1 +1,16 @@
+// content/blocks/fast-router.hjson
+{
+  type: Router
+  name: "Fast Router"
+  description: "A custom high-speed router that moves items much quicker than a standard router."
+  speed: 20
+  itemCapacity: 20
+  health: 80
+  size: 1
+  requirements: [
+    copper/5
+  ]
+  category: distribution
+  research: router
+}
 
