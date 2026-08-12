@@ -1,0 +1,73 @@
+type: ItemTurret
+name: Basic Surge Turret
+description: Shoots bullets that electrocute enemies. Uses Surge Alloy as ammo.
+health: 1200
+size: 2
+recoil: 0.5
+shootY: 3
+reload: 50
+range: 175
+shootCone: 15
+ammoUseEffect: casing1
+inaccuracy: 5
+rotateSpeed: 20
+targetGround: true
+targetAir: true
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
+ammoTypes: {
+  surge-alloy: {
+    speed: 4
+    damage: 30
+    lifetime: 125
+    homingPower: 0.1
+    homingRange: 200
+    width: 6
+    height: 6
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: sparkExplosion
+    despawnEffect: sparkExplosion
+    shootSound: shootArtillery
+    hitSound: explosionArtilleryShock
+    despawnSound: explosionArtilleryShock
+    status: shocked
+	  frontColor: ffffff
+	  backColor: e8d174
+	  ammoMultiplier: 3
+    fragBullets: 5
+    fragBullet: {
+      type: LightningBulletType
+      damage: 30
+      lightningLength: 15
+    }
+  }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 1
+  spread: 3
+  shotDelay: 0
+}
+ 
+requirements: [
+copper/100
+lead/100
+graphite/100
+]
+category: turret
+research: fuse
+ 
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
+
+shownPlanets: [serpulo , erekir , rospuleball]

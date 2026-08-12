@@ -1,0 +1,43 @@
+type: ItemTurret
+name: Basic Shrapnel Turret
+description: Shoots piercing projectiles. Requires power.
+hasPower: true
+size: 1
+health: 600
+range: 100
+reload: 60
+category: turret
+
+# Configure power requirements
+consumes: {
+  power: 1
+}
+
+# Define the laser properties
+ammoTypes: {
+  titanium: {
+  type: ShrapnelBulletType
+  damage: 100
+  length: 200
+  width: 15
+  hitEffect: none
+  smokeEffect: none
+
+  shootSound: shootFuse
+  }
+}
+
+requirements: [
+  copper/100
+  lead/100
+  silicon/100
+  titanium/100
+]
+research: fuse
+
+drawer: {
+  type: DrawTurret
+  basePrefix: "turret-"
+}
+
+shownPlanets: [serpulo , erekir , rospuleball]
