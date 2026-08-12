@@ -1,16 +1,17 @@
 type: SolarGenerator
-name: T5 Solar Generator
+name: T3 Medium Solar Generator
 description: Produces energy from the sun. More effective at daytime.
-size: 1
-powerProduction: 5.0
+size: 2
+powerProduction: 8.0
 
 requirements: [
-silicon/200
-copper/200
+silicon/75
+copper/75
+lead/75
 ]
 
 category: power
-research: sg-d
+research: sg-g
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

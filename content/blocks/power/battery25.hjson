@@ -1,18 +1,20 @@
 
   // Sets the class type to a power battery storage block
   type: Battery
-  name: T2 Battery
+  name: T5 Large Battery
   
-  health: 400
-  size: 1
+  health: 3000
+  size: 3
   hasPower: true
-  consumes: { powerBuffered: 1000 }
+  consumes: { powerBuffered: 40000 }
 
   requirements: [
-    copper/25
-    lead/25
+    copper/200
+    lead/200
+    graphite/200
+    m-iron-ingot/200
   ]
   category: power
-  research: battery1
+  research: battery24
 
 shownPlanets: [serpulo , erekir , rospuleball]

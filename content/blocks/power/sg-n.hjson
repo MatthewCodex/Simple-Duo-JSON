@@ -1,16 +1,18 @@
 type: SolarGenerator
-name: T5 Solar Generator
+name: T4 Large Solar Generator
 description: Produces energy from the sun. More effective at daytime.
-size: 1
-powerProduction: 5.0
+size: 3
+powerProduction: 14.0
 
 requirements: [
-silicon/200
-copper/200
+silicon/100
+copper/100
+lead/100
+m-iron-plate/100
 ]
 
 category: power
-research: sg-d
+research: sg-m
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]
