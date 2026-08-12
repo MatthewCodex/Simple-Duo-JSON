@@ -1,24 +1,24 @@
 type: ItemTurret
-name: Basic Shrapnel Turret
-description: Shoots shrapnel projectiles. Requires power.
+name: Professional Shrapnel Turret
+description: Shoots piercing projectiles. Requires power.
 hasPower: true
-size: 1
-health: 600
-range: 100
-reload: 60
+size: 3
+health: 1800
+range: 150
+reload: 30
 category: turret
 
 # Configure power requirements
 consumes: {
-  power: 1
+  power: 3
 }
 
 # Define the laser properties
 ammoTypes: {
   titanium: {
   type: ShrapnelBulletType
-  damage: 100
-  length: 200
+  damage: 150
+  length: 300
   width: 15
   hitEffect: none
   smokeEffect: none
@@ -27,8 +27,8 @@ ammoTypes: {
   }
   thorium: {
   type: ShrapnelBulletType
-  damage: 150
-  length: 200
+  damage: 200
+  length: 300
   width: 15
   hitEffect: none
   smokeEffect: none
@@ -44,8 +44,10 @@ requirements: [
   lead/100
   silicon/100
   titanium/100
+  metaglass/100
+  m-iron-ingot/100
 ]
-research: fuse
+research: turret-tb
 
 drawer: {
   type: DrawTurret

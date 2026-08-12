@@ -39,7 +39,7 @@ requirements: [
   silicon/100
   titanium/100
   metaglass/100
-  plastanium/100
+  m-iron-ingot/100
 ]
 research: turret-jb
 

@@ -47,13 +47,15 @@ ammoTypes: {
 
  
 requirements: [
-copper/3000
-lead/2500
-graphite/1750
-silicon/800
-metaglass/500
-plastanium/200
-thorium/50
+copper/100
+lead/100
+titanium/100
+silicon/100
+metaglass/100
+m-iron-ingot/100
+plastanium/100
+thorium/100
+
 ]
 category: turret
 research: turret-jd
