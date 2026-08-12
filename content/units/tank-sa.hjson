@@ -34,8 +34,8 @@ treadFrames: 4
 
 weapons: [
     {
-      name: "turret-ia"
-      localizedName: "Basic Blast Tank Weapon"
+      name: "turret-sa"
+      localizedName: "Basic Surge Tank Weapon"
       length: 8
     rotate: true
 
@@ -54,25 +54,30 @@ weapons: [
       }
 
       bullet: {
-        type: BasicBulletType
         speed: 4
-        damage: 25
-        splashDamage: 50
-        splashDamageRadius: 50
-        lifetime: 100
-        homingPower: 0.1
-        homingRange: 200
-        width: 4
-        height: 4
-        shootEffect: shootBig
-        smokeEffect: shootSmokeSquare
-        hitEffect: blastExplosion
-        shootSound: shootArtillery
-        hitSound: blockExplode3
-        despawnSound: blockExplode3
-        status: blasted
-      	frontColor: ffffff
-	      backColor: ff0000
+    damage: 30
+    lifetime: 100
+    homingPower: 0.1
+    homingRange: 200
+    width: 6
+    height: 6
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: sparkExplosion
+    despawnEffect: sparkExplosion
+    shootSound: shootArtillery
+    hitSound: explosionArtilleryShock
+    despawnSound: explosionArtilleryShock
+    status: shocked
+	  frontColor: ffffff
+	  backColor: e8d174
+	  ammoMultiplier: 3
+    fragBullets: 5
+    fragBullet: {
+      type: LightningBulletType
+      damage: 30
+      lightningLength: 15
+    }
       }
     }
   ]

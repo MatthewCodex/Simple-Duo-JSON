@@ -1,0 +1,83 @@
+type: tank
+name: tank-gb
+localizedName: Advanced Blast Tank
+description: Shoots Explosive Shells at enemies.
+
+health: 1500
+armor: 2
+speed: 1
+accel: 0.1
+drag: 0.05
+rotateSpeed: 5
+omniMovement: false
+
+research: tank-sa
+
+hitSize: 24
+targetAir: true
+
+treadFrames: 4
+  treadRects: [
+    {
+      x: -12
+      y: -14
+      width: 8
+      height: 28
+    }
+    {
+      x: 4
+      y: -14
+      width: 8
+      height: 28
+    }
+  ]
+
+weapons: [
+    {
+      name: "turret-sb"
+      localizedName: "Advanced Surge Tank Weapon"
+      length: 8
+    rotate: true
+
+      mirror: false
+      x: 0
+      y: 0
+	  reload: 170
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        speed: 4
+    damage: 45
+    lifetime: 125
+    homingPower: 0.1
+    homingRange: 200
+    width: 6
+    height: 6
+    shootEffect: shootBig
+    smokeEffect: shootSmokeSquare
+    hitEffect: sparkExplosion
+    despawnEffect: sparkExplosion
+    shootSound: shootArtillery
+    hitSound: explosionArtilleryShock
+    despawnSound: explosionArtilleryShock
+    status: shocked
+	  frontColor: ffffff
+	  backColor: e8d174
+	  ammoMultiplier: 3
+    fragBullets: 5
+    fragBullet: {
+      type: LightningBulletType
+      damage: 45
+      lightningLength: 15
+    }
+      }
+    }
+  ]

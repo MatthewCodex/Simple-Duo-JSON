@@ -1,19 +1,19 @@
 type: tank
-name: tank-ja
-localizedName: Basic Pierce Tank
+name: tank-jc
+localizedName: Professional Pierce Tank
 description: Shoot piercing projectiles at enemies.
 
-health: 500
-armor: 1
+health: 3000
+armor: 3
 speed: 1
 accel: 0.1
 drag: 0.05
 rotateSpeed: 5
 omniMovement: false
 
-research: tank-factory-e
+research: tank-tb
 
-hitSize: 16
+hitSize: 32
 targetAir: true
 
 treadFrames: 4
@@ -34,10 +34,10 @@ treadFrames: 4
 
 weapons: [
   {
-    name: turret-ja
-    localizedName: Basic Pierce Tank Weapon
+    name: turret-tc
+    localizedName: Professional Shrapnel Tank Weapon
     length: 20
-    reload: 60
+    reload: 10
     shootCone: 15
     mirror: false
         rotate: true
@@ -48,8 +48,8 @@ weapons: [
     shootSound: shootDuo
     bullet: {
       type: ContinuousLaserBulletType
-      damage: 100
-      length: 200
+      damage: 150
+      length: 300
       width: 4
       incendAmount: 0
       incendSpread: 0
@@ -58,7 +58,7 @@ weapons: [
       colors: [008080, 00bfbf, 00ffff]
 
       pierce: true
-      pierceCap: 3  
+      pierceCap: 5  
   
       # Optional cosmetic effects
       hitEffect: none

@@ -34,8 +34,8 @@ treadFrames: 4
 
 weapons: [
   {
-    name: turret-ja
-    localizedName: Basic Pierce Tank Weapon
+    name: turret-ta
+    localizedName: Basic Shrapnel Tank Weapon
     length: 20
     reload: 60
     shootCone: 15
