@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: T3 Liquid Tank
+description: Stores liquids.
+
+health: 2000
+liquidCapacity: 2000
+size: 3
+
+category: effect
+research: c2-liquid-b
+
+requirements: [
+  copper/150
+  metaglass/150
+  titanium/150
+  graphite/150
+]
+squareSprite: false

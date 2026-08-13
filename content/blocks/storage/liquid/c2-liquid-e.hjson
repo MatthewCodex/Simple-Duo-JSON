@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: T5 Liquid Tank
+description: Stores liquids.
+
+health: 3000
+liquidCapacity: 3000
+size: 3
+
+category: effect
+research: c2-liquid-d
+
+requirements: [
+  copper/250
+  metaglass/250
+  titanium/250
+  graphite/250
+]
+squareSprite: false

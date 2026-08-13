@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: T4 Liquid Tank
+description: Stores liquids.
+
+health: 2500
+liquidCapacity: 2500
+size: 3
+
+category: effect
+research: c2-liquid-c
+
+requirements: [
+  copper/200
+  metaglass/200
+  titanium/200
+  graphite/200
+]
+squareSprite: false

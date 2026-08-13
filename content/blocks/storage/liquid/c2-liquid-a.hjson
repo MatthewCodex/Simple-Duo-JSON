@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: T1 Liquid Tank
+description: Stores liquids.
+
+health: 1000
+liquidCapacity: 1000
+size: 3
+
+category: effect
+research: core-shard
+
+requirements: [
+  copper/50
+  metaglass/50
+  titanium/50
+  graphite/50
+]
+squareSprite: false

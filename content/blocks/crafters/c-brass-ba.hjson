@@ -20,7 +20,7 @@ requirements: [
   
 ]
 category: crafting
-research: c-copper-ba
+research: c-brass-aa
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]
