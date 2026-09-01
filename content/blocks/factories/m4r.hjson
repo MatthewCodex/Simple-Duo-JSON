@@ -43,6 +43,14 @@ upgrades: [
     mech-dc
     mech-dd
   ]
+  [
+    mech-ec
+    mech-ed
+  ]
+  [
+    mech-fc
+    mech-fd
+  ]
 ]
 category: units
 research: exponential-reconstructor

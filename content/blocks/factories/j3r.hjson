@@ -41,6 +41,14 @@ upgrades: [
     jet-db
     jet-dc
   ]
+  [
+    jet-eb
+    jet-ec
+  ]
+  [
+    jet-fb
+    jet-fc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

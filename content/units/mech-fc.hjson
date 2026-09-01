@@ -1,28 +1,24 @@
-type: flying
-name: jet-fd
-localizedName: Elite Cannon Jet
-
-health: 2400
-armor: 4
+type: legs
+name: Professional Cannon Mech
+flying: false
+hitSize: 32
+health: 1200
+armor: 3
 speed: 2
-accel: 0.1
-drag: 0.05
-rotateSpeed: 10
-flying: true
-engineOffset: 32
-engineSize: 8
-canAttack: true
-hitSize: 40
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: 2
+legSpeed: 0.25
+stepShake: 0
 targetAir: true
 
-research: jet-fc
-
-
+research: mech-db
 
 weapons: [
     {
-      name: "turret-fd"
-      localizedName: "Elite Sprayer Tank Weapon"
+      name: "turret-fc"
+      localizedName: "Professional Sprayer Tank Weapon"
       length: 8
       reload: 5
       alternate: true
@@ -35,15 +31,15 @@ weapons: [
 
       shoot: {
       type: ShootSpread
-      shots: 8
-      spread: 13
+      shots: 7
+      spread: 12
       shotDelay: 0
       }
 
       bullet: {
         type: BasicBulletType
         speed: 12
-        damage: 8
+        damage: 7
         width: 4
         height: 4
       }

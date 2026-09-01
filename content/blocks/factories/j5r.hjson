@@ -44,6 +44,14 @@ upgrades: [
     jet-dd
     jet-de
   ]
+  [
+    jet-ed
+    jet-ee
+  ]
+  [
+    jet-fd
+    jet-fe
+  ]
 ]
 category: units
 research: tetrative-reconstructor

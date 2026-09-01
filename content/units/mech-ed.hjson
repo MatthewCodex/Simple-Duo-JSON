@@ -1,30 +1,26 @@
-type: flying
-name: jet-eb
-localizedName: Advanced Cannon Jet
-
-health: 600
-armor: 2
-speed: 4
-accel: 0.1
-drag: 0.05
-rotateSpeed: 10
-flying: true
-engineOffset: 16
-engineSize: 8
-canAttack: true
-hitSize: 24
+type: legs
+name: Elite Cannon Mech
+flying: false
+hitSize: 40
+health: 2400
+armor: 4
+speed: 2
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: 4
+legSpeed: 0.25
+stepShake: 0
 targetAir: true
 
-research: jet-ea
-
-
+research: mech-dc
 
 weapons: [
     {
-      name: "turret-eb"
-      localizedName: "Advanced Cannon Tank Weapon"
+      name: "turret-ed"
+      localizedName: "Elite Cannon Tank Weapon"
       length: 8
-      reload: 35
+      reload: 25
       rotate: true
       mirror: false
       x: 0
@@ -42,12 +38,12 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        damage: 90
+        damage: 150
         speed: 4
         width: 8
         height: 8
-        splashDamage: 120
-        splashDamageRadius: 60
+        splashDamage: 180
+        splashDamageRadius: 100
         hitEffect: flakExplosion
         despawnEffect: flakExplosion
         hitSound: blockExplode3

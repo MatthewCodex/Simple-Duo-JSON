@@ -40,6 +40,14 @@ upgrades: [
     mech-da
     mech-db
   ]
+  [
+    mech-ea
+    mech-eb
+  ]
+  [
+    mech-fa
+    mech-fb
+  ]
 ]
 category: units
 research: additive-reconstructor

@@ -41,6 +41,14 @@ upgrades: [
     mech-db
     mech-dc
   ]
+  [
+    mech-eb
+    mech-ec
+  ]
+  [
+    mech-fb
+    mech-fc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor
