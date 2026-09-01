@@ -1,0 +1,57 @@
+type: flying
+name: jet-eb
+localizedName: Advanced Cannon Jet
+
+health: 600
+armor: 2
+speed: 4
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 16
+engineSize: 8
+canAttack: true
+hitSize: 24
+targetAir: true
+
+research: jet-da
+
+
+
+weapons: [
+    {
+      name: "turret-eb"
+      localizedName: "Advanced Cannon Tank Weapon"
+      length: 8
+      reload: 35
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 90
+        speed: 4
+        width: 8
+        height: 8
+        splashDamage: 120
+        splashDamageRadius: 60
+        hitEffect: flakExplosion
+        despawnEffect: flakExplosion
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+      }
+    }
+  ]

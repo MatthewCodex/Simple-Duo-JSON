@@ -1,0 +1,58 @@
+type: flying
+name: jet-ea
+localizedName: Basic Cannon Jet
+
+health: 300
+armor: 1
+speed: 5
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 8
+engineSize: 4
+canAttack: true
+hitSize: 16
+targetAir: true
+
+research: jet-factory-b
+
+
+
+weapons: [
+    {
+      name: "turret-ea"
+      localizedName: "Basic Cannon Tank Weapon"
+      length: 8
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+
+      reload: 40
+
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 60
+        speed: 4
+        width: 8
+        height: 8
+        splashDamage: 90
+        splashDamageRadius: 40
+        hitEffect: flakExplosion
+        despawnEffect: flakExplosion
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+      }
+    }
+  ]

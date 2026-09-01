@@ -1,0 +1,57 @@
+type: flying
+name: jet-ed
+localizedName: Elite Cannon Jet
+
+health: 2400
+armor: 4
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 32
+engineSize: 8
+canAttack: true
+hitSize: 40
+targetAir: true
+
+research: jet-dc
+
+
+
+weapons: [
+    {
+      name: "turret-ed"
+      localizedName: "Elite Cannon Tank Weapon"
+      length: 8
+      reload: 25
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 150
+        speed: 4
+        width: 8
+        height: 8
+        splashDamage: 180
+        splashDamageRadius: 100
+        hitEffect: flakExplosion
+        despawnEffect: flakExplosion
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+      }
+    }
+  ]

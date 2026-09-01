@@ -1,52 +1,51 @@
 type: flying
-name: jet-bb
-localizedName: Advanced Shotgun Jet
+name: jet-fd
+localizedName: Elite Cannon Jet
 
-health: 250
-armor: 2
-speed: 4
+health: 2400
+armor: 4
+speed: 2
 accel: 0.1
 drag: 0.05
 rotateSpeed: 10
 flying: true
-engineOffset: 16
+engineOffset: 32
 engineSize: 8
 canAttack: true
-hitSize: 24
+hitSize: 40
 targetAir: true
-isEnemy: true
 
-research: jet-ba
+research: jet-dc
+
+
 
 weapons: [
     {
-      name: "turret-bb"
-      localizedName: "Advanced Shotgun Tank Weapon"
+      name: "turret-fd"
+      localizedName: "Elite Sprayer Tank Weapon"
       length: 8
-      reload: 18
+      reload: 5
       alternate: true
       inaccuracy: 5
       mirror: false
       rotate: true
       x: 0
       y: 0
-      shootSound: shootAfflict
+      shootSound: shootSalvo
 
       shoot: {
       type: ShootSpread
-      shots: 4
-      spread: 12
+      shots: 8
+      spread: 13
       shotDelay: 0
       }
 
       bullet: {
         type: BasicBulletType
         speed: 12
-        damage: 30
-        width: 6
-        height: 6
+        damage: 8
+        width: 4
+        height: 4
       }
     }
   ]
-
-shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,58 @@
+type: tank
+name: jet-ee
+localizedName: Extreme Cannon Jet
+
+health: 5000
+armor: 5
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 40
+engineSize: 8
+canAttack: true
+hitSize: 48
+targetAir: true
+
+research: jet-dd
+
+
+
+weapons: [
+    {
+      name: "turret-ee"
+      localizedName: "Extreme Cannon Tank Weapon"
+      length: 8
+      
+      shootEffect: shootBig
+
+      reload: 20
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 180
+        speed: 4
+        width: 8
+        height: 8
+        splashDamage: 210
+        splashDamageRadius: 120
+        hitEffect: flakExplosion
+        despawnEffect: flakExplosion
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+      }
+    }
+  ]

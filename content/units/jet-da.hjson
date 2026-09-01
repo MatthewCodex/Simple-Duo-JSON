@@ -14,6 +14,7 @@ engineSize: 4
 canAttack: true
 hitSize: 16
 targetAir: true
+isEnemy: true
 
 research: jet-factory-b
 
