@@ -1,0 +1,21 @@
+type: CoreBlock
+name: foundation-b
+localizedName: T2 Core Foundation
+size: 4
+health: 4000
+itemCapacity: 8000
+unitCapModifier: 10
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: beta
+
+requirements: [
+    copper/750
+    lead/750
+    graphite/750
+  ]
+
+category: effect
+research: foundation-a
+
+shownPlanets: [serpulo , erekir , rospuleball]

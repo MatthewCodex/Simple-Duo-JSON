@@ -1,0 +1,21 @@
+type: CoreBlock
+name: foundation-e
+localizedName: T5 Core Foundation
+size: 4
+health: 10000
+itemCapacity: 20000
+unitCapModifier: 22
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: beta
+
+requirements: [
+    copper/1500
+    lead/1500
+    graphite/1500
+  ]
+
+category: effect
+research: foundation-d
+
+shownPlanets: [serpulo , erekir , rospuleball]

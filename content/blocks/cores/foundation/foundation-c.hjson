@@ -1,0 +1,21 @@
+type: CoreBlock
+name: foundation-c
+localizedName: T3 Core Foundation
+size: 4
+health: 6000
+itemCapacity: 12000
+unitCapModifier: 14
+allowSpawn: true
+incinerateNonBuildable: true
+unitType: beta
+
+requirements: [
+    copper/1000
+    lead/1000
+    graphite/1000
+  ]
+
+category: effect
+research: foundation-b
+
+shownPlanets: [serpulo , erekir , rospuleball]
