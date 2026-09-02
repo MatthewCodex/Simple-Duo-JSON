@@ -13,6 +13,12 @@ consume: {
   power: -10.0
 }
 
+requirements: [
+    copper/10
+    lead/10
+    metaglass/10
+]
+
 # The block scales efficiency based on the "heat" attribute of tiles underneath it.
 attribute: heat
 baseEfficiency: 0.0
