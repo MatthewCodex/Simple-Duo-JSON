@@ -6,6 +6,9 @@
   attribute: spores
   generateEffect: none
   health: 600
+
+  attributeMultiplier: 3.0
+
   requirements: [
     copper/50
     lead/50

@@ -5,6 +5,9 @@ powerProduction: 2.0
 attribute: spores
 generateEffect: none
 health: 200
+
+attributeMultiplier: 2.0
+
 requirements: [
     copper/10
     lead/10
