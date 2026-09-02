@@ -7,7 +7,7 @@
   generateEffect: none
   health: 800
 
-  attributeMultiplier: 3.5
+  displayEfficiencyScale: 2.5
 
   requirements: [
     copper/100
