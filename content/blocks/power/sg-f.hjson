@@ -11,7 +11,7 @@ lead/25
 ]
 
 category: power
-research: silicon
+research: sg-e
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

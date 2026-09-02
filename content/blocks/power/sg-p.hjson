@@ -13,7 +13,7 @@ m-steel-plate/25
 ]
 
 category: power
-research: silicon
+research: sg-o
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: T5 Multi Press
+description: Compresses coal into graphite. Requires power and water.
+size: 3
+hasItems: true
+craftTime: 10.0
+updateEffect: pulverize
+craftEffect: smeltsmoke
+
+consumes: {
+  power: 2.5
+  items: [
+    coal/2
+  ]
+  liquids: [
+    water/0.5
+  ]
+}
+
+outputItem: graphite/12
+
+requirements: [
+  titanium/150
+  silicon/150
+  lead/150
+  graphite/150
+]
+
+category: crafting
+research: gp-i
+conductivePower: true
+
+shownPlanets: [serpulo , erekir , rospuleball]

@@ -12,7 +12,7 @@ m-iron-plate/25
 ]
 
 category: power
-research: silicon
+research: solar-panel-large
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]

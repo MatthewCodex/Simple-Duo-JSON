@@ -21,6 +21,6 @@ requirements: [
 ]
 
 category: crafting
-research: coal
+research: graphite-press
 
 shownPlanets: [serpulo , erekir , rospuleball]

@@ -16,8 +16,8 @@ consumes: {
 outputItem: graphite/4
 
 requirements: [
-  copper/150
-  lead/150
+  copper/100
+  lead/100
 ]
 
 category: crafting

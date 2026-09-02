@@ -17,9 +17,9 @@ consumes: {
 }
 
 requirements: [
-silicon/200
-copper/200
-lead/200
+silicon/125
+copper/125
+lead/125
 ]
 
 outputItem: silicon/5

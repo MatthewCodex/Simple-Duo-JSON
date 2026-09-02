@@ -10,7 +10,7 @@ copper/25
 ]
 
 category: power
-research: silicon
+research: solar-panel
 conductivePower: true
 
 shownPlanets: [serpulo , erekir , rospuleball]
