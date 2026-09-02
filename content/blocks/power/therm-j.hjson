@@ -7,7 +7,7 @@
   generateEffect: none
   health: 800
 
-  displayEfficiencyScale: 3.0
+  boostScale: 3.0
 
   requirements: [
     copper/200

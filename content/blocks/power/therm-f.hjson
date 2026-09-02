@@ -6,7 +6,7 @@ attribute: spores
 generateEffect: none
 health: 200
 
-displayEfficiencyScale: 1.0
+boostScale: 1.0
 
 requirements: [
     copper/10
