@@ -28,4 +28,4 @@ minEfficiency: 0.1
 
 # Ensure it connects to and transmits power
 outputsPower: true
-consumesPower: false
+consumesPower: true
