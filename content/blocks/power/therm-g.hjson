@@ -6,8 +6,6 @@ attribute: spores
 generateEffect: none
 health: 400
 
-boostScale: 1.5
-
 requirements: [
     copper/25
     lead/25

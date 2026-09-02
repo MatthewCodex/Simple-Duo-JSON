@@ -7,8 +7,6 @@
   generateEffect: none
   health: 800
 
-  boostScale: 2.5
-
   requirements: [
     copper/100
     lead/100
