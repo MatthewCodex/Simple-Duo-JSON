@@ -37,6 +37,19 @@ ammoTypes: {
   smokeEffect: thoriumShoot
   shootSound: shootFuse
   }
+  m-steel-rod: {
+  type: ShrapnelBulletType
+  damage: 225
+  length: 250
+  width: 15
+  hitEffect: none
+  smokeEffect: none
+  toColor: ff8080
+  shootEffect: thoriumShoot
+  smokeEffect: thoriumShoot
+  shootSound: shootFuse
+  reloadMultiplier: 1.25
+  }
 }
 
 requirements: [
