@@ -61,7 +61,7 @@ ammoTypes: {
   shootEffect: thoriumShoot
   smokeEffect: thoriumShoot
   shootSound: shootFuse
-  reloadMultiplier: 1.25
+  reloadMultiplier: 1.5
   }
 }
 

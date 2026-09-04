@@ -39,8 +39,8 @@ ammoTypes: {
   }
   m-iron-rod: {
   type: ShrapnelBulletType
-  damage: 250
-  length: 300
+  damage: 275
+  length: 350
   width: 15
   hitEffect: none
   smokeEffect: none
@@ -52,8 +52,8 @@ ammoTypes: {
   }
   m-steel-rod: {
   type: ShrapnelBulletType
-  damage: 300
-  length: 300
+  damage: 325
+  length: 350
   width: 15
   hitEffect: none
   smokeEffect: none
@@ -61,7 +61,20 @@ ammoTypes: {
   shootEffect: thoriumShoot
   smokeEffect: thoriumShoot
   shootSound: shootFuse
-  reloadMultiplier: 1.25
+  reloadMultiplier: 1.5
+  }
+  surge-alloy: {
+  type: ShrapnelBulletType
+  damage: 375
+  length: 350
+  width: 15
+  hitEffect: none
+  smokeEffect: none
+  toColor: e8d174
+  shootEffect: thoriumShoot
+  smokeEffect: thoriumShoot
+  shootSound: shootFuse
+  status: shocked
   }
 }
 

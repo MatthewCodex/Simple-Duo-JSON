@@ -37,6 +37,59 @@ ammoTypes: {
   smokeEffect: thoriumShoot
   shootSound: shootFuse
   }
+  m-iron-rod: {
+  type: ShrapnelBulletType
+  damage: 300
+  length: 400
+  width: 15
+  hitEffect: none
+  smokeEffect: none
+  toColor: ff8080
+  shootEffect: thoriumShoot
+  smokeEffect: thoriumShoot
+  shootSound: shootFuse
+  reloadMultiplier: 1.25
+  }
+  m-steel-rod: {
+  type: ShrapnelBulletType
+  damage: 350
+  length: 400
+  width: 15
+  hitEffect: none
+  smokeEffect: none
+  toColor: ff0000
+  shootEffect: thoriumShoot
+  smokeEffect: thoriumShoot
+  shootSound: shootFuse
+  reloadMultiplier: 1.5
+  }
+  surge-alloy: {
+  type: ShrapnelBulletType
+  damage: 400
+  length: 400
+  width: 15
+  hitEffect: none
+  smokeEffect: none
+  toColor: e8d174
+  shootEffect: thoriumShoot
+  smokeEffect: thoriumShoot
+  shootSound: shootFuse
+  status: shocked
+  }
+  quantum-alloy: {
+  type: ShrapnelBulletType
+  damage: 450
+  length: 400
+  width: 15
+  hitEffect: none
+  smokeEffect: none
+  toColor: 00c3ff
+  shootEffect: thoriumShoot
+  smokeEffect: thoriumShoot
+  shootSound: shootFuse
+  status: shocked
+  reloadMultiplier: 1.5
+  }
 }
 
 requirements: [
