@@ -37,7 +37,7 @@ ammoTypes: {
   smokeEffect: thoriumShoot
   shootSound: shootFuse
   }
-  m-steel-rod: {
+  m-iron-rod: {
   type: ShrapnelBulletType
   damage: 225
   length: 250
