@@ -8,6 +8,7 @@
 "minGameVersion": "148",
 "dependencies": [
     "factory",
-    "moardustry"
+    "moardustry",
+    "vanilla-expansion"
   ]
  }
