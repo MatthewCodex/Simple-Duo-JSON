@@ -1,0 +1,65 @@
+type: flying
+name: jet-ic
+localizedName: Professional Blast Jet
+
+health: 3000
+armor: 3
+speed: 4
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 16
+engineSize: 8
+canAttack: true
+hitSize: 32
+targetAir: true
+
+research: jet-ib
+
+
+
+weapons: [
+    {
+      name: "turret-ic"
+      localizedName: "Professional Blast Tank Weapon"
+      length: 8
+    rotate: true
+
+      mirror: false
+      x: 0
+      y: 0
+	  reload: 160
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        speed: 4
+        damage: 35
+        splashDamage: 70
+        splashDamageRadius: 70
+        lifetime: 100
+        homingPower: 0.3
+        homingRange: 250
+        width: 4
+        height: 4
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+      	frontColor: ffffff
+      	backColor: ff0000
+        status: blasted
+      }
+    }
+  ]

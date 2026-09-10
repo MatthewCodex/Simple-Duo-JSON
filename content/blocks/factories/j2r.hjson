@@ -48,6 +48,22 @@ upgrades: [
     jet-fa
     jet-fb
   ]
+  [
+    jet-ga
+    jet-gb
+  ]
+  [
+    jet-ha
+    jet-hb
+  ]
+  [
+    jet-ia
+    jet-ib
+  ]
+  [
+    jet-ja
+    jet-jb
+  ]
 ]
 category: units
 research: additive-reconstructor

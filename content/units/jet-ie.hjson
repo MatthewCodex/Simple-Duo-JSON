@@ -1,0 +1,68 @@
+type: tank
+name: jet-ie
+localizedName: Extreme Blast Jet
+
+health: 8000
+armor: 5
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 40
+engineSize: 8
+canAttack: true
+hitSize: 48
+targetAir: true
+
+research: jet-id
+
+
+
+weapons: [
+    {
+      name: "turret-ie"
+      localizedName: "Extreme Blast Tank Weapon"
+      length: 8
+    rotate: true
+
+      mirror: false
+      x: 0
+      y: 0
+	  reload: 140
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        speed: 4
+        damage: 50
+        splashDamage: 100
+        splashDamageRadius: 100
+        lifetime: 100
+        homingPower: 0.4
+        homingRange: 300
+        width: 8
+        height: 8
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+	      frontColor: ffffff
+	      backColor: ff0000
+        status: blasted
+
+        
+          
+      }
+    }
+  ]

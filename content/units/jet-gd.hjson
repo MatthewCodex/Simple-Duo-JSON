@@ -1,0 +1,64 @@
+type: flying
+name: jet-gd
+localizedName: Elite Homing Jet
+
+health: 4000
+armor: 4
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 32
+engineSize: 8
+canAttack: true
+hitSize: 40
+targetAir: true
+
+research: jet-gc
+
+
+
+weapons: [
+    {
+      name: "turret-gd"
+      localizedName: "Elite Homing Tank Weapon"
+      length: 8
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+	  reload: 150
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 200
+        speed: 4
+        width: 8
+        height: 8
+        splashDamage: 400
+        splashDamageRadius: 100
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+
+        frontColor: ffffff
+	      backColor: ff0000
+
+        homingPower: 0.4
+        homingRange: 350
+      }
+    }
+  ]

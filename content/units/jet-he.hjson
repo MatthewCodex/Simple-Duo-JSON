@@ -1,0 +1,46 @@
+type: tank
+name: jet-he
+localizedName: Extreme Cannon Jet
+
+health: 7000
+armor: 5
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 40
+engineSize: 8
+canAttack: true
+hitSize: 48
+targetAir: true
+
+research: jet-hd
+
+
+
+weapons: [
+  {
+    name: turret-he
+    localizedName: Extreme Cryofluid Tank Weapon
+    reload: 3
+    shots: 1
+    shootSound: windHowl
+    alternate: true
+    mirror: false
+    rotate: true
+    x: 0
+    y: 0
+    bullet: {
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage: 54
+      speed: 4
+      drag: 0.01
+      knockback: 1
+      lifetime: 60
+      status: freezing
+      statusDuration: 600
+    }
+  }
+]

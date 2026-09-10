@@ -11,12 +11,14 @@ requirements: [
   graphite/100
   metaglass/100
   titanium/100
+  m-iron/100
+  m-iron-ingot/100
 ]
 category: units
-research: jet-factory-b
+research: jet-factory-d
 plans: [
   {
-    unit: jet-ea
+    unit: jet-ia
     time: 300
     requirements: [
       copper/30
@@ -25,7 +27,7 @@ plans: [
     ]
   }
   {
-    unit: jet-fa
+    unit: jet-ja
     time: 450
     requirements: [
       copper/30

@@ -1,0 +1,55 @@
+type: flying
+name: jet-jb
+localizedName: Advanced Blast Jet
+
+health: 1500
+armor: 2
+speed: 4
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 16
+engineSize: 8
+canAttack: true
+hitSize: 24
+targetAir: true
+
+research: jet-ja
+
+
+
+weapons: [
+  {
+    name: turret-jb
+    localizedName: Advanced Pierce Tank Weapon
+    length: 20
+    reload: 10
+    shootCone: 15
+    mirror: false
+        rotate: true
+
+      x: 0
+      y: 0
+    continuous: true
+    shootSound: shootDuo
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 125
+      length: 250
+      width: 4
+      incendAmount: 0
+      incendSpread: 0
+      incendChance: 0
+      # Visual colors of the laser beam (Ice blue themes)
+      colors: [008080, 00bfbf, 00ffff]
+
+      pierce: true
+      pierceCap: 4  
+  
+      # Optional cosmetic effects
+      hitEffect: none
+      smokeEffect: none
+    }
+  }
+]

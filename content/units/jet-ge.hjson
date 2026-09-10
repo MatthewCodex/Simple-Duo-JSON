@@ -1,0 +1,64 @@
+type: tank
+name: jet-ge
+localizedName: Extreme Homing Jet
+
+health: 7000
+armor: 5
+speed: 2
+accel: 0.1
+drag: 0.05
+rotateSpeed: 10
+flying: true
+engineOffset: 40
+engineSize: 8
+canAttack: true
+hitSize: 48
+targetAir: true
+
+research: jet-gd
+
+
+
+weapons: [
+    {
+      name: "turret-ge"
+      localizedName: "Extreme Homing Tank Weapon"
+      length: 8
+      rotate: true
+      mirror: false
+      x: 0
+      y: 0
+	  reload: 140
+      shootEffect: shootBig
+      
+      shootSound: shootArtillery
+
+      shoot: {
+      type: ShootAlternate
+      shots: 1
+      shotDelay: 0
+      }
+
+      bullet: {
+        type: BasicBulletType
+        damage: 225
+        speed: 4
+        width: 8
+        height: 8
+        splashDamage: 450
+        splashDamageRadius: 120
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
+        hitSound: blockExplode3
+        despawnSound: blockExplode3
+
+        frontColor: ffffff
+	      backColor: ff0000
+
+        homingPower: 0.5
+        homingRange: 400
+      }
+    }
+  ]

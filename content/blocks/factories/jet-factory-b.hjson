@@ -9,7 +9,7 @@ requirements: [
   silicon/100
   lead/100
   graphite/100
-  
+  metaglass/100
 ]
 category: units
 research: jet-factory-a

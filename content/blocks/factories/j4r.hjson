@@ -51,6 +51,22 @@ upgrades: [
     jet-fc
     jet-fd
   ]
+  [
+    jet-gc
+    jet-gd
+  ]
+  [
+    jet-hc
+    jet-hd
+  ]
+  [
+    jet-ic
+    jet-id
+  ]
+  [
+    jet-jc
+    jet-jd
+  ]
 ]
 category: units
 research: exponential-reconstructor

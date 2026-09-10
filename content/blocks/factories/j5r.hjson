@@ -52,6 +52,22 @@ upgrades: [
     jet-fd
     jet-fe
   ]
+  [
+    jet-gd
+    jet-ge
+  ]
+  [
+    jet-hd
+    jet-he
+  ]
+  [
+    jet-id
+    jet-ie
+  ]
+  [
+    jet-jd
+    jet-je
+  ]
 ]
 category: units
 research: tetrative-reconstructor

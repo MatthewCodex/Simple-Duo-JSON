@@ -49,6 +49,22 @@ upgrades: [
     jet-fb
     jet-fc
   ]
+  [
+    jet-gb
+    jet-gc
+  ]
+  [
+    jet-hb
+    jet-hc
+  ]
+  [
+    jet-ib
+    jet-ic
+  ]
+  [
+    jet-jb
+    jet-jc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor
