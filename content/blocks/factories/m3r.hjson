@@ -49,6 +49,22 @@ upgrades: [
     mech-fb
     mech-fc
   ]
+  [
+    mech-gb
+    mech-gc
+  ]
+  [
+    mech-hb
+    mech-hc
+  ]
+  [
+    mech-ib
+    mech-ic
+  ]
+  [
+    mech-jb
+    mech-jc
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

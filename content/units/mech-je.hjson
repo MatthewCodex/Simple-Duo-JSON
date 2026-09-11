@@ -1,0 +1,51 @@
+type: legs
+name: Extreme Cannon Mech
+flying: false
+hitSize: 48
+health: 8000
+armor: 5
+speed: 2
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: 6
+legSpeed: 0.25
+stepShake: 0
+targetAir: true
+
+research: mech-jd
+
+weapons: [
+  {
+    name: turret-je
+    localizedName: Extreme Pierce Tank Weapon
+    length: 20
+    reload: 10
+    shootCone: 15
+    mirror: false
+        rotate: true
+
+      x: 0
+      y: 0
+    continuous: true
+    shootSound: shootDuo
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 200
+      length: 400
+      width: 4
+      incendAmount: 0
+      incendSpread: 0
+      incendChance: 0
+      # Visual colors of the laser beam (Ice blue themes)
+      colors: [008080, 00bfbf, 00ffff]
+
+      pierce: true
+      pierceCap: 5  
+  
+      # Optional cosmetic effects
+      hitEffect: none
+      smokeEffect: none  
+    }
+  }
+]

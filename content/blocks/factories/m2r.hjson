@@ -48,6 +48,22 @@ upgrades: [
     mech-fa
     mech-fb
   ]
+  [
+    mech-ga
+    mech-gb
+  ]
+  [
+    mech-ha
+    mech-hb
+  ]
+  [
+    mech-ia
+    mech-ib
+  ]
+  [
+    mech-ja
+    mech-jb
+  ]
 ]
 category: units
 research: additive-reconstructor

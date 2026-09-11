@@ -52,6 +52,22 @@ upgrades: [
     mech-fd
     mech-fe
   ]
+  [
+    mech-gd
+    mech-ge
+  ]
+  [
+    mech-hd
+    mech-he
+  ]
+  [
+    mech-id
+    mech-ie
+  ]
+  [
+    mech-jd
+    mech-je
+  ]
 ]
 category: units
 research: tetrative-reconstructor

@@ -51,6 +51,22 @@ upgrades: [
     mech-fc
     mech-fd
   ]
+  [
+    mech-gc
+    mech-gd
+  ]
+  [
+    mech-hc
+    mech-hd
+  ]
+  [
+    mech-ic
+    mech-id
+  ]
+  [
+    mech-jc
+    mech-jd
+  ]
 ]
 category: units
 research: exponential-reconstructor

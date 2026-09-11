@@ -13,7 +13,7 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-dd
+research: mech-fd
 
 weapons: [
     {

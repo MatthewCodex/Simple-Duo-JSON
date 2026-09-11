@@ -2,7 +2,7 @@ type: legs
 name: Advanced Cannon Mech
 flying: false
 hitSize: 24
-health: 600
+health: 800
 armor: 2
 speed: 2
 rotateSpeed: 4.75
@@ -13,19 +13,18 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-ea
+research: mech-ga
 
 weapons: [
     {
-      name: "turret-eb"
-      localizedName: "Advanced Cannon Tank Weapon"
+      name: "turret-gb"
+      localizedName: "Advanced Homing Tank Weapon"
       length: 8
-      reload: 35
       rotate: true
       mirror: false
       x: 0
       y: 0
-
+	  reload: 170
       shootEffect: shootBig
       
       shootSound: shootArtillery
@@ -38,16 +37,24 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        damage: 90
+        damage: 150
         speed: 4
         width: 8
         height: 8
-        splashDamage: 120
+        splashDamage: 300
         splashDamageRadius: 60
-        hitEffect: flakExplosion
-        despawnEffect: flakExplosion
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
         hitSound: blockExplode3
         despawnSound: blockExplode3
+
+        frontColor: ffffff
+	      backColor: ff0000
+
+        homingPower: 0.2
+        homingRange: 250
       }
     }
   ]

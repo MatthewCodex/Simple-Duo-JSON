@@ -1,0 +1,51 @@
+type: legs
+name: Basic Cannon Mech
+flying: false
+hitSize: 16
+health: 500
+armor: 1
+speed: 2
+rotateSpeed: 4.75
+legCount: 4
+legExtension: 0
+legBaseOffset: -2
+legSpeed: 0.25
+stepShake: 0
+targetAir: true
+
+research: mech-factory-b
+
+weapons: [
+  {
+    name: turret-ja
+    localizedName: Basic Pierce Tank Weapon
+    length: 20
+    reload: 60
+    shootCone: 15
+    mirror: false
+        rotate: true
+
+      x: 0
+      y: 0
+    continuous: true
+    shootSound: shootDuo
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 100
+      length: 200
+      width: 4
+      incendAmount: 0
+      incendSpread: 0
+      incendChance: 0
+      # Visual colors of the laser beam (Ice blue themes)
+      colors: [008080, 00bfbf, 00ffff]
+
+      pierce: true
+      pierceCap: 3  
+  
+      # Optional cosmetic effects
+      hitEffect: none
+      smokeEffect: none
+    }
+  }
+]

@@ -2,7 +2,7 @@ type: legs
 name: Professional Cannon Mech
 flying: false
 hitSize: 32
-health: 1200
+health: 3000
 armor: 3
 speed: 2
 rotateSpeed: 4.75
@@ -13,19 +13,19 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-eb
+research: mech-ib
 
 weapons: [
     {
-      name: "turret-ec"
-      localizedName: "Professional Cannon Tank Weapon"
+      name: "turret-ic"
+      localizedName: "Professional Blast Tank Weapon"
       length: 8
-      reload: 30
-      rotate: true
+    rotate: true
+
       mirror: false
       x: 0
       y: 0
-
+	  reload: 160
       shootEffect: shootBig
       
       shootSound: shootArtillery
@@ -38,16 +38,24 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        damage: 120
         speed: 4
-        width: 8
-        height: 8
-        splashDamage: 150
-        splashDamageRadius: 80
-        hitEffect: flakExplosion
-        despawnEffect: flakExplosion
+        damage: 35
+        splashDamage: 70
+        splashDamageRadius: 70
+        lifetime: 100
+        homingPower: 0.3
+        homingRange: 250
+        width: 4
+        height: 4
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
         hitSound: blockExplode3
         despawnSound: blockExplode3
+      	frontColor: ffffff
+      	backColor: ff0000
+        status: blasted
       }
     }
   ]

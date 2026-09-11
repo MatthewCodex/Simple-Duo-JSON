@@ -2,7 +2,7 @@ type: legs
 name: Basic Cannon Mech
 flying: false
 hitSize: 16
-health: 300
+health: 500
 armor: 1
 speed: 2
 rotateSpeed: 4.75
@@ -13,20 +13,19 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-factory-c
+research: mech-factory-b
 
 weapons: [
     {
-      name: "turret-ea"
-      localizedName: "Basic Cannon Tank Weapon"
+      name: "turret-ia"
+      localizedName: "Basic Blast Tank Weapon"
       length: 8
-      rotate: true
+    rotate: true
+
       mirror: false
       x: 0
       y: 0
-
-      reload: 40
-
+	  reload: 180
       shootEffect: shootBig
       
       shootSound: shootArtillery
@@ -39,16 +38,24 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        damage: 60
         speed: 4
-        width: 8
-        height: 8
-        splashDamage: 90
-        splashDamageRadius: 40
-        hitEffect: flakExplosion
-        despawnEffect: flakExplosion
+        damage: 25
+        splashDamage: 50
+        splashDamageRadius: 50
+        lifetime: 100
+        homingPower: 0.1
+        homingRange: 200
+        width: 4
+        height: 4
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
         hitSound: blockExplode3
         despawnSound: blockExplode3
+        status: blasted
+      	frontColor: ffffff
+	      backColor: ff0000
       }
     }
   ]

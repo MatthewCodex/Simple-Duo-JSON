@@ -2,7 +2,7 @@ type: legs
 name: Elite Cannon Mech
 flying: false
 hitSize: 40
-health: 2400
+health: 5000
 armor: 4
 speed: 2
 rotateSpeed: 4.75
@@ -13,19 +13,19 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-ec
+research: mech-ic
 
 weapons: [
     {
-      name: "turret-ed"
-      localizedName: "Elite Cannon Tank Weapon"
+      name: "turret-id"
+      localizedName: "Elite Blast Tank Weapon"
       length: 8
-      reload: 25
-      rotate: true
+    rotate: true
+
       mirror: false
       x: 0
       y: 0
-
+	  reload: 150
       shootEffect: shootBig
       
       shootSound: shootArtillery
@@ -38,16 +38,24 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        damage: 150
         speed: 4
+        damage: 40
+        splashDamage: 80
+        splashDamageRadius: 80
+        lifetime: 100
+        homingPower: 0.4
+        homingRange: 275
         width: 8
         height: 8
-        splashDamage: 180
-        splashDamageRadius: 100
-        hitEffect: flakExplosion
-        despawnEffect: flakExplosion
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
         hitSound: blockExplode3
         despawnSound: blockExplode3
+	      frontColor: ffffff
+	      backColor: ff0000
+        status: blasted
       }
     }
   ]

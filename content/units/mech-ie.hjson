@@ -2,7 +2,7 @@ type: legs
 name: Extreme Cannon Mech
 flying: false
 hitSize: 48
-health: 5000
+health: 8000
 armor: 5
 speed: 2
 rotateSpeed: 4.75
@@ -13,22 +13,21 @@ legSpeed: 0.25
 stepShake: 0
 targetAir: true
 
-research: mech-ed
+research: mech-id
 
 weapons: [
     {
-      name: "turret-ee"
-      localizedName: "Extreme Cannon Tank Weapon"
+      name: "turret-ie"
+      localizedName: "Extreme Blast Tank Weapon"
       length: 8
-      
-      shootEffect: shootBig
+    rotate: true
 
-      reload: 20
-      rotate: true
       mirror: false
       x: 0
       y: 0
-
+	  reload: 140
+      shootEffect: shootBig
+      
       shootSound: shootArtillery
 
       shoot: {
@@ -39,16 +38,27 @@ weapons: [
 
       bullet: {
         type: BasicBulletType
-        damage: 180
         speed: 4
+        damage: 50
+        splashDamage: 100
+        splashDamageRadius: 100
+        lifetime: 100
+        homingPower: 0.4
+        homingRange: 300
         width: 8
         height: 8
-        splashDamage: 210
-        splashDamageRadius: 120
-        hitEffect: flakExplosion
-        despawnEffect: flakExplosion
+        shootEffect: shootBig
+        smokeEffect: shootSmokeSquare
+        hitEffect: blastExplosion
+        shootSound: shootArtillery
         hitSound: blockExplode3
         despawnSound: blockExplode3
+	      frontColor: ffffff
+	      backColor: ff0000
+        status: blasted
+
+        
+          
       }
     }
   ]
