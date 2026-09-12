@@ -26,5 +26,5 @@ retaliatoryWall.size = 2; // 2x2 wall
 retaliatoryWall.requirements(Category.defense, ItemStack.with(Items.copper, 20, Items.graphite, 15));
 
 Timer.schedule(function(){
-    Log.info("This prints every 30 seconds");
-}, 0, 30);
+    Log.info("This prints every 10 seconds");
+}, 0, 10);
