@@ -25,17 +25,17 @@ const counterWall = extend(Wall, "counter-attack-wall", {
 });
 
 // 3. Override the Building entity structure to modify damage behavior
-counterWall.buildType = new Prov(() => {
-    return extend(Wall.WallBuild, counterWall, {
-        // Use standard function syntax for the inner method
-        damage(amount) {
-            this.super$damage(amount);
-
-            let target = Units.closestEnemy(this.team, this.x, this.y, 200, u => true);
-            if (target != null) {
-                let angle = Angles.angle(this.x, this.y, target.x, target.y);
-                counterBullet.create(this, this.team, this.x, this.y, angle);
+counterWall.buildType = () => extend(Wall.WallBuild, counterWall, {
+    collision(bullet) {
+        this.super$collision(bullet);
+        //create crystal bullet
+        if(this.health < 228) {
+            if(Mathf.chance(0.05)) {
+                for(var i = 0; i < 4; i++) {
+                    counterBullet.create(this, this.x, this.y, (360 / 4) * i + Mathf.random(16));
+                }
             }
         }
-    });
+        return true;
+    }
 });
