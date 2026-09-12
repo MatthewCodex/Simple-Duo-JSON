@@ -1,60 +1,30 @@
-print('testing it');
-const wallBullet = extend(MissileBulletType, {});
+// Define a new Wall type
+const retaliatoryWall = extend(Wall, "retaliatory-wall", {
+    // Override the damage function
+    damage(amount) {
+        // Call the original damage behavior so the wall actually takes damage
+        this.super$damage(amount);
 
-wallBullet.speed = 6
-wallBullet.damage = 60
-wallBullet.lifetime = 60
-wallBullet.homingPower = 0.05
-wallBullet.homingRange = 75
-wallBullet.frontColor = Color.valueOf('#ffffff')
-wallBullet.backColor = Color.valueOf('#00875a')
+        // Find the nearest enemy unit within a certain radius (e.g., 200 pixels)
+        let target = Units.closestEnemy(this.team, this.x, this.y, 200, u => !u.dead);
 
-const projectileWall = extendContent(Wall, "projectile-wall", {
-
-    size: 1,                    // 1x1 tile size (use 2 for a large wall)
-    health: 800,                // Amount of hitpoints the wall has
-    chanceDeflect: 10,          // 10% chance to deflect incoming bullets (like a Phase Wall)
-    flashHit: true,             // Flash white when hit
-    
-    // Requirements to build the wall
-    requirements: ItemStack.with(
-        Items.copper, 6,
-        Items.lead, 4
-    ),
-    
-    // Where it appears in the build menu
-    category: Category.defense,
-    buildVisibility: BuildVisibility.shown
-
-  load(){
-    this.super$load();
-    this.region = Core.atlas.find("projectile-wall")
-  },
-  update(tile){
-    this.super$update(tile);
-    if (tile.ent().timer.get(this.shootWallBullet, 120)) {
-      Bullet.create(wallBullet, this.getTeam(), this.x, this.y, this.rotation, 1, 1)
-      print('it works');
-    };
-  }
+        // If an enemy is found, shoot a projectile at them
+        if (target != null) {
+            // Use a standard bullet type (e.g., standard copper ammo bullet)
+            // You can replace Bullets.standardCopper with other types like Bullets.flak, Bullets.artilleryPlastic, etc.
+            Bullets.standardCopper.create(this, this.team, this.x, this.y, this.angleTo(target), 1.0, 1.0);
+            
+            // Optional: Create a visual effect at the wall's position
+            Fx.shootBig.at(this.x, this.y);
+        }
+    }
 });
-projectileWall.shootWallBullet = projectileWall.timers++;
-//projectileWall.health = 
 
-const myCustomWall = extend(Wall, "my-custom-wall", {
-    // Basic setup properties
-    size: 1,                    // 1x1 tile size (use 2 for a large wall)
-    health: 800,                // Amount of hitpoints the wall has
-    chanceDeflect: 10,          // 10% chance to deflect incoming bullets (like a Phase Wall)
-    flashHit: true,             // Flash white when hit
-    
-    // Requirements to build the wall
-    requirements: ItemStack.with(
-        Items.copper, 6,
-        Items.lead, 4
-    ),
-    
-    // Where it appears in the build menu
-    category: Category.defense,
-    buildVisibility: BuildVisibility.shown
-});
+// Set basic wall properties
+retaliatoryWall.health = 1200;
+retaliatoryWall.size = 2; // 2x2 wall
+retaliatoryWall.requirements(Category.defense, ItemStack.with(Items.copper, 20, Items.graphite, 15));
+
+Timer.schedule(function(){
+    Log.info("This prints every 30 seconds");
+}, 0, 30);
