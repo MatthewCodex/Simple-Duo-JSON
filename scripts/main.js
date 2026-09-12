@@ -1,3 +1,4 @@
+print('testing it');
 const wallBullet = extend(MissileBulletType, {});
 
 wallBullet.speed = 6
