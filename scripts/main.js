@@ -2,40 +2,38 @@
 Timer.schedule(function(){
     Log.info("This prints every 10 seconds");
 }, 0, 10);
+//this is NOT the complete definition for this block! see content/blocks/scatter-silo.hjson for the stats and other properties.
 
-
-// 1. Define the custom bullet type the wall will fire back
-const counterBullet = new BasicBulletType(4, 25); // Speed: 4, Damage: 25
-counterBullet.lifetime = 60; // How long the bullet travels (in ticks)
-counterBullet.knockback = 1.5;
-counterBullet.bulletWidth = 8;
-counterBullet.bulletHeight = 10;
-
-// 2. Define the custom counter-attacking Wall block
-const counterWall = extend(Wall, "counter-attack-wall", {
-    // Basic block properties
-    health: 800,
-    size: 1,
-    update: true // Allows the block to execute update ticks if needed
-    // 1. Assign it to a build menu tab (e.g., Category.defense)
-    category: Category.defense,
-
-    // 2. Make it visible in menus and sandbox/editor lists
-    buildVisibility: BuildVisibility.shown
+//create a simple shockwave effect
+const siloLaunchEffect = newEffect(20, e => {
+    Draw.color(Color.white, Color.lightGray, e.fin()); //color goes from white to light gray
+    Lines.stroke(e.fout() * 3); //line thickness goes from 3 to 0
+    Lines.circle(e.x, e.y, e.fin() * 100); //draw a circle whose radius goes from 0 to 100
 });
 
-// 3. Override the Building entity structure to modify damage behavior
-counterWall.buildType = () => extend(Wall.WallBuild, counterWall, {
-    collision(bullet) {
-        this.super$collision(bullet);
-        //create crystal bullet
-        if(this.health < 228) {
-            if(Mathf.chance(0.05)) {
-                for(var i = 0; i < 4; i++) {
-                    counterBullet.create(this, this.x, this.y, (360 / 4) * i + Mathf.random(16));
-                }
+//create the block type
+const silo = extendContent(Block, "scatter-silo", {
+    //override the method to build configuration
+    buildConfiguration(tile, table){
+        table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
+            //configure the tile to signal that it has been pressed (this sync on client to server)
+            tile.configure(0)
+        })).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
+    },
+
+    //override configure event
+    configured(tile, value){
+        //make sure this silo has the items it needs to fire
+        if(tile.entity.cons.valid()){
+            //make this effect occur at the tile location
+            Effects.effect(siloLaunchEffect, tile)
+
+            //create 10 bullets at this tile's location with random rotation and velocity/lifetime
+            for(var i = 0; i < 15; i++){
+                Calls.createBullet(Bullets.flakExplosive, tile.getTeam(), tile.drawx(), tile.drawy(), Mathf.random(360), Mathf.random(0.5, 1.0), Mathf.random(0.2, 1.0))
             }
+            //triggering consumption makes it use up the items it requires
+            tile.entity.cons.trigger()
         }
-        return true;
     }
-});
+})
