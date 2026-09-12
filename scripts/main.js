@@ -25,22 +25,22 @@ const counterWall = extend(Wall, "counter-attack-wall", {
 });
 
 // 3. Override the Building entity structure to modify damage behavior
-counterWall.buildType = () => extend(Wall.WallBuild, counterWall, {
-    // Override the damage function
-    damage(amount) {
-        // Call the original damage method so the wall still takes damage properly
-        this.super$damage(amount);
+counterWall.buildType = function() {
+    return extend(Wall.WallBuild, counterWall, {
+        damage(amount) {
+            // Call the original damage method
+            this.super$damage(amount);
 
-        // Find the nearest enemy unit within a reasonable range (e.g., 200 pixels)
-        let target = Units.closestEnemy(this.team, this.x, this.y, 200, u => true);
+            // Find the nearest enemy unit within 200 pixels
+            let target = Units.closestEnemy(this.team, this.x, this.y, 200, u => true);
 
-        if (target != null) {
-            // Calculate the angle from the wall to the enemy unit
-            let angle = Angles.angle(this.x, this.y, target.x, target.y);
+            if (target != null) {
+                // Calculate the angle from the wall to the enemy unit
+                let angle = Angles.angle(this.x, this.y, target.x, target.y);
 
-            // Fire the bullet from the center of the wall toward the enemy
-            // Parameters: (owner, team, x, y, angle)
-            counterBullet.create(this, this.team, this.x, this.y, angle);
+                // Fire the bullet
+                counterBullet.create(this, this.team, this.x, this.y, angle);
+            }
         }
-    }
-});
+    });
+};
