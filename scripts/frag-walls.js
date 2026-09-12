@@ -4,9 +4,9 @@ const fragBullet = extend(BasicBulletType, {
 	speed: 6,
 	lifetime: 20,
 	damage: 6,
-	sprite: "frag",
-	backColor: Color.valueOf("ff0000"),
-	frontColor: Color.valueOf("ffffff"),
+	sprite: "m. codex-frag",
+	backColor: Color.valueOf("ff0000ff"),
+	frontColor: Color.valueOf("ffffffff"),
 	
 });
 
@@ -20,6 +20,7 @@ fragWall.buildType = () => extend(Wall.WallBuild, fragWall, {
         if(Mathf.chance(0.5)) {
             for(var i = 0; i < 4; i++) {
                 fragBullet.create(this, this.x, this.y, (360 / 4) * i + Mathf.random(16));
+                Sounds.shoot.at(this.tile, Mathf.random(0.9,1.1))
             }
         }
 
