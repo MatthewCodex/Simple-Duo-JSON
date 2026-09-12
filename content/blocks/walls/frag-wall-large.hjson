@@ -1,0 +1,7 @@
+requirements: [
+    metaglass/60
+]
+category: defense
+research: titanium-wall
+envDisabled: 16
+size: 2
