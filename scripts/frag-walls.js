@@ -4,7 +4,7 @@ const fragBullet = extend(BasicBulletType, {
 	speed: 6,
 	lifetime: 20,
 	damage: 6,
-	sprite: "m. codex-frag",
+	
 	backColor: Color.valueOf("ff0000ff"),
 	frontColor: Color.valueOf("ffffffff"),
 	
