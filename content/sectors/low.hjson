@@ -3,8 +3,8 @@
 # 1. Provide the name and ID data
 name: "procedural-attack-zone"
 localizedName: "My Procedural Attack Zone"
-planet: "rospuleball"
-sector: 0  # Must link to a real grid ID on your planet mesh
+planet: "serpulo"
+sector: 2  # Must link to a real grid ID on your planet mesh
 
 # 2. Toggle the generators
 generateEnemyBase: true
@@ -13,5 +13,5 @@ generateEnemyBase: true
 # CRITICAL: Delete any lines containing: "customMap", "mapName", or "fileName" if present.
 
 # 4. Give the game mathematical instructions for procedural logic
-difficulty: 7
+difficulty: 1
 captureWave: 0
