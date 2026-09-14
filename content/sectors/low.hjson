@@ -1,7 +1,7 @@
 # Inside: content/sectors/my-procedural-sector.hjson
 
 # 1. Provide the name and ID data
-name: "procedural-attack-zone"
+name: "low"
 localizedName: "My Procedural Attack Zone"
 planet: "serpulo"
 sector: 5  # Must link to a real grid ID on your planet mesh
