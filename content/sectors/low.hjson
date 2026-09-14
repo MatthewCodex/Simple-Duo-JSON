@@ -6,6 +6,7 @@ localizedName: "My Procedural Attack Zone"
 planet: "serpulo"
 sector: 5  # Must link to a real grid ID on your planet mesh
 
+hasEnemyBase: true
 # 2. Toggle the generators
 generateEnemyBase: true
 
