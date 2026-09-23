@@ -5,10 +5,6 @@
 "author": "M. Codex",
 "description": "Adds a gigantic variety of turrets and units.",
 "version": "0.1",
-"minGameVersion": "148",
-"dependencies": [
-    "factory",
-    "moardustry",
-    "vanilla-expansion"
-  ]
+"minGameVersion": "148"
+
  }
